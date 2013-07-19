@@ -8,8 +8,9 @@
     {% else %}
     <title>{{ page.title }} | Systemli</title>
     {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0;">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="/assets/css/main.css" />
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,38 +20,47 @@
 <body>
 <div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
-        <a class="brand" href="/index.html">systemli.org</a>
-        <ul class="nav">
-            {% for node in site.pages %}
-            {% if node.menu_group == 'home' %}
-            {% if page.url == node.url %}
-            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-            {% else %}
-            <li><a href="{{node.url}}">{{node.title}}</a></li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-            <li class="divider-vertical"></li>
-            {% for node in site.pages %}
-            {% if node.menu_group == 'service' %}
-            {% if page.url == node.url %}
-            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-            {% else %}
-            <li><a href="{{node.url}}">{{node.title}}</a></li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-            <li class="divider-vertical"></li>
-            {% for node in site.pages %}
-            {% if node.menu_group == 'contact' %}
-            {% if page.url == node.url %}
-            <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-            {% else %}
-            <li><a href="{{node.url}}">{{node.title}}</a></li>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </ul>
+        <div class="container">
+            <a class="brand" href="/index.html">systemli.org</a>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    {% for node in site.pages %}
+                    {% if node.menu_group == 'home' %}
+                    {% if page.url == node.url %}
+                    <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% else %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    <li class="divider-vertical"></li>
+                    {% for node in site.pages %}
+                    {% if node.menu_group == 'service' %}
+                    {% if page.url == node.url %}
+                    <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% else %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    <li class="divider-vertical"></li>
+                    {% for node in site.pages %}
+                    {% if node.menu_group == 'contact' %}
+                    {% if page.url == node.url %}
+                    <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% else %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container">

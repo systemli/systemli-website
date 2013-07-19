@@ -1,7 +1,10 @@
-body {
-    padding: 50px 0 0 0;
+@media (min-width: 980px) {
+    body {
+        padding: 50px 0 0 0;
+    }
+
+    .navbar .navbar-inner {
+        padding: 0 0 0 20px;
+    }
 }
 
-.navbar .navbar-inner {
-    padding: 0 0 0 20px;
-}
