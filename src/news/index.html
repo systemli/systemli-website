@@ -1,0 +1,33 @@
+---
+layout: default
+title: News-Archiv
+---
+<div class="row">
+    <h2>{{ page.title }}</h2>
+</div>
+<div class="row">
+    <div class="span12">
+        {% for post in paginator.posts %}
+        {% include news-excerpt.html %}
+        {% endfor %}
+        <div class="pagination pagination-centered">
+            <div class="btn-group">
+                {% if paginator.previous_page %}
+                {% if paginator.previous_page == 1 %}
+                <a href="/news/index.html" class="btn"><i class="icon-arrow-left"></i> Ältere Beiträge</a>
+                {% else %}
+                <a href="/news/page-{{ paginator.previous_page }}/index.html" class="btn"><i class="icon-arrow-left"></i> Ältere Beiträge</a>
+                {% endif %}
+                {% else %}
+                <span class="btn disabled"><i class="icon-arrow-left"></i> Ältere Beiträge</span>
+                {% endif %}
+                {% if paginator.next_page %}
+                <a href="/news/page-{{ paginator.next_page }}/index.html" class="btn">Neuere Beiträge <i class="icon-arrow-right"></i></a>
+                {% else %}
+                <span class="btn disabled">Neuere Beiträge  <i class="icon-arrow-right"></i></span>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>

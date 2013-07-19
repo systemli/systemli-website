@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Systemli - Your friendly tech collective</title>
+    <link href="http://example.com/"/>
+    <link type="application/atom+xml" rel="self" href="http://example.com/atom.xml"/>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>https://www.systemli.org/</id>
+    <author>
+        <name>Systemli Admin Crew</name>
+        <email>admin@systemli.org</email>
+    </author>
+    {% for post in site.posts %}
+    <entry>
+        <id>https://www.systemli.org{{ post.id }}</id>
+        <link type="text/html" rel="alternate" href="https://www.systemli.org{{ post.url }}"/>
+        <title>{{ post.title }}</title>
+        <published>{{ post.date | date_to_xmlschema }}</published>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <author>
+            <name>Systemli Admin Crew</name>
+            <uri>https://www.systemli.org/</uri>
+        </author>
+        <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>

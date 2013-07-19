@@ -1,0 +1,6 @@
+<div class="post">
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small>Veröffentlicht am {{ post.date | date: "%d. %B %Y %H:%M Uhr" }}</small></p>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ post.url }}">Weiterlesen</a></p>
+</div>

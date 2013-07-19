@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+menu_group: home
+menu_title: Home
+---
+<div class="hero-unit">
+    <h1><img src="/assets/img/logo.png" class="img-circle" alt="Logo"/> Systemli</h1>
+    <h2>Your friendly tech collective</h2>
+    <p>To the chilled shrimps add white bread, cracker crumps, mint sauce and minced bok choy.</p>
+</div>
+<div class="row">
+    <div class="span8">
+        <h2>News</h2>
+        {% for post in site.posts limit:5 %}
+        {% include news-excerpt.html %}
+        {% endfor %}
+        <div class="pagination pagination-right">
+            <p>
+                <a class="btn btn-mini btn-inverse" href="/news/index.html"><i class="icon-list icon-white icon"></i> News-Archiv</a>
+                <a class="btn btn-mini btn-inverse" href="/atom.xml"><i class="icon-bullhorn icon-white icon"></i> News-Feed</a>
+            </p>
+        </div>
+    </div>
+    <div class="span4">
+        <div class="widget">
+            <a class="btn btn-large btn-block btn-inverse" href="/service/index.html">Alle Dienste</a>
+            <a class="btn btn-large btn-block btn-info" href="/spenden.html">Spenden</a>
+        </div>
+        <div class="widget">
+            <h2>Zertifikate</h2>
+            <p>www.systemli.org and its hosted websites <small><pre>80:F1:89:D2:3F:71:3B:3D:BD:19:0E:3E:BB:CE:8B:AC:0C:A5:46:8B</pre></small></p>
+            <p>jabber.systemli.org <small><pre>9C:C4:5D:CB:FA:DB:66:4C:F4:5F:3F:62:C1:9D:7C:1F:AD:7B:5D:B2</pre></small></p>
+            <p>mail.systemli.org <small><pre>B7:40:62:65:18:60:A6:D9:7A:92:9B:8A:22:78:27:75:A3:5F:90:10</pre></small></p>
+            <p><a href="/about-ssl.html">Mehr Informationen</a></p>
+        </div>
+        <div class="widget">
+            <h2>Micro News</h2>
+            <a class="twitter-timeline" href="https://twitter.com/systemli" data-widget-id="356389037570920448">Tweets by @systemli</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+    </div>
+</div>
