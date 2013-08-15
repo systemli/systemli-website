@@ -2,8 +2,14 @@
 layout: default
 ---
 <div class="row">
-    <div class="span12">
-        <h2>{{ page.title }}</h2>
-        <p>{{ content }}</p>
+    <div class="col-lg-8">
+        <article class="post">
+            <h2>{{ page.title }}</h2>
+
+            <div class="entry">
+                {{ content }}
+            </div>
+        </article>
     </div>
 </div>
+

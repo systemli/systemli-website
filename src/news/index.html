@@ -3,30 +3,28 @@ layout: default
 title: News-Archiv
 ---
 <div class="row">
-    <h2>{{ page.title }}</h2>
-</div>
-<div class="row">
-    <div class="span12">
+    <div class="col-lg-8">
+        <h2>{{ page.title }}</h2>
         {% for post in paginator.posts %}
         {% include news-excerpt.html %}
         {% endfor %}
-        <div class="pagination pagination-centered">
-            <div class="btn-group">
+        <div class="pagination">
+            <ul class="pager">
                 {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
-                <a href="/news/index.html" class="btn"><i class="icon-arrow-left"></i> Ältere Beiträge</a>
+                <li class="previous"><a href="/news/index.html">&larr; Ältere Beiträge</a></li>
                 {% else %}
-                <a href="/news/page-{{ paginator.previous_page }}/index.html" class="btn"><i class="icon-arrow-left"></i> Ältere Beiträge</a>
+                <li class="previous"><a href="/news/page-{{ paginator.previous_page }}/index.html">&larr; Ältere Beiträge</a></li>
                 {% endif %}
                 {% else %}
-                <span class="btn disabled"><i class="icon-arrow-left"></i> Ältere Beiträge</span>
+                <li class="previous disabled"><a href="#">&larr; Ältere Beiträge</a></li>
                 {% endif %}
                 {% if paginator.next_page %}
-                <a href="/news/page-{{ paginator.next_page }}/index.html" class="btn">Neuere Beiträge <i class="icon-arrow-right"></i></a>
+                <li class="next"><a href="/news/page-{{ paginator.next_page }}/index.html">Neuere Beiträge &rarr;</a></li>
                 {% else %}
-                <span class="btn disabled">Neuere Beiträge  <i class="icon-arrow-right"></i></span>
+                <li class="next disabled"><a href="#">Neuere Beiträge &rarr;</a></li>
                 {% endif %}
-            </div>
+            </ul>
         </div>
 
     </div>
