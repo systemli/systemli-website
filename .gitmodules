@@ -1,0 +1,6 @@
+[submodule "src/assets/_bootstrap"]
+	path = src/assets/_bootstrap
+	url = git://github.com/twbs/bootstrap.git
+[submodule "src/assets/_bootstrap-glyphicons"]
+	path = src/assets/_bootstrap-glyphicons
+	url = git://github.com/twbs/bootstrap-glyphicons.git
