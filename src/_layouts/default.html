@@ -40,7 +40,6 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
-                <li class="divider-vertical"></li>
                 {% for node in site.pages %}
                 {% if node.menu_group == 'service' %}
                 {% if page.url == node.url %}
@@ -50,7 +49,6 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
-                <li class="divider-vertical"></li>
                 {% for node in site.pages %}
                 {% if node.menu_group == 'contact' %}
                 {% if page.url == node.url %}
@@ -60,6 +58,11 @@
                 {% endif %}
                 {% endif %}
                 {% endfor %}
+                {% if page.url == '/spenden.html' %}
+                <li class="active"><a href="/spenden.html">Spenden</a></li>
+                {% else %}
+                <li><a href="/spenden.html">Spenden</a></li>
+                {% endif %}
             </ul>
         </div>
     </nav>
