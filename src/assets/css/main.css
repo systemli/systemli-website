@@ -1,5 +1,4 @@
 body { padding-top: 70px; }
 .row { margin-top: 10px; }
 .jumbotron { padding: 20px 40px !important; }
-
-div.widget:nth-child(1) { margin-top: 20px; }
+.push-top { margin-top: 20px; }
