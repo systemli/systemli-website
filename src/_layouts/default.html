@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if page.url == '/index.html' %}
-    <title>Systemli - Your friendly tech collective</title>
+    <title>systemli - Your friendly tech collective</title>
     {% else %}
-    <title>{{ page.title }} | Systemli</title>
+    <title>{{ page.title }} | systemli.org</title>
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
@@ -58,6 +58,9 @@
                   <li><a href="/spenden.html">Spenden</a></li>
                 {% endif %}
             </ul>
+	    <ul class="nav navbar-nav pull-right">
+		<li><a href="https://twitter.com/systemli" target="_blank"><img src="assets/img/twitter-bird-dark-bgs.png" class="twitter" id="twitter-nav" /></a></li>
+	    </ul>
         </div>
     </nav>
     {{ content }}
