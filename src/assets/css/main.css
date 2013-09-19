@@ -1,6 +1,7 @@
 body { padding-top: 70px; }
 .row { margin-top: 10px; }
 .jumbotron { padding: 20px 40px !important; }
+.jumbotron h1 { margin-top: 10px; }
 .jumbotron + div h2 { margin-top: 0; }
 .push-top { margin-top: 20px; }
 img.twitter { height: 1.2em; }
