@@ -39,23 +39,23 @@
                         <li><a href="/service/etherpad.html">Etherpad</a></li>
                         <li><a href="/service/hosting.html">Hosting</a></li>
                         <li><a href="/service/ticker.html">Ticker</a></li>
-                        <li><a href="/service/url-shortener.html">Url-Shortener</a></li>
+                        <li><a href="/service/url-shortener.html">Url Shortener</a></li>
                         <li><a href="/service/paste.html">Paste</a></li>
                     </ul>
                 </li>
                 {% for node in site.pages %}
-                {% if node.menu_group == 'contact' %}
-                {% if page.url == node.url %}
-                <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-                {% else %}
-                <li><a href="{{node.url}}">{{node.title}}</a></li>
-                {% endif %}
-                {% endif %}
+                  {% if node.menu_group == 'contact' %}
+                    {% if page.url == node.url %}
+                      <li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% else %}
+                      <li><a href="{{node.url}}">{{node.title}}</a></li>
+                    {% endif %}
+                  {% endif %}
                 {% endfor %}
                 {% if page.url == '/spenden.html' %}
-                <li class="active"><a href="/spenden.html">Spenden</a></li>
+                  <li class="active"><a href="/spenden.html">Spenden</a></li>
                 {% else %}
-                <li><a href="/spenden.html">Spenden</a></li>
+                  <li><a href="/spenden.html">Spenden</a></li>
                 {% endif %}
             </ul>
         </div>
