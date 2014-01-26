@@ -1,8 +1,8 @@
 #!/bin/bash
 
-REMOTE_USER="www06"
+REMOTE_USER="systemli"
 REMOTE_HOST="www-xeon.systemli.org"
-REMOTE_PATH="/var/www/systemli.org/www"
+REMOTE_PATH="/var/www/www.systemli.org/www"
 REMOTE_PORT="2222"
 
 jekyll build
