@@ -3,8 +3,11 @@ fingerprints of our server-certs
 systemli.org und pad.systemli.org
 80:E5:D5:8A:00:5B:F7:FB:FA:97:8B:36:C6:5B:7D:64:2C:77:48:30 (SHA1)
 
-tem.li und allen auf unseren Servern gehosteten Webseiten
+alle subdomains von tem.li (bspw. pad.tem.li) 
 D0:E9:77:38:41:66:0E:4F:66:65:17:3D:93:97:E7:A3:4B:C6:BF:91 (SHA1)
+
+alle anderen auf unseren Servern gehosteten Webseiten
+80:F1:89:D2:3F:71:3B:3D:BD:19:0E:3E:BB:CE:8B:AC:0C:A5:46:8B (SHA1)
 
 demoticker.org
 F4:4C:DB:80:49:0F:E5:2D:30:2E:9E:73:7D:C4:D1:B1:C7:94:1B:A4 (SHA1)
