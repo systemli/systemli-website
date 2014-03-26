@@ -1,0 +1,16 @@
+fingerprints of our server-certs
+
+systemli.org und pad.systemli.org
+80:E5:D5:8A:00:5B:F7:FB:FA:97:8B:36:C6:5B:7D:64:2C:77:48:30 (SHA1)
+
+tem.li und allen auf unseren Servern gehosteten Webseiten
+D0:E9:77:38:41:66:0E:4F:66:65:17:3D:93:97:E7:A3:4B:C6:BF:91 (SHA1)
+
+demoticker.org
+F4:4C:DB:80:49:0F:E5:2D:30:2E:9E:73:7D:C4:D1:B1:C7:94:1B:A4 (SHA1)
+
+jabber.systemli.org
+01:99:A9:C1:4A:A3:23:B3:0C:C1:F4:F7:2E:21:B0:2A:94:64:E1:35 (SHA1)
+
+mail.systemli.org
+B7:40:62:65:18:60:A6:D9:7A:92:9B:8A:22:78:27:75:A3:5F:90:10 (SHA1)
