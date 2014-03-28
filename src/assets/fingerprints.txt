@@ -3,6 +3,9 @@ fingerprints of our server-certs
 systemli.org und pad.systemli.org
 80:E5:D5:8A:00:5B:F7:FB:FA:97:8B:36:C6:5B:7D:64:2C:77:48:30 (SHA1)
 
+wiki.systemli.org
+64:3B:7D:33:DE:28:9C:EE:4E:EA:E4:53:C3:AA:B2:F1:AA:31:54:67 (SHA1)
+
 alle subdomains von tem.li (bspw. pad.tem.li) 
 D0:E9:77:38:41:66:0E:4F:66:65:17:3D:93:97:E7:A3:4B:C6:BF:91 (SHA1)
 
