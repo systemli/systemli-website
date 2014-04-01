@@ -18,6 +18,21 @@
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <script src="/assets/js/jquery-1.10.1.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["trackPageView"]);
+        _paq.push(["enableLinkTracking"]);
+
+        (function() {
+            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.systemli.org/";
+            _paq.push(["setTrackerUrl", u+"piwik.php"]);
+            _paq.push(["setSiteId", "2"]);
+            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+            g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
+    <!-- End Piwik Code -->
 </head>
 <body>
 <div class="container">
@@ -59,13 +74,16 @@
                   <li><a href="/spenden.html">Spenden</a></li>
                 {% endif %}
             </ul>
-	    <ul class="nav navbar-nav pull-right">
-		<li><a href="https://twitter.com/systemli" target="_blank"><img src="/assets/img/twitter-bird-dark-bgs.png" class="twitter" id="twitter-nav" /></a></li>
-	    </ul>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="https://twitter.com/systemli" target="_blank"><img src="/assets/img/twitter-bird-dark-bgs.png" class="twitter" id="twitter-nav"/></a></li>
+            </ul>
         </div>
     </nav>
     {{ content }}
     {% include footer.html %}
 </div>
+<noscript>
+    <img src="https://analytics.systemli.org/piwik.php?idsite=2&amp;rec=1" style="border:0" alt="" />
+</noscript>
 </body>
 </html>
