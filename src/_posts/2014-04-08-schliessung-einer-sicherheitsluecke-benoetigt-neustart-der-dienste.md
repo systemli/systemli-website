@@ -6,6 +6,6 @@ categories: update
 ---
 Heute Nacht wurde eine kritische Sicherheitslücke in der quelloffenen Bibliothek OpenSSL veröffentlicht. Diese ermöglicht es Angreifern die geheimen Schlüssel zu stehlen und somit den vermeintlich gesicherten Datenverkehr zu entschlüsseln. Dieser Fehler wurde mittlerweile behoben, benötigt allerdings einen Neustart von allen Diensten, die OpenSSL benutzen.
 
-**In userem Fall sind davon ausnahmslos alle Dienste betroffen (Webserver, Jabberserver und Mailserver). Daher werden wir heute gegen 14.00 Uhr die Dienste nacheinander neustarten.** Dies hat zur Folge, dass es zu kurzen Ausfällen kommt. Beim Jabberserver werden, wie bei jedem Neustart, die Nachrichten der Gruppenchats verschwinden.
+**In userem Fall sind davon ausnahmslos alle Dienste betroffen (Webserver, Jabberserver und Mailserver). Daher werden wir heute gegen 12.00 Uhr die Dienste nacheinander neustarten.** Dies hat zur Folge, dass es zu kurzen Ausfällen kommt. Beim Jabberserver werden, wie bei jedem Neustart, die Nachrichten der Gruppenchats verschwinden.
 
-Weitere Informationen zu der Sicherheitslücke findet ihr unter [heartbleed.com](http://heartbleed.com)
+Weitere Informationen zu der Sicherheitslücke findet ihr unter [heartbleed.com](http://heartbleed.com). Ob deine Website betroffen ist, kannst du unter [filippo.io/Heartbleed/](http://filippo.io/Heartbleed/) testen.
