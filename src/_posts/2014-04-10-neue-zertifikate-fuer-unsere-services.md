@@ -4,7 +4,7 @@ title:  "Neue Zertifikate für unsere Dienste"
 date:   2014-04-10 10:00:00
 categories: update
 ---
-Aufgrund der aktuellen [Ereignisse](https://www.systemli.org/update/2014/04/08/schliessung-einer-sicherheitsluecke-benoetigt-neustart-der-dienste.html)  rund um die Sicherheitslücke in OpenSSL haben wir uns dazu entschieden, sowohl neue Schlüssel, als auch Zertifikate für unsere Services zu erstellen. Die neuen Fingerprints findet ihr wie gewohnt auf unserer [Webseite](https://www.systemli.org/assets/fingerprints.txt.asc ).
+Aufgrund der aktuellen [Ereignisse](https://www.systemli.org/update/2014/04/08/schliessung-einer-sicherheitsluecke-benoetigt-neustart-der-dienste.html)  rund um die Sicherheitslücke in OpenSSL haben wir uns dazu entschlossen, sowohl neue Schlüssel, als auch Zertifikate für unsere Services zu erstellen. Die neuen Fingerprints findet ihr wie gewohnt auf unserer [Webseite](https://www.systemli.org/assets/fingerprints.txt.asc).
 
 **Hintergrund**
 
@@ -21,9 +21,6 @@ Dies  könnte folgenschwere Konsequenzen haben: Wäre in der Zeit zwischen allge
 **Aufgrund dieser schwerwiegenden Lücke haben wir die Schlüssel und Zertifikate für unsere Dienste getauscht.** 
 
 Wir möchten keine unnötige Angst verbreiten. Ob die Sicherheitslücke aktiv ausgenutzt wurde, kann nicht abschliessend festgestellt werden und kann deshalb unter Umständen unentdeckt bleiben. Daher raten wir alle Passwörter bei uns zu ändern.
-
-eure systemli-admin-crew
-
 
 
 
