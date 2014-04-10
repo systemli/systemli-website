@@ -22,9 +22,6 @@ Dies  könnte folgenschwere Konsequenzen haben: Wäre in der Zeit zwischen allge
 
 Wir möchten keine unnötige Angst verbreiten. Ob die Sicherheitslücke aktiv ausgenutzt wurde, kann nicht abschliessend festgestellt werden und kann deshalb unter Umständen unentdeckt bleiben. Daher raten wir alle Passwörter bei uns zu ändern.
 
-eure systemli-admin-crew
-
-
 
 
 
