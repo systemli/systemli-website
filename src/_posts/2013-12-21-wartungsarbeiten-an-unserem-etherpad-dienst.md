@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Wartungsarbeiten an unserem Etherpad Dienst"
 date:   2013-12-21 17:00:00
 categories: update

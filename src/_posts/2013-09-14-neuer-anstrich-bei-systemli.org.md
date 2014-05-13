@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Neuer Anstrich bei systemli.org"
 date:   2013-09-14 19:20:00
 categories: update

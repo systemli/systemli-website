@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Datenverlust beim Etherpad Dienst"
 date:   2014-02-06 19:56:00
 categories: update

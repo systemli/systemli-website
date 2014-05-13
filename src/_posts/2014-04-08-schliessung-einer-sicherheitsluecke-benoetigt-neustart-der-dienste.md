@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Schließung einer Sicherheitslücke benötigt Neustart der Dienste"
 date:   2014-04-08 11:00:00
 categories: update

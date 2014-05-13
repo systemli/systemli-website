@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Wartungsarbeiten am 23.04.2014"
 date:   2014-04-21 23:00:00
 categories: update
