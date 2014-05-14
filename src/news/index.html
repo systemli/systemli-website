@@ -12,17 +12,17 @@ title: News-Archiv
             <ul class="pager">
                 {% if paginator.previous_page %}
                 {% if paginator.previous_page == 1 %}
-                <li class="previous"><a href="/news/index.html">Neuere Beiträge &rarr;</a></li>
+                <li class="previous"><a href="/news/index.html">&larr; Neuere Beiträge</a></li>
                 {% else %}
-                <li class="previous"><a href="/news/page-{{ paginator.previous_page }}/index.html">&larr; Ältere Beiträge</a></li>
+                <li class="previous"><a href="/news/page-{{ paginator.previous_page }}/index.html">&larr; Neuere Beiträge</a></li>
                 {% endif %}
                 {% else %}
-                <li class="previous disabled"><a href="#">Neuere Beiträge &rarr;</a></li>
+                <li class="previous disabled"><a href="#">&larr; Neuere Beiträge</a></li>
                 {% endif %}
                 {% if paginator.next_page %}
-                <li class="next"><a href="/news/page-{{ paginator.next_page }}/index.html">Neuere Beiträge &rarr;</a></li>
+                <li class="next"><a href="/news/page-{{ paginator.next_page }}/index.html">Ältere Beiträge &rarr;</a></li>
                 {% else %}
-                <li class="next disabled"><a href="#">&larr; Ältere Beiträge</a></li>
+                <li class="next disabled"><a href="#">Ältere Beiträge &rarr;</a></li>
                 {% endif %}
             </ul>
         </div>
