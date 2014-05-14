@@ -4,9 +4,9 @@ title:  "Hintergrund: Dateiübertragung und Gruppenchat bei Jabber"
 date:   2014-05-14 15:00:00
 categories: hintergrund
 ---
-Seit der Umstellung sind **Dateiübertragungen** mit unserem [Jabber-Servers](/service/xmpp.html) **nicht mehr möglich**, da es trotz Hinweisen, dass diese unverschlüsselt sind, wiederholt zu Missverständnissen kam.  
-Pidgin bietet diese trtozdem an, aber über einen unverschlüsselten Proxy. [Bitte nutzt diesen nicht!](https://wiki.systemli.org/howto/jabber#b_reitererweitert)  
-Alternativ besteht die Option ein [Mailkonto](/service/mail.html) bei uns zu beantragen. Dabei können Anhänge von bis zu 40 MB verschickt und empfangen werden.
+Seit der Umstellung im Januar sind **Dateiübertragungen** mit unserem [Jabber-Server](/service/xmpp.html) **nicht mehr möglich**. Trotz Hinweisen, dass diese unverschlüsselt sind,  kam es wiederholt zu Missverständnissen.  
+Pidgin bietet diese Option trotzdem an, aber über einen unverschlüsselten Proxy. [Bitte nutzt diesen nicht!](https://wiki.systemli.org/howto/jabber#b_reitererweitert)  
+Alternativ besteht die Möglichkeit ein [Mailkonto](/service/mail.html) bei uns zu beantragen. Dabei können Anhänge von bis zu 40 MB verschickt und empfangen werden.
 
 Ebenso möchten wir darauf hinweisen, dass die **Inhalte der Gruppenchats nicht langlebig ** sind und auch nicht sein sollen.
 Derzeit existiert keine Jabber-Server-Software, bei dem Gruppenchats auch nach einem Neustart erhalten bleiben. Bei Wartungsarbeiten können wir daher leider keine Rücksicht auf die Inhalte dieser Chats zu nehmen.
