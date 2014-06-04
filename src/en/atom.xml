@@ -1,6 +1,8 @@
 ---
 layout: nil
-lang: de
+lang: en
+categories:
+    - en
 ---
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -14,7 +16,7 @@ lang: de
         <name>systemli.org Admin Crew</name>
         <email>admin@systemli.org</email>
     </author>
-    {% for post in site.categories.de %}
+    {% for post in site.categories.en %}
     <entry>
         <id>https://www.systemli.org{{ post.id }}</id>
         <link type="text/html" rel="alternate" href="https://www.systemli.org{{ post.url }}"/>

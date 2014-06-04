@@ -3,7 +3,9 @@ layout: post
 lang: de
 title:  "Schließung einer Sicherheitslücke benötigt Neustart der Dienste"
 date:   2014-04-08 11:00:00
-categories: update
+categories:
+    - de
+    - update
 ---
 Heute Nacht wurde eine kritische Sicherheitslücke in der quelloffenen Bibliothek OpenSSL veröffentlicht. Diese ermöglicht es Angreifern die geheimen Schlüssel zu stehlen und somit den vermeintlich gesicherten Datenverkehr zu entschlüsseln. Dieser Fehler wurde mittlerweile behoben, benötigt allerdings einen Neustart von allen Diensten, die OpenSSL benutzen.
 

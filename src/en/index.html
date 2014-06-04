@@ -1,18 +1,20 @@
 ---
-layout: default
-lang: de
+layout: en-default
+lang: en
+categories:
+    - en
 ---
 <div class="jumbotron">
     <h1><img src="/assets/img/systemli_logo_small.png" alt="Logo" class="logo" /> systemli.org</h1>
     <h2>Your friendly tech collective</h2>
-    <p>Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.</p>
+    <p>Non-commercial provider of privacy friendly communication. Without surveilliance.</p>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <h2>Services <small>Unsere wichtigsten Dienste im Überblick</small></h2>
+        <h2>Services <small>Our important services in one view</small></h2>
     </div>
     <div class="col-sm-offset-1 col-sm-2">
-        <a class="thumbnail" href="/service/xmpp.html">
+        <a class="thumbnail" href="/en/service/xmpp.html">
             <img src="/assets/img/conversation.jpg" class="img-responsive hidden-xs" alt="Quelle: flickr.com/photos/kevinvanden/7310325120">
             <div class="caption text-center">
                 <h4>Jabber</h4>
@@ -20,7 +22,7 @@ lang: de
         </a>
     </div>
     <div class="col-sm-2">
-        <a class="thumbnail" href="/service/mail.html">
+        <a class="thumbnail" href="/en/service/mail.html">
             <img src="/assets/img/mailbox.jpg" class="img-responsive hidden-xs" alt="Quelle: flickr.com/photos/24085129@N07/3293669158">
             <div class="caption text-center">
                 <h4>E-Mail</h4>
@@ -28,7 +30,7 @@ lang: de
         </a>
     </div>
     <div class="col-sm-2">
-        <a class="thumbnail" href="/service/etherpad.html">
+        <a class="thumbnail" href="/en/service/etherpad.html">
             <img src="/assets/img/typewriter.jpg" class="img-responsive hidden-xs" alt="Quelle: flickr.com/photos/18358137@N00/5418886939">
             <div class="caption text-center">
                 <h4>Etherpad</h4>
@@ -36,7 +38,7 @@ lang: de
         </a>
     </div>
     <div class="col-sm-2">
-        <a class="thumbnail" href="/service/hosting.html">
+        <a class="thumbnail" href="/en/service/hosting.html">
             <img src="/assets/img/server.jpg" class="img-responsive hidden-xs" alt="Quelle: flickr.com/photos/mrmuskrat/3637703614">
             <div class="caption text-center">
                 <h4>Hosting</h4>
@@ -44,7 +46,7 @@ lang: de
         </a>
     </div>
     <div class="col-sm-2">
-        <a class="thumbnail" href="/service/ticker.html">
+        <a class="thumbnail" href="/en/service/ticker.html">
             <img src="/assets/img/ticker.jpg" class="img-responsive hidden-xs" alt="Demoticker">
             <div class="caption text-center">
                 <h4>Ticker</h4>
@@ -55,24 +57,24 @@ lang: de
 <div class="row">
     <div class="col-sm-8">
         <h2>News</h2>
-        {% for post in paginator.posts limit:5 %}
-        {% include news-excerpt.html %}
+        {% for post in site.categories.en limit:5%}
+        {% include en-news-excerpt.html %}
         {% endfor %}
         <div class="pagination pagination-right">
             <p>
-                <a class="btn btn-xs btn-default" href="/news/index.html"><i class="icon-list icon-white icon"></i> News-Archiv</a>
-                <a class="btn btn-xs btn-default" href="/atom.xml"><i class="icon-bullhorn icon-white icon"></i> News-Feed</a>
+                <a class="btn btn-xs btn-default" href="/en/news/index.html"><i class="icon-list icon-white icon"></i> News-Archiv</a>
+                <a class="btn btn-xs btn-default" href="/en/atom.xml"><i class="icon-bullhorn icon-white icon"></i> News-Feed</a>
             </p>
         </div>
     </div>
     <div class="col-sm-4">
         <div class="widget push-top">
-            <a class="btn btn-lg btn-block btn-primary" href="/service/index.html"> Alle Dienste</a>
-            <a class="btn btn-lg btn-block btn-default" href="/spenden.html"><span class="glyphicon glyphicon-heart"></span> Spenden</a>
+            <a class="btn btn-lg btn-block btn-primary" href="/en/service/index.html"> All Services</a>
+            <a class="btn btn-lg btn-block btn-default" href="/en/spenden.html"><span class="glyphicon glyphicon-heart"></span> Donations</a>
         </div>
         <div class="widget">
-            <h2>Zertifikate <small>Fingerprints (SHA1)</small></h2>
-            <p>systemli.org und pad.systemli.org 
+            <h2>Certificates <small>Fingerprints (SHA1)</small></h2>
+            <p>systemli.org and pad.systemli.org
                 <small><pre>02:0E:89:B1:BC:46:01:44:B4:E8:9B:28:5E:23:93:71:FD:2B:49:8D</pre></small>
 			</p>
             <p>*.tem.li (bspw. pad.tem.li)
@@ -90,7 +92,7 @@ lang: de
             <p>demoticker.org
 	            <small><pre>F4:4C:DB:80:49:0F:E5:2D:30:2E:9E:73:7D:C4:D1:B1:C7:94:1B:A4</pre></small>
             </p>
-            <p><a href="/about-ssl.html">Mehr Informationen</a></p>
+            <p><a href="/en/about-ssl.html">More informations</a></p>
         </div>
     </div>
 </div>

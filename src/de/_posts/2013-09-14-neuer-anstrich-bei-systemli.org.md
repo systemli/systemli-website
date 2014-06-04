@@ -3,7 +3,9 @@ layout: post
 lang: de
 title:  "Neuer Anstrich bei systemli.org"
 date:   2013-09-14 19:20:00
-categories: update
+categories:
+    - de
+    - update
 excerpt: Es hat annähernd 10 Jahre gedauert, aber es ist geschafft. Wir haben unsere Homepage grundlegend überarbeitet. Ihr findet nun neben Kontaktmöglichkeiten und den Fingerprints unserer SSL-Zertifikate auch einen Überblick unserer Dienste.
 ---
 

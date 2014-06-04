@@ -3,7 +3,9 @@ layout: post
 lang: de
 title:  "Hintergrund: Festplattenverschlüsselung unter Ubuntu"
 date:   2014-04-22 18:00:00
-categories: hintergrund
+categories:
+    - de
+    - hintergrund
 ---
 Ende des vergangenen Jahres wurde ein erfolgreicher Angriff auf die Festplatten-Verschlüsselung vieler Linux-Systeme [bekannt](http://heise.de/-2072199). Davon ist auch die weitverbreitete Linux-Distribution Ubuntu betroffen gewesen.
 Vor wenigen Tagen wurde nun Ubuntu 14.04 LTS veröffentlicht, welches standardmäßig gegen diese Attacke immun ist und für 5 Jahre gepflegt wird.
