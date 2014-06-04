@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Hintergrund: Festplattenverschlüsselung unter Ubuntu"
 date:   2014-04-22 18:00:00
 categories: hintergrund

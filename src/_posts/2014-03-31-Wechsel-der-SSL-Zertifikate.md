@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Hintergrund: Wechsel der SSL-Zertifikate"
 date:   2014-03-31 10:00:00
 categories: hintergrund

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Neue Zertifikate für unsere Dienste"
 date:   2014-04-10 10:00:00
 categories: update

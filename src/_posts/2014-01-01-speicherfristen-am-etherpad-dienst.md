@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Speicherfristen an unserem Etherpad Dienst"
 date:   2014-01-01 19:09:09
 categories: update

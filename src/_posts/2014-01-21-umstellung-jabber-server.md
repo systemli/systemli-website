@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: de
 title:  "Umstellung des Jabber-Servers"
 date:   2014-01-21 20:00:00
 categories: update
