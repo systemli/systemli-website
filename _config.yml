@@ -7,3 +7,12 @@ include: [.well-known,.htaccess]
 
 paginate_per_category: true
 default_category: "de"
+
+#### certs ####
+fp_www_systemli: "02:0E:89:B1:BC:46:01:44:B4:E8:9B:28:5E:23:93:71:FD:2B:49:8D"
+fp_tem_li: "3A:F5:FE:76:C4:78:DE:48:00:5F:C9:ED:D7:66:CD:2D:79:C1:FF:36"
+fp_jabber_systemli: "25:6B:2F:16:A5:22:9A:DE:88:11:A3:7C:C5:68:BE:04:75:8E:10:5D"
+fp_mail_systemli: "02:7E:86:57:5E:97:89:4D:7C:69:18:96:29:ED:94:23:BF:11:8C:14"
+fp_wiki_systemli: "8F:9C:CC:FA:9E:E4:F5:D8:3A:5A:AF:80:18:B5:1F:A1:1A:3D:CB:35"
+fp_demoticker: "F4:4C:DB:80:49:0F:E5:2D:30:2E:9E:73:7D:C4:D1:B1:C7:94:1B:A4"
+
