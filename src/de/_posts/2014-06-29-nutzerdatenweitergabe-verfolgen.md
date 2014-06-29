@@ -11,7 +11,7 @@ Mit einer Mailadresse bei systemli.org hast du die Möglichkeit nachzuverfolgen,
 
 Du bestellst etwas in einem Onlineshop und wirst aufgefordert Nutzerdaten, z.B. Name, Geburtsdatum und deine Mailadresse anzugeben.
 Besitzt du  z.B. die Mailadresse **anna@systemli.org**, kannst du dort einfach **anna+onlineshop@systemli.org** eintragen.
-Schickt dir der Onlineshop nun eine Email, wird diese trotzdem an **anna@systemli.org** zugestellt - aber im Empfängerfemeld steht **anna+onlineshop@systemli.org**.
+Schickt dir der Onlineshop nun eine Email, wird diese trotzdem an **anna@systemli.org** zugestellt - aber im Empfängerfeld steht **anna+onlineshop@systemli.org**.
 
 Bekommst du dann weitere E-Mails von anderen Absendern mit der Empfängeradresse **anna+onlineshop@systemli.org**, kannst du dir sicher sein, dass der Onlineshop deine Kontaktdaten weitergegeben hat.
 
