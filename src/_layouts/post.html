@@ -5,11 +5,11 @@ layout: default
     <div class="col-sm-8">
         <article class="post">
             <h2>{{ page.title }}</h2>
-            <p class="meta">{{ page.date | date_to_string }}</p>
+            <p class="meta">{{ page.date | date_to_string }}<a href="https://flattr.com/submit/auto?user_id=systemli&url=https%3A%2F%2Fsystemli.org{{ page.url }}&title={{ page.title }}" target="_blank"><img src="/assets/img/flattr-badge-large.png" alt="Diesen Post flattern" title="Diesen Post flattern" align="right" border="0"></a></p>
             <div class="entry">
                 {{ content }}
-            </div>
-        </article>
+	    </div>
+	</article>
     </div>
 </div>
 

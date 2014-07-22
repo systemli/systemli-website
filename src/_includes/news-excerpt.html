@@ -2,5 +2,5 @@
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p><small>Veröffentlicht am {{ post.date | date: "%d. %B %Y - %H:%M Uhr" }}</small></p>
     <p>{{ post.excerpt }}</p>
-    <p><a href="{{ post.url }}">Weiterlesen</a></p>
+    <p><a href="{{ post.url }}">Weiterlesen</a><a href="https://flattr.com/submit/auto?user_id=systemli&url=https%3A%2F%2Fsystemli.org{{ post.url }}&title={{ post.title }}" target="_blank"><img src="../assets/img/flattr-badge-large.png" alt="Diesen Post flattern" title="Diesen Post flattern" align="right" border="0"></a></p>
 </article>
