@@ -16,3 +16,6 @@ fp_mail_systemli: "02:7E:86:57:5E:97:89:4D:7C:69:18:96:29:ED:94:23:BF:11:8C:14"
 fp_wiki_systemli: "8F:9C:CC:FA:9E:E4:F5:D8:3A:5A:AF:80:18:B5:1F:A1:1A:3D:CB:35"
 fp_demoticker: "F4:4C:DB:80:49:0F:E5:2D:30:2E:9E:73:7D:C4:D1:B1:C7:94:1B:A4"
 
+#### tor hidden services ####
+onion_jabber_systemli: x5tno6mwkncu5m3h.onion
+onion_mail_systemli: h2qkxasmmqdmyiov.onion
