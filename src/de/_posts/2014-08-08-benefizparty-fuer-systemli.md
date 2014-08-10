@@ -6,7 +6,7 @@ date:   2014-08-08 16:00:00
 categories:
     - de
 ---
-![off-the-record](/assets/img/party_off_the_record.jpg)
+<img src="/assets/img/party_off_the_record.jpg" alt="off-the-record" class="img-responsive" />
 
 Am 05.09.2014 steigt ein Benefizkonzert und -party für uns im [://about:blank](http://aboutparty.net/), was soviel heißt, wie der Gewinn dieser Party kommt unserem Projekt zu Gute. Ab 18.00 Uhr sind die Türen geöffnet. Es spielen Frittenbude, Nervöus, Image Ctrl und Das Flug und viele mehr ... 
 
