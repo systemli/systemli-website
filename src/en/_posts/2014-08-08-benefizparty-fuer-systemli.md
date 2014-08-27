@@ -14,3 +14,25 @@ Additionally to the party stuff there will be some interesting and interactive p
 
 Come and dance with us, for the preservation of independent infrastructure.
 
+<b>Live in Concert:</b>
+- Frittenbude
+- Nervöus
+- Image Ctrl
+- Das Flug
+
+<b>Party:</b>
+- Karacho Rabaukin
+- Smith & Smart
+- DJ Boogie Dan
+- Mila Stern
+- Basscadet
+- Verschnibbt & Zugenäht
+- Tanith
+- Francesco Arancio
+- Anja Zaube
+- Sportbrigade Sparwasser
+- Bikibiki
+- Midiman
+- Blasfematic
+- Von Raben
+

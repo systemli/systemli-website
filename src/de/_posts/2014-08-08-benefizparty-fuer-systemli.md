@@ -14,4 +14,24 @@ Neben dem Partyprogramm wird es auch einige interesannte, interaktive Möglichke
 
 Kommt zur Party, feiert mit uns und für den Erhalt von unabhängiger Infrastruktur.
 
+<b>Konzert:</b>
+- Frittenbude
+- Nervöus
+- Image Ctrl
+- Das Flug
 
+<b>Party:</b>
+- Karacho Rabaukin
+- Smith & Smart
+- DJ Boogie Dan
+- Mila Stern
+- Basscadet
+- Verschnibbt & Zugenäht
+- Tanith
+- Francesco Arancio
+- Anja Zaube
+- Sportbrigade Sparwasser
+- Bikibiki
+- Midiman
+- Blasfematic
+- Von Raben
