@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: de
-title:  "Sicherheit is kein Verbrechen"
+title:  "Sicherheit ist kein Verbrechen"
 date:   2015-01-07 12:00:00
 categories:
     - de
