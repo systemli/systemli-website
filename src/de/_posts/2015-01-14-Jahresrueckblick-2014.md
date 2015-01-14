@@ -49,7 +49,7 @@ Wir suchen Menschen, die Spaß an der Auseinandersetzung mit Technik haben. Ganz
 
  - PHP-Entwickler_innen
 
-    Du hast bei uns die Möglichkeit, den Umgang mit Sympfony 2 zu lernen und mit sinnvollen Anwendungen zu üben.
+    Du hast bei uns die Möglichkeit, den Umgang mit Symfony 2 zu lernen und mit sinnvollen Anwendungen zu üben.
     Ist doch cooler, als nur für sich selbst zu programmieren.
 
  - Menschen, die gut schreiben können
