@@ -24,7 +24,7 @@ Wenn ihr ein T-Shirt bestellen möchtet, überweist bitte 13,50€ (Versand nur 
 Bitte achtet darauf, dass wir Überweisung und Mail zuordnen können.
 Die verfügbaren Größen sind:
 
- - unisize, blau: <del>S</del>, <del>M</del>, L, XL
+ - unisize, blau: <del>S</del>, <del>M</del>,<del>L</del>, XL
  - unisize schwarz: <del>S</del>, </del>M</del>, L, XL
  - tailliert  blau: S, M, L, XL
  - tailliert  schwarz: S, M, L, XL
