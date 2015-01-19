@@ -43,7 +43,7 @@ Wir können uns nur verbessern, wenn ihr uns sagt, was euch stört.
 ### Sonstiges
  - Wir haben zwei Radio-Interviews gegeben, welche ihr  [hier](http://www.freie-radios.net/65896) und [hier](/assets/audio/systemli_beitrag_gesamt.mp3) nachhören könnt.
  - Aufgrund von der [Sicherheitslücke Poodle](http://www.heise.de/security/artikel/Poodle-So-funktioniert-der-Angriff-auf-die-Verschluesselung-2425250.html) haben wir bei allen Diensten SSLv3 abgeschaltet und es hat sich niemand beschwert.
- - Die Einführung unseres [Mail-Dientes](service/mail.html) ist gut angenommen worden. Wenn ihr weitere Freund_Innen einladen wollt, meldet euch unter [https://users.systemli.org](https://users.systemli.org) an und schickt ihnen einen Einladungscode.
+ - Die Einführung unseres [Mail-Dientes](/service/mail.html) ist gut angenommen worden. Wenn ihr weitere Freund_Innen einladen wollt, meldet euch unter [https://users.systemli.org](https://users.systemli.org) an und schickt ihnen einen Einladungscode.
 
 ### Zukunft
 Wir suchen Menschen, die Spaß an der Auseinandersetzung mit Technik haben. Ganz besonders suchen wir:
