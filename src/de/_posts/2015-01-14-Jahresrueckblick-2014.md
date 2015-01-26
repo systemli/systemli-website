@@ -25,7 +25,7 @@ Bitte achtet darauf, dass wir Überweisung und Mail zuordnen können.
 Die verfügbaren Größen sind:
 
  - unisize, blau: <del>S</del>, <del>M</del>,<del>L</del>, XL
- - unisize schwarz: <del>S</del>, <del>M</del>, L, XL
+ - unisize schwarz: <del>S</del>, <del>M</del>, <del>L</del>, XL
  - tailliert  blau: XS, S, M, <del>L</del>
  - tailliert  schwarz: XS, S, M, L
 
