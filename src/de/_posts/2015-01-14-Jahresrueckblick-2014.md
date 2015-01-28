@@ -26,7 +26,7 @@ Die verfügbaren Größen sind:
 
  - unisize, blau: <del>S</del>, <del>M</del>,<del>L</del>, XL
  - unisize schwarz: <del>S</del>, <del>M</del>, <del>L</del>, XL
- - tailliert  blau: XS, S, M, <del>L</del>
+ - tailliert  blau: XS, S, <del>M</del>, <del>L</del>
  - tailliert  schwarz: XS, S, M, L
 
 Wenn ihr bereits eine regelmäßige Spende überweist, meldet euch per Mail und wir lassen euch ein T-Shirt als Dankeschön zukommen.
