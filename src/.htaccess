@@ -1,6 +1,11 @@
 <IfModule mod_rewrite.c>
 	Redirect /bestpractices.html /welcome.html
 
+	RewriteEngine on
+
+	RewriteCond %{HTTP:Accept-Language} !^de [NC]
+	RewriteRule ^$ /en/index.html [L,R=307]
+
 #	RewriteEngine on
 #
 #	RewriteCond %{HTTP:Accept-Language} !(^de.*$) [NC]
