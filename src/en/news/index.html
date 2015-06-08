@@ -2,31 +2,32 @@
 layout: en-default
 lang: en
 title: News-Archiv
+paginate:
+  category: en
 ---
 <div class="row">
-    <div class="col-lg-8">
-        <h2>{{ page.title }}</h2>
-        {% for post in paginator.posts %}
+  <div class="col-lg-8">
+    <h2>{{ page.title }}</h2>
+      {% for post in paginator.posts %}
         {% include en-news-excerpt.html %}
-        {% endfor %}
-        <div class="pagination">
-            <ul class="pager">
-                {% if paginator.previous_page %}
-                {% if paginator.previous_page == 1 %}
+      {% endfor %}
+      <div class="pagination">
+          <ul class="pager">
+            {% if paginator.previous_page %}
+              {% if paginator.previous_page == 1 %}
                 <li class="previous"><a href="/en/news/index.html">&larr; Newer Posts</a></li>
-                {% else %}
-                <li class="previous"><a href="/en/news/page-{{ paginator.previous_page }}/index.html">&larr; Newer Posts<a></li>
-                {% endif %}
-                {% else %}
-                <li class="previous disabled"><a href="#">&larr; Newer Posts</a></li>
-                {% endif %}
-                {% if paginator.next_page %}
-                <li class="next"><a href="/en/news/page-{{ paginator.next_page }}/index.html">Older Posts &rarr;</a></li>
-                {% else %}
-                <li class="next disabled"><a href="#">Older Posts &rarr;</a></li>
-                {% endif %}
-            </ul>
-        </div>
-
+              {% else %}
+                <li class="previous"><a href="{{ paginator.previous_page_path }}">&larr; Newer Posts<a></li>
+              {% endif %}
+            {% else %}
+              <li class="previous disabled"><a href="#">&larr; Newer Posts</a></li>
+            {% endif %}
+            {% if paginator.next_page %}
+              <li class="next"><a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a></li>
+            {% else %}
+              <li class="next disabled"><a href="#">Older Posts &rarr;</a></li>
+            {% endif %}
+          </ul>
+      </div>
     </div>
 </div>

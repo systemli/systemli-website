@@ -1,12 +1,13 @@
 name: Systemli - Your friendly tech collective
-pygments: true
+highlighter: pygments
 source: ./src
-paginate: 5
-paginate_path: "/news/page-:num"
 include: [.well-known,.htaccess]
 
-paginate_per_category: true
-default_category: "de"
+gems:
+  - octopress-paginate
+
+pagination:
+  limit: 5
 
 #### certs ####
 fp_www_systemli: "02:0E:89:B1:BC:46:01:44:B4:E8:9B:28:5E:23:93:71:FD:2B:49:8D"
