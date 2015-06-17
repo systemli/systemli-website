@@ -1,13 +1,12 @@
 ---
 layout: default
 lang: de
-paginate:
-  category: de
+paginate: true
 ---
 <div class="jumbotron">
     <h1><img src="/assets/img/systemli_logo_small.png" alt="Logo" class="logo" /> systemli.org</h1>
     <h2>Your friendly tech collective</h2>
-    <p>Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.</p>
+    <p>{{ lang.subtitle }}</p>
 </div>
 <div class="row">
     <div class="col-sm-12">
@@ -70,7 +69,7 @@ paginate:
     <div class="col-sm-4">
         <div class="widget push-top">
             <a class="btn btn-lg btn-block btn-primary" href="/service/index.html"> Alle Dienste</a>
-            <a class="btn btn-lg btn-block btn-default" href="/spenden.html"><span class="glyphicon glyphicon-heart"></span> Spenden</a>
+            <a class="btn btn-lg btn-block btn-default" href="/spenden.html"><span class="glyphicon glyphicon-heart"></span>{{ donations }}</a>
         </div>
         <div class="widget">
             <h2>Zertifikate <small>Fingerprints (SHA1)</small></h2>

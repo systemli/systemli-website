@@ -2,12 +2,16 @@ name: Systemli - Your friendly tech collective
 highlighter: pygments
 source: ./src
 include: [.well-known,.htaccess]
+permalink: /:lang/:year/:month/:day/:title.html
 
 gems:
   - octopress-paginate
+  - octopress-multilingual
 
 pagination:
   limit: 5
+
+lang: de
 
 #### certs ####
 fp_www_systemli: "02:0E:89:B1:BC:46:01:44:B4:E8:9B:28:5E:23:93:71:FD:2B:49:8D"

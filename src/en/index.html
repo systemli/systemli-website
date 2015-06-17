@@ -1,14 +1,12 @@
 ---
 layout: en-default
 lang: en
-categories:
-    - en
 paginate: true
 ---
 <div class="jumbotron">
     <h1><img src="/assets/img/systemli_logo_small.png" alt="Logo" class="logo" /> systemli.org</h1>
     <h2>Your friendly tech collective</h2>
-    <p>Non-commercial provider of privacy friendly communication. Without surveilliance.</p>
+    <p>{{ lang.subtitle }}</p>
 </div>
 <div class="row">
     <div class="col-sm-12">
@@ -58,7 +56,7 @@ paginate: true
 <div class="row">
     <div class="col-sm-8">
         <h2>News</h2>
-        {% for post in site.categories.en limit:5%}
+        {% for post in paginator.posts limit:5%}
         {% include en-news-excerpt.html %}
         {% endfor %}
         <div class="pagination pagination-right">
@@ -71,7 +69,7 @@ paginate: true
     <div class="col-sm-4">
         <div class="widget push-top">
             <a class="btn btn-lg btn-block btn-primary" href="/en/service/index.html"> All Services</a>
-            <a class="btn btn-lg btn-block btn-default" href="/en/spenden.html"><span class="glyphicon glyphicon-heart"></span> Donations</a>
+            <a class="btn btn-lg btn-block btn-default" href="/en/spenden.html"><span class="glyphicon glyphicon-heart"></span>{{ donations }}</a>
         </div>
         <div class="widget">
             <h2>Certificates <small>Fingerprints (SHA1)</small></h2>
