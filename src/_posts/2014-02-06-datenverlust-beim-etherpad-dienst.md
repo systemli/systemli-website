@@ -6,6 +6,7 @@ date:   2014-02-06 19:56:00
 categories:
     - update
 excerpt: Leider sind Daten unseres Etherpad Dienstes durch ein technisches Problem verlorengegangen. Dies betrifft Datensätze des Monats Januar 2014. Diese können nicht wiederhergestellt werden. Der Ausfall hat nichts mit unserer kürzlich eingeführten Speicherfrist von 30 Tagen zu tun.
+translation_id: b6ef4fd04ae6ae0c184ce6141793cbfb
 ---
 
 Leider sind Daten unseres [Etherpad Dienstes](/service/etherpad.html) durch ein technisches Problem verlorengegangen. Dies betrifft Datensätze des Monats Januar 2014. Diese können

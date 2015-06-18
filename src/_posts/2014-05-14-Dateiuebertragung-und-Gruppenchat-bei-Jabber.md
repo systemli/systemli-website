@@ -4,6 +4,7 @@ title:  "Hintergrund: Dateiübertragung und Gruppenchat bei Jabber"
 date:   2014-05-14 15:00:00
 categories:
     - hintergrund
+translation_id: 7039c4eb92b991ba82a45dbe5cfa32af
 ---
 Seit der Umstellung im Januar sind **Dateiübertragungen** mit unserem [Jabber-Server](/service/xmpp.html) **nicht mehr möglich**. Trotz Hinweisen, dass diese unverschlüsselt sind,  kam es wiederholt zu Missverständnissen.  
 Pidgin bietet diese Option trotzdem an, aber über einen unverschlüsselten Proxy. [Bitte nutzt diesen nicht!](https://wiki.systemli.org/howto/jabber#b_reitererweitert)  

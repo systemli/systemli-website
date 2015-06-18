@@ -1,20 +1,19 @@
 ---
-layout: en-post
-lang: en
-title:  "Background: New look for the Pads"
-date:   2014-07-21 17:00:00
+layout: post
+lang: de
+title:  "Hintergrund: Neuer Anstrich bei Pad-Erstellung"
+date:   2014-07-15 11:00:00
 categories:
-    - Backround
+    - Hintergrund
+translation_id: 152d8c28c5aecaa73d6fcb75c5ebcb1f
 ---
-Our [Etherpad-service](https://pad.systemli.org) has a new look. This is supposed to encourage you to avoid names that are easy to guess for confidential Pads. 
+Unser [Etherpad-Dienst](https://pad.systemli.org) hat ab jetzt ein neues Aussehen. Dies soll euch dazu anregen, keine erratbaren Namen für vertrauliche Pads zu verwenden.
 
-The content of Pads is only secret as long as no-one else knows its URL. Because the Pads can always be found under **https://pad.systemli.org/p/Name**, everyone who can guess its name can also access the content.
+Der Inhalt der Pads ist nur dadurch geschützt, dass niemand dessem URL kennt. Da die Pads immer unter **https://pad.systemli.org/p/Name** zu finden sind, kann jede_r der die den Namen errät auf den Inhalts des Pads zugreifen.
 
-To avoid choosing a too simple name, the Pad-names will from now on be automatically generated as a first step (to the NoScript-User – please allow  [pad.systemli.org](https://pad.systemli.org). This should make it difficult to guess the names of the Pads.
+Um eine einfach Namenswahl zu vermeiden, werden bei uns die Padnamen nun immer zuerst autogeneriert ( an die NoScript-User  - bitte  erlaubt [pad.systemli.org](https://pad.systemli.org). Dies soll das Erraten der Padnamen erschweren.
 
-If you would really like to use a name thats easy to guess, you can still do that. Instead of the automatically generated digits and numbers, just insert your chosen name into the same field. 
+Wenn ihr bewusst einen erratbaren Namen für euer Pad wählen wollt, könnt ihr das wie gewohnt tun. Tragt einfach euren Wunschnamen anstelle der automatischen generierten Ziffern und Buchstaben in das Feld ein. 
 
-
-![New look](/assets/img/padnames.png)
-
+![Neuer Anstrich](/assets/img/padnames.png)
 

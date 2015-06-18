@@ -3,6 +3,7 @@ layout: post
 lang: de
 title:  "Sicherheit ist kein Verbrechen"
 date:   2015-01-07 12:00:00
+translation_id: 84d4075c281978a8d46038067815fd89
 ---
 
 Hiermit möchten wir unsere Unterstützung für die [gestrige Veröffentlichung von riseup.net](https://help.riseup.net/de/about-us/press/security-not-a-crime) ausdrücken.

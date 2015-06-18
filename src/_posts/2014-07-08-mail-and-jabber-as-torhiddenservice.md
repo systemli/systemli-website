@@ -1,8 +1,9 @@
 ---
-layout: en-post
+layout: post
 lang: en
 title:  "Feature: Mail and Jabber as Tor Hiddenservice"
 date:   2014-07-14 10:00:00
+translation_id: ec9465ea35e94eb4f63042c8ecfd3ce3
 ---
 From now on we offer **mail.systemli.org** and **jabber.systemli.org** as [Tor Hidden Service](https://www.torproject.org/docs/hidden-services.html.en).
 

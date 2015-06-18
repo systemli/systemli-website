@@ -1,18 +1,19 @@
 ---
 layout: post
 lang: de
-title:  "Benefit party for systemli.org"
+title:  "Benefizparty für systemli.org"
 date:   2014-08-08 16:00:00
+translation_id: a84df4cd7a65661f5c326f09f659b75a
 ---
-![off-the-record](/assets/img/party_off_the_record.jpg)
+<img src="/assets/img/party_off_the_record.jpg" alt="off-the-record" class="img-responsive" />
 
-On 05.09.2014 there will be benifitparty for systemli.org in the [://about:blank](http://aboutparty.net/) in Berlin. All profit that is made will be donated to systemli.org. The party/concert will start at 6pm. There will be sounds from Frittenbude, Nervöus, Image Ctrl, Das Flug and many more ... 
+Am 05.09.2014 steigt ein Benefizkonzert und -party für uns im [://about:blank](http://aboutparty.net/), was soviel heißt, wie der Gewinn dieser Party kommt unserem Projekt zu Gute. Ab 18.00 Uhr sind die Türen geöffnet. Es spielen Frittenbude, Nervöus, Image Ctrl und Das Flug und viele mehr ... 
 
-Additionally to the party stuff there will be some interesting and interactive possibilities to learn something about computer- and internet security.
+Neben dem Partyprogramm wird es auch einige interesannte, interaktive Möglichkeiten geben, sich rund um das Thema Computer- und Internetsicherheit zu bilden.
 
-Come and dance with us, for the preservation of independent infrastructure.
+Kommt zur Party, feiert mit uns und für den Erhalt von unabhängiger Infrastruktur.
 
-<b>Live in Concert:</b>
+<b>Konzert:</b>
 - Frittenbude
 - Nervöus
 - Image Ctrl
@@ -33,4 +34,3 @@ Come and dance with us, for the preservation of independent infrastructure.
 - Midiman
 - Blasfematic
 - Von Raben
-
