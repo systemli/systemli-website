@@ -69,40 +69,39 @@
                 </li>
                 {% for node in site.pages %}
                   {% if node.menu_group == 'contact' %}
-                    {% if page.url == node.url %}
-						{% if page.lang == 'de' %}
-                      		<li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
-						{% else %}
-                      		<li class="active"><a href="/{{ page.lang }}{{node.url}}">{{node.en_title}}</a></li>
-						{% endif %}
-                    {% else %}
-					  {% if page.lang == 'de' %}
+					{% if page.lang == 'de' %}
+                      {% if page.url == node.url %}
+                      	<li class="active"><a href="{{node.url}}">{{node.title}}</a></li>
+                      {% else %}
                         <li><a href="{{node.url}}">{{node.title}}</a></li>
+                      {% endif %}
+					{% else %}
+					  {% capture int_node_url %}/{{ page.lang }}{{ node.url }}{% endcapture %}
+					  {% if page.url == int_node_url %}
+                      	<li class="active"><a href="/{{ page.lang }}{{node.url}}">{{node.en_title}}</a></li>
 					  {% else %}
                         <li><a href="/{{ page.lang}}{{node.url}}">{{node.en_title}}</a></li>
                       {% endif %}
                     {% endif %}
                   {% endif %}
                 {% endfor %}
-                {% if page.url == '/spenden.html' or page.url == '{{ page.lang }}/spenden.html %}
-				  {% if page.lang == 'de' %}
-                    <li class="active"><a href="/spenden.html">{{ lang.donations }}</a></li>
-                  {% else %}
-                    <li class="active"><a href="/{{ page.lang }}/spenden.html">{{ lang.donations }}</a></li>
-                  {% endif %} 
-                {% else %}
-				  {% if page.lang == 'de' %}
-                    <li><a href="/spenden.html">{{ lang.donations }}</a></li>
-                  {% else %}
-                    <li><a href="/{{ page.lang }}/spenden.html">{{ lang.donations }}</a></li>
-                  {% endif %} 
-                {% endif %}
+			<li>{{ int_node_url }}</li>
             </ul>
+
             <ul class="nav navbar-nav pull-right">
 			  {% if page.translated %}
 				{% for t in page.translations %}
+				  {% if t.lang != page.lang %}
 				    <li><a href="{{ t.url }}">{{ t.lang | upcase }}</a></li>
+					{% break %}
+				  {% endif %}
   				{% endfor %}
+			  {% else %}
+				{% if page.lang == 'de' %}
+                  <li><a href="/en/index.html">EN</a></li>
+                {% else %}
+                  <li><a href="/index.html">DE</a></li>
+			    {% endif %}
 			  {% endif %}
             </ul>
             <ul class="nav navbar-nav pull-right">

@@ -2,7 +2,6 @@
 layout: default
 lang: en
 paginate: true
-translation_id: e2654c795cf941057dab4a7fe8bd55c3
 ---
 <div class="jumbotron">
     <h1><img src="/assets/img/systemli_logo_small.png" alt="Logo" class="logo" /> systemli.org</h1>
@@ -58,7 +57,7 @@ translation_id: e2654c795cf941057dab4a7fe8bd55c3
     <div class="col-sm-8">
         <h2>News</h2>
         {% for post in paginator.posts limit:5%}
-        {% include en-news-excerpt.html %}
+        {% include news-excerpt.html %}
         {% endfor %}
         <div class="pagination pagination-right">
             <p>
