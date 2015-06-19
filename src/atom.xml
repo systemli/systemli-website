@@ -13,7 +13,8 @@ layout: null
         <name>systemli.org Admin Crew</name>
         <email>admin@systemli.org</email>
     </author>
-    {% for post in site.categories.de %}
+    {% assign de_posts = (site.posts | where: "lang" , "de") %}
+    {% for post in de_posts %}
     <entry>
         <id>https://www.systemli.org{{ post.id }}</id>
         <link type="text/html" rel="alternate" href="https://www.systemli.org{{ post.url }}"/>
