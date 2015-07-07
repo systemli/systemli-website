@@ -2,7 +2,6 @@ name: Systemli - Your friendly tech collective
 highlighter: pygments
 source: ./src
 include: [.well-known,.htaccess]
-permalink: /:lang/:year/:month/:day/:title.html
 
 gems:
   - octopress-paginate
