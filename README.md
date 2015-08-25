@@ -7,3 +7,4 @@ gem install jekyll octopress octopress-paginate octopress-multilingual
  * Write new post in `_posts/`.
  * Add translation also in `_posts/`.
  * `octopress id _posts/first_post _posts/second_post
+ * restart jekyll
