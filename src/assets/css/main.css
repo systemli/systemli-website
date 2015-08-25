@@ -10,4 +10,4 @@ blockquote { font-size: 1em; }
 article img { float: right; margin-left: 0.7em; }
 article h3 { clear: both; }
 article.post h3 { clear: inherit; }
-.image-caption { color: #606060; margin-top: $spacing-unit / 3; font-size: 11px; }
+.image-caption { color: #606060; font-size: 11px; }
