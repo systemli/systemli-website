@@ -1,4 +1,5 @@
-This site is build with [Jekyll](https://github.com/jekyll/jekyll).
+This static website is build with [Jekyll](https://github.com/jekyll/jekyll)
+ and [octopress](https://github.com/octopress/).
 
 ## Requirements
 gem install jekyll octopress octopress-paginate octopress-multilingual
