@@ -4,6 +4,11 @@ This static website is built with [Jekyll](https://github.com/jekyll/jekyll)
 Please improve by providing content, translations or code.
 
 ## Requirements
+
+apt-get install python-software-properties
+apt-add-repository ppa:brightbox/ruby-ng
+apt-get update
+apt-get install ruby2.1 ruby2.1-dev
 gem install jekyll octopress octopress-paginate octopress-multilingual
 
 ## Add new post
