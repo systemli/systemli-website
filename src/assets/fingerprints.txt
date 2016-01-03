@@ -7,7 +7,7 @@ systemli.org und pad.systemli.org
 3A:F5:FE:76:C4:78:DE:48:00:5F:C9:ED:D7:66:CD:2D:79:C1:FF:36 (SHA1)
 
 jabber.systemli.org
-25:6B:2F:16:A5:22:9A:DE:88:11:A3:7C:C5:68:BE:04:75:8E:10:5D (SHA1)
+04:ac:62:e0:d8:f7:01:66:e9:bb:58:9a:7a:1d:25:f0:17:db:c4:86 (SHA1)
 
 mail.systemli.org
 02:7E:86:57:5E:97:89:4D:7C:69:18:96:29:ED:94:23:BF:11:8C:14 (SHA1)
