@@ -71,30 +71,6 @@ paginate: true
             <a class="btn btn-lg btn-block btn-primary" href="/service/index.html"> Alle Dienste</a>
             <a class="btn btn-lg btn-block btn-default" href="/spenden.html"><span class="glyphicon glyphicon-heart"></span> {{ lang.donations }}</a>
         </div>
-        <div class="widget">
-            <h2>Zertifikate <small>Fingerprints (SHA1)</small></h2>
-            <p>systemli.org und pad.systemli.org 
-                <small><pre>{{ site.data.fp.www_systemli }}</pre></small>
-			</p>
-            <p>*.tem.li (bspw. pad.tem.li)
-                <small><pre>{{ site.data.fp.tem_li }}</pre></small>
-            </p>
-            <p>jabber.systemli.org / {{ site.data.onion.jabber_systemli }}
-                <small><pre>{{ site.data.fp.jabber_systemli }}</pre></small>
-            </p>
-			<p>mail.systemli.org / {{ site.data.onion.mail_systemli }}
-                <small><pre>{{ site.data.fp.mail_systemli }}</pre></small>
-			</p>
-			<p>wiki.systemli.org 
-				<small><pre>{{ site.data.fp.wiki_systemli }}</pre></small>
-			</p>
-            <p>demoticker.org
-	            <small><pre>{{ site.data.fp.demoticker }}</pre></small>
-            </p>
-            <p>calc.systemli.org
-                <small><pre>{{ site.data.fp.calc_sha1 }}</pre></small>
-            </p>
-            <p><a href="/about-ssl.html">Mehr Informationen</a></p>
-        </div>
+        {% include fingerprints.html %}
     </div>
 </div>
