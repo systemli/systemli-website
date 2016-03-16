@@ -9,7 +9,7 @@ translation_id: 83385cb8971c7634d78696ea354a7194
 ---
 
 Dear friends,
-for more than ten years we´ve been running systemli.org. In the last couple of years, due to the Snowden disclosures, the unacceptable state regarding the treatment of refugees and the gathering strength of authoritarian movements in and around Europe, the interest in our services has been increasing constantly. We are very happy about that, although it leads to a huge amount of necessary working hours to keep system.li running and for your requests to be answered.
+for more than ten years we´ve been running systemli.org. In the last couple of years, due to the Snowden disclosures, the unacceptable state regarding the treatment of refugees and the gathering strength of authoritarian movements in and around Europe, the interest in our services has been increasing constantly. We are very happy about that, although it leads to a huge amount of necessary working hours to keep systemli.org running and for your requests to be answered.
 
 In the last couple of years, we were able to finance the operational management through donations. We hardly had to put our own money into the project. We are very grateful to you for your support.
 
