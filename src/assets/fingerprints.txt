@@ -1,7 +1,8 @@
 fingerprints of our server-certs
 
 systemli.org und pad.systemli.org
-02:0E:89:B1:BC:46:01:44:B4:E8:9B:28:5E:23:93:71:FD:2B:49:8D (SHA1)
+45:03:0F:8E:B9:DD:64:76:B1:D5:EA:0B:7E:99:47:DD:39:72:93:B1 (SHA1)
+A8:75:75:92:64:38:82:20:AD:28:48:36:09:E2:3D:66:12:3E:93:3E:B3:E1:93:EB:0A:72:69:92:38:23:F1:59 (SHA256)
 
 *.tem.li (bspw. pad.tem.li) 
 3A:F5:FE:76:C4:78:DE:48:00:5F:C9:ED:D7:66:CD:2D:79:C1:FF:36 (SHA1)
