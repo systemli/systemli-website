@@ -19,7 +19,7 @@ Mit [ownCloud](https://owncloud.org) können alle möglichen Dateiformate abgele
 
 * eine Kalenderfunktion
   - eine Synchronisation deines Kalenders zwischen deinem Rechner bzw. deinem Handy und der Cloud ist möglich. Wie das geht, erfährst du [hier](http://www.heise.de/ct/ausgabe/2013-11-Kalender-und-Kontakte-ueber-OwnCloud-synchronisieren-2322019.html).
-  - Achtung die URL's in der obigen Anleitung haben sich verändert und müssen [angepasst werden](https://doc.owncloud.org/server/9.0/user_manual/pim/calendar.html#synchronizing-calendars-using-caldav) 
+  - **Achtung** die URL's in der obigen Anleitung haben sich verändert und müssen [angepasst werden](https://doc.owncloud.org/server/9.0/user_manual/pim/calendar.html#synchronizing-calendars-using-caldav) 
 * die Nutzung als Feed-Reader
 * die Abspeicherung (Backup) deiner Handy-Kontaktdaten
   - [Anleitung](http://www.heise.de/ct/ausgabe/2013-11-Kalender-und-Kontakte-ueber-OwnCloud-synchronisieren-2322019.html)
