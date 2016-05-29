@@ -29,6 +29,6 @@ To use your ownCloud account, navigate with your browser to [cloud.systemli.org]
 
 Another (and more convenient) way is using a client, which you can install on your computer or mobile phone. You can find all ownCloud clients at the [official website](https://owncloud.org/install/#install-clients).
 
-The previous test cloud **cloud.tem.li** will be shut down on the 31th of June 2016. Please make sure to transfer your data to the new ownCloud. You can ask us for mail accounts to do so and your previous storage size will also be restored. :)
+The previous test cloud **cloud.tem.li** will be shut down on the 30th of June 2016. Please make sure to transfer your data to the new ownCloud. You can ask us for mail accounts to do so and your previous storage size will also be restored. :)
 
 

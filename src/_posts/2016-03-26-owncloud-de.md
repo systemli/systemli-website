@@ -32,5 +32,5 @@ Um deinen Cloud-Account nutzen zu können, navigierst du mit deinem Browser einf
 Zu Beginn stellen wir jedem User 100 Megabyte zur Verfügung.
 Eine weitere (und komfortablere) Möglichkeit besteht in der Nutzung eines Clients, den du auf deinem Computer oder Telefon installierst. Alle ownCloud-Clients findest du [auf der offiziellen Website](https://owncloud.org/install/#install-clients).
 
-Die bisherige Test-Cloud **cloud.tem.li** wird zum **31.06.2016 abgeschaltet**. Bis dahin müsst ihr eure Daten bitte in die neue ownCloud übertragen. E-Mail-Accounts hierfür könnt ihr gerne bei uns erfragen und eure ehemaligen Speichergröße stellen wir euch auch gern wieder her. :)
+Die bisherige Test-Cloud **cloud.tem.li** wird zum **30.06.2016 abgeschaltet**. Bis dahin müsst ihr eure Daten bitte in die neue ownCloud übertragen. E-Mail-Accounts hierfür könnt ihr gerne bei uns erfragen und eure ehemaligen Speichergröße stellen wir euch auch gern wieder her. :)
 
