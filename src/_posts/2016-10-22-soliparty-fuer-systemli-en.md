@@ -23,7 +23,7 @@ Come and dance with us, for the preservation of independent infrastructure.
 
 - ["Was verrät die Unperson?"](https://www.facebook.com/Wasverraetdieunperson/?fref=ts) (german language only)
 
-<b>Party (23:59 p,):</b>
+<b>Party (23:59 pm):</b>
 
 - [Natascha Kann](https://soundcloud.com/nataschakann) (://about blank), Berlin  
 - [Qwaint](https://soundcloud.com/poly-motion) (PolyIMotion) Berlin 
