@@ -19,7 +19,7 @@ jekyll build
 # optionally update signed assets/fingerprints.txt
 if [ "$UPDATE_FPS" = "yes" ]; then
     # gpg-sign assets/fingerprints.txt
-    if gpg -u admin@systemli.org --clearsign ./_site/assets/fingerprints.txt; then
+    if gpg --yes -u admin@systemli.org --clearsign ./_site/assets/fingerprints.txt; then
         # copy updated signed assets/fingerprints.txt
         cp -a ./_site/assets/fingerprints.txt.asc ./src/assets/fingerprints.txt.asc
         # commit updated assets/fingerprints.txt.asc to git
