@@ -1,3 +1,6 @@
+---
+layout: null
+---
 Fingerprints of our server certificates
 =======================================
 
