@@ -23,7 +23,8 @@ if [ "$UPDATE_FPS" = "yes" ]; then
         # copy updated signed assets/fingerprints.txt
         cp -a ./_site/assets/fingerprints.txt.asc ./src/assets/fingerprints.txt.asc
         # commit updated assets/fingerprints.txt.asc to git
-        git commit -m "updated assets/fingerprints.txt{,.asc}" src/assets/fingerprints.txt{,.asc}
+        git commit -m "updated assets/fingerprints.txt{,.asc}" ./src/assets/fingerprints.txt{,.asc}
+    fi
 fi
 
 # Sync updated site to webservers
