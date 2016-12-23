@@ -4,7 +4,7 @@ layout: null
 Fingerprints of our server certificates
 =======================================
 
-Date of last update: 2016-12-21
+Date of last update: 2016-12-23
 
 systemli.org and pad.systemli.org
 ---------------------------------
