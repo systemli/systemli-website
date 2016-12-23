@@ -1,25 +1,25 @@
 <div class="widget">
-    <h2>{{ lang.certificates }}<small>Fingerprints (SHA1)</small></h2>
+    <h2><small>{{ lang.certificates }} Fingerprints (SHA1)</small></h2>
     <p>systemli.org / pad.systemli.org
-        <small><pre>{{ site.data.fp.www_systemli }}</pre></small>
+        <small><pre>{{ site.data.fp.www_systemli_sha1 }}</pre></small>
 	</p>
     <p>*.tem.li 
-        <small><pre>{{ site.data.fp.tem_li }}</pre></small>
-    </p>
-    <p>jabber.systemli.org / {{ site.data.onion.jabber_systemli }}
-        <small><pre>{{ site.data.fp.jabber_systemli }}</pre></small>
-    </p>
-	<p>mail.systemli.org / {{ site.data.onion.mail_systemli }}
-        <small><pre>{{ site.data.fp.mail_systemli }}</pre></small>
-	</p>
-	<p>wiki.systemli.org 
-		<small><pre>{{ site.data.fp.wiki_systemli }}</pre></small>
-	</p>
-    <p>demoticker.org
-        <small><pre>{{ site.data.fp.demoticker }}</pre></small>
+        <small><pre>{{ site.data.fp.tem_li_sha1 }}</pre></small>
     </p>
     <p>calc.systemli.org
-        <small><pre>{{ site.data.fp.calc_sha1 }}</pre></small>
+        <small><pre>{{ site.data.fp.calc_systemli_sha1 }}</pre></small>
+    </p>
+    <p>jabber.systemli.org / {{ site.data.onion.jabber_systemli }}
+        <small><pre>{{ site.data.fp.jabber_systemli_sha1 }}</pre></small>
+    </p>
+    <p>mail.systemli.org / {{ site.data.onion.mail_systemli }}
+        <small><pre>{{ site.data.fp.mail_systemli_sha1 }}</pre></small>
+    </p>
+    <p>wiki.systemli.org 
+	<small><pre>{{ site.data.fp.wiki_systemli_sha1 }}</pre></small>
+    </p>
+    <p>demoticker.org
+        <small><pre>{{ site.data.fp.demoticker_sha1 }}</pre></small>
     </p>
     <p><a href="./about-ssl.html">{{ lang.more_info }}</a></p>
 </div>
