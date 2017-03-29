@@ -19,7 +19,7 @@ Deswegen fangen wir diesmal mit dem Wichtigsten an. Wir möchten uns bei allen b
 Wir haben T-Shirts gedruckt!
 
 Wenn ihr ein T-Shirt bestellen möchtet, überweist bitte 13,50€ (Versand nur innerhalb Deutschlands) an 
-[unser Konto oder Postfach](/spenden.html) und sendet uns eine Mail mit eurer Wunschfarbe, -größe  und eurer Adresse.
+[unser Konto oder Postfach](/support-us.html) und sendet uns eine Mail mit eurer Wunschfarbe, -größe  und eurer Adresse.
 Bitte achtet darauf, dass wir Überweisung und Mail zuordnen können.
 Die verfügbaren Größen sind:
 
