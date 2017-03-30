@@ -31,10 +31,6 @@ mail.systemli.org
 SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
 SHA256: {{ site.data.fp.mail_systemli_sha256 }}
 
-wiki.systemli.org
-=================
-SHA1:   {{ site.data.fp.wiki_systemli_sha1 }}
-
 demoticker.org
 ==============
 SHA1:   {{ site.data.fp.demoticker_sha1 }}
