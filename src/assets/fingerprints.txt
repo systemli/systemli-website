@@ -33,6 +33,6 @@ SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
 
 demoticker.org
 ==============
-SHA256:   {{ site.data.fp.demoticker_sha256 }}
+SHA256: {{ site.data.fp.demoticker_sha256 }}
 SHA1:   {{ site.data.fp.demoticker_sha1 }}
 
