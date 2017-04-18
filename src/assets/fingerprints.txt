@@ -8,30 +8,31 @@ Date of last update: 2017-04-18
 
 systemli.org and pad.systemli.org
 =================================
-SHA1:   {{ site.data.fp.www_systemli_sha1 }}
 SHA256: {{ site.data.fp.www_systemli_sha256 }}
+SHA1:   {{ site.data.fp.www_systemli_sha1 }}
 
 *.tem.li (e.g. pad.tem.li) 
 ==========================
-SHA1:   {{ site.data.fp.tem_li_sha1 }}
 SHA256: {{ site.data.fp.tem_li_sha256 }}
+SHA1:   {{ site.data.fp.tem_li_sha1 }}
 
 calc.systemli.org
 =================
-SHA1:   {{ site.data.fp.calc_systemli_sha1 }}
 SHA256: {{ site.data.fp.calc_systemli_sha256 }}
+SHA1:   {{ site.data.fp.calc_systemli_sha1 }}
 
 jabber.systemli.org
 ===================
-SHA1:   {{ site.data.fp.jabber_systemli_sha1 }}
 SHA256: {{ site.data.fp.jabber_systemli_sha256 }}
+SHA1:   {{ site.data.fp.jabber_systemli_sha1 }}
 
 mail.systemli.org
 =================
-SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
 SHA256: {{ site.data.fp.mail_systemli_sha256 }}
+SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
 
 demoticker.org
 ==============
+SHA256:   {{ site.data.fp.demoticker_sha256 }}
 SHA1:   {{ site.data.fp.demoticker_sha1 }}
 
