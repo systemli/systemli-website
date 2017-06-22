@@ -16,6 +16,8 @@ Die letzten Monate haben wir bei systemli.org einiges an der technischen Infrast
   * Unsere DNS-Zonen werden per DNSSEC abgesichert
   * Wir bieten DANE Records am, um zu verhindern, dass gefälschte SSL Zertifikate in unserem Namen verbreitet werden
 
+<!--more-->
+
 ## Automatisierte Spamfilterung
 
 MIt Hilfe von [SpamAssassin](https://de.wikipedia.org/wiki/SpamAssassin) haben wir anfangen, automatisiert Spam zu filtern und von eurem Posteingang fernzuhalten.

@@ -16,6 +16,8 @@ Over the last months, we at systemli.org improved some of our technical infrastr
   * Our DNS zones are secured by DNSSEC
   * We offer DANE records to prevent forged SSL certificates being contributed in our name
 
+<!--more-->
+
 ## Automated spam filter 
 
 By using [SpamAssassin](https://en.wikipedia.org/wiki/SpamAssassin) we started to automatically filter your spam to keep it away from your mailbox.
