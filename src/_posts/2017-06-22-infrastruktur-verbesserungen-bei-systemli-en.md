@@ -51,7 +51,7 @@ Only recently we have been reaching the future: All our services are now availab
 
 As of late, our DNS zones are signed by [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) keys and we published for all our services [DANE Records](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 
 
-The [Domain Name System](https://de.wikipedia.org/wiki/Domain_Name_System) (DNS) is a another protocoll of the Stone age of the internet. Purpose of DNS is to translate IP addresses (see above) into word-based domain names. For example, `mail.systemli.org` is changed into the IPv4 address `198.167.223.214` and the IPv6 address `2001:67c:1350:e000::3`. 
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) is a another protocoll of the Stone age of the internet. Purpose of DNS is to translate IP addresses (see above) into word-based domain names. For example, `mail.systemli.org` is changed into the IPv4 address `198.167.223.214` and the IPv6 address `2001:67c:1350:e000::3`. 
 
 Unfortunatly, DNS is not highly secured. So-called [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing) attacks enable easy, forged answers to DNS requests. Therefore, people are offered forged addresses and might connect unintentionally with a wrong (malicious) server.
 
@@ -62,9 +62,9 @@ The problem with DNSSEC is that it is only supported by a couple of operating sy
 
 ## DANE: TLS certificates in DNS
 
-Another benefit of DNSSEC is that you can use the cryptographic validated DNS now as a confidental place to provide information. [DANE](https://de.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)-Protokoll defines a standard to file details about encryption certificates in DNS using so-called TLSA records.
+Another benefit of DNSSEC is that you can use the cryptographic validated DNS now as a confidental place to provide information. [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)-Protokoll defines a standard to file details about encryption certificates in DNS using so-called TLSA records.
 
-For good reasons (https://www.eff.org/deeplinks/2010/03/researchers-reveal-likelihood-governments-fake-ssl) (https://www.wired.com/2010/03/packet-forensics/), you should not trust (https://blog.chaosradio.ccc.de/index.php/2011/09/29/cr-172-ssl-oder-einmal-aufmachen-bitte/, german only) CAs, which are authorized to issue officiall TLS/ SSL certifactes
+For [good reasons](https://www.eff.org/deeplinks/2010/03/researchers-reveal-likelihood-governments-fake-ssl), you should [not trust](https://www.wired.com/2010/03/packet-forensics/) CAs, [which are authorzied](https://blog.chaosradio.ccc.de/index.php/2011/09/29/cr-172-ssl-oder-einmal-aufmachen-bitte/, german only) to issue officiall TLS/ SSL certifactes.
 
 By using DANE, we as a service provider can file information about our [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security) in our DNS zones and you can check if the server offered certificate is really accorded with the information from our DNS entries.
 
