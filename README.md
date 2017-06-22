@@ -17,5 +17,5 @@ gem install jekyll -v 2.5.3
 ## Add new post
  * Write new post in `_posts/`.
  * Add translation also in `_posts/`.
- * `octopress id _posts/first_post _posts/second_post
+ * `octopress id src/_posts/first_post src/_posts/second_post
  * restart jekyll
