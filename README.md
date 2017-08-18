@@ -14,6 +14,12 @@ gem install octopress octopress-paginate octopress-multilingual
 gem install jekyll -v 2.5.3
 ```
 
+If jekyll doesn't start, you have multiple versions of some gems installed.
+```
+gem uninstall jekyll liquid colorator
+```
+Please uninstall the more recent ones. (LOL)
+
 ## Add new post
  * Write new post in `_posts/`.
  * Add translation also in `_posts/`.
