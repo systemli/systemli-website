@@ -7,8 +7,7 @@ before_script:
 deploy-to-webservers:
   stage: deploy
   script:
-     - echo $CI_PROJECT_DIR
-#    - jekyll build
-#    - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www-vmserv.systemli.org:/var/www/www.systemli.org/www
-#    - rsync -vrltgoDz --delete -e "ssh -p2222" ./_site/ systemli@www-xeon.systemli.org:/var/www/www.systemli.org/www
-
+    - jekyll build
+    - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www-vmserv.systemli.org:/var/www/www.systemli.org/www
+    - rsync -vrltgoDz --delete -e "ssh -p2222" ./_site/ systemli@www-xeon.systemli.org:/var/www/www.systemli.org/www
+    - rm -rf _site/
