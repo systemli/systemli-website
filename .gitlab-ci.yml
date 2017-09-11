@@ -1,0 +1,13 @@
+stages:
+    - deploy
+
+before_script:
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+git-auto-pull-on-stage:
+  stage: deploy
+  script:
+    - jekyll build
+    - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www-vmserv.systemli.org:/var/www/www.systemli.org/www
+    - rsync -vrltgoDz --delete -e "ssh -p2222" ./_site/ systemli@www-xeon.systemli.org:/var/www/www.systemli.org/www
+
