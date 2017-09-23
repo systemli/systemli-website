@@ -10,6 +10,7 @@ Bei uns könnt ihr Websites hosten. Wir bieten sowohl Tools zur Wissensverwaltun
 
 ### Bedingungen 
 
+Unser Hosting-Angebot richtet sich vorrangig an Gruppen und Organisationen.
 Um bei uns gehostet zu werden, solltet ihr folgende Kriterien erfüllen:
 
   * eure Website ist kein selbstgeschriebener Code.
