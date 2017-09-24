@@ -6,6 +6,8 @@ before_script:
 
 deploy-to-webservers:
   stage: deploy
+  only:
+    - master
   script:
     - jekyll build
     - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www-vmserv.systemli.org:/var/www/www.systemli.org/www
