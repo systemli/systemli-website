@@ -30,7 +30,7 @@ Wir bieten Hosting für das beliebte und gut konfigurierbare Blogsystem Wordpres
 Wir erwarten, dass ihr verwendete Plugins aktuell haltet. Plugins, die Services oder Inhalt von Drittanbietern nachladen, sind bei uns nicht erwünscht (z. B.: Google Fonts oder BootstrapCDN).
 Bevor ihr euch an uns wendet, überprüft bitte, ob noblogs.org oder blackblogs.org euch zufrieden stellen.
 
-#### Wiki
+#### Wikis
 
 Zur Strukturierung von Wissen sind Wikis ein gutes Werkzeug. Sie helfen, Wissen zu verwalten, durchsuchbar zu halten und zu erweitern. Wir bieten als Wiki-Software Dokuwiki an.  
 
