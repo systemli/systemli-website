@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    {% if page.url == '/index.html' %}
-    <title>systemli.org - Your friendly tech collective</title>
-	{% elsif page.url == '/en/index.html' %}
-    <title>systemli.org - Your friendly tech collective</title>
+    {% if page.url contains 'index.html' %}
+      {% assign index = true %}
+      {% assign title = 'systemli.org - Your friendly tech collective' %}
     {% else %}
-    <title>{{ page.title}} | systemli.org</title>
+      {% assign index = false %}
+      {% assign title = page.title | append: ' | systemli.org' %}
     {% endif %}
+    <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ lang.subtitle }}">
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ lang.subtitle }}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
+    <meta property="og:type" content="{% if index %}website{% else %}article{% endif %}" />
+    <meta property="og:image" content="/assets/img/systemli_logo_small.png" />
+    <meta name="twitter:card" content="{{ title }}" />
+    <meta name="twitter:site" content="@systemli" />
+    <meta name="twitter:creator" content="@systemli" />
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/main.css"/>
     <!--[if lt IE 9]>
@@ -48,7 +57,7 @@
             </button>
 		{% if page.lang == 'de' %}
            	<a class="navbar-brand" href="/index.html">systemli.org</a>
-		{% else %}	
+		{% else %}
            	<a class="navbar-brand" href="/{{ page.lang }}/index.html">systemli.org</a>
 		{% endif %}
         </div>
