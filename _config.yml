@@ -1,4 +1,5 @@
 name: Systemli - Your friendly tech collective
+url: https://www.systemli.org
 highlighter: pygments
 source: ./src
 include:
