@@ -11,7 +11,7 @@ We host your web sites. We offer tools for knowledge management and hosting of w
 Our hosting offer targets primarily groups and organisations. To be hosted by us, you should meet the following criteria:
 
   * your website does not contain self-written code
-  * your website indicates an imprint.
+  * your website indicates a contact information.
   
 We expect you to keep the software of your website updated and check them regularly. If you don´t, we reserve the right to deactivate your website without consultation.
   

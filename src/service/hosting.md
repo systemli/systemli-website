@@ -14,7 +14,7 @@ Unser Hosting-Angebot richtet sich vorrangig an Gruppen und Organisationen.
 Um bei uns gehostet zu werden, solltet ihr folgende Kriterien erfüllen:
 
   * eure Website ist kein selbstgeschriebener Code.
-  * ihr habt ein Impressum auf eurer Website.
+  * ihr habt eine Kontaktmöglichkeit auf eurer Website.
 
 Wir erwarten, dass ihr die Software eurer Website aktuell haltet und überprüfen dies regelmäßig. Solltet ihr dem nicht nachkommen, behalten wir uns vor eure Website ohne Rücksprache zu deaktivieren.
 
