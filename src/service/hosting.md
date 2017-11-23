@@ -22,7 +22,7 @@ Weiterhin überprüfen wir, ob eure Website inhaltlich aktualisiert wird. Sollte
 Veraltete Websites können auf Wunsch archiviert werden und somit erhalten bleiben. Wir werden euch gegebenenfalls kontaktieren, um das Vorgehen abzusprechen.
 Solltet ihr nicht erreichbar sein, behalten wir uns vor eure Webseite abzuschalten und zu löschen. 
 
-  * Wir ermuntern euch, die Inhalte eurer Webseiten unter einer freien Lizenz (z.B. GPL oder Creative Commons) zu veröffentlichen, damit andere sie weiter verwenden können.
+  * Wir ermuntern euch, die Inhalte eurer Webseiten unter einer freien Lizenz (z.B. [GNU GPL](https://www.gnu.org/licenses/gpl.html) oder [Creative Commons](https://creativecommons.org/licenses/)) zu veröffentlichen, damit andere sie weiter verwenden können.
   * Wir wollen bei uns keine Services, die personenbezogene Daten der Nutzer\*innen sammeln. Darunter fallen beispielsweise Google Analytics und externe Content Delivery Networks (CDN).
   * Wir ermuntern euch, eure Seiten barrierefrei zugänglich zu machen.
   * Wir löschen Websites, die mehr als 90 Tage nach Bereitstellung nicht eingerichtet wurden.

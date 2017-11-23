@@ -17,9 +17,9 @@ We expect you to keep the software of your website updated and check them regula
   
 Furthermore, we check if your website content is getting updated. In case this has not been happening for two years, we see the website as outdated. Outdated websites can - if you wish - be archived and therefore preserved. We might contact your regarding the options. If we cannot reach you, we reserve the right to disable and delete your website.
 
-  * We encourage you to publish you content under a free license to enable re-use (e.g. GPL or Creative Commons).
-  * We don't want services with us that collect personal data of users. This include e.g. Google Analytics and external content delivery networks (CDN).
-  * We encourage you to make your websites barrier-free.
+  * We encourage you to publish your content under a free license (e.g. [GNU GPL](https://www.gnu.org/licenses/gpl.html) or [Creative Commons](https://creativecommons.org/licenses/)) to allow re-use.
+  * We don't want services with us that collect personal data of users. This includes e.g. Google Analytics and external content delivery networks (CDN).
+  * We encourage you to make your websites barrier-free accessible.
   * We delete websites that haven't been configured 90 days after provisioning.
 
 ### Offers
