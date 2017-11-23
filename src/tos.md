@@ -36,7 +36,7 @@ translation_id: 3bcc4028d59fbd74d03760256430d8c2
 ### Inhalte
 
  * Wir übernehmen keine Verantwortung für die inhaltliche Nutzung unserer Dienste.
- * Veröffentlichungen die gegen das Urheberrecht verstoßen können die Existenz unserer Services gefährden.
+ * Veröffentlichungen, die gegen das Urheberrecht verstoßen, können die Existenz unserer Services gefährden.
 
 ### Spam
 
