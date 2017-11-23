@@ -17,14 +17,18 @@ We expect you to keep the software of your website updated and check them regula
   
 Furthermore, we check if your website content is getting updated. In case this has not been happening for two years, we see the website as outdated. Outdated websites can - if you wish - be archived and therefore preserved. We might contact your regarding the options. If we cannot reach you, we reserve the right to disable and delete your website.
 
-
+  * We encourage you to publish you content under a free license to enable re-use (e.g. GPL or Creative Commons).
+  * We don't want services with us that collect personal data of users. This include e.g. Google Analytics and external content delivery networks (CDN).
+  * We encourage you to make your websites barrier-free.
+  * We delete websites that haven't been configured 90 days after provisioning.
 
 ### Offers
 
 #### Blogs
 
 We offer hosting for the popular and well configured blog system Wordpress. Our hosting targets mainly projects which want to create a highly individualized blog.
-We expect you to keep the used plugins updated. Plugins that reload services or content from third-party providers are not desired ( e.g. Google Fonts or BootstrapCDN). Before contacting us, please check if you are content with the services offered by [noblogs.org](https://noblogs.org) or [blackblogs.org](https://blackblogs.org).
+We expect you to keep the used plugins updated.
+Before contacting us, please check if you are content with the services offered by [noblogs.org](https://noblogs.org) or [blackblogs.org](https://blackblogs.org).
 
 
 #### Wikis

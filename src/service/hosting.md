@@ -22,12 +22,17 @@ Weiterhin überprüfen wir, ob eure Website inhaltlich aktualisiert wird. Sollte
 Veraltete Websites können auf Wunsch archiviert werden und somit erhalten bleiben. Wir werden euch gegebenenfalls kontaktieren, um das Vorgehen abzusprechen.
 Solltet ihr nicht erreichbar sein, behalten wir uns vor eure Webseite abzuschalten und zu löschen. 
 
+  * Wir ermuntern euch, die Inhalte eurer Webseiten unter einer freien Lizenz (z.B. GPL oder Creative Commons) zu veröffentlichen, damit andere sie weiter verwenden können.
+  * Wir wollen bei uns keine Services, die personenbezogene Daten der Nutzer\*innen sammeln. Darunter fallen beispielsweise Google Analytics und externe Content Delivery Networks (CDN).
+  * Wir ermuntern euch, eure Seiten barrierefrei zugänglich zu machen.
+  * Wir löschen Websites, die mehr als 90 Tage nach Bereitstellung nicht eingerichtet wurden.
+
 ### Angebote
 
 #### Blogs
 
 Wir bieten Hosting für das beliebte und gut konfigurierbare Blogsystem Wordpress an. Unser Hosting richtet sich vor allem an Projekte, die ein hoch individualisiertes Blog erstellen möchten.
-Wir erwarten, dass ihr verwendete Plugins aktuell haltet. Plugins, die Services oder Inhalt von Drittanbietern nachladen, sind bei uns nicht erwünscht (z. B.: Google Fonts oder BootstrapCDN).
+Wir erwarten, dass ihr verwendete Plugins aktuell haltet.
 Bevor ihr euch an uns wendet, überprüft bitte, ob [noblogs.org](https://noblogs.org) oder [blackblogs.org](https://blackblogs.org).
  euch zufrieden stellen.
 
