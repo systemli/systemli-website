@@ -29,21 +29,21 @@
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <script src="/assets/js/jquery-1.10.1.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Piwik -->
+    <!-- Matomo -->
     <script type="text/javascript">
         var _paq = _paq || [];
-        _paq.push(["trackPageView"]);
-        _paq.push(["enableLinkTracking"]);
-
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
         (function() {
-            var u=(("https:" == document.location.protocol) ? "https" : "http") + "://analytics.systemli.org/";
-            _paq.push(["setTrackerUrl", u+"piwik.php"]);
-            _paq.push(["setSiteId", "2"]);
-            var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
-            g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+            var u="//analytics.systemli.org/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '2']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
     </script>
-    <!-- End Piwik Code -->
+    <!-- End Matomo Code -->
 </head>
 <body>
 <div class="container">

@@ -49,7 +49,7 @@ We offer a ticker software with which you can accompany your political actions. 
 
 #### Analytics
 
-For public websites like blogs and news portals, it can be useful to know how often content is being read. Most websites use Google Analytics for that. Upon request, we offer Piwik as a privacy friendly alternative. Piwik takes the wish for privacy on side of the users into account as well as the needs of website operators.
+For public websites like blogs and news portals, it can be useful to know how often content is being read. Most websites use Google Analytics for that. Upon request, we offer Matomo (formerly Piwik) as a privacy friendly alternative. Matomo takes the wish for privacy on side of the users into account as well as the needs of website operators.
 
 
 #### SSL-encryption
