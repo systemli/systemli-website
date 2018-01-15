@@ -54,7 +54,7 @@ Ihr könnt statisches HTML/CSS via SFTP auf unseren Webserver hochladen.
 
 #### Analyse
 
-Für öffentliche Websites, wie Blogs oder Nachrichtenportale, kann es sinnvoll sein, zu wissen, wie häufig die Inhalte gelesen werden. Die meisten Websites binden dazu Google Analytics ein. Als datenschutzfreundliche Alternative bieten wir auf Anfrage Matomo (ehemals Piwik) an. Matomo berücksichtigt sowohl viele Bedürfnisse für Website-Betreiber*innen, als auch den Datenschutz der Nutzer*innen.
+Für öffentliche Websites, wie Blogs oder Nachrichtenportale, kann es sinnvoll sein, zu wissen, wie häufig die Inhalte gelesen werden. Die meisten Websites binden dazu Google Analytics ein. Als datenschutzfreundliche Alternative bieten wir auf Anfrage Matomo (ehemals Piwik) an. Matomo berücksichtigt sowohl viele Bedürfnisse für Website-Betreiber\*innen, als auch den Datenschutz der Nutzer\*innen.
 
 #### SSL-Verschlüsselung
 

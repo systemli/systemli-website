@@ -26,7 +26,7 @@ Emails, die als Spam erkannt werden, wandern ab sofort in den "Junk"-Ordner. Ema
 
 Falls eine Email zu Unrecht im "Junk" Ordner gelandet ist, informiert uns bitte umgehend.
 
-Solltet ihr Systemadministrator*innen sein und wissen wollen, wie wir unseren Spamassassin konfiguriert haben, könnt ihr unsere Konfiguration anhand unserer [SpamAssassin Ansible-Rolle](https://github.com/systemli/ansible-role-spamassassin) nachvollziehen.
+Solltet ihr Systemadministrator\*innen sein und wissen wollen, wie wir unseren Spamassassin konfiguriert haben, könnt ihr unsere Konfiguration anhand unserer [SpamAssassin Ansible-Rolle](https://github.com/systemli/ansible-role-spamassassin) nachvollziehen.
 
 ## Mandatory TLS: erzwungene Transportverschlüsselung beim Mail-Versand
 

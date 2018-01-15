@@ -7,7 +7,7 @@ date:   2016-03-08 12:00:00
 translation_id: a3a730d6c3bef7cac9b580487bbcff41
 ---
 
-In den vergangen Tagen wurde von unseren Freund*innen von [immerda.ch](https://www.immerda.ch/) ein
+In den vergangen Tagen wurde von unseren Freund\*innen von [immerda.ch](https://www.immerda.ch/) ein
 Man-in-the-Middle Angriff auf Jabberuser via Tor entdeckt.
  
 Diesen Usern wurde unter Umständen ein falsches Zertfikat präsentiert. Dies sollte in einer 
