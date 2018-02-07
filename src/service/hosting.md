@@ -33,8 +33,7 @@ Solltet ihr nicht erreichbar sein, behalten wir uns vor eure Webseite abzuschalt
 
 Wir bieten Hosting für das beliebte und gut konfigurierbare Blogsystem Wordpress an. Unser Hosting richtet sich vor allem an Projekte, die ein hoch individualisiertes Blog erstellen möchten.
 Wir erwarten, dass ihr verwendete Plugins aktuell haltet.
-Bevor ihr euch an uns wendet, überprüft bitte, ob [noblogs.org](https://noblogs.org) oder [blackblogs.org](https://blackblogs.org).
- euch zufrieden stellen.
+Bevor ihr euch an uns wendet, überprüft bitte, ob [noblogs.org](https://noblogs.org) oder [blackblogs.org](https://blackblogs.org) euch zufrieden stellen.
 
 #### Wikis
 
