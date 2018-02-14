@@ -13,6 +13,6 @@ The following reasons have moved us not to offer Bitcoins as a way to donate to 
   
   * Bitcoin transactions  go along with a disproportionately high [power consumption](https://arstechnica.com/tech-policy/2017/12/bitcoins-insane-energy-consumption-explained/). We consider this as being ecologically irresponsible. 
   * Bitcoins can't really be used as real payment method since only a handful of people are willing to take the risk of the massively changing Bitcoin course and to accept Bitcoin as a currency. 
-  * The supposedly democratic and decentralized nature of Bitcoins is undermined by cartel-like agreements by big miner networks and  and large-scale investors(https://www.bitcoinmining.com/bitcoin-mining-centralization/)
+  * The supposedly democratic and decentralized nature of Bitcoins is undermined by cartel-like agreements by [big miner networks and large-scale investors](https://www.bitcoinmining.com/bitcoin-mining-centralization/).
 
 Therefore, Bitcoin are mostly an object of speculation for people who have capital to invest. As with other speculative markets, they aggravate an unequal distribution of social wealth. We don't want to support this development.
