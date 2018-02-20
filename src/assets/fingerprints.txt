@@ -4,22 +4,17 @@ layout: null
 Fingerprints of our server certificates
 =======================================
 
-Date of last update: 2017-04-18
+Date of last update: 2018-02-20
 
-systemli.org and pad.systemli.org
+systemli.org and www.systemli.org
 =================================
 SHA256: {{ site.data.fp.www_systemli_sha256 }}
 SHA1:   {{ site.data.fp.www_systemli_sha1 }}
 
-*.tem.li (e.g. pad.tem.li) 
-==========================
+*.tem.li (e.g. dereferrer.tem.li)
+=================================
 SHA256: {{ site.data.fp.tem_li_sha256 }}
 SHA1:   {{ site.data.fp.tem_li_sha1 }}
-
-calc.systemli.org
-=================
-SHA256: {{ site.data.fp.calc_systemli_sha256 }}
-SHA1:   {{ site.data.fp.calc_systemli_sha1 }}
 
 jabber.systemli.org
 ===================
@@ -30,9 +25,4 @@ mail.systemli.org
 =================
 SHA256: {{ site.data.fp.mail_systemli_sha256 }}
 SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
-
-demoticker.org
-==============
-SHA256: {{ site.data.fp.demoticker_sha256 }}
-SHA1:   {{ site.data.fp.demoticker_sha1 }}
 
