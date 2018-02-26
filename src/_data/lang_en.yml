@@ -3,6 +3,10 @@
 certificates: Certificates
 contact: contact
 donations: Support us!
+fingerprints_post: Goodbye to SSL fingerprints
+fingerprints_post_pre: Please note
+fingerprints_post_url: /en/2017/10/18/Lets-Encrypt-en.html
+fingerprints_signed: Signed text with fingerprints
 license: is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. 
 more_info: More information
 publishedon: Published on

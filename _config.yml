@@ -6,6 +6,7 @@ include:
   - .well-known
   - .htaccess
   - assets/fingerprints.txt
+  - assets/fingerprints.txt.asc
 
 gems:
   - octopress-paginate
