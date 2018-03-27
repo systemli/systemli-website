@@ -12,18 +12,7 @@ at https://www.systemli.org/en/2017/10/18/Lets-Encrypt-en.html
 
 The remaining long-term certificates are listed here.
 
-*.tem.li (e.g. dereferrer.tem.li)
-=================================
-SHA256: {{ site.data.fp.tem_li_sha256 }}
-SHA1:   {{ site.data.fp.tem_li_sha1 }}
-
 jabber.systemli.org
 ===================
 SHA256: {{ site.data.fp.jabber_systemli_sha256 }}
 SHA1:   {{ site.data.fp.jabber_systemli_sha1 }}
-
-mail.systemli.org
-=================
-SHA256: {{ site.data.fp.mail_systemli_sha256 }}
-SHA1:   {{ site.data.fp.mail_systemli_sha1 }}
-
