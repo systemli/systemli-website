@@ -4,7 +4,7 @@ layout: null
 Fingerprints of our server certificates
 =======================================
 
-Date of last update: 2018-02-26
+Date of last update: 2018-03-27
 
 Please note: Since late 2017, we migrated most of our SSL certificates
 to Let's Encrypt certificates. For more information, see our blog post
