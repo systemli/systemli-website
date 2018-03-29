@@ -8,7 +8,7 @@ categories:
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>systemli.org - Your friendly tech collective</title>
-    <link href="http://www.systemli.org/"/>
+    <link href="https://www.systemli.org/"/>
     <link type="application/atom+xml" rel="self" href="http://example.com/atom.xml"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>https://www.systemli.org/</id>
