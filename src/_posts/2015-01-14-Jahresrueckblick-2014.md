@@ -9,7 +9,7 @@ translation_id: 7ebbd9d3b6cd108292c08d2fd148e206
 [![shirts]({{ site.url }}/assets/img/shirts_small.jpg)]({{ site.url }}/assets/img/shirts.jpg)
 Das Jahr ging zu Ende und seit unserem letzen Update ist schon wieder einige Zeit vergangen.
 Deswegen fangen wir diesmal mit dem Wichtigsten an. Wir möchten uns bei allen bedanken, die uns in diesem Jahr geholfen haben, systemli.org zu ermöglichen.
-- Danke an die tollen Organisator*innen und Helfer*innen der Soliparty am 05.09.
+- Danke an die tollen Organisator\*innen und Helfer\*innen der Soliparty am 05.09.
   Ihr seid der Hammer! Die Party war phantastisch. 
 - Danke an den [CCC](http://ccc.de/) und alle anderen Spender*innen. Ihr habt uns mit euren Spenden kräftig unter die Arme gegriffen.
 - Danke an [M/Monit](http://mmonit.com/), welche uns ihrer Software sehr kostengünstig zur Verfügung gestellt haben um unsere Dienste noch stabiler zu machen.
