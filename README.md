@@ -25,3 +25,8 @@ Please uninstall the more recent ones. (LOL)
  * Add translation also in `_posts/`.
  * `octopress id src/_posts/first_post src/_posts/second_post
  * restart jekyll
+
+You can manually set the break point between teaser and full post with:
+```
+<!--more-->
+```
