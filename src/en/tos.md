@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Terms of Services
-menu_group: contact
-en_title: Terms of Services
 lang: en
 translation_id: 3bcc4028d59fbd74d03760256430d8c2
 ---
