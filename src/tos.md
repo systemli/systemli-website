@@ -12,8 +12,9 @@ translation_id: 3bcc4028d59fbd74d03760256430d8c2
 
 ### Datensparsamkeit
 
+ * Wir speichern so wenige Daten und Logs wie möglich.
  * Wir werden euch niemals nach euren persönlichen Daten fragen. Unsere Services sind anonym nutzbar.
- * Wir speichern so wenige Daten, IP-Adressen und Logs wie möglich. Zum Schutz vor Angriffen und zur Fehlersuche kann es notwendig sein, solche Daten kurzzeitig vorzuhalten.
+ * Wir speichern keine IP-Adressen. Zum Schutz vor Angriffen und zur Fehlersuche kann es kurzzeitige Ausnahmen geben.
  * Unsere Services sind werbefrei. Wir übermitteln keine Daten an Dritte.
  * Accounts, die mehr als zwei Jahre lang nicht verwendet wurden, werden dauerhaft deaktiviert und alle Daten gelöscht. Eine Reaktivierung ist nicht möglich. Der Nutzer\*innenname bleibt langfristig gesperrt um Identitätsdiebstahl zu verhindern.
 

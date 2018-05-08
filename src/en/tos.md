@@ -10,8 +10,9 @@ translation_id: 3bcc4028d59fbd74d03760256430d8c2
 
 ## Data Economy
 
+ * We store as little data and logs as possible.
  * We will never ask you for your personal information. Our services are usable anonymously.
- * We store as little data, IP addresses and logs as possible. To secure our services against attacks and for debugging purposes it might be necessary to store such data for a short amount of time.
+ * No IP addresses are retained. To secure our services against attacks and for debugging purposes temporary exceptions are possible.
  * Our services are free of advertisement. We do not transfer data to third parties.
  * Accounts which have not been used for two years will be deactivated permanently and all data will be cleared. Re-activation is not possble. The user name will be blocked permanently to prevent identity fraud.
 
