@@ -3,12 +3,10 @@ layout: page
 title: Terms of Services
 menu_group: contact
 en_title: Terms of Services
-lang: de
+lang: en
 translation_id: 3bcc4028d59fbd74d03760256430d8c2
 ---
 
-# Terms of Service (ToS) 
- 
  * We have an understanding of ourselves working as a political collective. The usage of our services depends on the compatibility with our [self-conception](https://www.systemli.org/about-us.html).
  * We will prevent usage that contradicts our understanding. We reserve the right to delete the relevant accounts and related content in such cases.
 

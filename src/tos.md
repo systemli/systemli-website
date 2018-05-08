@@ -7,8 +7,6 @@ lang: de
 translation_id: 3bcc4028d59fbd74d03760256430d8c2
 ---
 
-# Nutzungsbedingungen
-
  * Wir verstehen uns als politisches Kollektiv. Die Nutzung unserer Services unterliegt der Vereinbarkeit mit unsererm [Selbstverständnis](/about-us.html).
  * Nutzungen, die unserem Selbstverständnis widersprechen, werden wir unterbinden. In solchen Fällen behalten wir uns vor, die betreffenden Accounts und zugehörigen Inhalte zu löschen.
 
