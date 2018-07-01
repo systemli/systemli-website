@@ -27,4 +27,4 @@ Und eine kleine Pop-Hütte ;) !
 
 <b>Party-Flyer:</b>
 
-<img src="/assets/img/off_the_record_part_two.jpg" alt="off-the-record" align="left" />
+<img src="/assets/img/dance_like_nobody_is_watching_flyer.jpeg" alt="dance-like-nobody-is-watching" align="left" />
