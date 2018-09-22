@@ -10,6 +10,5 @@ deploy-to-webservers:
     - master
   script:
     - jekyll build
-    - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www2.systemli.org:/var/www/www.systemli.org/www
     - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
     - rm -rf _site/
