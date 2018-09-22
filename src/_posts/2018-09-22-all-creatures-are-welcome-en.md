@@ -13,6 +13,8 @@ Last year, there has been some discussion around sexist behaviour at and around 
 
 Due to the topic being important and underrepresented, we want to share some thoughts with you on.
 
+<!--more-->
+
 This is not about the classification of conrete events - we do not know enough about them to do so. More important for us is the discussion and a general attitude around the topic.
 Beforehand: As a political tech collective, we value the CCC as a get together of many different people, with and without tech affinity. Emancipatory perspectives on social, political and technological problems have a prominent place here.
 

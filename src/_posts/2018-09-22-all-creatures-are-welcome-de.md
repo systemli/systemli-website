@@ -13,6 +13,8 @@ Im letzten Jahr gab es wieder einige Diskussionen zu sexistischem Verhalten und 
 Bisher gibt es leider keine uns bekannte öffentliche Positionierung durch die Kongress-Organisator\*innen.
 Da wir das Thema für wichtig und unterrepräsentiert halten, möchten wir dazu ein paar Worte verlieren.
 
+<!--more-->
+
 Uns geht es nicht um die Einordnung konkreter Vorfälle - dazu wissen wir zu wenig. Für viel wichtiger
 halten wir eine Diskussion, um die grundsätzliche Haltung dazu.
 
