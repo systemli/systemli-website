@@ -21,7 +21,7 @@ Beforehand: As a political tech collective, we value the CCC as a get together o
 Still, we live in an androcentric [1] and patriarchal reality. In it, almost all rooms and relations are dominated by heteronormative and male structures [2]. This is especially true for the tech scene, and therefore for a large percentage of the congress.
 systemli.org too is an association in which white, male, middle european perspectices are formative. We do not want to criticize others and exclude ourselves. We understand ourselves as part of the congress and want to practice joint self-criticism.
 
-[1] Androcentrism: to place a masculine point of view at the center of one's world view.
+[1] Androcentrism: to place a masculine point of view at the center of one's world view.  
 [2] Heteronormativity: Dominance of the view that there are only two genders and heterosexuality is the norm or default sexual orientation.
 
 As long as society hasn´t changed, we need to decide for other practices and the courageous commitment for spaces in which these other practices are possible. That means: safe spaces for LGBTIQ*, awareness teams, prioritized dealing with accusations of sexism, an awareness for the problems regarding the presumption of innocence in such cases, sometimes quotas at the right positions and most importantly: raising awareness through public debate.
