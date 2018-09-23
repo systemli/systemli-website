@@ -8,7 +8,7 @@ translation_id: 83bc7f5aa7509597b04d4404cb633555
 
 [![CCC](/assets/img/ccc.jpg)](/assets/img/ccc.jpg)
 
-It´s time again, the next Chaos Communication Congress (CCC) starts soon. Recently, the [Call for Participation for 35C3](https://events.ccc.de/2018/09/11/35c3-call-for-participation-and-submission-guidelines/) has been published.
+It´s time again, the next Chaos Communication Congress (C3) starts soon. Recently, the [Call for Participation for 35C3](https://events.ccc.de/2018/09/11/35c3-call-for-participation-and-submission-guidelines/) has been published.
 Last year, there has been some discussion around sexist behaviour at and around the congress. So far, there has been no public statement by the organizers we know of.
 
 Due to the topic being important and underrepresented, we want to share some thoughts with you on.
@@ -16,7 +16,7 @@ Due to the topic being important and underrepresented, we want to share some tho
 <!--more-->
 
 This is not about the classification of concrete events - we do not know enough about them to do so. More important for us is the discussion and a general attitude around the topic.
-Beforehand: As a political tech collective, we value the CCC as a get together of many different people, with and without tech affinity. Emancipatory perspectives on social, political and technological problems have a prominent place here.
+Beforehand: As a political tech collective, we value the C3 as a get together of many different people, with and without tech affinity. Emancipatory perspectives on social, political and technological problems have a prominent place here.
 
 Still, we live in an androcentric [1] and patriarchal reality. In it, almost all rooms and relations are dominated by heteronormative and male structures [2]. This is especially true for the tech scene, and therefore for a large percentage of the congress.
 systemli.org too is an association in which white, male, middle european perspectives are formative. We do not want to criticize others and exclude ourselves. We understand ourselves as part of the congress and want to practice joint self-criticism.

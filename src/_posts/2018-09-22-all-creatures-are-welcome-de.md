@@ -8,7 +8,7 @@ translation_id: 83bc7f5aa7509597b04d4404cb633555
 
 [![CCC](/assets/img/ccc.jpg)](/assets/img/ccc.jpg)
 
-Es ist wieder soweit, der Chaos Communication Congress (CCC) steht vor der Tür. Kürzlich wurde der [Call for Participation für den 35C3](https://events.ccc.de/2018/09/11/35c3-call-for-participation-und-leitfaden-zur-einreichung/) für den nächsten Kongress veröffentlicht.
+Es ist wieder soweit, der Chaos Communication Congress (C3) steht vor der Tür. Kürzlich wurde der [Call for Participation für den 35C3](https://events.ccc.de/2018/09/11/35c3-call-for-participation-und-leitfaden-zur-einreichung/) für den nächsten Kongress veröffentlicht.
 Im letzten Jahr gab es wieder einige Diskussionen zu sexistischem Verhalten und Übergriffigkeit auf und um den Kongress.
 Bisher gibt es leider keine uns bekannte öffentliche Positionierung durch die Kongress-Organisator\*innen.
 Da wir das Thema für wichtig und unterrepräsentiert halten, möchten wir dazu ein paar Worte verlieren.
@@ -18,7 +18,7 @@ Da wir das Thema für wichtig und unterrepräsentiert halten, möchten wir dazu 
 Uns geht es nicht um die Einordnung konkreter Vorfälle - dazu wissen wir zu wenig. Für viel wichtiger
 halten wir eine Diskussion, um die grundsätzliche Haltung dazu.
 
-Vorweg: Als politisches Technikkollektiv schätzen wir den CCC-Kongress als Ort der Zusammenkunft vieler
+Vorweg: Als politisches Technikkollektiv schätzen wir den C3 als Ort der Zusammenkunft vieler
 unterschiedlicher Menschen, mit und ohne Technikbezug. Emanzipatorische Perspektiven auf
 soziale, politische und technische Probleme haben hier einen angenehm prominenten Platz.
 
