@@ -2,6 +2,7 @@
 layout: page
 title: Nutzungsbedingungen
 menu_group: contact
+order: 6
 en_title: Terms of Services
 lang: de
 translation_id: 3bcc4028d59fbd74d03760256430d8c2

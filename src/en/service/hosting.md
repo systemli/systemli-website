@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: en
-title: Hosting
+title: Web Hosting
 translation_id: d340d5414d90735b71051cb9489abeab
 ---
 We host your web sites. We offer tools for knowledge management and hosting of wordpress blogs. Regarding that, we have some general information you should note.

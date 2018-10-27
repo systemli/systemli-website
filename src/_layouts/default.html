@@ -50,22 +50,8 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ lang.servicedir }}/xmpp.html">Jabber</a></li>
-                        <li><a href="{{ lang.servicedir }}/mail.html">E-Mail</a></li>
-                        <li><a href="{{ lang.servicedir }}/etherpad.html">Etherpad</a></li>
-                        <li><a href="{{ lang.servicedir }}/ethercalc.html">Ethercalc/Calc</a></li>
-                        <li><a href="{{ lang.servicedir }}/hosting.html">Hosting</a></li>
-                        <li><a href="{{ lang.servicedir }}/ticker.html">Ticker</a></li>
-                        <li><a href="{{ lang.servicedir }}/paste.html">Paste</a></li>
-                        <li><a href="{{ lang.servicedir }}/croodle.html">Poll/Croodle</a></li>
-                        <li><a href="{{ lang.servicedir }}/mumble.html">Talk/Mumble</a></li>
-                        <li><a href="{{ lang.servicedir }}/cloud.html">Cloud</a></li>
-                    </ul>
-                </li>
-                {% for node in site.pages %}
+                {% assign sorted_pages = site.pages | sort:"order" %}
+                {% for node in sorted_pages %}
                   {% if node.menu_group == 'contact' %}
 					{% if page.lang == 'de' %}
                       {% if page.url == node.url %}

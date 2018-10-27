@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hosting
+title: Webhosting
 lang: de
 menu_group: service
 translation_id: d340d5414d90735b71051cb9489abeab
@@ -10,7 +10,7 @@ Bei uns könnt ihr Websites hosten. Wir bieten sowohl Tools zur Wissensverwaltun
 
 ### Bedingungen 
 
-Unser Hosting-Angebot richtet sich vorrangig an Gruppen und Organisationen.
+Unser Webhosting-Angebot richtet sich vorrangig an Gruppen und Organisationen.
 Um bei uns gehostet zu werden, solltet ihr folgende Kriterien erfüllen:
 
   * eure Website ist kein selbstgeschriebener Code.
@@ -67,7 +67,7 @@ Bei Interesse sendet uns eine E-Mail an [admin@systemli.org](mailto:admin@system
 Diese sollte folgende Punkte beinhalten:
 
   * Kurzvorstellung eures Projektes
-  * gewünsches Hostingangebot
+  * gewünsches Webhosting-Angebot
   * einen Domainnamen; entweder eine selbstgewählte Subdomain von tem.li (wie bspw.  euerwunschname.tem.li) oder eine eigene Domain
   * eine Kontakt-E-Mail-Adresse (am Besten mit GPG-Key)
 
