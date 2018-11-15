@@ -15,9 +15,8 @@ Ihr könnt euch 3 frei gewählte und bis zu 100 zufällige _Alias-Adressen_ erst
 Zufällige _Alias-Adressen_ haben 24 zufällig gewählte Zeichen vor dem @ und sind zum Beispiel dazu gedacht, sie bei Web-Services anzugeben.
 Ihr könnt sie auch jederzeit wieder löschen, damit ihr keinen Spam erhaltet.
 
-Des weiteren haben wir den Quellcode des User Portal endlich als Freie Software veröffentlicht:
-https://github.com/systemli/user-management/
+Des weiteren haben wir den Quellcode des User Portal endlich als Freie Software auf [Github](https://github.com/systemli/user-management/) veröffentlicht.
 
-Eine weitere kleine Änderung betrifft die Anzeige der euch verfügbaren Einladungscodes: Bereits verwendete Einladungscodes werden nun versteckt.
+Eine weitere, kleine Änderung betrifft die Anzeige, der euch verfügbaren Einladungscodes: Bereits verwendete Einladungscodes werden nun versteckt.
 
 Wie immer gilt: [Schreibt uns gern](/kontakt.html), wenn ihr Fragen, Anregungen oder Verbesserungsvorschläge habt.

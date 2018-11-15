@@ -17,9 +17,8 @@ Random _alias addresses_ have 24 random characters before the @.
 They're supposed to be used with web services or alike.
 You can delete them at any time, so that you won't receive spam.
 
-Furthermore, our user portal is now finally free software:
-https://github.com/systemli/user-management/
+Furthermore, our user portal is now finally free software [on Github](https://github.com/systemli/user-management/).
 
-One more small change: The invite codes you've already used are not visible anymore.
+One more small change: The invite codes you've already used, are not visible anymore.
 
-As always, please [contact us](en/kontakt.html) if you have any question or suggestion.
+As always, please [contact us](en/kontakt.html), if you have any question or suggestion.
