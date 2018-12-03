@@ -1,3 +1,5 @@
 .idea
+.vagrant
+ansible/playbook.retry
 _site
 src/bower_components/
