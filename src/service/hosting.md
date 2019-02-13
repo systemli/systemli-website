@@ -62,7 +62,7 @@ Im Standardfall verwenden wir Zertifikate von Let's Encrypt.
 
 ### Verfahrensweise
 
-Bei Interesse sendet uns eine E-Mail an [admin@systemli.org](mailto:admin@systemli.org).  Diese sollte wenn möglich verschlüsselt sein.
+Bei Interesse sendet uns eine E-Mail an [support@systemli.org](mailto:support@systemli.org).  Diese sollte wenn möglich verschlüsselt sein.
 
 Diese sollte folgende Punkte beinhalten:
 

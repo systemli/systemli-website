@@ -14,7 +14,7 @@ categories:
     <id>https://www.systemli.org/</id>
     <author>
         <name>systemli.org Admin Crew</name>
-        <email>admin@systemli.org</email>
+        <email>support@systemli.org</email>
     </author>
     {% assign en_posts = (site.posts | where: "lang" , "en") %}
     {% for post in en_posts %}

@@ -58,7 +58,7 @@ We offer web hosting with transport encryption only. That means that the sites a
 
 ### Procedure
 
-If interested, please send an encrypted mail to [admin@systemli.org](mailto:admin@systemli.org)
+If interested, please send an encrypted mail to [support@systemli.org](mailto:support@systemli.org)
 
 
 This mail should contain following information:

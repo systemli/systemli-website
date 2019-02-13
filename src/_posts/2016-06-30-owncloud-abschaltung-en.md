@@ -8,7 +8,7 @@ translation_id: ede1b180a1b3ee2847b83f469ea4ee16
 
 We will shut down our old owncloud instance **cloud.tem.li** with immediate effect.
 
-If you haven't made your data migration yet, you have to [contact us](mailto:admin@systemli.org).
+If you haven't made your data migration yet, you have to [contact us](mailto:support@systemli.org).
 
 Then you will get an email voucher to register an email account, which you will need to login into our new cloud.
 
