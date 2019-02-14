@@ -9,7 +9,7 @@ Ab sofort bieten wir **mail.systemli.org** und **jabber.systemli.org** auch als 
 
 Das ermöglich den User/Userinnen sich unbemerkt via Tor zu diesen Diensten zu verbinden,  da alle Verbindungen zu diesen Diensten durchs Tor Netzwerk geleitet werden.
 
-Diese Installationen sind vorerst als Test anzusehen, bei welchem wir uns über euer <a href="mailto:admin@systemli.org">Feedback</a> freuen.<br><br> 
+Diese Installationen sind vorerst als Test anzusehen, bei welchem wir uns über euer <a href="mailto:support@systemli.org">Feedback</a> freuen.<br><br> 
 
 
 <pre>
