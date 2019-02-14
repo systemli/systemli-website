@@ -11,9 +11,7 @@ Ab sofort gibt es eine neue Adresse für Anfragen aller Art:
 Diese Adresse sollte das Ziel für **alle eure Anfragen** in Bezug auf unsere Dienste
 sein. Unseren öffentlichen Schlüssel bekommt ihr [hier](../assets/0x776E7B48BDE8E769CBBCD29210D46141EC77D27B.asc) 
 oder von einem öffentlichen Keyserver über den Befehl:
+
 ```
 gpg --recv-keys 0x776E7B48BDE8E769CBBCD29210D46141EC77D27B
 ```
-
-Es mag **seltene Ausnahmefälle** geben, bei denen ihr euch an 
-[admin@systemli.org](mailto:admin@systemli.org) wenden könnt. 
