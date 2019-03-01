@@ -6,7 +6,9 @@ date:   2019-03-01 12:00:00
 translation_id: 21a8635a0fdc2a7c8b75c2dfee3bcd56
 ---
 
-<p>Seit heute haben wir einen neuen Service:</p>
+<p>Seit heute haben wir einen neuen Service: <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.org</a>, einen Metadaten Cleaner.</p>
+
+<!--more-->
 
 <p>Unter <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.org</a> kannst du Medien-Dateien hochladen und sie von Metadaten bereinigen lassen. Das ist unter anderem sinnvoll, um Rückschlüsse darauf zu erschweren, wer die Dateien erstellt und/oder bearbeitet hat. Zum Löschen der Metadaten wird das Programm <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> verwendet.</p>
 

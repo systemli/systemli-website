@@ -6,7 +6,9 @@ date:   2019-03-01 12:00:00
 translation_id: 21a8635a0fdc2a7c8b75c2dfee3bcd56
 ---
 
-<p>Starting today, we have a new service:</p>
+<p>Starting today, we have a new service: <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.org</a>, a metadata cleaner.</p>
+
+<!--more-->
 
 <p>At <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.org</a> you can upload files and let them be cleaned of metadata. That's particularly useful to obfuscate autors and editors of the files. To remove metadata, the program <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> is used.</p>
 
