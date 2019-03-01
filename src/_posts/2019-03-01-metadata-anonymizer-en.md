@@ -12,7 +12,7 @@ At <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.or
 
 <!--more-->
 
-Important: It's much better and more secure to install and run <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> on your own computer. When using this webservice, you have to trust us. That's not necessary when running the program on your own computer.
+<strong>Important:</strong> It's much better and more secure to install and run <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> on your own computer. When using this webservice, you have to trust us. That's not necessary when running the program on your own computer.
 
 Since running mat2 locally is not an option for everybody (e.g. for people who run Windows), we decided to host the service despite the valid security concerns.
 

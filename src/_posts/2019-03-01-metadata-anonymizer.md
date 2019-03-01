@@ -12,7 +12,7 @@ Unter <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli
 
 <!--more-->
 
-Wichtig: Es ist wesentlich besser und sicherer, das Programm <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> auf dem eigenen Computer zu installieren und laufen zu lassen. Wenn du diesen Webservice benutzt, musst du uns vertrauen, was bei lokal installiertem Programm nicht nötig ist.
+<strong>Wichtig:</strong> Es ist wesentlich besser und sicherer, das Programm <a href target="_blank" href="https://0xacab.org/jvoisin/mat2">mat2</a> auf dem eigenen Computer zu installieren und laufen zu lassen. Wenn du diesen Webservice benutzt, musst du uns vertrauen, was bei lokal installiertem Programm nicht nötig ist.
 
 Da wir wissen, dass die Installation von mat2 auf dem eigenen Rechner für manche Leute keine Option ist (z.B. weil sie Windows verwenden), haben wir uns entschieden, den Service trotzdem anzubieten.
 
