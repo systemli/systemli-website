@@ -4,11 +4,20 @@ stages:
 before_script:
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
 
-deploy-to-webservers:
+deploy_prod:
   stage: deploy
   only:
     - master
   script:
     - jekyll build
     - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
+    - rm -rf _site/
+
+deploy_staging:
+  stage: deploy
+  only:
+    - staging
+  script:
+    - jekyll build
+    - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli-staging@www3.systemli.org:/var/www/www.staging.systemli.org/www
     - rm -rf _site/
