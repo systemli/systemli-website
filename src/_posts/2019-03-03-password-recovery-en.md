@@ -6,7 +6,7 @@ date:   2019-03-03 20:00:00
 translation_id: 21a8635a0fdc2a7c8b75c2dfee3bcd12
 ---
 
-During the last months, we have put a lot of work in our [invitation and administration portal](https://users.systemli.org). Originally, we developed this tool in 2014 to simplify the access to our e-mail service. Later, we added  a [cloud storage with several features (calendar, contacts, etc.)]({% post_url 2016-03-26-owncloud-de %}) to systemli.org mail accounts. Both are valuable features for our users, we hope. Today, we are very happy to present a new important feature: **e-mail password recovery**.
+During the last months, we have put a lot of work in our [invitation and administration portal](https://users.systemli.org). Originally, we developed this tool in 2014 to simplify the access to our e-mail service. Later, we added  a [cloud storage with several features (calendar, contacts, etc.)]({% post_url 2016-03-26-owncloud-en %}) to systemli.org mail accounts. Both are valuable features for our users, we hope. Today, we are very happy to present a new important feature: **e-mail password recovery**.
 
 <!--more-->
 
@@ -19,4 +19,4 @@ In case the recovery process is started, you have to wait  48 hours before you c
 
 So far, the question how to store your recovery code remains unanswered. We strongly advise you not to store a printed version at home. You could save the recovery code in a password manager. Or you can cut it into pieces and hand it to your best friends. By doing so,  you can only restore your password all together. As long as you know your password, you can always create a new recovery code. The previous code will be invalid afterwards. 
 
-If you have any feedback, remarks or critique, please [tell us](en/kontakt.html).Please take this invitation seriously and get in touch with us. This is not a boilerplate.  We rely on your feedback to improve our services.
+If you have any feedback, remarks or critique, please [tell us](/en/kontakt.html).Please take this invitation seriously and get in touch with us. This is not a boilerplate.  We rely on your feedback to improve our services.
