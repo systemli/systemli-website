@@ -37,7 +37,7 @@ blockquote {
 article img {
     float: right;
     margin-left: 0.7em;
-    min-width: 87px;
+    /*min-width: 87px;*/
     max-width: 100%;
     max-height: 100%;
 }
