@@ -11,8 +11,8 @@ Wir mussten bei unserem [Jabber-Server](/service/xmpp.html) vorübergehend die R
 abschalten da in den letzten Tagen automatisiert tausende Spam-Accounts angelegt wurden. Aus dem
 selben Grund sahen wir uns leider dazu gezwungen, alle Jabber-Accounts, die in den letzten 17 Tagen
 erstellt wurden, zu löschen. Sofern ihr davon betroffen seid, bitten wir euch um Verständnis und
-Geduld. Wenn ihr dringend einen Jabber-Account benötigt, könnt ihr euch bei unseren [Freund*innen
-und Gefährt*innen](/friends.html) umschauen.
+Geduld. Wenn ihr dringend einen Jabber-Account benötigt, könnt ihr euch bei unseren [Freund\*innen
+und Gefährt\*innen](/friends.html) umschauen.
 
 Wir arbeiten daran, die Registrier-Funktion (besser geschützt) möglichst schnell wieder zu
 aktivieren und werden euch hier darüber informieren.
