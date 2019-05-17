@@ -17,4 +17,4 @@ have a look at our [Friends and Fellows](/en/friends.html).
 We're working on a solution to re-enable Jabber account registration (in a more secure way)
 as soon as possible and will let you know by posting an update here.
 
-In case of questions and/or problem, don't hesitate to [contact us](/en/kontakt.html).
+In case of questions and/or problems, don't hesitate to [contact us](/en/kontakt.html).
