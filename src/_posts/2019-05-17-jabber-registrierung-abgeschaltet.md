@@ -7,6 +7,8 @@ translation_id: cb510da02c0d69fc2569e6b6fde3a8e5
 ---
 
 
+Update 2019-06-06: Die Jabber Account Registrierung ist wieder angeschaltet.
+
 Wir mussten bei unserem [Jabber-Server](/service/xmpp.html) vorübergehend die Registrier-Funktion
 abschalten da in den letzten Tagen automatisiert tausende Spam-Accounts angelegt wurden. Aus dem
 selben Grund sahen wir uns leider dazu gezwungen, alle Jabber-Accounts, die in den letzten zwei
@@ -18,3 +20,5 @@ Wir arbeiten daran, die Registrier-Funktion (besser geschützt) möglichst schne
 aktivieren und werden euch hier darüber informieren.
 
 Bei Fragen und/oder Problemen könnt ihr euch gerne [bei uns melden](/kontakt.html).
+
+Update 2019-06-06: Die Jabber Account Registrierung ist wieder angeschaltet.
