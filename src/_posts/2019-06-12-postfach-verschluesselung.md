@@ -7,7 +7,7 @@ translation_id: d5006a92f5ab0a6b182ad706dfe77dc2
 ---
 
 * systemli.org verwendet E-Mail-Postfachverschlüsselung
-* [Generiert euch einen Wiederherstellungscode](/de/2019/03/03/password-recovery.html), um sie für euch zu aktivieren
+* [Generiert euch einen Wiederherstellungscode]({% post_url 2019-03-03-password-recovery %}), um sie für euch zu aktivieren
 * Verschlüsselt eure E-Mails unbedingt trotzdem [mit GnuPG](https://wiki.systemli.org/howto/howto/thunderbird_gpg)
 
 Wir freuen uns, heute ein Feature anzukündigen zu können, auf das wir sehr stolz sind: die Verschlüsselung eurer E-Mails auf unseren Servern, auch bekannt als E-Mail-Postfachverschlüsselung. Dank dieser Technik werden eure E-Mails auf unseren Servern individuell für euch verschlüsselt. Nur mit dem Wissen eures persönlichen Passwortes (oder eures Wiederherstellungscodes) können die E-Mails gelesen werden. In anderen Worten: Selbst bösartige Angreifer\*innen mit Zugang zu den Servern könnten eure E-Mails nicht mehr ohne weiteres einsehen.
@@ -22,4 +22,4 @@ Auch diese Techniken haben Grenzen. Jede serverseitige Verschlüsselung kann auc
 
 Ihr solltet die Postfachverschlüsselung allerdings auf jeden Fall nutzen, da sie gegenüber GnuPG mehr Schutz vor Analyse der Metadaten (Wer, Wann, Betreff) bietet.
 
-Außerdem solltet ihr euch unbedingt unter [users.systemli.org](https://users.systemli.org/) einen Wiederherstellungscode generieren (und abspeichern), damit ihr euren Account bei verlorenem Passwort wiederherstellen könnt. Details dazu haben wir [in einem früheren Artikel](https://www.systemli.org/de/2019/03/03/password-recovery.html) beschrieben.
+Außerdem solltet ihr euch unbedingt unter [users.systemli.org](https://users.systemli.org/) einen Wiederherstellungscode generieren (und abspeichern), damit ihr euren Account bei verlorenem Passwort wiederherstellen könnt. Details dazu haben wir [in einem früheren Artikel]({% post_url 2019-03-03-password-recovery %}) beschrieben.
