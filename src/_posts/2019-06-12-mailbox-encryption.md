@@ -22,4 +22,4 @@ But those technologies have limitations. Any server-side encryption can also be 
 
 Nevertheless you should use our mailbox encryption as it helps protecting your metadata (who, when, subject) better than GnuPG does.
 
-Moreover you absolutely should generate a recovery token for your account at [user.systemli.org](https://users.systemli.org/) so that you're able to recover your account in case of password loss. Details about that can be found [in an earlier article]({% post_url 2019-03-03-password-recovery-en %}).
+Moreover you absolutely should generate a recovery token for your account at [users.systemli.org](https://users.systemli.org/) so that you're able to recover your account in case of password loss. Details about that can be found [in an earlier article]({% post_url 2019-03-03-password-recovery-en %}).
