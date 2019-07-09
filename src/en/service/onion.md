@@ -13,8 +13,8 @@ We try to make all our services accessible as Onion Service.
 You need [Tor Browser](https://www.torproject.org/download/download-easy.html) to use
 Onion Services.
 
-| Service Description                    | URL                   | Onion URL
-|----------------------------------------|-----------------------|---------------------------------------------------------
+| Service Description                    | URL                   | Onion URL (use v3!)
+|----------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 |[Ethercalc](/en/service/ethercalc.html) | calc.systemli.org     | v2: [hbzl5bu3nwv2lfbd.onion](http://hbzl5bu3nwv2lfbd.onion)
 |                                        |                       | v3: [qdkpsef2i2vy337y2f3mvrhgzzvrosfac6af4c3lvw4er4hpzbrpf6yd.onion](qdkpsef2i2vy337y2f3mvrhgzzvrosfac6af4c3lvw4er4hpzbrpf6yd.onion)
 |[Etherpad](/en/service/etherpad.html)   | pad.systemli.org      | v2: [j7652k4sod2azfu6.onion](http://j7652k4sod2azfu6.onion)
