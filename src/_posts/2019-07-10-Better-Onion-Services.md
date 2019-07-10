@@ -1,0 +1,12 @@
+---
+layout: post
+lang: en
+title: Better Onion Services
+date: 2019-07-10 12:00:00
+translation_id: d5006a92f5acab6b182ad706dfe77dc2
+---
+![onion logo](/assets/img/Onion_Color.png)
+
+To improve your security, we have updated all our Onion Services to [Version 3](https://trac.torproject.org/projects/tor/wiki/doc/HiddenServiceNames#Whyarev3onionsbetter).
+Sadly, this changes the URL of the service. Please update your programs and bookmarks. After a transition period, we will disable the old Onion Services.
+A full list of all our Onion Services is available at the [dedicated page](/en/services/onion.html).
