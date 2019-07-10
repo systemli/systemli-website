@@ -22,6 +22,17 @@ You can manually set the break point between teaser and full post with:
 <!--more-->
 ```
 
+## Add GPG key to WKS
+
+If you have GnuPG >= 2.2.12
+
+```
+cd src/.well-known/
+gpg --list-options show-only-fpr-mbox -k "admin@systemli.org" | /usr/lib/gnupg/gpg-wks-client -v --install
+```
+
+Don't include user keys. We can't disable listing since this is a git repo.
+
 # deprecated
 ## Dependencies for old jekyll version on Ubuntu
 ```
