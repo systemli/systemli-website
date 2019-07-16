@@ -117,3 +117,7 @@ table th[class*="col-"] {
 table tr td {
     hyphens: auto;
 }
+
+.dropdown-menu {
+    min-width: unset;
+}

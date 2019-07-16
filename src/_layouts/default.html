@@ -75,21 +75,29 @@
                 <li><a href="/atom.xml" target="_blank"><img src="/assets/img/rss.png" class="twitter" id="rss-nav"/></a></li>
                 <li><a href="https://github.com/systemli" target="_blank"><img src="/assets/img/GitHub-Mark-Light-32px.png" class="twitter" id="github-nav"/></a></li>
                 <li><a href="https://twitter.com/systemli" target="_blank"><img src="/assets/img/twitter-bird-dark-bgs.png" class="twitter" id="twitter-nav"/></a></li>
-			  {% if page.translated %}
-				{% for t in page.translations %}
-				  {% if t.lang != page.lang %}
-				    <li><a href="{{ t.url }}">{{ t.lang | upcase }}</a></li>
-					{% break %}
-				  {% endif %}
-  				{% endfor %}
-			  {% else %}
-				{% if page.lang == 'de' %}
-                  <li><a href="/en/index.html">EN</a></li>
-                {% else %}
-                  <li><a href="/index.html">DE</a></li>
-			    {% endif %}
-			  {% endif %}
-              <li><a href="https://users.systemli.org">{{ lang.login }}</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                        {{ page.lang|upcase }}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu menu_level_1" role="menu">
+			      {% if page.translated %}
+			        {% for t in page.translations %}
+			          {% if t.lang != page.lang %}
+			          <li><a href="{{ t.url }}">{{ t.lang | upcase }}</a></li>
+			      	  {% break %}
+			          {% endif %}
+  			        {% endfor %}
+                  {% else %}
+                    {% if page.lang == 'de' %}
+                      <li><a href="/en/index.html">EN</a></li>
+                    {% else %}
+                      <li><a href="/index.html">DE</a></li>
+                    {% endif %}
+			      {% endif %}
+                    </ul>
+                </li>
+                <li><a href="https://users.systemli.org">{{ lang.login }}</a></li>
             </ul>
         </div>
     </nav>
