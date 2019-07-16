@@ -50,6 +50,10 @@ article.post h3 {
     clear: inherit;
 }
 
+article p {
+    hyphens: auto;
+}
+
 .image-caption {
     color: #606060;
     font-size: 11px;
