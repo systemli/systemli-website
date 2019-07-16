@@ -50,6 +50,10 @@ article.post h3 {
     clear: inherit;
 }
 
+article p {
+    word-break: break-all;
+}
+
 .image-caption {
     color: #606060;
     font-size: 11px;
