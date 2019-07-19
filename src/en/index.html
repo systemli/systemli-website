@@ -68,7 +68,21 @@ translation_id: 3bcc4028d59fbd74d03760131230d8c1
     </div>
 </div>
 <div class="row">
-    {% for post in paginator.posts limit:6 %}
+    {% for post in paginator.posts limit:2 %}
+    <div class="col-xs-12 col-md-6">
+        {% include news-excerpt.html %}
+    </div>
+    {% endfor %}
+</div>
+<div class="row">
+    {% for post in paginator.posts limit:2 offset:2 %}
+    <div class="col-xs-12 col-md-6">
+        {% include news-excerpt.html %}
+    </div>
+    {% endfor %}
+</div>
+<div class="row">
+    {% for post in paginator.posts limit:2 offset:4 %}
     <div class="col-xs-12 col-md-6">
         {% include news-excerpt.html %}
     </div>
