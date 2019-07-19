@@ -6,7 +6,7 @@ date: 2019-07-19 12:00:00
 translation_id: d0006a92f5acab6b182ad706dfe77dc2
 ---
 ![haveibeenpwned](/assets/img/haveibeenpwned.png)
-In der neusten Version unseres [User-Portals](https://users.systemli.org) haben wir die Passwortsicherheit erhöht.
+In der neusten Version unseres [User-Portals](https://users.systemli.org) haben wir die Passwort&shy;sicherheit erhöht.
 Wenn ihr ein neues Passwort setzt, wird es automatisch gegen die [Passwortdatenbank von "Have I been pwned"](https://haveibeenpwned.com/Passwords) getestet.
 Zuerst, wird dein Passwort "test" mittels der SHA-1-Hashfunktion zu "a94a8<wbr>fe5cc<wbr>b19ba<wbr>61c4c<wbr>0873d<wbr>391e9<wbr>87982<wbr>fbbd3" transformiert.
 <!--more-->
