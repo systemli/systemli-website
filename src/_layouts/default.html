@@ -23,7 +23,11 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.systemli.org; object-src 'none'; frame-src https://www.youtube.com;">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/main.css"/>
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="All systemli.org News as Feed">
+    {% if page.lang == 'de' %}
+        <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Alle systemli.org News als Feed">
+    {% else %}
+        <link href="/{{ page.lang }}/atom.xml" type="application/atom+xml" rel="alternate" title="All systemli.org news as feed">
+    {% endif %}
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <script src="/assets/js/jquery-1.10.1.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
@@ -72,7 +76,11 @@
             </ul>
 
             <ul class="nav navbar-nav pull-right">
-                <li><a href="/atom.xml" target="_blank"><img src="/assets/img/rss.png" class="twitter" id="rss-nav"/></a></li>
+                {% if page.lang == 'de' %}
+                    <li><a href="/atom.xml" target="_blank"><img src="/assets/img/rss.png" class="twitter" id="rss-nav"/></a></li>
+                {% else %}
+                    <li><a href="/{{ page.lang }}/atom.xml" target="_blank"><img src="/assets/img/rss.png" class="twitter" id="rss-nav"/></a></li>
+                {% endif %}
                 <li><a href="https://github.com/systemli" target="_blank"><img src="/assets/img/GitHub-Mark-Light-32px.png" class="twitter" id="github-nav"/></a></li>
                 <li><a href="https://twitter.com/systemli" target="_blank"><img src="/assets/img/twitter-bird-dark-bgs.png" class="twitter" id="twitter-nav"/></a></li>
                 <li class="dropdown">
