@@ -23,6 +23,11 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.systemli.org; object-src 'none'; frame-src https://www.youtube.com;">
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/assets/css/main.css"/>
+    {% if page.lang == 'de' %}
+        <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Alle systemli.org News als Feed">
+    {% else %}
+        <link href="/{{ page.lang }}/atom.xml" type="application/atom+xml" rel="alternate" title="All systemli.org news as feed">
+    {% endif %}
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="All systemli.org News as Feed">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <script src="/assets/js/jquery-1.10.1.min.js"></script>
