@@ -16,7 +16,7 @@ Unter <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli
 
 Da wir wissen, dass die Installation von mat2 auf dem eigenen Rechner für manche Leute keine Option ist (z.B. weil sie Windows verwenden), haben wir uns entschieden, den Service trotzdem anzubieten.
 
-Die Größe hochladbarer Dateien ist auf 16MB beschränkt.
+Die Größe hochladbarer Dateien ist auf 128MB beschränkt.
 
 <a href="/service/metadata.html">Hier geht's zur Beschreibung des Metadaten Cleaner</a>
 
