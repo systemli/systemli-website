@@ -23,6 +23,6 @@ Onion Services.
 |[Nextcloud](/en/service/cloud.html)     | cloud.systemli.org       | [srkggqkkzjzg2t6uz3lacbrpvm6plbthrs3pxvyrq467bvwyvg6umjyd.onion](http://srkggqkkzjzg2t6uz3lacbrpvm6plbthrs3pxvyrq467bvwyvg6umjyd.onion)
 |[Paste](/en/service/paste.html)         | paste.systemli.org       | [5b6kg6vyo4uk2w7y6eibyuhvpoxnkyaxkjqo72pomcbgbqfmenas3eqd.onion](http://5b6kg6vyo4uk2w7y6eibyuhvpoxnkyaxkjqo72pomcbgbqfmenas3eqd.onion)
 |[Schleuder](/service/schleuder.html)    | cryptolists.systemli.org | [hzij2upbir4nxyqumx26pswe2dfmahc3pzuc4ds7lskycfkexzqvvdad.onion](http://hzij2upbir4nxyqumx26pswe2dfmahc3pzuc4ds7lskycfkexzqvvdad.onion)
-|[Talk](/en/service/talk.html)           | talk.systemli.org        | [jntdndrgmfzgrnupgpm52xv2kwecq6mt4njyu2pzoenifsmiknxaasqd.onion](http://jntdndrgmfzgrnupgpm52xv2kwecq6mt4njyu2pzoenifsmiknxaasqd.onion)
+|[Talk](/en/service/mumble.html)           | talk.systemli.org        | [jntdndrgmfzgrnupgpm52xv2kwecq6mt4njyu2pzoenifsmiknxaasqd.onion](http://jntdndrgmfzgrnupgpm52xv2kwecq6mt4njyu2pzoenifsmiknxaasqd.onion)
 |This website                            | www.systemli.org         | [7sk2kov2xwx6cbc32phynrifegg6pklmzs7luwcggtzrnlsolxxuyfyd.onion](http://7sk2kov2xwx6cbc32phynrifegg6pklmzs7luwcggtzrnlsolxxuyfyd.onion)
 |User portal                             | users.systemli.org       | [adstjh42bdvbtguo3lujq5c3hglv34oyqojh7c3mr5fojgbrs7mxobad.onion](http://adstjh42bdvbtguo3lujq5c3hglv34oyqojh7c3mr5fojgbrs7mxobad.onion)
