@@ -16,8 +16,10 @@ RUN gem uninstall jekyll -I
 RUN gem install \
     jekyll -v 2.5.3
 
-ADD . /srv/jekyll
+COPY . /srv/jekyll
 
 WORKDIR /srv/jekyll
 
 EXPOSE 4000
+
+CMD [ "jekyll", "serve", "-H", "0.0.0.0" ]
