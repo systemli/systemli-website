@@ -1,0 +1,8 @@
+baseURL = "https://www.systemli.org"
+languageCode = "de"
+title = "Systemli - Your friendly tech collective"
+theme = "systemli"
+Paginate = 4
+
+[params]
+    favicon = "favicon.ico"

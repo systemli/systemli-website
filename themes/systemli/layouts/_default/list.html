@@ -1,0 +1,26 @@
+<!-- Header -->
+{{ partial "header.html" . }}
+
+<!-- Loop through all posts -->
+{{ range .Pages }}
+<h2>{{ .Title }}</h2>
+
+<p>
+    <small>{{ .Date.Format "02.01.2006" }}</small>
+</p>
+
+{{ .Summary }}
+
+<p>
+    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+</p>
+{{ end }}
+<!-- End loop -->
+
+<!-- Footer -->
+{{ partial "footer.html" . }}
+
+
+<!--{{ define "main" }}-->
+<!--    "LIST"-->
+<!--{{ end }}-->
