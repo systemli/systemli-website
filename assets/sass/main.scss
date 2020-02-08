@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'menu';
+
+@font-face {
+    font-family: 'TSTAR TW PRO';
+    src: url('/webfont/TSTARTWPRO-Bold.eot');
+    src: url('/webfont/TSTARTWPRO-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/webfont/TSTARTWPRO-Bold.woff2') format('woff2'),
+    url('/webfont/TSTARTWPRO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TSTAR TW PRO';
+    src: url('/webfont/TSTARTWPRO-Regular.eot');
+    src: url('/webfont/TSTARTWPRO-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/webfont/TSTARTWPRO-Regular.woff2') format('woff2'),
+    url('/webfont/TSTARTWPRO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url('/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $lightgrey;
+    font-family: 'TSTAR TW PRO' , sans-serif;
+}
+
+.content {
+    padding: 0 20px;
+}

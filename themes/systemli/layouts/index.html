@@ -2,7 +2,7 @@
 {{ partial "header.html" . }}
 
 <!-- Loop through all posts -->
-{{ range .Pages }}
+{{ range where .Pages "Section" "_posts" }}
 <h2>{{ .Title }}</h2>
 
 <p>
