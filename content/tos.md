@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nutzungsbedingungen
-menu_group: contact
+menu: main
 order: 6
 en_title: Terms of Services
 lang: de

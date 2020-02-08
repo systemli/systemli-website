@@ -1,0 +1,12 @@
+<nav class="navbar">
+    <div>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <a class="navbar__item--left {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}navbar__item--active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+    </div>
+    <div>
+        <a class="navbar__item--right" href="#">ENG</a>
+        <a class="navbar__item--right" href="#">T</a>
+    </div>
+</nav>
