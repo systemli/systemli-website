@@ -1,5 +1,4 @@
-<!-- Header -->
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <!-- Loop through all posts -->
 {{ range .Pages }}
@@ -17,10 +16,4 @@
 {{ end }}
 <!-- End loop -->
 
-<!-- Footer -->
-{{ partial "footer.html" . }}
-
-
-<!--{{ define "main" }}-->
-<!--    "LIST"-->
-<!--{{ end }}-->
+{{ end }}

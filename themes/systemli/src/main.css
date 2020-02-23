@@ -1,5 +1,11 @@
-@import 'variables';
-@import 'menu';
+@tailwind base;
+@tailwind components;
+
+.bg-body {
+    background: #f5f5f5 url('/background.png');
+}
+
+@tailwind utilities;
 
 @font-face {
     font-family: 'TSTAR TW PRO';
@@ -19,17 +25,4 @@
     url('/webfont/TSTARTWPRO-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-body {
-    margin: 0;
-    background-image: url('/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: $lightgrey;
-    font-family: 'TSTAR TW PRO' , sans-serif;
-}
-
-.content {
-    padding: 0 20px;
 }

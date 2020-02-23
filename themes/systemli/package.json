@@ -1,0 +1,9 @@
+{
+  "name": "systemli-theme",
+  "scripts": {
+    "build-css": "tailwind build src/main.css -o static/css/main.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}

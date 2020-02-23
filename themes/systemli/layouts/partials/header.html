@@ -3,10 +3,6 @@
 <head>
     <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
     <meta charset="utf-8">
-    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
 
 <body>
-{{ partial "menu.html" . }}
-<div class="content">

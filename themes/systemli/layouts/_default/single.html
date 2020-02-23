@@ -1,5 +1,4 @@
-<!-- Header -->
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ if eq .Type "page" }}
 {{ partial "page.html" . }}
@@ -7,5 +6,4 @@
 {{ partial "article.html" . }}
 {{ end }}
 
-<!-- Footer -->
-{{ partial "footer.html" . }}
+{{ end }}
