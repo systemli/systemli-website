@@ -1,5 +1,4 @@
-<!-- Header -->
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <!-- Loop through all posts -->
 {{ range where .Pages "Section" "_posts" }}
@@ -17,5 +16,4 @@
 {{ end }}
 <!-- End loop -->
 
-<!-- Footer -->
-{{ partial "footer.html" . }}
+{{ end }}
