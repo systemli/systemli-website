@@ -21,7 +21,7 @@
             <div class="col-span-6 py-4 pl-4 pr-4 border-r">
                 {{ .Summary }}
                 <p>
-                    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+                    <a class="readmore" href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
                 </p>
             </div>
             {{ end }}
@@ -32,7 +32,7 @@
         </div>
         <div class="flex col-span-8 p-4">
             <div class="bg-lightblue w-3 h-3 mr-4"></div>
-            <a class="readmore" href="/_posts">zeige alles</a>
+            <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/_posts">{{ .Param "showAll" }}</a>
         </div>
     </div>
     <div class="col-span-3 mr-8">
