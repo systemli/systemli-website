@@ -1,27 +1,36 @@
 {{ define "main" }}
 
-<div class="flex flex-row items-center justify-around">
+<div class="flex flex-row items-center justify-around py-4">
     <img class="max-w-sm" src="/systemli_logo_1200px.png" alt="logo">
     <p>/* Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung. */</p>
 </div>
 
 <div class="grid grid-cols-16 gap-8 my-4">
-    <div class="col-span-13 ml-6 bg-white shadow-m">
-        <!-- Loop through all posts -->
-        {{ range where .Pages "Section" "_posts" }}
-        <h2>{{ .Title }}</h2>
+    <div class="grid grid-cols-13 col-span-13 ml-6 bg-white shadow-m">
+        <div class="grid grid-cols-8 col-span-8 p-4">
+            <!-- loop through last three posts -->
+            {{ range first 3 (where $.Site.RegularPages "Type" "_posts") }}
+            <div class="flex items-center col-span-2 border-b border-r text-l leading-6">
+                {{ .Date.Format "02/01 2006" }}
+            </div>
+            <div class="col-span-6 pl-4 border-b pr-4 border-r leading-6">
+                <h2>{{ .Title }}</h2>
+            </div>
+            <div class="col-span-2"></div>
+            <div class="col-span-6 py-4 pl-4 pr-4 border-r">
+                {{ .Summary }}
 
-        <p>
-            <small>{{ .Date.Format "02.01.2006" }}</small>
-        </p>
+                <p>
+                    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+                </p>
+            </div>
 
-        {{ .Summary }}
-
-        <p>
-            <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
-        </p>
-        {{ end }}
-        <!-- End loop -->
+            {{ end }}
+        </div>
+        <div class="col-span-5 max-h-screen overflow-scroll p-4">
+            <a class="twitter-timeline" href="https://twitter.com/systemli?ref_src=twsrc%5Etfw">Tweets by systemli</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
     </div>
     <div class="col-span-3 mr-8">
         {{ .Content }}
