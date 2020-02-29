@@ -5176,6 +5176,10 @@ li {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.grid-cols-13 {
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+}
+
 .grid-cols-16 {
   grid-template-columns: repeat(16, minmax(0, 1fr));
 }
@@ -5189,7 +5193,7 @@ li {
 }
 
 .col-span-1 {
-  grid-column: span 1 / span 1;
+  grid-column: span 2 / span 8;
 }
 
 .col-span-2 {
@@ -5205,11 +5209,11 @@ li {
 }
 
 .col-span-5 {
-  grid-column: span 5 / span 5;
+  grid-column: span 5 / span 13;
 }
 
 .col-span-6 {
-  grid-column: span 6 / span 6;
+  grid-column: span 6 / span 8;
 }
 
 .col-span-7 {
@@ -5217,7 +5221,7 @@ li {
 }
 
 .col-span-8 {
-  grid-column: span 8 / span 8;
+  grid-column: span 8 / span 13;
 }
 
 .col-span-9 {
@@ -11703,6 +11707,10 @@ li {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .sm\:grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  }
+
   .sm\:grid-cols-16 {
     grid-template-columns: repeat(16, minmax(0, 1fr));
   }
@@ -11716,7 +11724,7 @@ li {
   }
 
   .sm\:col-span-1 {
-    grid-column: span 1 / span 1;
+    grid-column: span 2 / span 8;
   }
 
   .sm\:col-span-2 {
@@ -11732,11 +11740,11 @@ li {
   }
 
   .sm\:col-span-5 {
-    grid-column: span 5 / span 5;
+    grid-column: span 5 / span 13;
   }
 
   .sm\:col-span-6 {
-    grid-column: span 6 / span 6;
+    grid-column: span 6 / span 8;
   }
 
   .sm\:col-span-7 {
@@ -11744,7 +11752,7 @@ li {
   }
 
   .sm\:col-span-8 {
-    grid-column: span 8 / span 8;
+    grid-column: span 8 / span 13;
   }
 
   .sm\:col-span-9 {
@@ -18231,6 +18239,10 @@ li {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  }
+
   .md\:grid-cols-16 {
     grid-template-columns: repeat(16, minmax(0, 1fr));
   }
@@ -18244,7 +18256,7 @@ li {
   }
 
   .md\:col-span-1 {
-    grid-column: span 1 / span 1;
+    grid-column: span 2 / span 8;
   }
 
   .md\:col-span-2 {
@@ -18260,11 +18272,11 @@ li {
   }
 
   .md\:col-span-5 {
-    grid-column: span 5 / span 5;
+    grid-column: span 5 / span 13;
   }
 
   .md\:col-span-6 {
-    grid-column: span 6 / span 6;
+    grid-column: span 6 / span 8;
   }
 
   .md\:col-span-7 {
@@ -18272,7 +18284,7 @@ li {
   }
 
   .md\:col-span-8 {
-    grid-column: span 8 / span 8;
+    grid-column: span 8 / span 13;
   }
 
   .md\:col-span-9 {
@@ -24759,6 +24771,10 @@ li {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-16 {
     grid-template-columns: repeat(16, minmax(0, 1fr));
   }
@@ -24772,7 +24788,7 @@ li {
   }
 
   .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
+    grid-column: span 2 / span 8;
   }
 
   .lg\:col-span-2 {
@@ -24788,11 +24804,11 @@ li {
   }
 
   .lg\:col-span-5 {
-    grid-column: span 5 / span 5;
+    grid-column: span 5 / span 13;
   }
 
   .lg\:col-span-6 {
-    grid-column: span 6 / span 6;
+    grid-column: span 6 / span 8;
   }
 
   .lg\:col-span-7 {
@@ -24800,7 +24816,7 @@ li {
   }
 
   .lg\:col-span-8 {
-    grid-column: span 8 / span 8;
+    grid-column: span 8 / span 13;
   }
 
   .lg\:col-span-9 {
@@ -31287,6 +31303,10 @@ li {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-13 {
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  }
+
   .xl\:grid-cols-16 {
     grid-template-columns: repeat(16, minmax(0, 1fr));
   }
@@ -31300,7 +31320,7 @@ li {
   }
 
   .xl\:col-span-1 {
-    grid-column: span 1 / span 1;
+    grid-column: span 2 / span 8;
   }
 
   .xl\:col-span-2 {
@@ -31316,11 +31336,11 @@ li {
   }
 
   .xl\:col-span-5 {
-    grid-column: span 5 / span 5;
+    grid-column: span 5 / span 13;
   }
 
   .xl\:col-span-6 {
-    grid-column: span 6 / span 6;
+    grid-column: span 6 / span 8;
   }
 
   .xl\:col-span-7 {
@@ -31328,7 +31348,7 @@ li {
   }
 
   .xl\:col-span-8 {
-    grid-column: span 8 / span 8;
+    grid-column: span 8 / span 13;
   }
 
   .xl\:col-span-9 {

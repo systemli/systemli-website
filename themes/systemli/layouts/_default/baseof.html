@@ -3,7 +3,7 @@
     {{ partial "head.html" . }}
     <body class="flex flex-col justify-between min-h-screen bg-body bg-no-repeat bg-cover font-body">
         {{ partial "menu.html" . }}
-        <main id="content" class="flex-1 py-5">
+        <main id="content" class="flex-1">
         {{ block "main" . }}{{ end }}
         </main>
         {{ partial "footer.html" . }}
