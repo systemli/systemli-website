@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     {{ partial "head.html" . }}
-    <body class="bg-body bg-no-repeat bg-cover font-body">
+    <body class="flex flex-col justify-between min-h-screen bg-body bg-no-repeat bg-cover font-body">
         {{ partial "menu.html" . }}
-        <div id="content" class="py-5">
+        <main id="content" class="flex-1 py-5">
         {{ block "main" . }}{{ end }}
-        </div>
+        </main>
         {{ partial "footer.html" . }}
     </body>
 </html>

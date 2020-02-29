@@ -7,3 +7,6 @@ sectionPagesMenu = "main"
 
 [params]
     favicon = "favicon.ico"
+
+[markup.goldmark.renderer]
+    unsafe = true

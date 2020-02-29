@@ -15,6 +15,19 @@ module.exports = {
       's': '16px',
       'm': '17px',
       'l': '23px',
+      'xl': '28px',
+    },
+    boxShadow: {
+      'm': '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
+    },
+    extend: {
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+      },
+      gridColumn: {
+        'span-3': 'span 3 / span 16',
+        'span-13': 'span 13 / span 16',
+      },
     }
   },
   variants: {},
