@@ -1,19 +1,27 @@
 {{ define "main" }}
 
-<!-- Loop through all posts -->
-{{ range .Pages }}
-<h2>{{ .Title }}</h2>
+<div class="container mx-auto m-6 p-6 bg-white shadow-m">
+    <div class="grid grid-cols-8">
+        <!-- Loop through all posts -->
+        {{ range (.Paginator 8).Pages }}
+        <div class="flex items-center col-span-1 border-b border-r text-l leading-6">
+            {{ .Date.Format "02/01 2006" }}
+        </div>
+        <div class="col-span-7 pl-4 border-b pr-4 leading-6">
+            <h2>{{ .Title }}</h2>
+        </div>
+        <div class="col-span-1"></div>
+        <div class="col-span-7 py-4 pl-4 pr-4">
+            {{ .Summary }}
+            <p>
+                <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+            </p>
+        </div>
+        {{ end }}
+        <!-- End loop -->
+    </div>
 
-<p>
-    <small>{{ .Date.Format "02.01.2006" }}</small>
-</p>
-
-{{ .Summary }}
-
-<p>
-    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
-</p>
-{{ end }}
-<!-- End loop -->
+    {{ template "_internal/pagination.html" . }}
+</div>
 
 {{ end }}

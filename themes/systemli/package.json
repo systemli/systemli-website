@@ -2,7 +2,7 @@
   "name": "systemli-theme",
   "scripts": {
     "build-css": "tailwind build src/main.css -o static/css/main.css",
-    "watch-css": "watch 'npm run build-css' ./layouts"
+    "watch-css": "watch 'npm run build-css' ./src/"
   },
   "dependencies": {
     "tailwindcss": "^1.2.0",
