@@ -5,7 +5,7 @@
     <p>/* Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung. */</p>
 </div>
 
-<div class="grid grid-cols-16 my-4">
+<div class="grid grid-cols-16 gap-8 my-4">
     <div class="col-span-13 ml-6 bg-white shadow-m">
         <!-- Loop through all posts -->
         {{ range where .Pages "Section" "_posts" }}
@@ -23,8 +23,8 @@
         {{ end }}
         <!-- End loop -->
     </div>
-    <div class="col-span-3 bg-lightgrey">
-        Services
+    <div class="col-span-3 mr-8">
+        {{ .Content }}
     </div>
 </div>
 
