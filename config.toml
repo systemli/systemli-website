@@ -4,9 +4,22 @@ title = "Systemli - Your friendly tech collective"
 theme = "systemli"
 Paginate = 4
 sectionPagesMenu = "main"
+DefaultContentLanguage = "de"
 
 [params]
     favicon = "favicon.ico"
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[languages]
+  [languages.de]
+    weight = 1
+    subtitle = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+    languageName = "DE"
+    contentDir = "content/german"
+  [languages.en]
+    weight = 2
+    subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
+    languageName = "ENG"
+    contentDir = "content/english"

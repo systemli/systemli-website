@@ -7,7 +7,11 @@
         {{ end }}
     </div>
     <div>
-        <a class="p-1 text-black hover:text-white" href="#">ENG</a>
+        {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <a class="p-1 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        {{ end}}
+        {{ end }}
         <a class="p-1" href="https://twitter.com/systemli" target="_blank"><img class="inline w-6" src="/twitter.svg" alt="Twitter Logo"></a>
     </div>
 </header>
