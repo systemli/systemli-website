@@ -1,19 +1,31 @@
 {{ define "main" }}
 
-<!-- Loop through all posts -->
-{{ range where .Pages "Section" "_posts" }}
-<h2>{{ .Title }}</h2>
+<div class="flex flex-row items-center justify-around">
+    <img class="max-w-sm" src="/systemli_logo_1200px.png" alt="logo">
+    <p>/* Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung. */</p>
+</div>
 
-<p>
-    <small>{{ .Date.Format "02.01.2006" }}</small>
-</p>
+<div class="grid grid-cols-16 my-4">
+    <div class="col-span-13 ml-6 bg-white shadow-m">
+        <!-- Loop through all posts -->
+        {{ range where .Pages "Section" "_posts" }}
+        <h2>{{ .Title }}</h2>
 
-{{ .Summary }}
+        <p>
+            <small>{{ .Date.Format "02.01.2006" }}</small>
+        </p>
 
-<p>
-    <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
-</p>
-{{ end }}
-<!-- End loop -->
+        {{ .Summary }}
+
+        <p>
+            <a class="readmore" href="{{ .RelPermalink }}">Weiterlesen</a>
+        </p>
+        {{ end }}
+        <!-- End loop -->
+    </div>
+    <div class="col-span-3 bg-lightgrey">
+        Services
+    </div>
+</div>
 
 {{ end }}
