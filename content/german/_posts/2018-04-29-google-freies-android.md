@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Broschüre: Android Smartphone Google-frei einrichten"
 date:   2018-04-29 12:00:00
-translation_id: ede1b180b1a3ee2847b86f469ea4ee16
+translationKey: ede1b180b1a3ee2847b86f469ea4ee16
 ---
 
 [![Cover der Broschüre](/assets/img/android_small.png)](/assets/img/android_google.png)

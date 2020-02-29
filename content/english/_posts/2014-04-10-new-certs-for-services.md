@@ -6,7 +6,7 @@ date:   2014-04-10 10:00:00
 categories:
     - update
 excerpt: Because of the recent events regarding the security gap in OpenSSL we have decided to generate new keys and certificates for our services. As always, you can find the new fingerprints on our website. 
-translation_id: a0d46248bd4a5b95e8dae8b6e79b4129
+translationKey: a0d46248bd4a5b95e8dae8b6e79b4129
 ---
 
 **Background**

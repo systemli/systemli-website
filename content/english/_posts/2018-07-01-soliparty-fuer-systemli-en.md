@@ -4,7 +4,7 @@ lang: en
 title:  "Dance like nobody is watching - Benefit Party for systemli.org"
 date:   2018-07-01 11:00:00
 
-translation_id: ede1b180a1b3ee2847b83f469ea4ee12
+translationKey: ede1b180a1b3ee2847b83f469ea4ee12
 ---
 ![dance_like_nobody_is_watching](/assets/img/dance_like_nobody_is_watching_banner.png)
 

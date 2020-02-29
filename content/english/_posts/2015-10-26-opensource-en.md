@@ -3,7 +3,7 @@ layout: post
 lang: en 
 title: Systemli goes OpenSource 
 date:   2015-10-26 18:00:00
-translation_id: 2af9e3f043e30ea02f3873d75dd5333c
+translationKey: 2af9e3f043e30ea02f3873d75dd5333c
 ---
 
 ![opensource]({{ site.url }}/assets/img/opensource.jpg)

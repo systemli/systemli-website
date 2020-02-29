@@ -3,7 +3,7 @@ layout: post
 lang: de
 title: "Langsamer Abschied von SSL-Fingerprints"
 date: 2017-10-18 10:00:00
-translation_id: eaeafa80a1b4ee2847b83f469ea4ee18
+translationKey: eaeafa80a1b4ee2847b83f469ea4ee18
 ---
 
 Seit Jahren halten wir euch dazu an, die Fingerprints unserer SSL-Zertifikate zu überprüfen - das hat jetzt (fast) ein Ende.

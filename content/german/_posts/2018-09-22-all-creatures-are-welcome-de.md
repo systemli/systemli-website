@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "All Creatures are welcome"
 date:   2018-09-22 12:00:00
-translation_id: 83bc7f5aa7509597b04d4404cb633555
+translationKey: 83bc7f5aa7509597b04d4404cb633555
 ---
 
 [![CCC](/assets/img/ccc.jpg)](/assets/img/ccc.jpg)

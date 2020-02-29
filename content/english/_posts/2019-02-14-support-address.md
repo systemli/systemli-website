@@ -3,7 +3,7 @@ layout: post
 lang: en
 title:  "New contact address"
 date:   2019-02-14 10:00:00
-translation_id: 12220b93d7a232bab4c753c3dd2fcce2
+translationKey: 12220b93d7a232bab4c753c3dd2fcce2
 ---
 
 From today on, there will be a new contact address: 

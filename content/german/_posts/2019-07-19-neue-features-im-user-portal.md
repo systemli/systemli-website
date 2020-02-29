@@ -3,7 +3,7 @@ layout: post
 lang: de
 title: Neue Features im User-Portal
 date: 2019-07-19 12:00:00
-translation_id: d0006a92f5acab6b182ad706dfe77dc2
+translationKey: d0006a92f5acab6b182ad706dfe77dc2
 ---
 ![haveibeenpwned](/assets/img/haveibeenpwned.png)
 In der neusten Version unseres [User-Portals](https://users.systemli.org) haben wir die Pass&shy;wort&shy;sicher&shy;heit erhöht.

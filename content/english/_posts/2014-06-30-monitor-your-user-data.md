@@ -5,7 +5,7 @@ title:  "Protipp: Monitor your user data with your email-account"
 date:   2014-06-29 18:00:00
 categories:
     - Tips and Tricks
-translation_id: f62c1d04a083cbd861224e321499b26a
+translationKey: f62c1d04a083cbd861224e321499b26a
 ---
 
 With an email-account at systemli.org you have the possibility to monitor if anyone is passing on your user data to third parties.

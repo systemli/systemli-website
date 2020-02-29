@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Inaktive Accounts"
 date:   2017-08-07 14:00:00
-translation_id: eae1b180a1b4ee2847b83f469ea4ee18
+translationKey: eae1b180a1b4ee2847b83f469ea4ee18
 ---
 
 In zwei Wochen werden wir damit beginnen, automatisch inaktive Accounts zu bereinigen.

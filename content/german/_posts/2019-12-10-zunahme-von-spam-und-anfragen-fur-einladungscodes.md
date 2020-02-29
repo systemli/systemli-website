@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Zunahme von Spam und Anfragen für Einladungscodes"
 date:   2019-12-10 14:00:00
-translation_id: d41d8cd98f00b204e9800798ecf8427e
+translationKey: d41d8cd98f00b204e9800798ecf8427e
 ---
 
 In den letzten Tagen wurden wiederholt E-Mails mit der Frage nach einem Einladungscode an unsere Nutzer\*innen gesendet.

@@ -5,7 +5,7 @@ title:  "Background: New look for the Pads"
 date:   2014-07-21 17:00:00
 categories:
     - Backround
-translation_id: 152d8c28c5aecaa73d6fcb75c5ebcb1f
+translationKey: 152d8c28c5aecaa73d6fcb75c5ebcb1f
 ---
 Our [Etherpad-service](https://pad.systemli.org) has a new look. This is supposed to encourage you to avoid names that are easy to guess for confidential Pads. 
 
