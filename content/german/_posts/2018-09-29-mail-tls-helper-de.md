@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Mail-TLS-Helper"
 date:   2018-09-29 17:00:00
-translation_id: 83bc7f5aa350919ab04e440fc26305f5
+translationKey: 83bc7f5aa350919ab04e440fc26305f5
 ---
 
 Wir hatten bereits 2017 angekündigt, dass wir versuchen, die [verschlüsselte Übertragung von Mails zu erzwingen]({% post_url 2017-06-22-infrastruktur-verbesserungen-bei-systemli-de %}). Lange Zeit hieß es, dies sei unmöglich, da die E-Mail-Infrastruktur zu alt und zu schlecht gepflegt sei. Unsere Tests über die letzten 1,5 Jahren zeichnen allerdings ein anderes Bild.

@@ -5,7 +5,7 @@ title:  "Hintergrund: Neuer Anstrich bei Pad-Erstellung"
 date:   2014-07-15 11:00:00
 categories:
     - Hintergrund
-translation_id: 152d8c28c5aecaa73d6fcb75c5ebcb1f
+translationKey: 152d8c28c5aecaa73d6fcb75c5ebcb1f
 ---
 Unser [Etherpad-Dienst](https://pad.systemli.org) hat ab jetzt ein neues Aussehen. Dies soll euch dazu anregen, keine erratbaren Namen für vertrauliche Pads zu verwenden.
 

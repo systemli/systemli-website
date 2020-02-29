@@ -3,7 +3,7 @@ layout: post
 lang: de
 title: "Neues Feature: E-Mail-Postfachverschlüsselung"
 date: 2019-06-12 00:00:00
-translation_id: d5006a92f5ab0a6b182ad706dfe77dc2
+translationKey: d5006a92f5ab0a6b182ad706dfe77dc2
 ---
 
 * systemli.org verwendet E-Mail-Postfachverschlüsselung

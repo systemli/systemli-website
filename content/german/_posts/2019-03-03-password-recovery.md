@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Neue Funktion: Wiederherstellung von E-Mail-Passwörtern"
 date:   2019-03-03 20:00:00
-translation_id: 21a8635a0fdc2a7c8b75c2dfee3bcd12
+translationKey: 21a8635a0fdc2a7c8b75c2dfee3bcd12
 ---
 
 

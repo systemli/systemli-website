@@ -5,7 +5,7 @@ title:  Spendenaufruf zum Kauf neuer Hardware
 date:   2016-03-16 12:00:00
 
 excerpt: Um den weiteren Betrieb von Systemli.org zu ermöglichen brauchen wir dringend eure Spenden.
-translation_id: 83385cb8971c7634d78696ea354a7194
+translationKey: 83385cb8971c7634d78696ea354a7194
 ---
 
 Liebe Freunde, Freundinnen und \*,

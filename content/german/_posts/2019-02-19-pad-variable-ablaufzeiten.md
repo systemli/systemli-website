@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "pad.systemli.org: Variable Ablaufzeiten"
 date:   2019-02-19 13:00:00
-translation_id: 49921a2ffd68cf5ce0683802b07eb6dd
+translationKey: 49921a2ffd68cf5ce0683802b07eb6dd
 ---
 
 Wir haben ein wenig bei unseren Freund\*innen von <a href="https://riseup.net/">Riseup</a>

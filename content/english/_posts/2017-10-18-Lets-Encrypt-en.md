@@ -3,7 +3,7 @@ layout: post
 lang: en
 title:  "Long goodbye to SSL fingerprints"
 date: 2017-10-18 10:00:00
-translation_id: eaeafa80a1b4ee2847b83f469ea4ee18
+translationKey: eaeafa80a1b4ee2847b83f469ea4ee18
 ---
 
 For years we´ve been urging you to check the fingerprints of our SSL certificates - this is (almost) over.

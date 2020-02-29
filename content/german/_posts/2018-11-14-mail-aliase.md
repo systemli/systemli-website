@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Neues Mail-Feature: Alias-Adressen"
 date:   2018-11-14 16:00:00
-translation_id: 12220b49d7a232bab4c753c3dd2fcce2
+translationKey: 12220b49d7a232bab4c753c3dd2fcce2
 ---
 
 ![alias screenshot](/assets/img/alias.png)

@@ -5,7 +5,7 @@ title:  "Protipp: Verfolge die Weitergabe deiner Nutzerdaten mit Hilfe deiner E-
 date:   2014-06-29 18:00:00
 categories:
     - Tipps und Tricks
-translation_id: f62c1d04a083cbd861224e321499b26a
+translationKey: f62c1d04a083cbd861224e321499b26a
 ---
 Mit einer Mailadresse bei systemli.org hast du die Möglichkeit nachzuverfolgen, wer deine Daten weitergibt:
 

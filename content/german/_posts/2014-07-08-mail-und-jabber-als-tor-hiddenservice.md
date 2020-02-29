@@ -3,7 +3,7 @@ layout: post
 lang: de
 title:  "Feature: Mail und Jabber als Tor Hiddenservice"
 date:   2014-07-08 22:00:00
-translation_id: ec9465ea35e94eb4f63042c8ecfd3ce3
+translationKey: ec9465ea35e94eb4f63042c8ecfd3ce3
 ---
 Ab sofort bieten wir **mail.systemli.org** und **jabber.systemli.org** auch als [Tor Hidden Service](https://de.wikipedia.org/wiki/Tor_%28Netzwerk%29#Versteckte_Dienste) an.
 
