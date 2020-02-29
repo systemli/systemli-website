@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{ partial "head.html" . }}
-    <body class="flex flex-col justify-between min-h-screen bg-body bg-no-repeat bg-cover font-body">
+    <body class="flex flex-col justify-between min-h-screen bg-body bg-no-repeat bg-cover bg-fixed font-body">
         {{ partial "menu.html" . }}
         <main id="content" class="flex-1">
         {{ block "main" . }}{{ end }}

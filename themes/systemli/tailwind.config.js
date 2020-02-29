@@ -31,8 +31,10 @@ module.exports = {
         'span-13': 'span 13 / span 16',
         'span-5': 'span 5 / span 13',
         'span-8': 'span 8 / span 13',
-        'span-1': 'span 2 / span 8',
+        'span-1': 'span 1 / span 8',
+        'span-2': 'span 2 / span 8',
         'span-6': 'span 6 / span 8',
+        'span-7': 'span 7 / span 8',
       },
     }
   },

@@ -1,5 +1,6 @@
 <header class="flex flex-row justify-between py-4 px-8 bg-lightblue text-m font-bold">
     <div>
+        <a class="p-1 text-white hover:text-black" href="/">systemli.org</a>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <a class="p-1 text-white hover:text-black {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
