@@ -1,16 +1,16 @@
 <header class="flex flex-row justify-between py-4 px-8 bg-lightblue text-m font-bold">
     <div>
-        <a class="p-1 text-white hover:text-black" href="/">systemli.org</a>
+        <a class="p-1 text-white hover:text-black" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">systemli.org</a>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <a class="p-1 text-white hover:text-black {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            <a class="p-1 text-white hover:text-black {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
         {{ end }}
     </div>
     <div>
         {{ if .IsTranslated }}
-        {{ range .Translations }}
-        <a class="p-1 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-        {{ end}}
+            {{ range .Translations }}
+                <a class="p-1 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
         {{ end }}
         <a class="p-1" href="https://twitter.com/systemli" target="_blank"><img class="inline w-6" src="/twitter.svg" alt="Twitter Logo"></a>
     </div>
