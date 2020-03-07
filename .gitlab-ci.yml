@@ -1,4 +1,5 @@
 stages:
+    - build
     - deploy
 
 before_script:
@@ -6,7 +7,7 @@ before_script:
     - docker info
 
 build_image:
-  stage: deploy
+  stage: build
   script:
     - docker build -t systemli-website:v1 .
 
@@ -15,7 +16,7 @@ deploy_prod:
   only:
     - master
   script:
-    - docker run --rm -v $PWD:/srv/jekyll systemli-website:v1
+    - docker run --rm -v $PWD:/srv/jekyll -u $(id -u):$(id -g) systemli-website:v1
     - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
     - rm -rf _site/
 
@@ -24,6 +25,6 @@ deploy_staging:
   only:
     - staging
   script:
-    - docker run --rm -v $PWD:/srv/jekyll systemli-website:v1
+    - docker run --rm -v $PWD:/srv/jekyll -u $(id -u):$(id -g) systemli-website:v1
     - rsync -vrltgoDz --delete -e "ssh -p22" ./_site/ systemli-staging@www3.systemli.org:/var/www/www.staging.systemli.org/www
     - rm -rf _site/
