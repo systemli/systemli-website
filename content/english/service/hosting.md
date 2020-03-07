@@ -3,6 +3,9 @@ layout: page
 lang: en
 title: Web Hosting
 translation_id: d340d5414d90735b71051cb9489abeab
+icon: hosting80.png
+homepage_title: web.host
+teaser: Boards, wikis, blogs and individual website solutions
 ---
 We host your web sites. We offer tools for knowledge management and hosting of wordpress blogs. Regarding that, we have some general information you should note.
 

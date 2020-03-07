@@ -35,8 +35,33 @@
             <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/_posts">{{ .Param "showAll" }}</a>
         </div>
     </div>
-    <div class="col-span-3 mr-8">
-        {{ .Content }}
+    <div class="flex flex-col justify-between col-span-3 mr-8">
+        <div>
+            {{ range where $.Site.RegularPages "Type" "service" }}
+            {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
+            <div class="flex items-center py-2 border-b"
+                 onmouseover="document.getElementById('{{ .Params.title }}').style.display = 'flex';"
+                 onmouseout="document.getElementById('{{ .Params.title }}').style.display = 'none';">
+                <img class="pr-2 w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
+                <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">
+                    {{ .Params.homepage_title }}
+                </a>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+        <div>
+            {{ range where $.Site.RegularPages "Type" "service" }}
+            {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
+            <div class="hidden flex-col" id={{ .Params.title }}>
+                <img src="/service-icons/Info_detail_service80.png" alt="info-logo" class="self-end py-2 w-8">
+                <div class="py-2 border-t">
+                    {{ .Params.teaser }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
     </div>
 </div>
 

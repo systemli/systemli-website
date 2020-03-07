@@ -1,8 +1,24 @@
 {{ define "main" }}
 
 <div class="container mx-auto m-6 p-6 bg-white shadow-m">
+    <!-- For type services: Render special list template -->
+    {{ if eq .Params.type "services" }}
+    TODO: get design ^^'
+    <br>
+    <br>
+    <br>
+    {{ range .Pages }}
+    <div>
+        <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">{{ .Params.Title }}</a>:
+        {{ .Params.teaser }}
+    </div>
+    {{ end }}
+
+    {{ else }}
+    <!-- All other lists: Render post list -->
     <div class="grid grid-cols-8">
-        <!-- Loop through all posts -->
+
+
         {{ range .Paginator.Pages }}
         <div class="flex items-center col-span-1 border-b border-r text-l leading-6">
             {{ .Date.Format "02/01 2006" }}
@@ -18,10 +34,11 @@
             </p>
         </div>
         {{ end }}
-        <!-- End loop -->
     </div>
 
     {{ template "_internal/pagination.html" . }}
+
+    {{ end }}
 </div>
 
 {{ end }}

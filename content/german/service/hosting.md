@@ -4,6 +4,9 @@ title: Webhosting
 lang: de
 menu_group: service
 translation_id: d340d5414d90735b71051cb9489abeab
+icon: hosting80.png
+homepage_title: web.host
+teaser: Foren, Wikis, Blogs und indivduelle Website-Lösungen
 ---
 
 Bei uns könnt ihr Websites hosten. Wir bieten sowohl Tools zur Wissensverwaltung an, als auch Hosting von Wordpress-Blogs. Dazu haben wir folgende Hinweise, die ihr beachten solltet.
