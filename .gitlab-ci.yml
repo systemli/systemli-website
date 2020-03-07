@@ -1,6 +1,6 @@
 stages:
-  - build
-  - deploy
+    - build
+    - deploy
 
 before_script:
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
