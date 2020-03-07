@@ -4,6 +4,7 @@ theme = "systemli"
 Paginate = 8
 sectionPagesMenu = "main"
 DefaultContentLanguage = "de"
+summaryLength = 20
 
 [params]
     favicon = "favicon.ico"
