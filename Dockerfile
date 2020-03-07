@@ -22,4 +22,4 @@ WORKDIR /srv/jekyll
 
 EXPOSE 4000
 
-CMD [ "jekyll", "serve", "-H", "0.0.0.0" ]
+CMD [ "jekyll", "build" ]
