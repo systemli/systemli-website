@@ -12,9 +12,8 @@ Please improve by providing content, translations or code.
  2. Visit https://192.168.33.90
 
 ## Add new post
- * Write new post in `_posts/`.
- * Add translation also in `_posts/`.
- * `octopress id src/_posts/first_post src/_posts/second_post
+ * Run `./new_post.sh`
+ * Add text to the created files
  * restart jekyll
 
 You can manually set the break point between teaser and full post with:
