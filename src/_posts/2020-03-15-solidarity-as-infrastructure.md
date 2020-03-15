@@ -20,12 +20,14 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 
 
 **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 5 participants. We recommend two instances of leftist technology collectives:
+
 * Jitsi instance of Autistici/Inventati: https://vc.autistici.org/
 * Jitsi instance of Mayfirst: https://meet.mayfirst.org/
 
 **Mumble** allows larger group calls (without video), even with 100+ participants. A program must be installed for Mumble. There are clients for all major operating systems. [All information about our Mumble service](https://www.systemli.org/en/service/mumble.html).
 
 **Nextcloud Talk** allows video chat and screen sharing for max. 4 participants. You need an account, but you can also invite others with a shared link. [All information about our Cloud service](https://www.systemli.org/en/service/cloud.html).
+
 * Our cloud instance: https://cloud.systemli.org
 
 
@@ -39,6 +41,7 @@ Messengers for fast communication and coordination are always important anyway, 
 Many solidary neighbourhood initiatives are currently being organised through telegram groups (e.g. [Kiezkommune](https://kiezkommune.noblogs.org/) or [Corono-Soli-FFM](https://www.corona-soli-ffm.org/)). Our pragmatic recommendation: use it *only* for these open groups, be aware that communication is not protected and use the [Telegram client from F-Droid](https://f-droid.org/en/packages/org.telegram.messenger/) if possible. At least there are no trackers built in to analyze your communication behavior.
 
 **Jabber** our Oldy, but goldy. Jabber allows the 1:1 discussion and also larger groups. You can communicate across different instances. We offer a server with public registration and web client. For chatting on the computer there are programs for all operating systems. [All information about our Jabber service](https://www.systemli.org/en/service/xmpp.html).
+
 * Our Jabber server: https://jabber.systemli.org
 
 #### External communication
@@ -51,6 +54,7 @@ But we are happy to make it available to you under different domains.
 [All information about our ticker service](https://www.systemli.org/en/service/ticker.html).
 
 **Mastodon** is a free Twitter alternative. We can recommend the following instances:
+
 * The instance of the Dutch comrades of Wehost: https://social.weho.st/
 * From the environment of the Chaos Computer Club (by invitation only): https://chaos.social/
 
