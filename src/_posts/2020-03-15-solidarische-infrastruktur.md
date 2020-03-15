@@ -10,7 +10,7 @@ translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 
 In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wie sie ihre politische Arbeit digital unterstützen und weiterführen können.  Wir werden zum Beispiel gefragt, wie ein Plenum oder Bündnistreffen digital umgesetzt werden kann, wenn sich Leute nicht in einem Raum treffen wollen/können.
 
-Als linksradikales Technik-Kollektiv wollen wir euch darin unterstützen, die richtigen Tools zu verwenden und dabei weiterhin ein Mindestmaß and Datenschutz- und Sicherheitsansprüchen zu wahren. Wir haben im Folgenden ein paar konkrete Empfehlungen für Tools zusammengetragen, die wir für digitale kollaborative Arbeitsprozesse hilfreich finden.
+Als linkes Technik-Kollektiv wollen wir euch darin unterstützen, die richtigen Tools zu verwenden und dabei weiterhin ein Mindestmaß and Datenschutz- und Sicherheitsansprüchen zu wahren. Wir haben im Folgenden ein paar konkrete Empfehlungen für Tools zusammengetragen, die wir für digitale kollaborative Arbeitsprozesse hilfreich finden.
 
 ### Echtzeitkommunikation
 
