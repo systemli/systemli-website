@@ -44,7 +44,7 @@ Viele solidarische Nachbarschaftsinitiativen organisieren sich gerade über Tele
 
 * Unser Jabber-Server: https://jabber.systemli.org
 
-#### Kommunikation nach außen
+### Kommunikation nach außen
 
 **Ticker** eignen sich zur Verbreitung von Nachrichten. 
 Mit unserem Ticker könnt ihr euer Umfeld (zum Beispiel die Nachbarschaft)
@@ -59,7 +59,7 @@ Wir stellen ihn euch aber gerne unter verschiedenen Domains zur Verfügung.
 * Aus dem Umfeld des Chaos Computer Club (nur auf Einladung): https://chaos.social/
 
 
-#### Diskussionen und Wissensablage
+### Diskussionen und Wissensablage
 
 Über unsere Nextcloud Instanz könnt ihr gemeinsam an Texten arbeiten,
 Dokumente teilen und Termine, Aufgaben, etc. koordinieren. 
@@ -69,7 +69,8 @@ Wir haben [eine Dokumentation](https://wiki.systemli.org/howto/nextcloud/gruppen
 **Etherpad** eigenet sich sehr gut, um ad-hoc Wissen zu sammeln und gemeinsam
 Texte zu erstellen. Es benötigt keine Anmeldung, ist aber somit
 nicht gegen Vandalismus geschützt. Es lassen sich allerdings Links
-ohne Schreibberechtigung erstellen. [Alle Infos zu unserem Pad-Service](https://www.systemli.org/service/etherpad.html)
+ohne Schreibberechtigung erstellen. **Bei großen Plena hat sich eine Kombination
+ aus Etherpad und Mumble bewährt.** [Alle Infos zu unserem Pad-Service](https://www.systemli.org/service/etherpad.html)
 
 * Unsere Instanz: https://pad.systemli.org/
 * Riseup.net: https://pad.riseup.net/

@@ -44,7 +44,7 @@ Many solidary neighbourhood initiatives are currently being organised through te
 
 * Our Jabber server: https://jabber.systemli.org
 
-#### External communication
+### External communication
 
 **Ticker** are suitable for spreading news. 
 With our ticker you can show your surroundings (for example the neighbourhood)
@@ -59,7 +59,7 @@ But we are happy to make it available to you under different domains.
 * From the environment of the Chaos Computer Club (by invitation only): https://chaos.social/
 
 
-#### Discussions and knowledge storage
+### Discussions and knowledge storage
 
 Via our Nextcloud instance you can work together on texts,
 Share documents and coordinate appointments, tasks, etc. 
@@ -69,7 +69,9 @@ We have [a documentation](https://wiki.systemli.org/howto/nextcloud/gruppen)
 **Etherpad** is very well suited to collect ad-hoc knowledge and to share it together
 to create texts. It does not require registration, but is therefore
 not protected against vandalism. However, links can be created
-without write permission only
+without write permission only. **During large assemblies a combination of
+ etherpad and mumble was quite sufficient.** [All about our pad-Service](https://www.systemli.org/en/service/etherpad.html)
+
 
 **Wikis** are perfect for knowledge collection and management.
 If you want to create an (internal or public) knowledge base,
