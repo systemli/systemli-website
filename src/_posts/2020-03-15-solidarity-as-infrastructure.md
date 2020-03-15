@@ -12,6 +12,8 @@ In the current situation, we are receiving requests from many contexts on how th
 
 As a left-wing technology collective, we want to support you in using the right tools while still maintaining a minimum of privacy and security standards. Below are some specific recommendations for tools that we find useful for digital collaborative work processes.
 
+<!--more-->
+
 ### Real-time communication
 
 #### Group phone calls and video conferences

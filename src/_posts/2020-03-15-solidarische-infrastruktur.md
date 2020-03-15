@@ -12,6 +12,8 @@ In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wi
 
 Als linkes Technik-Kollektiv wollen wir euch darin unterstützen, die richtigen Tools zu verwenden und dabei weiterhin ein Mindestmaß and Datenschutz- und Sicherheitsansprüchen zu wahren. Wir haben im Folgenden ein paar konkrete Empfehlungen für Tools zusammengetragen, die wir für digitale kollaborative Arbeitsprozesse hilfreich finden.
 
+<!--more-->
+
 ### Echtzeitkommunikation
 
 #### Gruppentelefonate und Videokonferenzen
