@@ -57,8 +57,8 @@ Wir stellen ihn euch aber gerne unter verschiedenen Domains zur Verfügung.
 
 **Mastodon** ist eine freie Twitter-Alternative. Wir können euch folgende Instanzen empfehlen:
 
-* Die Instanz der niederländischen Genoss*innen von Wehost: https://social.weho.st/
-* Aus dem Umfeld des Chaos Computer Club (nur auf Einladung): https://chaos.social/
+* Die Instanz der niederländischen Genoss*innen von Wehost: [https://social.weho.st/](https://social.weho.st/)
+* Aus dem Umfeld des Chaos Computer Club (nur auf Einladung): [https://chaos.social/](https://chaos.social/)
 
 
 ### Diskussionen und Wissensablage
