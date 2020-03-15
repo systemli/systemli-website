@@ -20,13 +20,13 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 
 
 **Jitsi** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 5 Teilnehmenden. Wir empfehlen zwei Instanzen linker Technik-Kollektive:
-- Jitsi Instanz von Autistici/Inventati: https://vc.autistici.org/
-- Jitsi Instanz von Mayfirst: https://meet.mayfirst.org/
+* Jitsi Instanz von Autistici/Inventati: https://vc.autistici.org/
+* Jitsi Instanz von Mayfirst: https://meet.mayfirst.org/
 
 **Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden. Für Mumble muss ein Programm installiert werden. Es gibt Clients für alle großen Betriebssysteme. [Alle Infos über unseren Mumble-Service](https://www.systemli.org/service/mumble.html).
 
 **Nextcloud Talk** erlaubt Videochat und Screen Sharing für max. 4 Teilnehmer. Ihr benötigt einen Account, aber könnt andere auch mit einem geteilten Link einladen. [Alle Infos zu unserem Cloud-Service](https://www.systemli.org/service/cloud.html).
-- Unsere Cloud Instanz: https://cloud.systemli.org
+* Unsere Cloud Instanz: https://cloud.systemli.org
 
 
 #### Instant Messenger und Chatgruppen
@@ -39,7 +39,7 @@ Ohnehin immer wichtig, aber aktuell unentbehrlich sind Messenger zur schnellen K
 Viele solidarische Nachbarschaftsinitiativen organisieren sich gerade über Telegram-Gruppen (z.B. [Kiezkommune](https://kiezkommune.noblogs.org/) oder [Corono-Soli-FFM](https://www.corona-soli-ffm.org/)). Unsere pragmatische Empfehlung: benutzt es *nur* für diese offenen Gruppen, seid euch bewusst, dass die Kommunikation nicht geschützt ist und verwendet wenn möglich den [Telegram-Client aus F-Droid](https://f-droid.org/en/packages/org.telegram.messenger/). Dort sind wenigstens keine Tracker eingebaut, die auch noch euer Kommunikationsverhalten analysieren.
 
 **Jabber** unser Oldy, but goldy. Jabber erlaubt die 1:1-Diskussion und auch größere Gruppen. Man kann über verschiedene Instanzen hinweg kommunizieren. Wir bieten einen Server mit öffentlichen Registrierung an und Webclient. Zum Chatten auf dem Computer gibt es Programme für alle Betriebssysteme. [Alle Infos zu unseren Jabber-Service](https://www.systemli.org/service/xmpp.html).
-- Unser Jabber-Server: https://jabber.systemli.org
+* Unser Jabber-Server: https://jabber.systemli.org
 
 #### Kommunikation nach außen
 
@@ -51,8 +51,8 @@ Wir stellen ihn euch aber gerne unter verschiedenen Domains zur Verfügung.
 [Alle Infos zu unserem Ticker-Service](https://www.systemli.org/service/ticker.html).
 
 **Mastodon** ist eine freie Twitter-Alternative. Wir können euch folgende Instanzen empfehlen:
-- Die Instanz der niederländischen Genoss*innen von Wehost: https://social.weho.st/
-- Aus dem Umfeld des Chaos Computer Club (nur auf Einladung): https://chaos.social/
+* Die Instanz der niederländischen Genoss*innen von Wehost: https://social.weho.st/
+* Aus dem Umfeld des Chaos Computer Club (nur auf Einladung): https://chaos.social/
 
 
 #### Diskussionen und Wissensablage
@@ -66,8 +66,8 @@ Wir haben [eine Dokumentation](https://wiki.systemli.org/howto/nextcloud/gruppen
 Texte zu erstellen. Es benötigt keine Anmeldung, ist aber somit
 nicht gegen Vandalismus geschützt. Es lassen sich allerdings Links
 ohne Schreibberechtigung erstellen. [Alle Infos zu unserem Pad-Service](https://www.systemli.org/service/etherpad.html)
-- Unsere Instanz: https://pad.systemli.org/
-- Riseup.net: https://pad.riseup.net/
+* Unsere Instanz: https://pad.systemli.org/
+* Riseup.net: https://pad.riseup.net/
 
 **Wikis** sind perfekt zur Wissenssammlung und -verwaltung.
 Wenn ihr eine (interne oder öffentliche) Wissensdatenbank aufbauen wollt,
