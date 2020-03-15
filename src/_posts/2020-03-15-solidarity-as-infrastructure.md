@@ -26,7 +26,7 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 * Jitsi instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
 * Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)
 
-**Mumble** allows larger group calls (without video), even with 100+ participants. A program must be installed for Mumble. There are clients for all major operating systems. [All information about our Mumble service](https://www.systemli.org/en/service/mumble.html).
+**Mumble** allows larger group calls (without video), even with 100+ participants. Very recently we have installed [a web client](https://talk.systemli.org) for you. Better sound can be achieved with the native clients for all major operating systems. [All information about our Mumble service](https://www.systemli.org/en/service/mumble.html).
 
 **Nextcloud Talk** allows video chat and screen sharing for max. 4 participants. You need an account, but you can also invite others with a shared link. [All information about our Cloud service](https://www.systemli.org/en/service/cloud.html).
 

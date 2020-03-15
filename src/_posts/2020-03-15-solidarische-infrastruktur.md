@@ -26,7 +26,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 * Jitsi Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
 * Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/)
 
-**Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden. Für Mumble muss ein Programm installiert werden. Es gibt Clients für alle großen Betriebssysteme. [Alle Infos über unseren Mumble-Service](https://www.systemli.org/service/mumble.html).
+**Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden. Ganz aktuell haben wir [einen Webclient](https://talk.systemli.org) für euch installiert. Besseren Klang bieten aber die nativen Clients für alle großen Betriebssysteme. [Alle Infos über unseren Mumble-Service](https://www.systemli.org/service/mumble.html).
 
 **Nextcloud Talk** erlaubt Videochat und Screen Sharing für max. 4 Teilnehmer. Ihr benötigt einen Account, aber könnt andere auch mit einem geteilten Link einladen. [Alle Infos zu unserem Cloud-Service](https://www.systemli.org/service/cloud.html).
 
