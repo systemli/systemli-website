@@ -23,14 +23,14 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 
 **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 5 participants. We recommend two instances of leftist technology collectives:
 
-* Jitsi instance of Autistici/Inventati: https://vc.autistici.org/
-* Jitsi instance of Mayfirst: https://meet.mayfirst.org/
+* Jitsi instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
+* Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)
 
 **Mumble** allows larger group calls (without video), even with 100+ participants. A program must be installed for Mumble. There are clients for all major operating systems. [All information about our Mumble service](https://www.systemli.org/en/service/mumble.html).
 
 **Nextcloud Talk** allows video chat and screen sharing for max. 4 participants. You need an account, but you can also invite others with a shared link. [All information about our Cloud service](https://www.systemli.org/en/service/cloud.html).
 
-* Our cloud instance: https://cloud.systemli.org
+* Our cloud instance: [https://cloud.systemli.org](https://cloud.systemli.org)
 
 
 #### Instant Messenger and chat groups
@@ -44,7 +44,7 @@ Many solidary neighbourhood initiatives are currently being organised through te
 
 **Jabber** our Oldy, but goldy. Jabber allows the 1:1 discussion and also larger groups. You can communicate across different instances. We offer a server with public registration and web client. For chatting on the computer there are programs for all operating systems. [All information about our Jabber service](https://www.systemli.org/en/service/xmpp.html).
 
-* Our Jabber server: https://jabber.systemli.org
+* Our Jabber server: [https://jabber.systemli.org](https://jabber.systemli.org)
 
 ### External communication
 
@@ -57,8 +57,8 @@ But we are happy to make it available to you under different domains.
 
 **Mastodon** is a free Twitter alternative. We can recommend the following instances:
 
-* The instance of the Dutch comrades of Wehost: https://social.weho.st/
-* From the environment of the Chaos Computer Club (by invitation only): https://chaos.social/
+* The instance of the Dutch comrades of Wehost: [https://social.weho.st/](https://social.weho.st/)
+* From the environment of the Chaos Computer Club (by invitation only): [https://chaos.social/](https://chaos.social/)
 
 
 ### Discussions and knowledge storage
@@ -74,11 +74,13 @@ not protected against vandalism. However, links can be created
 without write permission only. **During large assemblies a combination of
  etherpad and mumble was quite sufficient.** [All about our pad-Service](https://www.systemli.org/en/service/etherpad.html)
 
+* Our instance: [https://pad.systemli.org/](https://pad.systemli.org/)
+* Riseup.net: [https://pad.riseup.net/](https://pad.riseup.net/)
 
 **Wikis** are perfect for knowledge collection and management.
 If you want to create an (internal or public) knowledge base,
 we can provide you a Wiki with the software [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
-make available](https://www.systemli.org/service/hosting.html#wikis).
+and [make it available](https://www.systemli.org/service/hosting.html#wikis).
 
 
 We hope to help you with the recommendations and the infrastructure for your political work. In discussions, action planning, coordination of neighbourhood assistance and all other solidarity behaviour.
