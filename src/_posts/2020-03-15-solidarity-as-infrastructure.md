@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en
-title: "Solidarity infrastructure for solidarity actions
+title: "Solidarity infrastructure for solidarity actions"
 date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
@@ -11,6 +11,8 @@ translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
 As a left-wing technology collective, we want to support you in using the right tools while still maintaining a minimum of privacy and security standards. Below are some specific recommendations for tools that we find useful for digital collaborative work processes.
+
+<!--more-->
 
 ### Real-time communication
 
