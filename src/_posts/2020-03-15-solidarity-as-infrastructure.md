@@ -80,9 +80,9 @@ without write permission only. **During large assemblies a combination of
 **Wikis** are perfect for knowledge collection and management.
 If you want to create an (internal or public) knowledge base,
 we can provide you a Wiki with the software [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
-and [make it available](https://www.systemli.org/service/hosting.html#wikis).
+and [make it available](/en/service/hosting.html#wikis).
 
 
 We hope to help you with the recommendations and the infrastructure for your political work. In discussions, action planning, coordination of neighbourhood assistance and all other solidarity behaviour.
 
-PS: Like [our friends:inside](https://www.systemli.org/friends.html), we run [many other services](https://www.systemli.org/service/index.html), which we gladly make available for all emancipatory and solidarity initiatives.
+PS: Like [our friends](/en/friends.html), we run [many other services](/en/service/index.html), which we gladly make available for all emancipatory and solidarity initiatives.
