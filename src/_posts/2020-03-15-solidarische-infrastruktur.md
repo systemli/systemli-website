@@ -28,7 +28,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 
 **Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden. Ganz aktuell haben wir [einen Webclient](https://talk.systemli.org) für euch installiert. Besseren Klang bieten aber die nativen Clients für alle großen Betriebssysteme. [Alle Infos über unseren Mumble-Service](https://www.systemli.org/service/mumble.html).
 
-**Nextcloud Talk** erlaubt Videochat und Screen Sharing für max. 4 Teilnehmer. Ihr benötigt einen Account, aber könnt andere auch mit einem geteilten Link einladen. [Alle Infos zu unserem Cloud-Service](https://www.systemli.org/service/cloud.html).
+**Nextcloud Talk** erlaubt Videochat und Screen Sharing für max. 4 Teilnehmer:innen. Ihr benötigt einen Account, aber könnt andere auch mit einem geteilten Link einladen. [Alle Infos zu unserem Cloud-Service](https://www.systemli.org/service/cloud.html).
 
 * Unsere Cloud Instanz: [https://cloud.systemli.org](https://cloud.systemli.org)
 
