@@ -6,7 +6,7 @@ date:  2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 15. März 2020*
+*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 18. März 2020*
 
 In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wie sie ihre politische Arbeit digital unterstützen und weiterführen können.  Wir werden zum Beispiel gefragt, wie ein Plenum oder Bündnistreffen digital umgesetzt werden kann, wenn sich Leute nicht in einem Raum treffen wollen/können.
 

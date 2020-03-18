@@ -6,7 +6,7 @@ date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: The article will be updated if necessary. Last updated: 15 March 2020*
+*Disclaimer: The article will be updated if necessary. Last updated: 18 March 2020*
 
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
