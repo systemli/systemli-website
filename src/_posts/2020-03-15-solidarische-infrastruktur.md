@@ -6,7 +6,7 @@ date:  2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 18. März 2020*
+*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 22. März 2020*
 
 In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wie sie ihre politische Arbeit digital unterstützen und weiterführen können.  Wir werden zum Beispiel gefragt, wie ein Plenum oder Bündnistreffen digital umgesetzt werden kann, wenn sich Leute nicht in einem Raum treffen wollen/können.
 
@@ -29,6 +29,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 **Empfohlene Plattformen**:
 
 * **Jitsi** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 10-15 Teilnehmenden. Wir empfehlen zwei Instanzen linker Technik-Kollektive.
+  * Unsere Jitsi Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([Service-Seite mit Details](https://www.systemli.org/service/jitsi.html))
   * Jitsi Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
   * Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/)
 
