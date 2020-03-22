@@ -6,7 +6,7 @@ date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: The article will be updated if necessary. Last updated: 18 March 2020*
+*Disclaimer: The article will be updated if necessary. Last updated: 22 March 2020*
 
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
@@ -28,7 +28,8 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 
 **Recommended platforms**:
 
-* **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 10-15 participants. We recommend two instances of leftist technology collectives.
+* **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 10-15 participants. Besides our own, we recommend two more instances by leftist technology collectives.
+  * Our Jitsi instance: [https://meet.systemli.org/](https://meet.systemli.org/) ([service page with details](https://www.systemli.org/en/service/meet.html))
   * Jitsi instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
   * Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)
 
