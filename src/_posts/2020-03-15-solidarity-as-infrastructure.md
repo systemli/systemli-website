@@ -29,6 +29,7 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 **Recommended platforms**:
 
 * **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 10-15 participants. We recommend two instances of leftist technology collectives.
+  * Our Jitsi instance: [https://meet.systemli.org/](https://meet.systemli.org/) ([https://www.systemli.org/service/jitsi.html](service page with details))
   * Jitsi instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
   * Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)
 

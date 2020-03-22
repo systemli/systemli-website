@@ -29,6 +29,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 **Empfohlene Plattformen**:
 
 * **Jitsi** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 10-15 Teilnehmenden. Wir empfehlen zwei Instanzen linker Technik-Kollektive.
+  * Unsere Jitsi Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([https://www.systemli.org/service/jitsi.html](Service-Seite mit Details))
   * Jitsi Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
   * Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/)
 
