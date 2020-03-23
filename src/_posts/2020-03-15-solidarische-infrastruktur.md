@@ -31,10 +31,11 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 * **Jitsi** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 10-15 Teilnehmenden. Neben unserer eigenen empfehlen wir zwei weitere Instanzen linker Technik-Kollektive.
   * Unsere Jitsi Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([Service-Seite mit Details](https://www.systemli.org/service/meet.html))
   * Jitsi Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
-  * Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/)
+  * Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/)  
 
-
-* **Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden. Ganz aktuell haben wir [einen Webclient](https://talk.systemli.org) für euch installiert. Besseren Klang bieten aber die nativen Clients für alle großen Betriebssysteme. [Alle Infos über unseren Mumble-Service](https://www.systemli.org/service/mumble.html).
+* **Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden.
+  * Alle Infos über unseren [Mumble-Service (mit Links zu Nutzer\*innen-Dokumentation)](https://www.systemli.org/service/mumble.html)
+  * Ganz aktuell haben wir [einen Webclient](https://talk.systemli.org) für euch installiert. Besseren Klang bieten aber die nativen Clients für alle großen Betriebssysteme.
 
 * **Nextcloud Talk** erlaubt Videochat und Screen Sharing für max. 4 Teilnehmer:innen. Ihr benötigt einen Account, aber könnt andere auch mit einem geteilten Link einladen. [Alle Infos zu unserem Cloud-Service](https://www.systemli.org/service/cloud.html).
   * Unsere Cloud Instanz: [https://cloud.systemli.org](https://cloud.systemli.org)
@@ -66,7 +67,7 @@ Viele solidarische Nachbarschaftsinitiativen organisieren sich gerade über Tele
 
 * **Etherpad** eigenet sich sehr gut, um ad-hoc Wissen zu sammeln und gemeinsam Texte zu erstellen. Es benötigt keine Anmeldung, ist aber somit nicht gegen Vandalismus geschützt. Es lassen sich allerdings Links ohne Schreibberechtigung erstellen. **Bei großen Plena hat sich eine Kombination aus Etherpad und Mumble bewährt.** [Alle Infos zu unserem Pad-Service](https://www.systemli.org/service/etherpad.html).
   * Unsere Instanz: [https://pad.systemli.org/](https://pad.systemli.org/)
-  * Riseup.net: [https://pad.riseup.net/](https://pad.riseup.net/)
+  * Riseup.net: [https://pad.riseup.net/](https://pad.riseup.net/)  
 
 * **Wikis** sind perfekt zur Wissenssammlung und -verwaltung. Wenn ihr eine (interne oder öffentliche) Wissensdatenbank aufbauen wollt, können wir euch auf Anfrage ein Wiki mit der Software [Dokuwiki](https://www.dokuwiki.org/dokuwiki) zur [Verfügung stellen](https://www.systemli.org/service/hosting.html#wikis).
 
