@@ -22,7 +22,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 
 **Grundlegende Tipps**:
 
-* Alle Teilnehmenden sollten ein Headseat verwenden (das verhindert Echo und Feedback).
+* Alle Teilnehmenden sollten ein Headset verwenden (das verhindert Echo und Feedback).
 * Das Mikrofon ausschalten, wenn man nicht spricht. Dazu gibt es einen Schalter in den Programmen.
 * Vor Telefonkonferenzen sollten 2-3 Personen die Plattform ausprobieren und sich mit der Technik vertraut machen.
 
