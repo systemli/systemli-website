@@ -6,7 +6,7 @@ date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: The article will be updated if necessary. Last updated: 22 March 2020*
+*Disclaimer: The article will be updated if necessary. Last updated: 23 March 2020*
 
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
@@ -31,10 +31,11 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 * **Jitsi** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 10-15 participants. Besides our own, we recommend two more instances by leftist technology collectives.
   * Our Jitsi instance: [https://meet.systemli.org/](https://meet.systemli.org/) ([service page with details](https://www.systemli.org/en/service/meet.html))
   * Jitsi instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
-  * Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)
+  * Jitsi instance of Mayfirst:[https://meet.mayfirst.org/](https://meet.mayfirst.org)  
 
-
-* **Mumble** allows larger group calls (without video), even with 100+ participants. Very recently we have installed [a web client](https://talk.systemli.org) for you. Better sound can be achieved with the native clients for all major operating systems. [All information about our Mumble service](https://www.systemli.org/en/service/mumble.html).
+* **Mumble** allows larger group calls (without video), even with 100+ participants.
+  * All information about our [Mumble service (including links to user documentation)](https://www.systemli.org/en/service/mumble.html)
+  * Very recently we have installed [a web client](https://talk.systemli.org) for you. Better sound can be achieved with the native clients for all major operating systems.
 
 * **Nextcloud Talk** allows video chat and screen sharing for max. 4 participants. You need an account, but you can also invite others with a shared link. [All information about our Cloud service](https://www.systemli.org/en/service/cloud.html).
   * Our cloud instance: [https://cloud.systemli.org](https://cloud.systemli.org)
@@ -66,8 +67,7 @@ Messengers for fast communication and coordination are always important anyway, 
 
 * **Etherpad** is very well suited to collect ad-hoc knowledge and to share it together to create texts. It does not require registration, but is therefore not protected against vandalism. However, links can be created without write permission only. **During large assemblies a combination of etherpad and mumble was quite sufficient.** [All about our pad-Service](https://www.systemli.org/en/service/etherpad.html).
   * Our instance: [https://pad.systemli.org/](https://pad.systemli.org/)
-  * Riseup.net: [https://pad.riseup.net/](https://pad.riseup.net/)
-
+  * Riseup.net: [https://pad.riseup.net/](https://pad.riseup.net/)  
 
 * **Wikis** are perfect for knowledge collection and management. If you want to create an (internal or public) knowledge base, we can provide you a Wiki with the software [Dokuwiki](https://www.dokuwiki.org/dokuwiki) and [make it available](/en/service/hosting.html#wikis).
 
