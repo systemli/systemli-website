@@ -28,10 +28,10 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
 
 **Empfohlene Plattformen**:
 
-* {::nomarkdown}<p>{:/}**Jitsi** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 10-15 Teilnehmenden. Neben unserer eigenen empfehlen wir zwei weitere Instanzen linker Technik-Kollektive.{::nomarkdown}</p>{:/}
-  * Unsere Jitsi Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([Service-Seite mit Details](/service/meet.html))
-  * Jitsi Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
-  * {::nomarkdown}<p>{:/}Jitsi Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/){::nomarkdown}</p>{:/}
+* {::nomarkdown}<p>{:/}**Jitsi Meet** ist eine freie Plattform für Video-Konferenzen und kann direkt im Webbrowser gestartet werden. Funktioniert erfahrungsgemäß gut mit bis zu 10-15 Teilnehmenden. Neben unserer eigenen empfehlen wir zwei weitere Instanzen linker Technik-Kollektive.{::nomarkdown}</p>{:/}
+  * Unsere Jitsi Meet Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([Service-Seite mit Details](/service/meet.html))
+  * Jitsi Meet Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
+  * {::nomarkdown}<p>{:/}Jitsi Meet Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/){::nomarkdown}</p>{:/}
 
 * {::nomarkdown}<p>{:/}**Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden.{::nomarkdown}</p>{:/}
   * Alle Infos über unseren [Mumble-Service (mit Links zu Nutzer\*innen-Dokumentation)](/service/mumble.html)
