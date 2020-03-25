@@ -6,7 +6,7 @@ date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: The article will be updated if necessary. Last updated: 23 March 2020*
+*Disclaimer: The article will be updated if necessary. Last updated: March 25, 2020*
 
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
@@ -32,6 +32,7 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
   * Our Jitsi Meet instance: [https://meet.systemli.org/](https://meet.systemli.org/) ([service page with details](/en/service/meet.html))
   * Jitsi Meet instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
   * {::nomarkdown}<p>{:/}Jitsi Meet instance of Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org){::nomarkdown}</p>{:/}
+  * {::nomarkdown}<p>{:/}Jitsi Meet instance of Immerda: [https://meet.immerda.ch/](https://meet.immerda.ch){::nomarkdown}</p>{:/}
 
 * {::nomarkdown}<p>{:/}**Mumble** allows larger group calls (without video), even with 100+ participants.{::nomarkdown}</p>{:/}
   * All information about our [Mumble service (including links to user documentation)](/en/service/mumble.html)

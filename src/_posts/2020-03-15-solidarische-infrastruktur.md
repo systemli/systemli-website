@@ -6,7 +6,7 @@ date: 2020-03-15 22:00:00
 translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2j1
 ---
 
-*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 23. März 2020*
+*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 25. März 2020*
 
 In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wie sie ihre politische Arbeit digital unterstützen und weiterführen können. Wir werden zum Beispiel gefragt, wie ein Plenum oder Bündnistreffen digital umgesetzt werden kann, wenn sich Leute nicht in einem Raum treffen wollen/können.
 
@@ -32,6 +32,7 @@ Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsse
   * Unsere Jitsi Meet Instanz: [https://meet.systemli.org/](https://meet.systemli.org/) ([Service-Seite mit Details](/service/meet.html))
   * Jitsi Meet Instanz von Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org/)
   * {::nomarkdown}<p>{:/}Jitsi Meet Instanz von Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org/){::nomarkdown}</p>{:/}
+  * {::nomarkdown}<p>{:/}Jitsi Meet Instanz von Immerda: [https://meet.immerda.ch/](https://meet.immerda.ch/){::nomarkdown}</p>{:/}
 
 * {::nomarkdown}<p>{:/}**Mumble** erlaubt größere Gruppentelefonate (ohne Video), auch mit 100+ Teilnehmenden.{::nomarkdown}</p>{:/}
   * Alle Infos über unseren [Mumble-Service (mit Links zu Nutzer\*innen-Dokumentation)](/service/mumble.html)
