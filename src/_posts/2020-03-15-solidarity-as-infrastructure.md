@@ -31,7 +31,7 @@ The main tools for virtual plenums. Your communication will be encrypted and nob
 * {::nomarkdown}<p>{:/}**Jitsi Meet** is a free platform for video conferencing and can be started directly in your web browser. Works well with up to 10-15 participants. Besides our own, we recommend two more instances by leftist technology collectives.{::nomarkdown}</p>{:/}
   * Our Jitsi Meet instance: [https://meet.systemli.org/](https://meet.systemli.org/) ([service page with details](/en/service/meet.html))
   * Jitsi Meet instance of Autistici/Inventati: [https://vc.autistici.org/](https://vc.autistici.org)
-  * {::nomarkdown}<p>{:/}Jitsi Meet instance of Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org){::nomarkdown}</p>{:/}
+  * Jitsi Meet instance of Mayfirst: [https://meet.mayfirst.org/](https://meet.mayfirst.org)
   * {::nomarkdown}<p>{:/}Jitsi Meet instance of Immerda: [https://meet.immerda.ch/](https://meet.immerda.ch){::nomarkdown}</p>{:/}
 
 * {::nomarkdown}<p>{:/}**Mumble** allows larger group calls (without video), even with 100+ participants.{::nomarkdown}</p>{:/}
