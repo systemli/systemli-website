@@ -11,6 +11,6 @@ Vor knapp einer Woche haben wir versucht einen [Überblick für solidarische Inf
 
 ![Screenshot: Jitsi Meet](/assets/img/jitsi-meet-systemli.jpg "Screenshot: Jitsi Meet")
 
-Jitsi Meet eignet sich sehr gut um in kleinen Gruppen (3 - 15 Personen) Konferenzen abzuhalten. Die Benutzung ist einfach und es kann ein Bildschirm/Fenster geteilt werden. Jitsi Meet benötigt einen aktuellen Browser (optimalerweise Chromium oder Firefox) um reibungslos zu funktionieren. Am besten startet ihr es in einem privaten Browser-Fenster und deaktiviert sehr restriktive Plugins (z. B. NoScript) für diese Seite.
+Jitsi Meet eignet sich sehr gut um in kleinen Gruppen (3 - 15 Personen) Konferenzen abzuhalten. Die Benutzung ist einfach und es kann ein Bildschirm/Fenster geteilt werden. Jitsi Meet benötigt einen aktuellen Browser (optimalerweise Chromium) um reibungslos zu funktionieren. Am besten startet ihr es in einem privaten Browser-Fenster und deaktiviert sehr restriktive Plugins (z. B. NoScript) für diese Seite.
 
 Wie zu jedem Start eines neuen Services labeln wir diesen erst mal als Beta. Das bedeutet, wir sammeln damit noch Erfahrungen und müssen ggf. an den Konfigurationen schrauben.
