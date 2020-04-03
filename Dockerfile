@@ -1,25 +1,18 @@
-FROM ruby:2.4.7-slim-stretch
+FROM alpine:3
 
-RUN apt update && apt install -y \
-    make \
-    gcc \
-    g++ \
-    nodejs
+ENV HUGO_VERSION="0.68.3"
 
-RUN gem install \
-    octopress:3.0.11 \
-    octopress-multilingual:1.2.0 \
-    octopress-paginate:1.2.0
+ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /tmp
+RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
+    && mkdir -p /usr/local/sbin \
+    && mv /tmp/hugo /usr/local/sbin/hugo \
+    && rm -rf /tmp/hugo_${HUGO_VERSION}_linux_amd64 \
+    && rm -rf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
+    && rm -rf /tmp/LICENSE.md \
+    && rm -rf /tmp/README.md
 
-RUN gem uninstall jekyll -I
+WORKDIR "/data"
+VOLUME "/data"
+EXPOSE 1313
 
-RUN gem install \
-    jekyll -v 2.5.3
-
-COPY . /srv/jekyll
-
-WORKDIR /srv/jekyll
-
-EXPOSE 4000
-
-CMD [ "jekyll", "build" ]
+ENTRYPOINT ["hugo"]
