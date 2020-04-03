@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+{{ if or (eq .Type "page") (eq .Layout "page") }}
+{{ partial "page.html" . }}
+{{ else }}
+{{ partial "post.html" . }}
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,30 @@
+baseURL = "https://www.systemli.org"
+title = "Systemli - Your friendly tech collective"
+theme = "systemli"
+Paginate = 8
+sectionPagesMenu = "main"
+DefaultContentLanguage = "de"
+summaryLength = 20
+
+[params]
+    favicon = "favicon.ico"
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[languages]
+  [languages.de]
+    weight = 1
+    languageName = "DE"
+    contentDir = "content/german"
+    subtitle = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+    readOn = "Weiterlesen"
+    showAll = "zeige alles"
+
+  [languages.en]
+    weight = 2
+    languageName = "ENG"
+    contentDir = "content/english"
+    subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
+    readOn = "Read more"
+    showAll = "show everything"

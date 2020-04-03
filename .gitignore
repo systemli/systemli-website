@@ -3,3 +3,5 @@
 ansible/playbook.retry
 _site
 src/bower_components/
+node_modules
+resources/_gen

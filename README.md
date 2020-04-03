@@ -1,39 +1,25 @@
 # Source code for www.systemli.org
-This static website is built with [Jekyll](https://github.com/jekyll/jekyll)
- and [octopress](https://github.com/octopress/).
 
+This static website is built with [Hugo](https://github.com/gohugoio/hugo) as site generator, using [Tailwind CSS](https://tailwindcss.com/) as CSS Framework.
 Please improve by providing content, translations or code.
 
-## Requirements
- * [Vagrant](https://www.vagrantup.com/)
-
 ## Start development
- 1. vagrant up
- 2. Visit https://192.168.33.90
 
-## Add new post
- * Run `./new_post.sh`
- * Add text to the created files
- * restart jekyll
+ 1. Run `hugo server` for preview
+ 2. Visit http://localhost:1313/
+ 3. If you change either tailwind.config.js or main.css run `npm run build-css` or `npm run watch-css`
 
-You can manually set the break point between teaser and full post with:
-```
-<!--more-->
-```
+## Structure
 
-# deprecated
-## Dependencies for old jekyll version on Ubuntu
-```
-apt-get install python-software-properties
-apt-add-repository ppa:brightbox/ruby-ng
-apt-get update
-apt-get install ruby2.1 ruby2.1-dev
-apt-get install nodejs
-gem install jekyll:2.5.3 octopress:3.0.11 octopress-multilingual:1.2.0 octopress-paginate:1.2.0
+* [content](content/): Pages & Posts
+* [static](static/): Static content
 
-```
-If jekyll doesn't start, you have multiple versions of some gems installed.
-```
-gem uninstall jekyll liquid colorator
-```
-Please uninstall the more recent ones. (LOL)
+## Add new pages or posts
+
+Make sure to have [hugo](https://gohugo.io/getting-started/installing/) installed. To create a new page, run the corresponding command. In each case: Replace `example.md` with a unique name.
+
+TODO: commands for different archetypes
+
+### Services
+
+If you want services to appear on the homepage, make sure to properly fill out `homepage_title` and `icon` in the frontmatter of the relevant files. Vice versa: If you don't want them to show, delete these properties from the frontmatter (don't just leave blank, delete).

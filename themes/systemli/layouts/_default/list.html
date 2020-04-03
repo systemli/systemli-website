@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="container mx-auto m-6 p-6 bg-white shadow-m">
+    <!-- For type services: Render special list template -->
+    {{ if eq .Params.type "services" }}
+    TODO: get design ^^'
+    <br>
+    <br>
+    <br>
+    {{ range .Pages }}
+    <div>
+        <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">{{ .Params.Title }}</a>:
+        {{ .Params.teaser }}
+    </div>
+    {{ end }}
+
+    {{ else }}
+    <!-- All other lists: Render post list -->
+    <div class="grid grid-cols-8">
+
+
+        {{ range .Paginator.Pages }}
+        <div class="flex items-center col-span-1 border-b border-r text-l leading-6">
+            {{ .Date.Format "02/01 2006" }}
+        </div>
+        <div class="col-span-7 pl-4 border-b pr-4 leading-6">
+            <h2>{{ .Title }}</h2>
+        </div>
+        <div class="col-span-1"></div>
+        <div class="col-span-7 py-4 pl-4 pr-4">
+            {{ .Summary }}
+            <p>
+                <a class="readmore" href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
+            </p>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ template "_internal/pagination.html" . }}
+
+    {{ end }}
+</div>
+
+{{ end }}
