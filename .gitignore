@@ -1,7 +1,3 @@
 .idea
-.vagrant
-ansible/playbook.retry
 public
-src/bower_components/
 node_modules
-resources/_gen
