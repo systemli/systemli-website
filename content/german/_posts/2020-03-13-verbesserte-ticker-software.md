@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: de
 title: "Verbesserte Ticker-Software"
 date:  2020-03-13 16:00:00
-translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2jt
 ---
 [![ticker](/assets/img/ticker.jpg)](/service/ticker.html)
 Unser Ticker hilft euch bei der Begleitung von Demonstration und anderen zeitkritischen Events.

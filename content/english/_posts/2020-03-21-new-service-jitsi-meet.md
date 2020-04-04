@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: en
 title: "New service: Jitsi Meet"
 date:  2020-03-21 12:00:00
-translation_id: 5qvCig9Qf4uSPcHMCbNx9oOaG5u4Z8uIK
 ---
 
 About a week ago we tried to give an [overview for solidary infrastructure](/en/2020/03/15/solidarity-as-infrastructure.html). A service that has been requested again and again and is important in the current situation has been [Jitsi Meet](/en/service/meet.html). We have decided to offer this service like other leftist tech-collectives.

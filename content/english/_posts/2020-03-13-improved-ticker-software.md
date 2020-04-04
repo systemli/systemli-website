@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: en
 title: "Improved ticker software"
 date:  2020-03-13 16:00:00
-translation_id: rNLr5pHlnZQ3nlUixEIBwoArkqeg2W2jt
 ---
 [![ticker](/assets/img/ticker.jpg)](/en/service/ticker.html)
 Our ticker helps you with live coverage of demonstrations and other events.
