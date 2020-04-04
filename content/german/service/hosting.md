@@ -46,9 +46,9 @@ Zur Strukturierung von Wissen sind Wikis ein gutes Werkzeug. Sie helfen, Wissen 
 
 Foren sind praktisch für Diskussionen und Meinungsaustausch in einer Gruppe oder Organisation. Wir bieten als Forensoftware phpBB an.
 
-#### Demoticker
+#### Ticker
 
-Wir bieten eine Tickersoftware an, mit der ihr politische Aktionen begleiten könnt. Eine ausführliche Erklärung findet ihr [hier](ticker.html). 
+Wir bieten eine Tickersoftware an, mit der ihr politische Aktionen begleiten könnt. Eine ausführliche Erklärung findet ihr [hier](/service/ticker). 
 
 #### Statische Websites
 

@@ -1,8 +1,6 @@
 ---
 layout: page
-lang: en
 title: Web Hosting
-translation_id: d340d5414d90735b71051cb9489abeab
 icon: hosting80.png
 homepage_title: web.host
 teaser: Boards, wikis, blogs and individual website solutions
@@ -42,9 +40,9 @@ Wikis are a good tool to structure knowledge. They help to manage knowledge, sea
 
 Forums are practical for discussions and exchange of views within a group or organization. W offer phpBB as a forum software. 
 
-#### Demoticker
+#### Ticker
 
-We offer a ticker software with which you can accompany your political actions. Further information is found [here](ticker.html). 
+We offer a ticker software with which you can accompany your political actions. Further information is found [here](/en/service/ticker). 
 
 #### Static Websites
  Your can upload static HTML/CSS cia SFTP to our web server.
