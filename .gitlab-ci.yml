@@ -1,39 +1,38 @@
 stages:
-    - build
-    - deploy
+  - build
+  - generate
+  - deploy
+  - cleanup
 
 before_script:
-    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-    - docker info
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
 
 build_image:
   stage: build
-  script:
-    - docker build -t systemli-website:latest .
+  script: docker build -t systemli-website:latest .
+
+generate_website:
+  stage: generate
+  script: docker run --rm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
 
 deploy_prod:
   stage: deploy
-  only:
-    - master
-  script:
-    - docker run --rm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
-    - rsync -vrltgoDz --delete -e "ssh -p22" ./public/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
-    - rm -rf public/
+  only: [master]
+  dependencies: [generate_website]
+  script: rsync -vrltgoDz --delete -e ssh public/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
 
 deploy_staging:
   stage: deploy
-  only:
-    - staging
-  script:
-    - docker run --rm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
-    - rsync -vrltgoDz --delete -e "ssh -p22" ./public/ systemli-staging@www3.systemli.org:/var/www/www.staging.systemli.org/www
-    - rm -rf public/
+  only: [staging]
+  dependencies: [generate_website]
+  script: rsync -vrltgoDz --delete -e ssh public/ systemli-staging@www3.systemli.org:/var/www/www.staging.systemli.org/www
 
 deploy_preview:
   stage: deploy
-  only:
-    - preview
-  script:
-    - docker run --rm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
-    - rsync -vrltgoDz --delete -e "ssh -p22" ./public/ systemli-preview@www3.systemli.org:/var/www/www.preview.systemli.org/www
-    - rm -rf public/
+  only: [preview]
+  dependencies: [generate_website]
+  script: rsync -vrltgoDz --delete -e ssh public/ systemli-preview@www3.systemli.org:/var/www/www.preview.systemli.org/www
+
+remove_artifacts:
+  stage: cleanup
+  script: rm -rf public/
