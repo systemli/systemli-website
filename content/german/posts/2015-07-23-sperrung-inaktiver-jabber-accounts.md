@@ -1,9 +1,7 @@
 ---
 layout: post 
-lang: de
 title: Sperrung inaktiver Jabber-Accounts
 date:   2015-07-23 10:00:00
-translationKey: 3c19df5093d1ac630b3e471de82dde24
 ---
 
 Am 01.08.2015 werden wir alle Jabber-Accounts deaktivieren, welche

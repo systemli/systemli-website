@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Webhosting
-lang: de
 menu_group: service
-translation_id: d340d5414d90735b71051cb9489abeab
 icon: hosting80.png
 homepage_title: web.host
 teaser: Foren, Wikis, Blogs und indivduelle Website-Lösungen

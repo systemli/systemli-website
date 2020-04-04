@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Onion Services
-lang: en
 menu_group: service
-translation_id: 405fa099b89ec281d5df6c1eea477214
 icon: onion_services80.png
 homepage_title: onion.service
 teaser: Connect unobserved with our services

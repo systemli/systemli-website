@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: en
 title: New features in user portal
 date: 2019-07-19 12:00:00
-translationKey: d0006a92f5acab6b182ad706dfe77dc2
 ---
 ![haveibeenpwned](/assets/img/haveibeenpwned.png)
 We have increased the password security in the most recent version of our [user portals](https://users.systemli.org).

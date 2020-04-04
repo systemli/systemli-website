@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: en
 title:  "Benefit party for systemli.org"
 date:   2014-08-08 16:00:00
-translationKey: a84df4cd7a65661f5c326f09f659b75a
 ---
 ![off-the-record](/assets/img/party_off_the_record.jpg)
 

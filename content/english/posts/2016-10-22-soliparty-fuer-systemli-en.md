@@ -1,10 +1,7 @@
 ---
 layout: post
-lang: en
 title:  "Off the record - Fundrasing Party for systemli.org"
 date:   2016-10-22 11:00:00
-
-translationKey: ede1b180a1b3ee2847b83f469ea4ee17
 ---
 ![off-the-record](/assets/img/off_the_record_banner.jpg)
 

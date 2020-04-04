@@ -1,9 +1,7 @@
 ---
 layout: post 
-lang: de
 title: Danke für 2014
 date:   2015-01-14 22:00:00
-translationKey: 7ebbd9d3b6cd108292c08d2fd148e206
 ---
 
 [![shirts]({{ site.url }}/assets/img/shirts_small.jpg)]({{ site.url }}/assets/img/shirts.jpg)

@@ -1,9 +1,7 @@
 ---
 layout: post
-lang: de
 title:  "Wir nehmen keine Bitcoins mehr an"
 date:   2018-02-14 22:00:00
-translationKey: 386b7f5aa7509597b04d4604cb633266
 ---
 
 
