@@ -10,7 +10,7 @@
         <div class="grid grid-cols-8 col-span-8 p-4">
 
             <!-- loop through last three posts -->
-            {{ range first 3 (where $.Site.RegularPages "Type" "_posts") }}
+            {{ range first 3 (where $.Site.RegularPages "Type" "posts") }}
             <div class="flex items-center col-span-2 border-b border-r text-l leading-6">
                 {{ .Date.Format "02/01 2006" }}
             </div>
@@ -32,7 +32,7 @@
         </div>
         <div class="flex col-span-8 p-4">
             <div class="bg-lightblue w-3 h-3 mr-4"></div>
-            <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/_posts">{{ .Param "showAll" }}</a>
+            <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
         </div>
     </div>
     <div class="flex flex-col justify-between col-span-3 mr-8">

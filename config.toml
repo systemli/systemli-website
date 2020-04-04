@@ -6,6 +6,9 @@ sectionPagesMenu = "main"
 DefaultContentLanguage = "de"
 summaryLength = 20
 
+[permalinks]
+  posts = "/:year/:month/:day/:title"
+
 [params]
     favicon = "favicon.ico"
 
@@ -23,7 +26,7 @@ summaryLength = 20
 
   [languages.en]
     weight = 2
-    languageName = "ENG"
+    languageName = "EN"
     contentDir = "content/english"
     subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
     readOn = "Read more"
