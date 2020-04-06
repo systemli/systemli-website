@@ -2,6 +2,7 @@
 layout: post
 title:  "Jabber: Account registration temporarily disabled"
 date:   2019-05-17 20:00:00
+translationKey: cb510da02c0d69fc2569e6b6fde3a8e5
 ---
 
 

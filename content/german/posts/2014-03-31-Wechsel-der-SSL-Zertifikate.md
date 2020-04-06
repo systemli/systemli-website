@@ -2,6 +2,7 @@
 layout: post
 title:  "Hintergrund: Wechsel der SSL-Zertifikate"
 date:   2014-03-31 10:00:00
+translationKey: fe5c4984f79b15e8d93774ffd25458dd
 ---
 Diesen Monat haben wir alle unsere SSL-Zertifikate von CACert auf kommerzielle Anbieter umgestellt.  
 Bisher gab es für viele Benutzer stets Meldungen, unsere Webseiten und Dienste seien nicht vertrauenswürdig und es wurde wiederholt an uns herangetragen, dass dies sehr abschreckend wirke. Das ist nun vorbei.  

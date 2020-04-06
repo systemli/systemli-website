@@ -2,6 +2,7 @@
 layout: post
 title:  "New Feature: e-mail password recovery"
 date:   2019-03-03 20:00:00
+translationKey: 21a8635a0fdc2a7c8b75c2dfee3bcd12
 ---
 
 During the last months, we have put a lot of work in our [invitation and administration portal](https://users.systemli.org). Originally, we developed this tool in 2014 to simplify the access to our e-mail service. Later, we added  a [cloud storage with several features (calendar, contacts, etc.)]({% post_url 2016-03-26-owncloud-en %}) to systemli.org mail accounts. Both are valuable features for our users, we hope. Today, we are very happy to present a new important feature: **e-mail password recovery**.

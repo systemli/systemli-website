@@ -2,6 +2,7 @@
 layout: post
 title:  "Background: Data transfer and group chat with Jabber"
 date:   2014-05-14 17:00:00
+translationKey: 7039c4eb92b991ba82a45dbe5cfa32af
 ---
 Since restructuring in January, it is **not possible anymore to transfer data with our [Jabber-Server](/en/service/xmpp.html)**. Although we pointed out that this kind of transfer is not encrypted, there repeatedly have been misunderstandings.
 Pidgin offers this service, but via a non-encrypted Proxy. [Please don't use this! ](https://wiki.systemli.org/howto/jabber_eng)

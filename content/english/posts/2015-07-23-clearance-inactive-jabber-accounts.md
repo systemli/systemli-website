@@ -2,6 +2,7 @@
 layout: post 
 title: Clearance of inactive Jabber-accounts
 date:   2015-07-23 10:00:00
+translationKey: 3c19df5093d1ac630b3e471de82dde24
 ---
 
 On August 1st we will delete all the jabber accounts, which have not been active for more than a year.
