@@ -1,8 +1,11 @@
 ---
 layout: post 
+lang: de 
 title:  Ansible-Rolle zum Aufsetzen eines Jabberservers
 date:   2016-03-08 17:00:00
 excerpt: Wir haben unsere Ansible Rolle veröffentlicht, mit der es möglich ist sich einen Jabber-Server aufzusetzen, der genauso konfiguriert ist wie jabber.systemli.org.
+
+translationKey: 3bfa1d3c3201f8e884a89f5b13a06e5c
 ---
 
 Systemli.org betreibt vermutlich einen der beliebtesten [Jabber-Server](/service/xmpp.html) in Deutschland.

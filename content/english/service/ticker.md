@@ -3,6 +3,7 @@ layout: page
 title: Ticker
 icon: Ticker80.png
 homepage_title: ticker
+translationKey: 3e91fcf85e9d4891cd5c76c77e178251
 teaser: Distribute short messages during demonstrations and events
 ---
 **Service to distribute short messages in support of events, demonstrations, or other time-sensitive events.**

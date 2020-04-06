@@ -2,6 +2,7 @@
 layout: post
 title:  "Mail-TLS-Helper"
 date:   2018-09-29 17:00:00
+translationKey: 83bc7f5aa350919ab04e440fc26305f5
 ---
 
 Already in 2017, we had announced to work onto enabling mandatory [transport encryption of e-mails]({% post_url 2017-06-22-infrastruktur-verbesserungen-bei-systemli-en %}). People have been saying for a long time this is impossible, because e-mail infrastructure is too old and badly maintained. Our tests in the last 1,5 years showed us a different picture.
