@@ -2,6 +2,7 @@
 layout: post
 title:  "Background information: Change of SSL-certificates"
 date:   2014-03-31 10:00:00
+translationKey: fe5c4984f79b15e8d93774ffd25458dd
 ---
 This month we changed all our SSL-certificates from CACert to commercial providers. Up until now many of our users were confronted with notifications stating that our websites and services are not trustworthy; people repeatedly told us that this is off-putting. We have put an end to this.
 
