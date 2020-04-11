@@ -18,10 +18,11 @@ module.exports = {
       'xl': '28px',
     },
     boxShadow: {
-      'm': '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)',
+      'm': '0 0 5px 0px rgba(0,0,0,0.25)',
     },
     extend: {
       maxWidth: {
+        'half': '50%',
         '95': '95%',
       },
       gridTemplateColumns: {

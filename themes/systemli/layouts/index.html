@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="flex flex-col items-center lg:items-start lg:grid grid-cols-16 gap-8 my-4">
+<div class="flex flex-col items-center lg:items-start lg:grid grid-cols-16 gap-8">
     <div class="flex flex-col lg:grid grid-cols-13 col-span-13 lg:ml-6 max-w-95 bg-white shadow-m">
         <div class="grid grid-cols-8 col-span-8 p-4">
 
@@ -23,7 +23,7 @@
         </div>
         <div class="hidden lg:block col-span-5 max-h-screen overflow-scroll p-4">
             <a class="twitter-timeline" href="https://twitter.com/systemli?ref_src=twsrc%5Etfw">Tweets by systemli</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
         </div>
         <div class="flex col-span-8 p-4">
             <div class="bg-lightblue w-3 h-3 mr-4"></div>
@@ -34,9 +34,7 @@
         <div>
             {{ range where $.Site.RegularPages "Type" "service" }}
             {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
-            <div class="flex items-center py-2 border-b"
-                 onmouseover="document.getElementById('{{ .Params.title }}').style.display = 'flex';"
-                 onmouseout="document.getElementById('{{ .Params.title }}').style.display = 'none';">
+            <div class="service-link flex items-center py-2 border-b">
                 <img class="pr-2 w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
                 <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">
                     {{ .Params.homepage_title }}
@@ -48,7 +46,7 @@
         <div class="mb-10 lg:mb-0">
             {{ range where $.Site.RegularPages "Type" "service" }}
             {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
-            <div class="hidden flex-col" id={{ .Params.title }}>
+            <div class="hidden flex-col" id={{ .Params.homepage_title }}>
                 <img src="/service-icons/Info_detail_service80.png" alt="info-logo" class="self-end py-2 w-8">
                 <div class="py-2 border-t">
                     {{ .Params.teaser }}

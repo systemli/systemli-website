@@ -2,7 +2,7 @@
 layout: page
 title: Nutzungsbedingungen
 menu: main
-order: 6
+weight: 6
 en_title: Terms of Services
 translationKey: 3bcc4028d59fbd74d03760256430d8c2
 ---
