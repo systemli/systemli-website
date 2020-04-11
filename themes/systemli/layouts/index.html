@@ -1,12 +1,7 @@
 {{ define "main" }}
 
-<div class="flex flex-row items-center justify-around py-4">
-    <img class="max-w-sm" src="/systemli_logo_1200px.png" alt="logo">
-    <p>/* {{ .Param "subtitle" }} */</p>
-</div>
-
-<div class="grid grid-cols-16 gap-8 my-4">
-    <div class="grid grid-cols-13 col-span-13 ml-6 bg-white shadow-m">
+<div class="flex flex-col items-center lg:items-start lg:grid grid-cols-16 gap-8 my-4">
+    <div class="flex flex-col lg:grid grid-cols-13 col-span-13 lg:ml-6 max-w-95 bg-white shadow-m">
         <div class="grid grid-cols-8 col-span-8 p-4">
 
             <!-- loop through last three posts -->
@@ -14,11 +9,11 @@
             <div class="flex items-center col-span-2 border-b border-r text-l leading-6">
                 {{ .Date.Format "02/01 2006" }}
             </div>
-            <div class="col-span-6 pl-4 border-b pr-4 border-r leading-6">
+            <div class="col-span-6 pl-4 border-b pr-4 lg:border-r leading-6">
                 <h2>{{ .Title }}</h2>
             </div>
-            <div class="col-span-2"></div>
-            <div class="col-span-6 py-4 pl-4 pr-4 border-r">
+            <div class="col-span-2 hidden lg:block"></div>
+            <div class="col-span-8 lg:col-span-6 py-4 pl-4 pr-4 lg:border-r">
                 {{ .Summary }}
                 <p>
                     <a class="readmore" href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
@@ -26,7 +21,7 @@
             </div>
             {{ end }}
         </div>
-        <div class="col-span-5 max-h-screen overflow-scroll p-4">
+        <div class="hidden lg:block col-span-5 max-h-screen overflow-scroll p-4">
             <a class="twitter-timeline" href="https://twitter.com/systemli?ref_src=twsrc%5Etfw">Tweets by systemli</a>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
@@ -35,7 +30,7 @@
             <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
         </div>
     </div>
-    <div class="flex flex-col justify-between col-span-3 mr-8">
+    <div class="flex flex-col justify-between w-11/12 col-span-3 lg:mr-8">
         <div>
             {{ range where $.Site.RegularPages "Type" "service" }}
             {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
@@ -50,7 +45,7 @@
             {{ end }}
             {{ end }}
         </div>
-        <div>
+        <div class="mb-10 lg:mb-0">
             {{ range where $.Site.RegularPages "Type" "service" }}
             {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
             <div class="hidden flex-col" id={{ .Params.title }}>
@@ -62,6 +57,8 @@
             {{ end }}
             {{ end }}
         </div>
+        <p class="block lg:hidden">/* {{ .Param "subtitle" }} */</p>
+        <img class="w-64 lg:hidden m-6" src="/systemli_logo_1200px.png" alt="logo">
     </div>
 </div>
 

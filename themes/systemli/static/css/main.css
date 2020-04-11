@@ -706,7 +706,9 @@ li {
 }
 
 .bg-body {
-  background: url('/background.png') #f5f5f5;
+  background-image: url('/background.png');
+  background-color: #f5f5f5;
+  background-blend-mode: multiply;
 }
 
 .sr-only {
@@ -3089,6 +3091,10 @@ li {
 
 .max-h-screen {
   max-height: 100vh;
+}
+
+.max-w-95 {
+  max-width: 95%;
 }
 
 .max-w-none {
@@ -9620,6 +9626,10 @@ li {
 
   .sm\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .sm\:max-w-95 {
+    max-width: 95%;
   }
 
   .sm\:max-w-none {
@@ -16154,6 +16164,10 @@ li {
     max-height: 100vh;
   }
 
+  .md\:max-w-95 {
+    max-width: 95%;
+  }
+
   .md\:max-w-none {
     max-width: none;
   }
@@ -22686,6 +22700,10 @@ li {
     max-height: 100vh;
   }
 
+  .lg\:max-w-95 {
+    max-width: 95%;
+  }
+
   .lg\:max-w-none {
     max-width: none;
   }
@@ -29216,6 +29234,10 @@ li {
 
   .xl\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .xl\:max-w-95 {
+    max-width: 95%;
   }
 
   .xl\:max-w-none {

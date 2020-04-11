@@ -57,7 +57,9 @@ li {
 @tailwind components;
 
 .bg-body {
-    background: url('/background.png') #f5f5f5;
+    background-image: url('/background.png');
+    background-color: #f5f5f5;
+    background-blend-mode: multiply;
 }
 
 @tailwind utilities;

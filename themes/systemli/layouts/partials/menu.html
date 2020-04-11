@@ -1,17 +1,26 @@
-<header class="flex flex-row justify-between py-4 px-8 bg-lightblue text-m font-bold">
-    <div>
-        <a class="p-1 text-white hover:text-black" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">systemli.org</a>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-            <a class="p-1 text-white hover:text-black {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-        {{ end }}
-    </div>
-    <div>
-        {{ if .IsTranslated }}
-            {{ range .Translations }}
-                <a class="p-1 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+<header>
+    <div class="hidden lg:flex flex-row justify-between py-4 px-8 bg-lightblue text-m font-bold">
+        <div>
+            <a class="p-1 text-white hover:text-black" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">systemli.org</a>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+                <a class="p-1 text-white hover:text-black {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
             {{ end }}
-        {{ end }}
-        <a class="p-1" href="https://twitter.com/systemli" target="_blank"><img class="inline w-6" src="/twitter.svg" alt="Twitter Logo"></a>
+        </div>
+        <div>
+            {{ if .IsTranslated }}
+                {{ range .Translations }}
+                    <a class="p-1 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                {{ end }}
+            {{ end }}
+            <a class="p-1" href="https://twitter.com/systemli" target="_blank"><img class="inline w-6" src="/twitter.svg" alt="Twitter Logo"></a>
+        </div>
+    </div>
+    <div class="flex flex-row items-center justify-between lg:justify-around py-4">
+        <img class="w-64 lg:w-1/4 max-w-sm ml-3 lg:m-3" src="/systemli_logo_1200px.png" alt="logo">
+        <p class="hidden lg:block">/* {{ .Param "subtitle" }} */</p>
+        <div class="flex lg:hidden items-center justify-center h-20 w-20 bg-lightblue">
+            <span class="text-white">Menu</span>
+        </div>
     </div>
 </header>
