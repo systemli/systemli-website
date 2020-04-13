@@ -34,11 +34,14 @@
             </div>
         </div>
     </nav>
-    <div class="flex flex-row items-center justify-between lg:justify-around py-4 mb-4">
+    <div class="flex flex-row items-center justify-between lg:w-19/20 lg:max-w-screen-xl mx-auto py-4 mb-4 lg:mb-0">
         <a class="w-64 lg:w-1/4 max-w-sm ml-3 lg:m-3" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
             <img src="/systemli_logo_1200px.png" alt="logo">
         </a>
-        <p class="hidden lg:block max-w-half">/* {{ .Param "subtitle" }} */</p>
+        <p class="hidden lg:block max-w-half">/*
+            {{ if isset .Params "teaser" }}{{ .Param "teaser" }}
+            {{ else }}{{ .Param "subtitle" }}{{ end }}
+            */</p>
         <div class="flex lg:hidden items-center justify-center h-20 w-20 bg-lightblue">
             <span class="text-white cursor-pointer" id="button-menu-open">
                 Menu

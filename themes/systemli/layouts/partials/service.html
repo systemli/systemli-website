@@ -1,0 +1,16 @@
+<div class="content-container">
+    <h1 class="border-b pb-2">{{ .Title }}</h1>
+    <div class="flex flex-col lg:grid grid-cols-13 mt-10">
+        <div class="col-span-5 flex flex-row items-center lg:justify-start lg:flex-col mb-6 lg:mb-0">
+            <img class="pr-2 mr-5 lg:mr-0 lg:mb-20 w-40 lg:w-64" src="/service-icons/{{ .Params.icon }}" alt="Icon">
+            <div class="flex flex-col">
+                {{ range $link := .Param "links" }}
+                <a class="button-link" href={{ $link.url }}>{{ $link.text }}</a>
+                {{ end }}
+            </div>
+        </div>
+        <div class="col-span-8">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
