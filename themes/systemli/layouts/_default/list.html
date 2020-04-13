@@ -3,16 +3,22 @@
 <div class="content-container">
     <!-- For type services: Render special list template -->
     {{ if eq .Params.type "services" }}
-    TODO: get design ^^'
-    <br>
-    <br>
-    <br>
-    {{ range .Pages }}
-    <div>
-        <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">{{ .Params.Title }}</a>:
-        {{ .Params.teaser }}
+    <div class="flex flex-wrap justify-around">
+        {{ range .Pages }}
+        <a class="w-96 bg-lightgrey text-black m-2 p-10 transform hover:scale-101" href="/service/{{ .File.TranslationBaseName }}">
+            <div class="flex justify-between items-center border-b">
+                <h2>{{ .Params.Title }}</h2>
+                <img class="h-10 ml-2" src="/service-icons/{{ .Params.icon }}" alt="Icon">
+            </div>
+            <div class="pt-2">
+                {{ .Params.teaser }}
+            </div>
+        </a>
+        {{ end }}
+        <!-- flex hack: https://stackoverflow.com/questions/16377972/how-to-align-left-last-row-line-in-multiple-line-flexbox -->
+        <div class="w-96 h-0 m-2"></div>
+        <div class="w-96 h-0 m-2"></div>
     </div>
-    {{ end }}
 
     {{ else }}
     <!-- All other lists: Render post list -->
