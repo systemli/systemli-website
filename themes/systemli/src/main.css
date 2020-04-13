@@ -33,7 +33,7 @@ a {
     @apply text-lightblue;
 }
 p {
-    @apply py-2;
+    @apply py-2 break-all;
 }
 ul {
     @apply pb-3 list-disc list-inside;
@@ -41,6 +41,17 @@ ul {
 li {
     @apply pl-6;
 }
+pre {
+    @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs break-all overflow-auto;
+}
+.button-link {
+    @apply text-xs my-3;
+}
+.button-link::before {
+    @apply bg-lightblue inline-block h-3 w-3 mr-2;
+    content: '';
+}
+
 .content-container {
     @apply max-w-95 mx-auto p-6 bg-white shadow-m;
 }
