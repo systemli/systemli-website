@@ -21,9 +21,16 @@ module.exports = {
       'm': '0 0 5px 0px rgba(0,0,0,0.25)',
     },
     extend: {
+      width: {
+        '19/20': '95%',
+        '96': '24rem',
+      },
       maxWidth: {
         'half': '50%',
         '95': '95%',
+      },
+      scale: {
+        '101': '1.01',
       },
       gridTemplateColumns: {
         '16': 'repeat(16, minmax(0, 1fr))',
