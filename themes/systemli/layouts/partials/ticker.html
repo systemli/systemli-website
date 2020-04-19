@@ -1,0 +1,33 @@
+<script type="application/javascript">
+  const origin = 'updates.systemli.org'
+  const apiUrl = 'https://ticker-api.systemli.org/v1/timeline'
+
+  fetch(apiUrl + '?origin=' + origin).then(response => {
+    return response.json()
+  }).then(response => {
+    let elem = document.getElementById('ticker')
+
+    response.data.messages.forEach(message => {
+
+      const date = new Date(message.creation_date)
+      let entry = document.createElement('div')
+      let text = '<p>' + message.text + '</p>'
+      let created = '<p class="text-xs">' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString() + '</p>'
+      let images = ''
+
+      if (message.attachments != null && message.attachments.length > 0) {
+        message.attachments.forEach(attachment => {
+          images += '<img src="' + attachment.url + '"  alt=""/>'
+        })
+      }
+
+      entry.innerHTML = '<div class="mb-2 border-b">' + text + images + created + '</div>'
+      elem.appendChild(entry)
+    })
+  })
+</script>
+<div class="border-b leading-6">
+    <h2>Latest Updates <span class="text-xs">from <a href="https://updates.systemli.org" target="_blank">updates.systemli.org</a></span>
+    </h2>
+</div>
+<div id="ticker"></div>
