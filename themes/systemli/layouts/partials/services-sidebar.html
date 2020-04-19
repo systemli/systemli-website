@@ -1,0 +1,28 @@
+<div class="services flex flex-col justify-between w-11/12 lg:w-full col-span-5">
+    <div>
+        {{ range where $.Site.RegularPages "Type" "service" }}
+        {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
+        <div class="service-link flex items-center py-2 border-b">
+            <img class="pr-2 w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
+            <a href="/service/{{ .File.TranslationBaseName }}" class="text-l text-black font-bold">
+                {{ .Params.homepage_title }}
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="mb-10 lg:mb-0">
+        {{ range where $.Site.RegularPages "Type" "service" }}
+        {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
+        <div class="hidden flex-col" id={{ .Params.homepage_title }}>
+            <img src="/service-icons/Info_detail_service80.png" alt="info-logo" class="self-end py-2 w-8">
+            <div class="py-2 border-t">
+                {{ .Params.teaser }}
+            </div>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    <p class="block lg:hidden">/* {{ .Param "subtitle" }} */</p>
+    <img class="w-64 lg:hidden m-6" src="/systemli_logo_1200px.png" alt="logo">
+</div>

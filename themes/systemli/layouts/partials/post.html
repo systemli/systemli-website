@@ -1,9 +1,12 @@
 <div class="content-container">
-    <h1>{{ .Title }}</h1>
+    <div class="content">
+        <h1>{{ .Title }}</h1>
 
-    <p>
-        <small>{{ .Date.Format "02.01.2006" }}</small>
-    </p>
+        <p>
+            <small>{{ .Date.Format "02.01.2006" }}</small>
+        </p>
 
-    {{ .Content }}
+        {{ .Content }}
+    </div>
+    {{ partial "services-sidebar.html" . }}
 </div>
