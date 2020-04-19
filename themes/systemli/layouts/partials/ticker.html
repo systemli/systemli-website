@@ -5,7 +5,7 @@
   fetch(apiUrl + '?origin=' + origin).then(response => {
     return response.json()
   }).then(response => {
-    let elem = document.getElementById('ticker')
+    let elem = document.getElementById('ticker-container')
 
     response.data.messages.forEach(message => {
 
@@ -30,4 +30,4 @@
     <h2>Latest Updates <span class="text-xs">from <a href="https://updates.systemli.org" target="_blank">updates.systemli.org</a></span>
     </h2>
 </div>
-<div id="ticker"></div>
+<div id="ticker-container"></div>
