@@ -37,7 +37,7 @@ Wikis are a good tool to structure knowledge. They help to manage knowledge, sea
 
 #### Forums
 
-Forums are practical for discussions and exchange of views within a group or organization. W offer phpBB as a forum software. 
+Forums are practical for discussions and exchange of views within a group or organization. We offer phpBB as a forum software. 
 
 #### Demoticker
 
