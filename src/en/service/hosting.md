@@ -33,7 +33,7 @@ Before contacting us, please check if you are content with the services offered 
 
 #### Wikis
 
-Wikis are a good tool to structure knowledge. They help to manage knowledge, search it and extend it. We offer Dokuwiki as a wiki software.
+Wikis are a good tool to structure knowledge. They help to manage, search, and extend it. We offer Dokuwiki as a wiki software.
 
 #### Forums
 
@@ -41,10 +41,10 @@ Forums are practical for discussions and exchange of views within a group or org
 
 #### Demoticker
 
-We offer a ticker software with which you can accompany your political actions. Further information is found [here](ticker.html). 
+We offer a ticker software with which you can accompany your political actions. Further information can be found [on the dedicated site](ticker.html). 
 
 #### Static Websites
- Your can upload static HTML/CSS cia SFTP to our web server.
+Your can upload static HTML/CSS via SFTP to our web server.
 
 
 #### Analytics
