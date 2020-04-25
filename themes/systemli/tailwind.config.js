@@ -12,12 +12,12 @@ module.exports = {
       black: '#000',
     },
     fontSize: {
-      'xxs': '12px',
-      'xs': '14px',
-      's': '16px',
-      'm': '17px',
-      'l': '23px',
-      'xl': '28px',
+      'xxs': '.75rem', //12px
+      'xs': '.875rem', //14px
+      's': '1rem', //16px
+      'm': '1.063rem', //17px
+      'l': '1.438rem', //23px
+      'xl': '1.75rem', //28px
     },
     boxShadow: {
       'm': '0 0 5px 0px rgba(0,0,0,0.25)',
@@ -30,6 +30,12 @@ module.exports = {
       maxWidth: {
         'half': '50%',
         '95': '95%',
+      },
+      height: {
+        '95': '95%',
+      },
+      maxHeight: {
+        '1/2': '50vh',
       },
       scale: {
         '101': '1.01',
@@ -46,4 +52,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-}
+};
