@@ -1,21 +1,21 @@
 <div class="content">
     <div class="grid grid-cols-12">
         {{ range .Paginator.Pages }}
-        <div class="flex items-center col-span-3 lg:col-span-1 border-b border-r text-l leading-6">
+        <div class="flex items-center col-span-3 lg:col-span-1 py-2 border-b border-r text-l leading-6">
             {{ .Date.Format "02/01 2006" }}
         </div>
-        <div class="col-span-8 lg:col-span-11 pl-4 border-b pr-4 leading-6">
+        <div class="col-span-8 lg:col-span-11 flex items-center pl-4 border-b pr-4 leading-6">
             <h2>{{ .Title }}</h2>
         </div>
         <div class="col-span-1 hidden lg:block"></div>
         <div class="col-span-12 lg:col-span-11 lg:col-span-11 py-4 pl-4 pr-4">
             {{ .Summary }}
             <p>
-                <a class="readmore" href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
+                <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
             </p>
         </div>
         {{ end }}
     </div>
     {{ template "_internal/pagination.html" . }}
 </div>
-{{ partial "services-sidebar.html" . }}
+{{ partial "service-sidebar.html" . }}
