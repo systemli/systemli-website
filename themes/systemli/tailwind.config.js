@@ -50,6 +50,11 @@ module.exports = {
       },
     }
   },
-  variants: {},
+  variants: {
+      borderStyle: ['responsive', 'hover'],
+      borderWidth: ['responsive', 'hover'],
+      padding: ['responsive', 'hover'],
+      margin: ['responsive', 'hover'],
+  },
   plugins: [],
 };

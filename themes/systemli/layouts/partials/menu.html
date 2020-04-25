@@ -1,8 +1,8 @@
 <header>
-    <nav class="hidden w-0 lg:w-auto min-h-screen lg:min-h-0 pl-0 transition-all duration-200 ease-in-out flex-col-reverse lg:flex lg:flex-row justify-between absolute top-0 right-0 lg:relative pt-4 pb-16 lg:py-4 lg:px-8 bg-menu bg-lightblue text-m font-bold"
+    <nav class="hidden w-0 lg:w-auto min-h-screen lg:min-h-0 pl-0 transition-all duration-200 ease-in-out flex-col-reverse lg:flex lg:flex-row justify-between absolute top-0 right-0 lg:relative pt-4 pb-16 lg:py-0 lg:px-8 bg-menu bg-lightblue text-m font-bold"
          id="navbar">
         <div class="flex flex-col lg:block">
-            <a class="hidden lg:inline p-1 text-black hover:text-black"
+            <a class="hidden lg:inline p-1 text-black hover:no-underline hover:border-t-4 hover:pt-3 border-black"
                href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
                 systemli.org
             </a>
@@ -10,9 +10,9 @@
             {{ range .Site.Menus.main }}
             <!-- manually exclude "Posts" section from menu -->
             {{ if ne .Name "Posts" }}
-            <a class="pr-16 py-4 lg:p-1 text-white border-b border-black lg:border-0 hover:text-black
-                {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }}
-            text-black{{end}}" href="{{ .URL }}" title="{{ .Title }}">
+            <a class="inline-block box-border pr-16 py-3 lg:px-1 text-white border-b lg:border-b-0 hover:border-t-4 hover:pt-2 border-black lg:border-white hover:no-underline
+                {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }} border-t-4 pt-2{{end}}"
+            href="{{ .URL }}" title="{{ .Title }}">
             {{ .Name }}
             </a>
             {{ end }}
@@ -21,10 +21,10 @@
         <div class="flex justify-between items-center pb-10 lg:pb-0">
             {{ if .IsTranslated }}
             {{ range .Translations }}
-            <a class="px-2 text-black hover:text-white" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            <a class="px-2 py-3 hover:no-underline hover:border-t-4 hover:pt-2 border-black text-black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
             {{ end }}
             {{ end }}
-            <a class="px-2" href="https://twitter.com/systemli" target="_blank">
+            <a class="px-2 py-3 hover:no-underline hover:border-t-4 hover:pt-2 border-black" href="https://twitter.com/systemli" target="_blank">
                 <img class="inline w-6" src="/twitter.svg" alt="Twitter Logo">
             </a>
             <div class="flex lg:hidden items-center justify-center h-20 w-20 bg-black" id="button-menu-close">
