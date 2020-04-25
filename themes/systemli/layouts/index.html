@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="flex flex-col content-container items-center lg:items-start lg:grid grid-cols-24">
-    <div class="flex flex-col lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full bg-white shadow-m">
+    <div class="flex flex-col items-start lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full mb-4 lg:mb-0 bg-white shadow-m">
         <div class="grid grid-cols-12 col-span-12 p-4">
 
             <!-- loop through last three posts -->
@@ -9,24 +9,37 @@
             <div class="flex items-center col-span-3 lg:col-span-2 border-b border-r text-l leading-6">
                 {{ .Date.Format "02/01 2006" }}
             </div>
-            <div class="col-span-9 lg:col-span-10 pl-4 border-b pr-4 lg:border-r leading-6">
+            <div class="col-span-9 lg:col-span-10 pl-4 border-b pr-4 leading-6">
                 <h2>{{ .Title }}</h2>
             </div>
             <div class="col-span-2 hidden lg:block"></div>
-            <div class="col-span-12 lg:col-span-10 py-4 pl-4 pr-4 lg:border-r">
+            <div class="col-span-12 lg:col-span-10 py-4 pl-4 pr-4">
                 {{ .Summary }}
                 <p>
                     <a class="readmore" href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
                 </p>
             </div>
             {{ end }}
+            <div class="flex col-span-12 p-4">
+                <div class="bg-lightblue w-3 h-3 mr-4"></div>
+                <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
+            </div>
         </div>
-        <div class="hidden lg:block col-span-7 max-h-screen overflow-scroll pt-4 pr-4">
-            {{ partial "ticker.html" }}
-        </div>
-        <div class="flex col-span-19 p-4">
-            <div class="bg-lightblue w-3 h-3 mr-4"></div>
-            <a class="readmore" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
+        <div class="col-span-7 h-95 flex flex-col justify-between my-4 px-4 lg:border-l text-xxs">
+            <div class="grid grid-cols-7 gap-4 mb-8">
+                <div class="flex flex-col col-span-3">
+                    <img src="{{ .Params.image }}" class="mt-2 mb-8">
+                    {{ range $link := .Param "links" }}
+                    <a class="button-link text-xxs" href={{ $link.url }}>{{ $link.text }}</a>
+                    {{ end }}
+                </div>
+                <div class="col-span-4">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="hidden lg:block max-h-1/2 overflow-scroll">
+                {{ partial "ticker.html" }}
+            </div>
         </div>
     </div>
     {{ partial "services-sidebar.html" . }}

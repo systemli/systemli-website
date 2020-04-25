@@ -626,21 +626,21 @@ video {
 h1 {
   padding-bottom: 1rem;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 h2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: 700;
-  font-size: 23px;
+  font-size: 1.438rem;
 }
 
 h3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 a {
@@ -673,13 +673,13 @@ pre {
   border-width: 1px;
   border-color: #cbd5e0;
   border-radius: 0.25rem;
-  font-size: 14px;
+  font-size: .875rem;
   word-break: break-all;
   overflow: auto;
 }
 
 .button-link {
-  font-size: 14px;
+  font-size: .875rem;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
@@ -1938,6 +1938,10 @@ pre {
   height: 16rem;
 }
 
+.h-95 {
+  height: 95%;
+}
+
 .h-auto {
   height: auto;
 }
@@ -3176,6 +3180,10 @@ pre {
 
 .max-h-screen {
   max-height: 100vh;
+}
+
+.max-h-1\/2 {
+  max-height: 50vh;
 }
 
 .max-w-95 {
@@ -4514,27 +4522,27 @@ pre {
 }
 
 .text-xxs {
-  font-size: 12px;
+  font-size: .75rem;
 }
 
 .text-xs {
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 .text-s {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .text-m {
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 .text-l {
-  font-size: 23px;
+  font-size: 1.438rem;
 }
 
 .text-xl {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .italic {
@@ -8608,6 +8616,10 @@ pre {
     height: 16rem;
   }
 
+  .sm\:h-95 {
+    height: 95%;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -9846,6 +9858,10 @@ pre {
 
   .sm\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .sm\:max-h-1\/2 {
+    max-height: 50vh;
   }
 
   .sm\:max-w-95 {
@@ -11184,27 +11200,27 @@ pre {
   }
 
   .sm\:text-xxs {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   .sm\:text-xs {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .sm\:text-s {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .sm\:text-m {
-    font-size: 17px;
+    font-size: 1.063rem;
   }
 
   .sm\:text-l {
-    font-size: 23px;
+    font-size: 1.438rem;
   }
 
   .sm\:text-xl {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .sm\:italic {
@@ -15279,6 +15295,10 @@ pre {
     height: 16rem;
   }
 
+  .md\:h-95 {
+    height: 95%;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -16517,6 +16537,10 @@ pre {
 
   .md\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .md\:max-h-1\/2 {
+    max-height: 50vh;
   }
 
   .md\:max-w-95 {
@@ -17855,27 +17879,27 @@ pre {
   }
 
   .md\:text-xxs {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   .md\:text-xs {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .md\:text-s {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .md\:text-m {
-    font-size: 17px;
+    font-size: 1.063rem;
   }
 
   .md\:text-l {
-    font-size: 23px;
+    font-size: 1.438rem;
   }
 
   .md\:text-xl {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .md\:italic {
@@ -21950,6 +21974,10 @@ pre {
     height: 16rem;
   }
 
+  .lg\:h-95 {
+    height: 95%;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -23188,6 +23216,10 @@ pre {
 
   .lg\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .lg\:max-h-1\/2 {
+    max-height: 50vh;
   }
 
   .lg\:max-w-95 {
@@ -24526,27 +24558,27 @@ pre {
   }
 
   .lg\:text-xxs {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   .lg\:text-xs {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .lg\:text-s {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .lg\:text-m {
-    font-size: 17px;
+    font-size: 1.063rem;
   }
 
   .lg\:text-l {
-    font-size: 23px;
+    font-size: 1.438rem;
   }
 
   .lg\:text-xl {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .lg\:italic {
@@ -28621,6 +28653,10 @@ pre {
     height: 16rem;
   }
 
+  .xl\:h-95 {
+    height: 95%;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -29859,6 +29895,10 @@ pre {
 
   .xl\:max-h-screen {
     max-height: 100vh;
+  }
+
+  .xl\:max-h-1\/2 {
+    max-height: 50vh;
   }
 
   .xl\:max-w-95 {
@@ -31197,27 +31237,27 @@ pre {
   }
 
   .xl\:text-xxs {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   .xl\:text-xs {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   .xl\:text-s {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .xl\:text-m {
-    font-size: 17px;
+    font-size: 1.063rem;
   }
 
   .xl\:text-l {
-    font-size: 23px;
+    font-size: 1.438rem;
   }
 
   .xl\:text-xl {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .xl\:italic {

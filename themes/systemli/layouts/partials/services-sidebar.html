@@ -1,5 +1,5 @@
 <div class="services flex flex-col justify-between w-11/12 lg:w-full col-span-5">
-    <div>
+    <div class="mb-10">
         {{ range where $.Site.RegularPages "Type" "service" }}
         {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
         <div class="service-link flex items-center py-2 border-b">
@@ -11,7 +11,7 @@
         {{ end }}
         {{ end }}
     </div>
-    <div class="mb-10 lg:mb-0">
+    <div>
         {{ range where $.Site.RegularPages "Type" "service" }}
         {{ if and (isset .Params "homepage_title") (isset .Params "icon") }}
         <div class="hidden flex-col" id={{ .Params.homepage_title }}>
