@@ -47,6 +47,9 @@ li {
 pre {
     @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs break-all overflow-auto;
 }
+dl {
+    @apply py-2 break-normal;
+}
 .button-link {
     @apply text-xs my-3;
 }

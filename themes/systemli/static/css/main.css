@@ -682,6 +682,13 @@ pre {
   overflow: auto;
 }
 
+dl {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 .button-link {
   font-size: .875rem;
   margin-top: 0.75rem;
