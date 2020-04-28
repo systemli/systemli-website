@@ -4,7 +4,7 @@ title: Webhosting
 menu_group: service
 translationKey: d340d5414d90735b71051cb9489abeab
 icon: hosting80.png
-homepage_title: web.host
+service_bar_title: hosting
 teaser: Foren, Wikis, Blogs und indivduelle Website-Lösungen
 ---
 

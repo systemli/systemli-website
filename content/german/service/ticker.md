@@ -2,7 +2,7 @@
 layout: page
 title: Ticker
 icon: Ticker80.png
-homepage_title: ticker
+service_bar_title: ticker
 translationKey: 3e91fcf85e9d4891cd5c76c77e178251
 teaser: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 ---

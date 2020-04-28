@@ -22,4 +22,4 @@ TODO: commands for different archetypes
 
 ### Services
 
-If you want services to appear on the homepage, make sure to properly fill out `homepage_title` and `icon` in the frontmatter of the relevant files. Vice versa: If you don't want them to show, delete these properties from the frontmatter (don't just leave blank, delete).
+If you want services to appear on the homepage, make sure to properly fill out `service_bar_title` and `icon` in the frontmatter of the relevant files. Vice versa: If you don't want them to show, delete these properties from the frontmatter (don't just leave blank, delete).

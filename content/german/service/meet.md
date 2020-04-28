@@ -2,7 +2,7 @@
 layout: page
 title: Jitsi Meet
 menu_group: service
-homepage_title: meet
+service_bar_title: meet
 translationKey: 69642b7a18a59b65642aca3dcd3e3738
 teaser: Telefon- und Videokonferenz für kleine Gruppen
 icon: meet-beta-8.png
