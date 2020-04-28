@@ -2,7 +2,7 @@
 layout: post
 title: "New service: encrypted mailing lists"
 date: 2019-09-12 00:00:00
-translationKey: bb5ca025ba136276df4438c2f8eccf172
+translation_key: bb5ca025ba136276df4438c2f8eccf172
 ---
 ![schleuder](/assets/img/schleuder.png)
 After longer internal testing, as of today we publicly offer encrypted <a href="/service/schleuder.html">Schleuder lists</a> to groups and organizations for secure internal communication. Schleuder lists are special because incoming and outgoing mails are OpenPGP encrypted.

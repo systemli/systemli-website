@@ -2,7 +2,7 @@
 layout: post
 title:  Reconfiguration of the Jabber server
 date:   2014-01-21 20:00:00
-translationKey: 0381ff4281821e78616d17065efa0214
+translation_key: 0381ff4281821e78616d17065efa0214
 ---
 On 27.01.2014 we will load new software on our Jabber server which therefore will be not available in the morning. All content of group chats will be lost in the course. If you still need the content, please safe it beforehand! Additionally, all accounts that were not logged into for more than two years will be deleted.
 What is the purpose of the update?

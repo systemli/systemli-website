@@ -4,7 +4,7 @@ lang: de
 title:  "Abschaltung von cloud.tem.li" 
 date:   2016-06-30 18:00:00
 
-translationKey: ede1b180a1b3ee2847b83f469ea4ee16
+translation_key: ede1b180a1b3ee2847b83f469ea4ee16
 ---
 
 Mit sofortiger Wirkung wird unsere alte Test-ownCloud **cloud.tem.li** abgeschalten.

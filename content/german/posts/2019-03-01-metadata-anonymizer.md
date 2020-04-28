@@ -2,7 +2,7 @@
 layout: post
 title:  "metadata.systemli.org: Neues Tool zum Metadaten löschen"
 date:   2019-03-01 12:00:00
-translationKey: 21a8635a0fdc2a7c8b75c2dfee3bcd56
+translation_key: 21a8635a0fdc2a7c8b75c2dfee3bcd56
 ---
 
 Seit heute haben wir einen neuen Service: <a target="_blank" href="https://metadata.systemli.org/">metadata.systemli.org</a>, einen Metadaten Cleaner.

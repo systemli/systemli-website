@@ -2,7 +2,7 @@
 layout: post
 title: "Solidarische Infrastruktur für solidarische Aktionen"
 date: 2020-03-15 22:00:00
-translationKey: 4bb7384dfdee3255d5e36ac99fa2b773
+translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---
 
 *Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 25. März 2020*

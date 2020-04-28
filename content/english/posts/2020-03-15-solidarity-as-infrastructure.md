@@ -2,7 +2,7 @@
 layout: post
 title: "Solidarity infrastructure for solidarity actions"
 date: 2020-03-15 22:00:00
-translationKey: 4bb7384dfdee3255d5e36ac99fa2b773
+translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---
 
 *Disclaimer: The article will be updated if necessary. Last updated: March 25, 2020*

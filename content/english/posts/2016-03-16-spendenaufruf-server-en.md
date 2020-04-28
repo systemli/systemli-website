@@ -4,7 +4,7 @@ title:  Call for donations to buy new hardware
 date:   2016-03-16 12:00:00
 
 excerpt: To keep Systemli.org running, we urgently need your donations!
-translationKey: 83385cb8971c7634d78696ea354a7194
+translation_key: 83385cb8971c7634d78696ea354a7194
 ---
 
 Dear friends,

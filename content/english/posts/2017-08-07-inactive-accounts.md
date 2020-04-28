@@ -2,7 +2,7 @@
 layout: post
 title:  "Inactive Accounts"
 date:   2017-08-07 14:00:00
-translationKey: eae1b180a1b4ee2847b83f469ea4ee18
+translation_key: eae1b180a1b4ee2847b83f469ea4ee18
 ---
 
 In two weeks, we will start the automated cleaning of inactive accounts.

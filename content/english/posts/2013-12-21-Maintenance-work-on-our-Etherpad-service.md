@@ -3,7 +3,7 @@ layout: post
 title:  "Maintenance work on our Etherpad service"
 date:   2013-12-21 17:00:00
 excerpt: On **27.12.2013 18:00** we will do maintenance work on our Etherpad service. The system will therefore not be available for several hours.
-translationKey: 6ed573c34c11b11fb0af477433000cde
+translation_key: 6ed573c34c11b11fb0af477433000cde
 ---
 
 On **27.12.2013 18:00** we will do maintenance work on our Etherpad service. The system will therefore not be available for several hours.

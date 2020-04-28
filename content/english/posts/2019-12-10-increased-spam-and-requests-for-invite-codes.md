@@ -2,7 +2,7 @@
 layout: post
 title:  "Increased spam and requests for invite codes"
 date:   2019-12-10 14:00:00
-translationKey: d41d8cd98f00b204e9800798ecf8427e
+translation_key: d41d8cd98f00b204e9800798ecf8427e
 ---
 
 Recently, our users have received an increased amount of questions for invite codes from unknown people.

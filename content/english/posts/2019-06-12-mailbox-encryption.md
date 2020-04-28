@@ -2,7 +2,7 @@
 layout: post
 title: "New feature: mailbox encryption"
 date: 2019-06-12 00:00:00
-translationKey: d5006a92f5ab0a6b182ad706dfe77dc2
+translation_key: d5006a92f5ab0a6b182ad706dfe77dc2
 ---
 
 * systemli.org uses mailbox encryption

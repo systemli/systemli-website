@@ -2,7 +2,7 @@
 layout: post
 title:  "Security is not a crime"
 date:   2015-01-07 12:00:00
-translationKey: 84d4075c281978a8d46038067815fd89
+translation_key: 84d4075c281978a8d46038067815fd89
 ---
 
 We wish to express our support for [the statement riseup.net published yesterday](https://help.riseup.net/en/about-us/press/security-not-a-crime).

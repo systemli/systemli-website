@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Terms of Services
-translationKey: 3bcc4028d59fbd74d03760256430d8c2
+translation_key: 3bcc4028d59fbd74d03760256430d8c2
 menu: main
 weight: 6
 ---
