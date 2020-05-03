@@ -1,4 +1,4 @@
-baseURL = "https://www.systemli.org"
+baseURL = "https://www.preview.systemli.org"
 title = "Systemli - Your friendly tech collective"
 theme = "systemli"
 Paginate = 8
