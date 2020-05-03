@@ -5,6 +5,7 @@ Paginate = 8
 sectionPagesMenu = "main"
 DefaultContentLanguage = "de"
 summaryLength = 20
+rssLimit = 10
 
 [permalinks]
   posts = "/:year/:month/:day/:title"

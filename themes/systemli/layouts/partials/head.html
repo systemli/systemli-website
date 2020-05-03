@@ -8,4 +8,7 @@
     <meta name="description" content="{{ $.Site.Params.description }}" />
     <link rel="stylesheet" href="/css/main.css"/>
     <script src="/js/main.js" defer></script>
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 </head>
