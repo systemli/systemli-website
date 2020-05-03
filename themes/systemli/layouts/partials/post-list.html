@@ -5,7 +5,7 @@
             {{ .Date.Format "02/01 2006" }}
         </div>
         <div class="col-span-8 lg:col-span-11 flex items-center pl-4 border-b pr-4 leading-6">
-            <h2>{{ .Title }}</h2>
+            <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title }}</a></h2>
         </div>
         <div class="col-span-1 hidden lg:block"></div>
         <div class="col-span-12 lg:col-span-11 lg:col-span-11 py-4 pl-4 pr-4">
