@@ -21,7 +21,7 @@
 }
 
 h1 {
-    @apply pb-4 font-bold text-xl;
+    @apply border-b pb-2 mb-10 font-bold text-xl;
 }
 h2 {
     @apply py-2 font-bold text-l;
