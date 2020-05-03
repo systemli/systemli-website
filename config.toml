@@ -32,3 +32,13 @@ rssLimit = 10
     subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
     readOn = "Read more"
     showAll = "show everything"
+
+# RSS values to produce atom.xml
+[outputs]
+    home = [ "RSS", "HTML"]
+    section  = ["HTML"]
+
+[outputFormats]
+[outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "atom"
