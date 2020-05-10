@@ -1,6 +1,8 @@
 <header>
     <!-- TODO: animation with sth like transition-all duration-200 ease-in-out -->
-    <nav class="hidden lg:flex flex-col-reverse lg:flex-row justify-between fixed lg:relative overflow-y-scroll w-full lg:w-auto min-h-full lg:min-h-0 top-0 right-0 pl-40 md:pl-56 lg:pl-6 lg:pr-6 pt-4 pb-16 lg:py-0 bg-menu bg-lightblue text-m font-bold"
+    <nav class="hidden z-10 lg:flex flex-col-reverse lg:flex-row justify-between fixed lg:relative overflow-y-scroll
+        w-full lg:w-auto min-h-full lg:min-h-0 top-0 right-0 pl-40 md:pl-56 lg:pl-6 lg:pr-6 pt-4 pb-16 lg:py-0 bg-menu
+        bg-lightblue text-m font-bold"
          id="navbar">
         <div class="flex flex-col lg:block">
             <a class="menu-item hidden lg:inline hover:pt-3 text-black"
@@ -12,7 +14,7 @@
             <!-- manually exclude "Posts" section from menu -->
             {{ if ne .Name "Posts" }}
             <a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white
-                {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }} border-t-4 pt-2{{end}}"
+                {{if or ($currentPage.IsMenuCurrent " main" .) ($currentPage.HasMenuCurrent "main" .) }} lg:border-t-4 pt-2{{end}}"
             href="{{ .URL }}" title="{{ .Title }}">
             {{ .Name }}
             </a>

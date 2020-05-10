@@ -1,6 +1,6 @@
-<div class="content flex flex-wrap justify-around lg:col-span-24">
+<div class="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around lg:col-span-24">
     {{ range .Pages }}
-    <a class="w-96 bg-lightgrey text-black m-2 p-10 transform hover:scale-101 hover:no-underline"
+    <a class="bg-lightgrey text-black m-2 p-10 transform hover:scale-101 hover:no-underline"
        href="/service/{{ .File.TranslationBaseName }}">
         <div class="flex justify-between items-center border-b">
             <h2>{{ .Params.Title }}</h2>
