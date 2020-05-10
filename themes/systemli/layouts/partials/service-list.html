@@ -1,9 +1,14 @@
 <div class="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around lg:col-span-24">
     {{ range .Pages }}
-    <a class="bg-lightgrey text-black m-2 p-10 transform hover:scale-101 hover:no-underline"
+    <a class="service-tile bg-lightgrey text-black m-2 p-10 transform hover:no-underline"
        href="/service/{{ .File.TranslationBaseName }}">
-        <div class="flex justify-between items-center border-b">
-            <h2>{{ .Params.Title }}</h2>
+        <div class="service-tile-upper flex justify-between items-center border-b">
+            <h2>
+                {{ .Params.Title }}
+                {{ if .Params.beta }}
+                <sup>beta</sup>
+                {{ end }}
+            </h2>
             <img class="h-10 ml-2" src="/service-icons/{{ .Params.icon }}" alt="Icon">
         </div>
         <div class="pt-2">

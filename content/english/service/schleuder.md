@@ -6,6 +6,7 @@ translation_key: 85b2e44682de63869bf61ee45d5d3db9
 teaser: Encrypted mailing lists for secure group communication
 icon: Schleuderliste-beta-8.png
 service_bar_title: schleuder
+beta: true
 links:
     web:
         url: https://cryptolists.systemli.org
