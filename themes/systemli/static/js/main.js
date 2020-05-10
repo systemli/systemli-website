@@ -13,11 +13,11 @@
     if (serviceBarLinks) {
         Array.prototype.forEach.call(serviceBarLinks, function (service) {
             service.addEventListener('mouseover', function (event) {
-                const id = event.currentTarget.getElementsByClassName("service-title")[0].innerText;
+                const id = event.currentTarget.getElementsByClassName('service-title-container')[0].getElementsByClassName('service-title')[0].innerText;
                 document.getElementById(id).style.display = 'flex';
             });
             service.addEventListener('mouseout', function (event) {
-                const id = event.currentTarget.getElementsByClassName("service-title")[0].innerText;
+                const id = event.currentTarget.getElementsByClassName('service-title-container')[0].getElementsByClassName('service-title')[0].innerText;
                 document.getElementById(id).style.display = 'none';
             });
         });

@@ -23,3 +23,5 @@ TODO: commands for different archetypes
 ### Services
 
 If you want services to appear on the homepage, make sure to properly fill out `service_bar_title` and `icon` in the frontmatter of the relevant files. Vice versa: If you don't want them to show, delete these properties from the frontmatter (don't just leave blank, delete).
+
+If you want to mark a service as being in beta status, add `beta: true` to the frontmatter. Don't forget to change the icon from grayscale to color once you remove the beta flag.
