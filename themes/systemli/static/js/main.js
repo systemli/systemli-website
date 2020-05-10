@@ -22,4 +22,17 @@
             });
         });
     }
+
+    // hover effect on service tiles
+    const serviceTiles = document.getElementsByClassName('service-tile');
+    if (serviceTiles) {
+        Array.prototype.forEach.call(serviceTiles, function (tile) {
+            tile.addEventListener('mouseover', function (event) {
+                tile.getElementsByClassName('service-tile-upper')[0].classList.add('border-pink');
+            });
+            tile.addEventListener('mouseout', function (event) {
+                tile.getElementsByClassName('service-tile-upper')[0].classList.remove('border-pink');
+            });
+        })
+    }
 })();
