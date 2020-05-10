@@ -10,6 +10,7 @@ module.exports = {
       grey: '#cbd5e0',
       white: '#fff',
       black: '#000',
+      transparent: 'transparent',
     },
     fontSize: {
       'xxs': '.75rem', //12px
