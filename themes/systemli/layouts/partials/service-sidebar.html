@@ -8,7 +8,12 @@
            class="service-bar-link
            {{if eq $currentPage.Params.service_bar_title .Params.service_bar_title }} bg-white pl-4 ml-0 border-transparent {{else}} ml-4{{end}}">
             <img class="pr-2 w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
-            <span class="service-title">{{ .Params.service_bar_title }}</span>
+            <span class="service-title">
+                {{ .Params.service_bar_title }}
+                {{ if .Params.beta }}
+                    <sup>beta</sup>
+                {{ end }}
+            </span>
         </a>
         {{ end }}
         {{ end }}

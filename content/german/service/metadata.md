@@ -5,6 +5,7 @@ menu_group: service
 translation_key: 000a6d7ddead6291f30892e804886274
 icon: meta_delete_beta80.png
 teaser: Bereinige verschiedene Dateitypen von verräterischen Metadaten
+beta: true
 links:
     web:
         url: https://metadata.systemli.org

@@ -50,6 +50,9 @@ pre {
 dl {
     @apply py-2 break-normal;
 }
+sup {
+    @apply text-darkgrey;
+}
 
 .button-link {
     @apply text-xs my-3;
