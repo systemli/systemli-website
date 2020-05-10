@@ -1,6 +1,11 @@
 <div class="content-container">
     <div class="content">
-        <h1 class="border-b pb-2">{{ .Title }}</h1>
+        <h1 class="border-b pb-2">
+            {{ .Title }}
+            {{ if .Params.beta }}
+            <sup>beta</sup>
+            {{ end }}
+        </h1>
         <div class="flex flex-col lg:grid grid-cols-19 gap-8 mt-10">
             <div class="col-span-7 flex flex-row items-center lg:justify-start lg:flex-col mb-6 lg:mb-0">
                 <img class="pr-2 mr-5 lg:mr-0 lg:mb-20 w-40 lg:w-48" src="/service-icons/{{ .Params.icon }}" alt="Icon">

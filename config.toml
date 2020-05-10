@@ -16,6 +16,13 @@ rssLimit = 10
 [markup.goldmark.renderer]
     unsafe = true
 
+[menu]
+  [[menu.main]]
+    identifier = "wiki"
+    name = "Wiki"
+    url = "https://wiki.systemli.org/"
+    weight = 10
+
 [languages]
   [languages.de]
     weight = 1
