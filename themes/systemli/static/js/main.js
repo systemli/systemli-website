@@ -9,15 +9,15 @@
     });
 
     // show service description on hover
-    var serviceBarLinks = document.getElementsByClassName('service-bar-link');
+    const serviceBarLinks = document.getElementsByClassName('service-bar-link');
     if (serviceBarLinks) {
         Array.prototype.forEach.call(serviceBarLinks, function (service) {
             service.addEventListener('mouseover', function (event) {
-                var id = event.target.innerText;
+                const id = event.currentTarget.getElementsByClassName("service-title")[0].innerText;
                 document.getElementById(id).style.display = 'flex';
             });
             service.addEventListener('mouseout', function (event) {
-                var id = event.target.innerText;
+                const id = event.currentTarget.getElementsByClassName("service-title")[0].innerText;
                 document.getElementById(id).style.display = 'none';
             });
         });
