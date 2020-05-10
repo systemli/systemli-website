@@ -24,6 +24,8 @@ rssLimit = 10
     subtitle = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
     readOn = "Weiterlesen"
     showAll = "zeige alles"
+    allServices = "alle dienste"
+    allServicesTeaser = "Unsere Dienste im Überblick"
 
   [languages.en]
     weight = 2
@@ -32,3 +34,5 @@ rssLimit = 10
     subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
     readOn = "Read more"
     showAll = "show everything"
+    allServices = "all services"
+    allServicesTeaser = "Our services at a glance"
