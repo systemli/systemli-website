@@ -7,7 +7,7 @@ weight: 3
 ---
 systemli.org is only one of many tech collectives, who provide autonomous server infrastructure and services.
 
-This (surely incomplete) list shall give you an overview. Only collectives with a [similar wish and claim as ours](about-us.html), are mentioned.
+This (surely incomplete) list shall give you an overview. Only collectives with a [similar wish and claim as ours](/about-us), are mentioned.
 
 ## Germany/Switzerland
 
