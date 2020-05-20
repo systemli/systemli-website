@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Unterstützt uns!
+aliases:
+    - /support-us.html
 en_title: Support us!
 menu: main
 weight: 5

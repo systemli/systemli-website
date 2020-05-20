@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Cloud
+aliases:
+    - /en/service/cloud.html
 menu_group: service
 translation_key: 90a6baafd2dbfba2f151c18559101b3c
 teaser: Sync your files, contacts, calendars, and more

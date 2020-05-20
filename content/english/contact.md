@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+aliases:
+    - /en/kontakt.html
 translation_key: 3bcc4028d59fbd74d03760256430d8c1
 menu: main
 weight: 4

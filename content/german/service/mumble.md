@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Talk/Mumble
+aliases:
+    - /service/mumble.html
 menu_group: service
 translation_key: eebf342928757f00b11d8445af5971f5
 teaser: Telefoniere (verschlüsselt) über unseren Mumble Server

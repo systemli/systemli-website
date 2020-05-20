@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Support us!
+aliases:
+    - /en/support-us.html
 translation_key: 71d9fe68997e60e86c5fdd835efa1760
 menu: main
 weight: 5

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Paste
+aliases:
+    - /service/paste.html
 translation_key: 3d1c5c5c9dbd141ca4fe549b8ef0fb68
 icon: paste80.png
 service_bar_title: paste

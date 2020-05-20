@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Schleuder
+aliases:
+    - /service/schleuder.html
 menu_group: service
 translation_key: 85b2e44682de63869bf61ee45d5d3db9
 teaser: Verschlüsselte Mailinglisten für sichere Gruppenkommunikation

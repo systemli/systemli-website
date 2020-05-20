@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Über uns
+aliases:
+    - /about-us.html
 en_title: About us
 menu: main
 weight: 2

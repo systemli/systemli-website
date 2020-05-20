@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Web Hosting
+aliases:
+    - /en/service/hosting.html
 icon: hosting80.png
 service_bar_title: hosting
 teaser: Boards, wikis, blogs and individual website solutions

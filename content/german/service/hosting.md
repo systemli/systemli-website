@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Webhosting
+aliases:
+    - /service/hosting.html
 menu_group: service
 translation_key: d340d5414d90735b71051cb9489abeab
 icon: hosting80.png

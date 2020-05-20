@@ -1,6 +1,8 @@
 ---
 layout: page
 title: E-Mail
+aliases:
+    - /en/service/mail.html
 menu_group: service
 translation_key: a20ccbe9557775d06f0e75bbedb0f07a
 icon: mail80.png

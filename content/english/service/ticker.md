@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Ticker
+aliases:
+    - /en/service/ticker.html
 icon: Ticker80.png
 service_bar_title: ticker
 translation_key: 3e91fcf85e9d4891cd5c76c77e178251

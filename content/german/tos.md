@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Nutzungsbedingungen
+aliases:
+    - /tos.html
 menu: main
 weight: 6
 en_title: Terms of Services

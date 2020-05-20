@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Kontakt
+aliases:
+    - /kontakt.html
 menu: main
 weight: 4
 en_title: Contact

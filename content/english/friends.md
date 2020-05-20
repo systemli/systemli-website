@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Friends
+aliases:
+    - /en/friends.html
 translation_key: e2e248a20b477ee2d2b70e48b1643045
 menu: main
 weight: 3
