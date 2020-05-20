@@ -1,0 +1,6 @@
+@import "node_modules/tailwindcss/base.css";
+@import "node_modules/tailwindcss/components.css";
+
+@import "assets/css/main.css";
+
+@import "node_modules/tailwindcss/utilities.css";
