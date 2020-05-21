@@ -2,7 +2,8 @@ FROM alpine:3
 
 ENV HUGO_VERSION="0.71.0"
 
-RUN apk add -U npm
+RUN apk add -U npm && \
+    npm install -g postcss-cli
 
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /tmp
 RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
