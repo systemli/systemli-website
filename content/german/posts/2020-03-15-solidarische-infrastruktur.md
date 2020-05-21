@@ -5,7 +5,7 @@ date: 2020-03-15 22:00:00
 translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---
 
-*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 25. März 2020*
+*Disclaimer: Der Artikel wird bei Bedarf aktualisiert. Letzter Stand: 21. April 2020*
 
 In der aktuellen Situation erreichen uns Anfragen aus vielen Zusammenhängen, wie sie ihre politische Arbeit digital unterstützen und weiterführen können. Wir werden zum Beispiel gefragt, wie ein Plenum oder Bündnistreffen digital umgesetzt werden kann, wenn sich Leute nicht in einem Raum treffen wollen/können.
 
@@ -17,7 +17,7 @@ Als linkes Technik-Kollektiv wollen wir euch darin unterstützen, die richtigen 
 
 ### Gruppentelefonate und Videokonferenzen
 
-Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird verschlüsselt und außer den Teilnehmenden kann niemand mithören.
+Die wichtigsten Tools für virtuelle Plena. Eure Kommunikation wird unterwegs verschlüsselt. Allerdings müsst ihr den Betreiber:innen der Dienste vertrauen, da sie technisch in der Lage sind, mitzuschneiden. Daher ist es umso wichtiger, die Instanzen von vertrauenswürdigen Technik-Kollektiven zu verwenden.
 
 **Grundlegende Tipps**:
 

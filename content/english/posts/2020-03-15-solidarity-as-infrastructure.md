@@ -5,7 +5,7 @@ date: 2020-03-15 22:00:00
 translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---
 
-*Disclaimer: The article will be updated if necessary. Last updated: March 25, 2020*
+*Disclaimer: The article will be updated if necessary. Last updated: April 21, 2020*
 
 In the current situation, we are receiving requests from many contexts on how they can digitally support and continue their political work.  We are asked, for example, how a plenary or alliance meeting can be digitally implemented if people don't want to/can't meet in one room.
 
@@ -17,7 +17,7 @@ As a left-wing tech collective, we want to support you in using the right tools 
 
 ### Group phone calls and video conferences
 
-The main tools for virtual plenums. Your communication will be encrypted and nobody can listen in except the participants.
+The main tools for virtual plenums. Your communication will be encrypted on its way. Nevertheless, you need to trust in the service providers, as they're technically able to intercept. Therefore it's even more important to pick instances from trustworthy tech collectives.
 
 **Basic tips**:
 
