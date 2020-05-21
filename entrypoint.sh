@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-cd themes/systemli && yarn
+cd themes/systemli && npm i
 cd ../../
 hugo --minify
