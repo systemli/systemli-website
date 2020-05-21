@@ -8,7 +8,6 @@ service_bar_title: meet
 translation_key: 69642b7a18a59b65642aca3dcd3e3738
 teaser: Telefon- und Videokonferenz für kleine Gruppen
 icon: meet-beta-8.png
-beta: true
 links:
     jitsi:
         url: https://meet.systemli.org
