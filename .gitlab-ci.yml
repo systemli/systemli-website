@@ -14,7 +14,7 @@ generate_website:
   stage: generate
   artifacts:
     untracked: true
-  script: docker run --rm -v $PWD:/data systemli-website:latest
+  script: docker run --rm -v $PWD/.npm:/.npm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
 
 deploy_prod:
   stage: deploy
