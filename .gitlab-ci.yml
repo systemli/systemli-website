@@ -8,7 +8,7 @@ before_script:
 
 build_image:
   stage: build
-  script: docker build -t systemli-website:latest .
+  script: docker build -t systemli-website:latest --build-arg UID=$(id -u) .
 
 generate_website:
   stage: generate

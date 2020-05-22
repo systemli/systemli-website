@@ -1,9 +1,8 @@
-FROM alpine:3
+FROM node:lts-alpine
 
 ENV HUGO_VERSION="0.71.0"
 
-RUN apk add -U npm && \
-    npm install -g postcss-cli
+ARG UID
 
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /tmp
 RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
@@ -12,7 +11,11 @@ RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
     && rm -rf /tmp/hugo_${HUGO_VERSION}_linux_amd64 \
     && rm -rf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
     && rm -rf /tmp/LICENSE.md \
-    && rm -rf /tmp/README.md
+    && rm -rf /tmp/README.md && \
+    npm install -g postcss-cli && \
+    adduser --home /data --disabled-password --uid ${UID} app
+
+USER app
 
 WORKDIR "/data"
 VOLUME "/data"
