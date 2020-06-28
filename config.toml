@@ -1,5 +1,4 @@
 baseURL = "https://www.preview.systemli.org"
-title = "Systemli - Your friendly tech collective"
 theme = "systemli"
 Paginate = 8
 sectionPagesMenu = "main"
@@ -12,6 +11,8 @@ rssLimit = 10
 
 [params]
     favicon = "favicon.ico"
+    title = "systemli.org"
+    description = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
 
 [markup.goldmark.renderer]
     unsafe = true

@@ -1,4 +1,6 @@
 ---
+title: Your friendly tech collective
+description: Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
 image: /assets/img/android_google.png
 links:
     pdf:
