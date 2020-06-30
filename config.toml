@@ -13,6 +13,7 @@ rssLimit = 10
     favicon = "favicon.ico"
     title = "systemli.org"
     description = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+    images = ["default-og-image.png"]
 
 [markup.goldmark.renderer]
     unsafe = true
