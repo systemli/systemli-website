@@ -4,7 +4,7 @@ title: Paste
 aliases:
     - /service/paste.html
 translation_key: 3d1c5c5c9dbd141ca4fe549b8ef0fb68
-icon: paste80.png
+icon: paste.svg
 service_bar_title: paste
 teaser: Veröffentliche (verschlüsselt) Texte und gib ihnen ein Verfallsdatum
 links:

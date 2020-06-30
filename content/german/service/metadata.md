@@ -5,7 +5,7 @@ aliases:
     - /service/metadata.html
 menu_group: service
 translation_key: 000a6d7ddead6291f30892e804886274
-icon: meta_delete_beta80.png
+icon: metadata.svg
 teaser: Bereinige verschiedene Dateitypen von verräterischen Metadaten
 beta: true
 links:

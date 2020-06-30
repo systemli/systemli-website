@@ -3,7 +3,7 @@ layout: page
 title: Ticker
 aliases:
     - /service/ticker.html
-icon: Ticker80.png
+icon: ticker.svg
 service_bar_title: ticker
 translation_key: 3e91fcf85e9d4891cd5c76c77e178251
 teaser: Veröffentliche Kurznachrichten bei Demonstrationen oder Events

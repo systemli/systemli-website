@@ -4,7 +4,7 @@ title: Etherpad
 aliases:
     - /en/service/etherpad.html
 translation_key: 90da77824a87294c0a3ec5f856a75c2d
-icon: pad80.png
+icon: etherpad.svg
 service_bar_title: etherpad
 teaser: Online editor for collaborative documents
 links:

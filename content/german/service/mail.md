@@ -5,7 +5,7 @@ aliases:
     - /service/mail.html
 menu_group: service
 translation_key: a20ccbe9557775d06f0e75bbedb0f07a
-icon: mail80.png
+icon: mail.svg
 service_bar_title: e-mail
 teaser: Postfächer ohne Werbung oder Analyse der Nachrichten
 links:

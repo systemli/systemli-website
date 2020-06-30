@@ -19,7 +19,7 @@
         {{ end }}
         <a href="/service/"
            class="service-bar-link ml-4">
-            <img class="pr-2 w-10" src="/service-icons/Antifa-8.png" alt="Icon">
+            <img class="pr-2 w-10" src="/service-icons/antifa.svg" alt="Icon">
             <span class="service-title-container"><span class="service-title">{{ .Param "allServices" }}</span></span>
         </a>
     </div>
@@ -27,7 +27,7 @@
         {{ range where $.Site.RegularPages "Type" "service" }}
         {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
         <div class="hidden flex-col" id={{ .Params.service_bar_title }}>
-            <img src="/service-icons/Info_detail_service80.png" alt="info-logo" class="self-end py-2 ml-4 w-8">
+            <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8">
             <div class="py-2 ml-4 border-t">
                 {{ .Params.teaser }}
             </div>
@@ -35,7 +35,7 @@
         {{ end }}
         {{ end }}
         <div class="hidden flex-col" id={{ .Param "allServices" }}>
-            <img src="/service-icons/Info_detail_service80.png" alt="info-logo" class="self-end py-2 ml-4 w-8">
+            <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8">
             <div class="py-2 ml-4 border-t">
                 {{ .Param "allServicesTeaser" }}
             </div>

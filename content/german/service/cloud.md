@@ -5,6 +5,7 @@ aliases:
     - /service/cloud.html
 menu_group: service
 translation_key: 90a6baafd2dbfba2f151c18559101b3c
+icon: cloud.svg
 teaser: Synchronisiere Dateien, Kontakte, Kalender und mehr
 links:
     cloud:

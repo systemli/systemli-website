@@ -5,7 +5,7 @@ aliases:
     - /service/onion.html
 menu_group: service
 translation_key: 405fa099b89ec281d5df6c1eea477214
-icon: onion_services80.png
+icon: onion.svg
 teaser: Verbinde dich unbeobachtet mit unseren Diensten
 ---
 
