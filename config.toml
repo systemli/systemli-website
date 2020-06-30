@@ -15,6 +15,9 @@ rssLimit = 10
     description = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
     images = ["default-og-image.png"]
 
+[social]
+    twitter = "systemli"
+
 [markup.goldmark.renderer]
     unsafe = true
 
