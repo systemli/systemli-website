@@ -7,7 +7,7 @@ menu_group: service
 translation_key: 405fa099b89ec281d5df6c1eea477213
 icon: xmpp.svg
 service_bar_title: jabber
-teaser: Open instant messaging alternative to Whatsapp and co.
+description: Open instant messaging alternative to Whatsapp and co.
 links:
     web:
         url: "https://www.systemli.org/jabber"
