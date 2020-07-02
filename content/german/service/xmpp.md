@@ -7,7 +7,7 @@ menu_group: service
 translation_key: 405fa099b89ec281d5df6c1eea477213
 icon: Jabber80.png
 service_bar_title: jabber
-teaser: Offene Instant-Messaging Alternative zu Whatsapp und Co.
+description: Offene Instant-Messaging Alternative zu Whatsapp und Co.
 links:
     web:
         url: "https://www.systemli.org/jabber"

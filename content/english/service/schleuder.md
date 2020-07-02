@@ -5,7 +5,7 @@ aliases:
     - /en/service/schleuder.html
 menu_group: service
 translation_key: 85b2e44682de63869bf61ee45d5d3db9
-teaser: Encrypted mailing lists for secure group communication
+description: Encrypted mailing lists for secure group communication
 icon: Schleuderliste-beta-8.png
 service_bar_title: schleuder
 links:

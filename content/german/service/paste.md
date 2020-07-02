@@ -6,7 +6,7 @@ aliases:
 translation_key: 3d1c5c5c9dbd141ca4fe549b8ef0fb68
 icon: paste80.png
 service_bar_title: paste
-teaser: Veröffentliche (verschlüsselt) Texte und gib ihnen ein Verfallsdatum
+description: Veröffentliche (verschlüsselt) Texte und gib ihnen ein Verfallsdatum
 links:
     web:
         url: https://paste.systemli.org

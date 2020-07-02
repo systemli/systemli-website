@@ -6,7 +6,7 @@ aliases:
 menu_group: service
 translation_key: 71b23e647c11fca9fbae173a120b8c03
 icon: croodle_beta80.png
-teaser: Create (encrypted) meeting schedules or other online surveys
+description: Create (encrypted) meeting schedules or other online surveys
 beta: true
 links:
     croodle:

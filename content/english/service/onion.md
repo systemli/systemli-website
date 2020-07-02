@@ -6,7 +6,7 @@ aliases:
 menu_group: service
 translation_key: 405fa099b89ec281d5df6c1eea477214
 icon: onion_services80.png
-teaser: Connect unobserved with our services
+description: Connect unobserved with our services
 ---
 
 With Tor Onion Service, you can connect completely inside the Tor network to our services. This is [even more secure](https://www.torproject.org/docs/onion-services) than browsing with Tor normally. We try to make all our services accessible as Onion Service. You need [Tor Browser](https://www.torproject.org/download/download-easy.html) to use Onion Services.

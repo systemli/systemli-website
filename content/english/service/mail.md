@@ -7,7 +7,7 @@ menu_group: service
 translation_key: a20ccbe9557775d06f0e75bbedb0f07a
 icon: mail80.png
 service_bar_title: e-mail
-teaser: Mailboxes without ads or analysis of your emails
+description: Mailboxes without ads or analysis of your emails
 links:
     registration:
         url: https://users.systemli.org

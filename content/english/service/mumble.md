@@ -5,7 +5,7 @@ aliases:
     - /en/service/mumble.html
 menu_group: service
 translation_key: eebf342928757f00b11d8445af5971f5
-teaser: Do encrypted voice calls via our mumble server
+description: Do encrypted voice calls via our mumble server
 links:
     web:
         url: https://talk.systemli.org

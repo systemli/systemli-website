@@ -7,7 +7,7 @@ menu_group: service
 translation_key: 90da77824a87294c0a3ec5f856a75c2d
 icon: pad80.png
 service_bar_title: etherpad
-teaser: Online-Editor zum gemeinsamen Verfassen von Dokumenten
+description: Online-Editor zum gemeinsamen Verfassen von Dokumenten
 links:
     pad:
         url: https://pad.systemli.org/
