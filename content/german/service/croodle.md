@@ -6,7 +6,7 @@ aliases:
 menu_group: service
 translation_key: 71b23e647c11fca9fbae173a120b8c03
 icon: croodle.svg
-teaser: Erstelle (verschlüsselte) Termin- oder andere Umfragen
+description: Erstelle (verschlüsselte) Termin- oder andere Umfragen
 beta: true
 links:
     croodle:
