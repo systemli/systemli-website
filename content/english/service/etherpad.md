@@ -6,7 +6,7 @@ aliases:
 translation_key: 90da77824a87294c0a3ec5f856a75c2d
 icon: etherpad.svg
 service_bar_title: etherpad
-teaser: Online editor for collaborative documents
+description: Online editor for collaborative documents
 links:
     pad:
         url: https://pad.systemli.org/

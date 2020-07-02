@@ -7,7 +7,7 @@ menu_group: service
 translation_key: a20ccbe9557775d06f0e75bbedb0f07a
 icon: mail.svg
 service_bar_title: e-mail
-teaser: Postfächer ohne Werbung oder Analyse der Nachrichten
+description: Postfächer ohne Werbung oder Analyse der Nachrichten
 links:
     registration:
         url: https://users.systemli.org

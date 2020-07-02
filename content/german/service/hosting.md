@@ -7,7 +7,7 @@ menu_group: service
 translation_key: d340d5414d90735b71051cb9489abeab
 icon: hosting.svg
 service_bar_title: hosting
-teaser: Foren, Wikis, Blogs und indivduelle Website-Lösungen
+description: Foren, Wikis, Blogs und indivduelle Website-Lösungen
 ---
 
 Bei uns könnt ihr Websites hosten. Wir bieten sowohl Tools zur Wissensverwaltung an, als auch Hosting von Wordpress-Blogs. Dazu haben wir folgende Hinweise, die ihr beachten solltet.

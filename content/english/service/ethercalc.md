@@ -6,7 +6,7 @@ aliases:
 menu_group: service
 translation_key: f6b11622f11f4f76e9cfac82ce542164
 icon: ethercalc.svg
-teaser: Online editor for collaborative spreadsheets
+description: Online editor for collaborative spreadsheets
 links:
     pad:
         url: https://calc.systemli.org/
