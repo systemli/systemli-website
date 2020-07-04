@@ -31,8 +31,6 @@ Ein Beispiel: Wenn ihr euch bei einem Service nicht einloggen könnt, sind folge
 
 Oft ist es auch nützlich zu wissen, welche Programme und welches Betriebssystem ihr benutzt. Falls euer Programm Fehlermeldungen anzeigt, schickt diese gerne als Text oder Screenshot mit.
 
-[![](/assets/img/twitter-bird-blue-on-white.png)](https://twitter.com/systemli)
-
 ### Twitter
 
 Auf Twitter findet ihr uns unter [@systemli](https://twitter.com/systemli)
