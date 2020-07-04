@@ -126,3 +126,13 @@ sup {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+img[src*="#fl-2"] {
+    float: left;
+    @apply mr-2 mb-2;
+}
+
+img[src*="#f2-2"] {
+    float: right;
+    @apply ml-2 mb-2;
+}
