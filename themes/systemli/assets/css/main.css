@@ -127,11 +127,13 @@ sup {
     background-repeat: no-repeat;
 }
 
+/* purgecss ignore */
 img[src*="#fl-2"] {
     float: left;
     @apply mr-2 mb-2;
 }
 
+/* purgecss ignore */
 img[src*="#f2-2"] {
     float: right;
     @apply ml-2 mb-2;
