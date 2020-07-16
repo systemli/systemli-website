@@ -125,3 +125,30 @@ table tr td {
 .dropdown-menu {
     min-width: unset;
 }
+
+
+@media(max-width:1200px)  {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse {
+        overflow-x: visible !important;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: auto !important;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none !important;
+    }
+}
