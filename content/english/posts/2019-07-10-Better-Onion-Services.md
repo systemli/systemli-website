@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Better Onion Services
+title: "Better Onion Services"
+aliases:
+    - /en/2019/07/10/Better-Onion-Services.html
 date: 2019-07-10 12:00:00
 translation_key: d5006a92f5acab6b182ad706dfe77dc2
 ---

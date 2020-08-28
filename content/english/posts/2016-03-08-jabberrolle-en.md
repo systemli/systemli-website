@@ -1,10 +1,10 @@
 ---
 layout: post 
-lang: en 
-title:  Ansible-Role to setup a Jabber server
+title:  "Ansible-Role to setup a Jabber server"
+aliases:
+    - /en/2016/03/08/jabberrolle-en.html
 date:   2016-03-08 17:00:00
 excerpt: We published our Ansible role, which enables you to setup a Jabber server, which is similar configured as jabber.systemli.org.
-
 translation_key: 3bfa1d3c3201f8e884a89f5b13a06e5c
 ---
 

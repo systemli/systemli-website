@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Solidarity infrastructure for solidarity actions"
+aliases:
+    - /en/2020/03/15/solidarity-as-infrastructure.html
 date: 2020-03-15 22:00:00
 translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---

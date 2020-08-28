@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Maintenance work on 18.06.2014"
+aliases:
+    - /en/update/2014/06/16/maintenance.html
 date:   2014-06-16 18:30:00
 translation_key: 881e4aaf2cafb9de68946e4751f84105
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post 
-lang: en 
-title:  "Shutdown of cloud.tem.li" 
+title:  "Shutdown of cloud.tem.li"
+aliases:
+    - /en/2016/06/30/owncloud-abschaltung-en.html
 date:   2016-06-30 17:00:00
 translation_key: ede1b180a1b3ee2847b83f469ea4ee16
 ---

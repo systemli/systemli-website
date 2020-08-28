@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "New Mail Feature: Alias Addresses"
+aliases:
+    - /en/2018/11/14/mail-aliases.html
 date:   2018-11-14 16:00:00
 translation_key: 12220b49d7a232bab4c753c3dd2fcce2
 ---

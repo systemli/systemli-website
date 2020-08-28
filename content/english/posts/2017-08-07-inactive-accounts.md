@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Inactive Accounts"
+aliases:
+    - /en/2017/08/07/inactive-accounts.html
 date:   2017-08-07 14:00:00
 translation_key: eae1b180a1b4ee2847b83f469ea4ee18
 ---

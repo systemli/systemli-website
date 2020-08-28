@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Increased spam and requests for invite codes"
+aliases:
+    - /en/2019/12/10/increased-spam-and-requests-for-invite-codes.html
 date:   2019-12-10 14:00:00
 translation_key: d41d8cd98f00b204e9800798ecf8427e
 ---

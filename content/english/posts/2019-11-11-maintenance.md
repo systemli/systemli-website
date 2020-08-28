@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Maintenance work on Nov. 15th 2019"
+aliases:
+    - /en/2019/11/07/maintenance.html
 date:   2019-11-07 09:00:00
 translation_key: 386b7f5aa7509597b04d4604cb635444
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Closing of a security gap requires rebooting of services"
+aliases:
+    - /en/update/2014/04/08/closing-security-vuln-reboot-required.html
 date:   2014-04-08 11:00:00
 translation_key: 086d9fbd42fc19d1583506c093414b0a
 ---

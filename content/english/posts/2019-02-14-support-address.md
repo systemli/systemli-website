@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "New contact address"
+aliases:
+    - /en/2019/02/14/support-address.html
 date:   2019-02-14 10:00:00
 translation_key: 12220b93d7a232bab4c753c3dd2fcce2
 ---

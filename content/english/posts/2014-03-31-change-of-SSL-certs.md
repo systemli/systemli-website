@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Background information: Change of SSL-certificates"
+aliases:
+    - /en/background/2014/03/31/change-of-SSL-certs.html
 date:   2014-03-31 10:00:00
 translation_key: fe5c4984f79b15e8d93774ffd25458dd
 ---

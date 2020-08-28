@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "New certificates for our services"
+aliases:
+    - /en/update/2014/04/10/new-certs-for-services.html
 date:   2014-04-10 10:00:00
 excerpt: Because of the recent events regarding the security gap in OpenSSL we have decided to generate new keys and certificates for our services. As always, you can find the new fingerprints on our website. 
 translation_key: a0d46248bd4a5b95e8dae8b6e79b4129

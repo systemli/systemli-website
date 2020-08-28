@@ -1,6 +1,8 @@
 ---
 layout: post
-title: New features in user portal
+title: "New features in user portal"
+aliases:
+    - /en/2019/07/19/new-features-in-user-portal.html
 date: 2019-07-19 12:00:00
 translation_key: d0006a92f5acab6b182ad706dfe77dc2
 ---

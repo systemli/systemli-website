@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "pad.systemli.org: mutable expiry time"
+aliases:
+    - /en/2019/02/19/pad-mutable-expiry.html
 date:   2019-02-19 13:00:00
 translation_key: 49921a2ffd68cf5ce0683802b07eb6dd
 ---

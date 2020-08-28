@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Background: New look for the Pads"
+aliases:
+    - /en/backround/2014/07/21/new-look-for-the-pads.html
 date:   2014-07-21 17:00:00
 translation_key: 152d8c28c5aecaa73d6fcb75c5ebcb1f
 ---

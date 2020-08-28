@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "We don´t accept Bitcoins as donations anymore"
+aliases:
+    - /en/2018/02/14/bitcoin-goodbye-en.html
 date:   2018-02-14 22:00:00
 translation_key: 386b7f5aa7509597b04d4604cb633266
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Our principles stay indivisible
+title: "Our principles stay indivisible"
+aliases:
+    - /en/2019/08/23/our-principles-stay-indivisible.html
 date: 2019-08-23 05:00:00
 translation_key: daffe6a92f5acab6b182ad706dfe77dc2
 ---

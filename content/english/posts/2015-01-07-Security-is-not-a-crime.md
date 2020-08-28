@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Security is not a crime"
+aliases:
+    - /en/2015/01/07/Security-is-not-a-crime.html
 date:   2015-01-07 12:00:00
 translation_key: 84d4075c281978a8d46038067815fd89
 ---

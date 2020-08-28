@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Mail-TLS-Helper"
+aliases:
+    - /en/2018/09/29/mail-tls-helper-en.html
 date:   2018-09-29 17:00:00
 translation_key: 83bc7f5aa350919ab04e440fc26305f5
 ---

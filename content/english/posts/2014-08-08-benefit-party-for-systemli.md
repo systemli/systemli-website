@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Benefit party for systemli.org"
+aliases:
+    - /en/2014/08/08/benefit-party-for-systemli.html
 date:   2014-08-08 16:00:00
 translation_key: a84df4cd7a65661f5c326f09f659b75a
 ---

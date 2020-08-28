@@ -1,9 +1,9 @@
 ---
 layout: post 
-lang: en 
-title:  Man-in-the-Middle Angriffe auf Jabberuser via Tor 
+title:  "Man-in-the-Middle Angriffe auf Jabberuser via Tor"
+aliases:
+    - /en/2016/03/08/jabber-mitm-en.html
 date:   2016-03-08 12:00:00
-
 translation_key: a3a730d6c3bef7cac9b580487bbcff41
 ---
 

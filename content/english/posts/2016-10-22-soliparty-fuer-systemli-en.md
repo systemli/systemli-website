@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Off the record - Fundrasing Party for systemli.org"
+title:  "Off the record - Fundraising Party for systemli.org"
+aliases:
+    - /en/2016/10/22/soliparty-fuer-systemli-en.html
 date:   2016-10-22 11:00:00
-
 translation_key: ede1b180a1b3ee2847b83f469ea4ee17
 ---
 ![off-the-record](/assets/img/off_the_record_banner.jpg)

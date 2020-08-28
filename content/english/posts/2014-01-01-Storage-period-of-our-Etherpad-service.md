@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Storage period of our Etherpad service"
+aliases:
+    - /en/update/2014/01/01/Storage-period-of-our-Etherpad-service.html
 date:   2014-01-01 19:09:09
 excerpt: With the successful migration of our Etherpad service we will restrict the storage period of the generated Pads. 
 translation_key: 6d13087624474abcf7a8caab9770d452

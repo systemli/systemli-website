@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "metadata.systemli.org: New tool to remove metadata"
+aliases:
+    - /en/2019/03/01/metadata-anonymizer-en.html
 date:   2019-03-01 12:00:00
 translation_key: 21a8635a0fdc2a7c8b75c2dfee3bcd56
 ---

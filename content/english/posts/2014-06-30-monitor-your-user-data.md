@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Protipp: Monitor your user data with your email-account"
+aliases:
+    - /en/tips and tricks/2014/06/29/monitor-your-user-data.html
 date:   2014-06-29 18:00:00
 categories:
     - Tips and Tricks

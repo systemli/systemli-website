@@ -1,6 +1,8 @@
 ---
 layout: post 
-title: Clearance of inactive Jabber-accounts
+title: "Clearance of inactive Jabber-accounts"
+aliases:
+    - /en/2015/07/23/clearance-inactive-jabber-accounts.html
 date:   2015-07-23 10:00:00
 translation_key: 3c19df5093d1ac630b3e471de82dde24
 ---
