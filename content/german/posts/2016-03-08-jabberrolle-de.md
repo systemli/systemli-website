@@ -1,7 +1,8 @@
 ---
 layout: post 
-lang: de 
-title:  Ansible-Rolle zum Aufsetzen eines Jabberservers
+title:  "Ansible-Rolle zum Aufsetzen eines Jabberservers"
+aliases:
+    - /de/2016/03/08/jabberrolle-de.html
 date:   2016-03-08 17:00:00
 excerpt: Wir haben unsere Ansible Rolle veröffentlicht, mit der es möglich ist sich einen Jabber-Server aufzusetzen, der genauso konfiguriert ist wie jabber.systemli.org.
 

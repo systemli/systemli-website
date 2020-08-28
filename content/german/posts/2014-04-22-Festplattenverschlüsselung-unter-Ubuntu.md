@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hintergrund: Festplattenverschlüsselung unter Ubuntu"
+aliases:
+    - /de/hintergrund/2014/04/22/Festplattenverschlüsselung-unter-Ubuntu.html
 date:   2014-04-22 18:00:00
 translation_key: b8816c8c4adf7875a54e8996e43d9e2b
 ---

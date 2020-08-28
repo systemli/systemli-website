@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hintergrund: Neuer Anstrich bei Pad-Erstellung"
+aliases:
+    - /de/hintergrund/2014/07/15/zufaellige-padnamen.html
 date:   2014-07-15 11:00:00
 translation_key: 152d8c28c5aecaa73d6fcb75c5ebcb1f
 ---

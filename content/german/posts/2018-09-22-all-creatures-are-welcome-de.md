@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "All Creatures are welcome"
+aliases:
+    - /de/2018/09/22/all-creatures-are-welcome-de.html
 date:   2018-09-22 12:00:00
 translation_key: 83bc7f5aa7509597b04d4404cb633555
 ---

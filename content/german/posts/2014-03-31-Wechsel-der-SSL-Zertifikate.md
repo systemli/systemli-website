@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hintergrund: Wechsel der SSL-Zertifikate"
+aliases:
+    - /de/hintergrund/2014/03/31/Wechsel-der-SSL-Zertifikate.html
 date:   2014-03-31 10:00:00
 translation_key: fe5c4984f79b15e8d93774ffd25458dd
 ---

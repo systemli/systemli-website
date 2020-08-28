@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Protipp: Verfolge die Weitergabe deiner Nutzerdaten mit Hilfe deiner E-Mailadresse"
+aliases:
+    - /de/tipps und tricks/2014/06/29/nutzerdatenweitergabe-verfolgen.html
 date:   2014-06-29 18:00:00
 categories:
     - Tipps und Tricks

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Feature: Mail und Jabber als Tor Hiddenservice"
+aliases:
+    - /de/2014/07/08/mail-und-jabber-als-tor-hiddenservice.html
 date:   2014-07-08 22:00:00
 translation_key: ec9465ea35e94eb4f63042c8ecfd3ce3
 ---

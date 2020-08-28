@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Off the record - Soliparty für systemli.org"
+aliases:
+    - /de/2016/10/22/soliparty-fuer-systemli-de.html
 date:   2016-10-22 11:00:00
 translation_key: ede1b180a1b3ee2847b83f469ea4ee17
 ---

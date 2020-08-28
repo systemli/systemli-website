@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Schließung einer Sicherheitslücke benötigt Neustart der Dienste"
+aliases:
+    - /de/update/2014/04/08/schliessung-einer-sicherheitsluecke-benoetigt-neustart-der-dienste.html
 date:   2014-04-08 11:00:00
 translation_key: 086d9fbd42fc19d1583506c093414b0a
 ---

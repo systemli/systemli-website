@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Wartungsarbeiten am 27.11.2019"
+aliases:
+    - /de/2019/11/25/wartungsarbeiten.html
 date:   2019-11-25 11:00:00
 translation_key: d41d8cd98f00b204e9800998ecf8427e
 ---

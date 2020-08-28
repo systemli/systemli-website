@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Neuer Service: Verschlüsselte Mailinglisten"
+aliases:
+    - /de/2019/09/12/schleuder-listen.html
 date: 2019-09-12 00:00:00
 translation_key: bb5ca025ba136276df4438c2f8eccf172
 ---

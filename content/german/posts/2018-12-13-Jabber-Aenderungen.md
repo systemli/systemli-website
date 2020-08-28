@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Änderungen bei Jabber"
+aliases:
+    - /de/2018/12/13/Jabber-Aenderungen.html
 date:   2018-12-13 18:30:00
 translation_key: 12220b50d7a232bab4c753c3dd2fcce2
 ---

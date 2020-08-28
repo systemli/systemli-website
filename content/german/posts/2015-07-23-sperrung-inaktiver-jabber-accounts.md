@@ -1,6 +1,8 @@
 ---
 layout: post 
-title: Sperrung inaktiver Jabber-Accounts
+title: "Sperrung inaktiver Jabber-Accounts"
+aliases:
+    - /de/2015/07/23/sperrung-inaktiver-jabber-accounts.html
 date:   2015-07-23 10:00:00
 translation_key: 3c19df5093d1ac630b3e471de82dde24
 ---

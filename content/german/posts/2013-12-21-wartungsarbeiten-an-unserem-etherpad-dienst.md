@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Wartungsarbeiten an unserem Etherpad Dienst"
+aliases:
+    - /de/update/2013/12/21/wartungsarbeiten-an-unserem-etherpad-dienst.html
 date:   2013-12-21 17:00:00
 excerpt: Wir werden am 27.12.2013, ab 18.00 Uhr Wartungsarbeiten an unserem Etherpad Dienst vornehmen. Das System wird dabei mehrere Stunden nicht verfügbar sein.
 translation_key: 6ed573c34c11b11fb0af477433000cde

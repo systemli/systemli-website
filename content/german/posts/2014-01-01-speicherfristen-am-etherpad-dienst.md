@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Speicherfristen an unserem Etherpad Dienst"
+aliases:
+    - /de/update/2014/01/01/speicherfristen-am-etherpad-dienst.html
 date:   2014-01-01 19:09:09
 excerpt: Mit der erfolgreichen Migration unseres Etherpad Dienstes werden wir die Speicherfristen der angelegten Pads begrenzten. Bisher werden alle Pads ohne Ablaufdatum gespeichert.
 translation_key: 6d13087624474abcf7a8caab9770d452

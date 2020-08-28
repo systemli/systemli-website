@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Wartungsarbeiten am 28.04.2018"
+aliases:
+    - /de/2018/04/23/wartungsarbeiten.html
 date:   2018-04-23 09:00:00
 translation_key: 386b7f5aa7509597b04d4604cb633444
 ---

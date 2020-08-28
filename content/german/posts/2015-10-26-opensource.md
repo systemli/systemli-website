@@ -1,6 +1,8 @@
 ---
 layout: post 
-title: Systemli goes OpenSource 
+title: "Systemli goes OpenSource"
+aliases:
+    - /de/2015/10/26/opensource.html
 date:   2015-10-26 18:00:00
 translation_key: 2af9e3f043e30ea02f3873d75dd5333c
 ---

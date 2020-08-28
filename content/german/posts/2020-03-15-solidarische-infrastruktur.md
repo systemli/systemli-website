@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Solidarische Infrastruktur für solidarische Aktionen"
+aliases:
+    - /de/2020/03/15/solidarische-infrastruktur.html
 date: 2020-03-15 22:00:00
 translation_key: 4bb7384dfdee3255d5e36ac99fa2b773
 ---

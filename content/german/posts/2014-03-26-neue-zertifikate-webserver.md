@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Neue SSL-Zertifikate für systemli.org und *.tem.li"
+aliases:
+    - /de/update/2014/03/26/neue-zertifikate-webserver.html
 date:   2014-03-26 15:00:00
 excerpt: In den vergangenen Tagen haben wir für www.systemli.org, pad.systemli.org und alle Subdomains von tem.li neue Zertifikate bereitgestellt. Diese wurden von der Gandi Zertifizierungstelle unterzeichnet. Diese Zertifizierungsstelle ist in allen gängigen Browsern integriert und der warnt somit nur noch im Falle von SSL-Fehlern.
 translation_key: cdd0ef1df5bc5113d922c56e445c8b10

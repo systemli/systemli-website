@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Neue Zertifikate für unsere Dienste"
+aliases:
+    - /de/update/2014/04/10/neue-zertifikate-fuer-unsere-services.html
 date:   2014-04-10 10:00:00
 translation_key: a0d46248bd4a5b95e8dae8b6e79b4129
 ---

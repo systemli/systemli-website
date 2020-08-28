@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Umstellung des Jabber-Servers"
+aliases:
+    - /de/update/2014/01/21/umstellung-jabber-server.html
 date:   2014-01-21 20:00:00
 translation_key: 0381ff4281821e78616d17065efa0214
 ---

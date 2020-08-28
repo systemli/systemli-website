@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Neuer Service: Jitsi Meet"
+aliases:
+    - /de/2020/03/21/neuer-service-jitsi-meet.html
 date: 2020-03-21 12:00:00
 translation_key: 6321eadbab5f932d5e57b233d22dc153
 ---

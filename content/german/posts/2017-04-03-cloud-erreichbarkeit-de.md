@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Cloud teilweise nicht erreichbar"
+aliases:
+    - /de/2017/04/03/cloud-erreichbarkeit-de.html
 date:   2017-04-03 14:00:00
 translation_key: ede1b180a1b3ee2847b83f469ea4ee18
 ---

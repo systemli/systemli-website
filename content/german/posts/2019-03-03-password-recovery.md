@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Neue Funktion: Wiederherstellung von E-Mail-Passwörtern"
+aliases:
+    - /de/2019/03/03/password-recovery.html
 date:   2019-03-03 20:00:00
 translation_key: 21a8635a0fdc2a7c8b75c2dfee3bcd12
 ---

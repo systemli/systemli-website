@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Verbesserte Ticker-Software"
+aliases:
+    - /de/2020/03/13/verbesserte-ticker-software.html
 date:  2020-03-13 16:00:00
 translation_key: 56d0189c0ee5f0cecd4ab37d83179d92
 ---

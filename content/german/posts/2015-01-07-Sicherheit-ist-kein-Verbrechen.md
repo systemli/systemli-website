@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Sicherheit ist kein Verbrechen"
+aliases:
+    - /de/2015/01/07/Sicherheit-ist-kein-Verbrechen.html
 date:   2015-01-07 12:00:00
 translation_key: 84d4075c281978a8d46038067815fd89
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post 
-title: Danke für 2014
+title: "Danke für 2014"
+aliases:
+    - /de/2015/01/14/Jahresrueckblick-2014.html
 date:   2015-01-14 22:00:00
 translation_key: 7ebbd9d3b6cd108292c08d2fd148e206
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post 
-lang: de 
-title:  "Abschaltung von cloud.tem.li" 
+title:  "Abschaltung von cloud.tem.li"
+aliases: 
+    - /de/2016/06/30/owncloud-abschaltung-de.html
 date:   2016-06-30 18:00:00
-
 translation_key: ede1b180a1b3ee2847b83f469ea4ee16
 ---
 
@@ -16,4 +16,3 @@ Dann bekommst du einen Voucher für einen Email-Account bei uns, damit du dir ei
 Auch deine ehemaligen Speichergröße stellen wir dir gerne wieder her. :)
 
 Die **neue Cloud** mit neuen [Features](https://www.systemli.org/de/2016/03/26/owncloud-de.html) findest du unter [cloud.systemli.org](https://cloud.systemli.org)
-

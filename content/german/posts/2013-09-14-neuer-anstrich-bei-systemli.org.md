@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Neuer Anstrich bei systemli.org"
+aliases:
+    - /de/update/2013/09/14/neuer-anstrich-bei-systemli.org.html
 date:   2013-09-14 19:20:00
 excerpt: Es hat annähernd 10 Jahre gedauert, aber es ist geschafft. Wir haben unsere Homepage grundlegend überarbeitet. Ihr findet nun neben Kontaktmöglichkeiten und den Fingerprints unserer SSL-Zertifikate auch einen Überblick unserer Dienste.
 translation_key: 56e8d23a3fe2ea3fb1e2c4fdc4f0cac6

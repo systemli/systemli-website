@@ -1,9 +1,9 @@
 ---
 layout: post 
-lang: de 
-title:  Spendenaufruf zum Kauf neuer Hardware
+title:  "Spendenaufruf zum Kauf neuer Hardware"
+aliases:
+    - /de/2016/03/16/spendenaufruf-server-de.html
 date:   2016-03-16 12:00:00
-
 excerpt: Um den weiteren Betrieb von Systemli.org zu ermöglichen brauchen wir dringend eure Spenden.
 translation_key: 83385cb8971c7634d78696ea354a7194
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post 
-lang: de 
-title:  "Neuer Service: Cloud" 
+title:  "Neuer Service: Cloud"
+aliases:
+    - /de/2016/03/26/owncloud-de.html
 date:   2016-03-26 12:00:00
-
 translation_key: 68f7e00de1ceb0276715207c877f63c1
 ---
 

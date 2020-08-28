@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hintergrund: Dateiübertragung und Gruppenchat bei Jabber"
+aliases:
+    - /hintergrund/2014/05/14/Dateiuebertragung-und-Gruppenchat-bei-Jabber.html
 date:   2014-05-14 15:00:00
 translation_key: 7039c4eb92b991ba82a45dbe5cfa32af
 ---

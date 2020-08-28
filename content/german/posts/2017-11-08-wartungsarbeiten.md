@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Wartungsarbeiten am 17.11.2017"
+aliases:
+    - /de/2017/11/08/wartungsarbeiten.html
 date:   2017-11-08 16:00:00
 translation_key: 386b7f5aa7509597b04d4604cb633265
 ---

@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Dance like nobody is watching - Soliparty für systemli.org"
+aliases:
+    - /de/2018/07/01/soliparty-fuer-systemli-de.html
 date:   2018-07-01 11:00:00
 
 translation_key: ede1b180a1b3ee2847b83f469ea4ee12
