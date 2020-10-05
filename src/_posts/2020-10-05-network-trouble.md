@@ -16,7 +16,7 @@ The following services are affected partially or completely:
 * Etherpad
 * Mail
 * Cloud
-* Webseiten
+* Websites
 
 If you urgently need to access these services, you temporarily have
 to use another internet connection (not T-Online) and/or your mobile
