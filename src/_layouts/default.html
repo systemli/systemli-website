@@ -17,7 +17,10 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:type" content="{% if index %}website{% else %}article{% endif %}" />
     <meta property="og:image" content="{{ site.url }}/assets/img/systemli_logo_small.png" />
-    <meta name="twitter:card" content="{{ title }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ lang.subtitle }}" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/img/systemli_logo_small.png" />
     <meta name="twitter:site" content="@systemli" />
     <meta name="twitter:creator" content="@systemli" />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.systemli.org; object-src 'none'; frame-src https://www.youtube.com;">
