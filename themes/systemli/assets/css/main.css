@@ -42,8 +42,7 @@ ul {
 li {
     @apply pl-6;
 }
-pre,
-code {
+pre, code {
     @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs overflow-auto;
 }
 code {
@@ -134,13 +133,10 @@ sup {
     background-repeat: no-repeat;
 }
 
-/* purgecss ignore */
 img[src*="#fl-2"] {
     float: left;
     @apply mr-2 mb-2;
 }
-
-/* purgecss ignore */
 img[src*="#f2-2"] {
     float: right;
     @apply ml-2 mb-2;
