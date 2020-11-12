@@ -7,7 +7,6 @@ Please improve by providing content, translations or code.
 
  1. Run `hugo server` for preview
  2. Visit http://localhost:1313/
- 3. If you change either tailwind.config.js or main.css run `npm run build-css` or `npm run watch-css`
 
 ## Structure
 

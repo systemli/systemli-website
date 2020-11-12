@@ -42,8 +42,15 @@ ul {
 li {
     @apply pl-6;
 }
-pre {
+pre,
+code {
     @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs overflow-auto;
+}
+code {
+    @apply p-1 border-none;
+}
+pre > code {
+    @apply p-0;
 }
 dl {
     @apply py-2 break-normal;
