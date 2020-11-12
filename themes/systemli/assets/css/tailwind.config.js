@@ -28,6 +28,7 @@ module.exports = {
       width: {
         '19/20': '95%',
         '96': '24rem',
+        '375': '375px',
       },
       maxWidth: {
         'half': '50%',
