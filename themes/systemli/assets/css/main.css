@@ -57,6 +57,19 @@ dl {
 sup {
     @apply text-darkgrey;
 }
+nav {
+    @apply fixed z-50 top-0 right-0 overflow-y-scroll overflow-x-hidden
+    pl-24 pt-4 pb-16 w-375 h-full
+    bg-menu bg-lightblue text-m font-bold;
+    transition: transform 0.3s ease 0s;
+    transform: translateX(375px);
+}
+@screen lg {
+    nav {
+        @apply relative pl-6 pr-6 py-0 w-auto min-h-0;
+        transform: none !important;
+    }
+}
 
 .button-link {
     @apply text-xs my-3;
@@ -128,7 +141,7 @@ sup {
 }
 
 .bg-menu {
-    background-image: url('/mobile_menu_background.gif');
+    background-image: url('/mobile_menu_background_minimize.gif');
     background-size: contain;
     background-repeat: no-repeat;
 }

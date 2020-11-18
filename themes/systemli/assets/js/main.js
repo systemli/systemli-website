@@ -1,11 +1,22 @@
 (function () {
 
-    // show and hide menu
+    // show and hide mobile menu
+    function openMobileMenu() {
+        document.getElementById('navbar').style.transform = 'translateX(0px)';
+        document.getElementById('mobile-menu-overlay').classList.remove('hidden');
+    }
+    function closeMobileMenu() {
+        document.getElementById('navbar').style.transform = 'translateX(375px)';
+        document.getElementById('mobile-menu-overlay').classList.add('hidden');
+    }
     document.getElementById('button-menu-open').addEventListener('click', function () {
-        document.getElementById('navbar').classList.replace('hidden', 'flex');
+        openMobileMenu();
     });
     document.getElementById('button-menu-close').addEventListener('click', function () {
-        document.getElementById('navbar').classList.replace('flex', 'hidden');
+        closeMobileMenu();
+    });
+    document.getElementById('mobile-menu-overlay').addEventListener('click', function () {
+        closeMobileMenu();
     });
 
     // show service description on hover
