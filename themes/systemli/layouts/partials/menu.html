@@ -1,17 +1,13 @@
 <header>
     <nav id="navbar">
-        <div class="flex flex-col-reverse justify-end lg:flex-row lg:justify-between">
+        <div class="flex flex-col-reverse justify-end lg:flex-row lg:justify-between page-width lg:page-width-lg">
             <div class="flex flex-col lg:block">
-                <a class="menu-item hidden lg:inline hover:pt-3 text-black"
-                   href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
-                    systemli.org
-                </a>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <!-- manually exclude "Posts" section from menu -->
                 {{ if ne .Name "Posts" }}
                 <a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white
-                    {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} lg:border-t-4 pt-2{{end}}"
+                    {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}"
                 href="{{ .URL }}" title="{{ .Title }}">
                 {{ .Name }}
                 </a>
@@ -21,7 +17,7 @@
             <div class="flex justify-between items-center pb-24 lg:pb-0">
                 {{ if .IsTranslated }}
                 {{ range .Translations }}
-                <a class="menu-item text-black" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                <a class="text-black hover:no-underline hover:text-white mx-2" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
                 {{ end }}
                 {{ end }}
                 <a class="menu-icon" href="https://twitter.com/systemli" target="_blank">
@@ -48,7 +44,7 @@
         </div>
     </nav>
     <div id="mobile-menu-overlay" class="hidden z-40 w-full h-full top-0 left-0 fixed bg-black opacity-50"></div>
-    <div class="flex flex-row items-center justify-between lg:w-19/20 lg:max-w-screen-xl mx-auto py-4 mb-4 lg:mb-0">
+    <div class="flex flex-row items-center justify-between page-width lg:page-width-lg py-4 mb-4 lg:mb-0">
         <a class="w-64 lg:w-1/4 max-w-sm ml-3 lg:m-3" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
             <img src="/systemli_logo.svg" alt="logo">
         </a>
