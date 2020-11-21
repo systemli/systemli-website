@@ -87,6 +87,15 @@ nav {
     }
 }
 
+.hide-on-mobile {
+    @apply hidden;
+}
+@screen lg {
+    .hide-on-mobile {
+        @apply flex;
+    }
+}
+
 .button-link {
     @apply text-xs my-3;
 }

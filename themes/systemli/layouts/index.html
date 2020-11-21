@@ -3,16 +3,19 @@
 <div class="flex flex-col content-container items-center lg:items-start lg:grid grid-cols-24 gap-0">
     <div class="flex flex-col items-start lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full mb-4 lg:mb-0 bg-white shadow-m">
         <div class="grid grid-cols-post-list col-span-12 p-4">
-            <!-- loop through last three posts -->
-            {{ range first 3 (where $.Site.RegularPages "Type" "posts") }}
-            <div class="flex items-center py-2 border-b border-r text-l leading-6">
+            <!-- loop through last three posts, hide 2nd + 3rd on mobile -->
+            {{ range $index, $element :=  first 3 (where $.Site.RegularPages "Type" "posts") }}
+            <div class="items-center py-2 border-b border-r text-l leading-6
+                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
                 {{ .Date.Format "02/01 2006" }}
             </div>
-            <div class="flex items-center pl-4 border-b pr-4 leading-6">
+            <div class="items-center pl-4 border-b pr-4 leading-6
+                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
                 <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title }}</a></h2>
             </div>
             <div class="hidden lg:block"></div>
-            <div class="col-span-2 lg:col-span-1 py-4 lg:px-4 leading-5">
+            <div class="flex-col col-span-2 lg:col-span-1 py-4 lg:px-4 leading-5
+                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
                 {{ .Summary }}
                 <p>
                     <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
