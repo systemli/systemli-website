@@ -52,6 +52,10 @@ module.exports = {
         'span-19': 'span 19 / span 19',
         'span-24': 'span 24 / span 24',
       },
+      inset: {
+        // should be there by default, not sure why it was not working
+        '4': '1rem',
+      }
     }
   },
   variants: {
