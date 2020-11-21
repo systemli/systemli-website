@@ -83,7 +83,7 @@ nav {
         @apply w-19/20 mx-auto;
     }
     .page-width-lg {
-        @apply max-w-screen-xl;
+        @apply w-19/20 max-w-screen-xl;
     }
 }
 
