@@ -37,10 +37,16 @@ p {
     @apply py-2 break-normal;
 }
 ul {
-    @apply pb-3 list-disc list-inside;
+    @apply list-disc;
 }
-li {
-    @apply pl-6;
+ul li {
+    @apply pl-3 ml-6;
+}
+ol {
+    @apply list-decimal;
+}
+ol li {
+    @apply pl-1 ml-8;
 }
 pre, code {
     @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs overflow-auto;
