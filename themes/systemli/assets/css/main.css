@@ -19,10 +19,18 @@
 }
 
 h1 {
-    @apply border-b pb-2 mb-10 font-bold text-xl;
+    @apply border-b pb-2 mb-10 font-bold text-l;
 }
 h2 {
-    @apply py-2 font-bold text-l;
+    @apply py-2 font-bold text-ml;
+}
+@screen md {
+    h1 {
+        @apply text-xl
+    }
+    h2 {
+        @apply text-l;
+    }
 }
 h3 {
     @apply py-2 font-bold text-m;

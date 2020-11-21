@@ -18,11 +18,13 @@ module.exports = {
       'xs': '.875rem', //14px
       's': '1rem', //16px
       'm': '1.063rem', //17px
+      'ml': '1.25rem', //20px
       'l': '1.438rem', //23px
       'xl': '1.75rem', //28px
     },
     boxShadow: {
       'm': '0 0 5px 0px rgba(0,0,0,0.25)',
+      none: 'none',
     },
     extend: {
       width: {
