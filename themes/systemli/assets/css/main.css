@@ -19,7 +19,7 @@
 }
 
 h1 {
-    @apply border-b pb-2 mb-10 font-bold text-l;
+    @apply border-b pb-2 mb-6 font-bold text-l;
 }
 h2 {
     @apply py-2 font-bold text-ml;
@@ -34,6 +34,9 @@ h2 {
 }
 h3 {
     @apply py-2 font-bold text-m;
+}
+h4 {
+    @apply m-0 underline;
 }
 a {
     @apply text-lightblue;
@@ -88,7 +91,7 @@ nav {
 /* define page width to use on header, logo row & content */
 @variants responsive {
     .page-width {
-        @apply w-19/20 mx-auto;
+        @apply w-18/20 mx-auto;
     }
     .page-width-lg {
         @apply w-19/20 max-w-screen-xl;
@@ -117,6 +120,9 @@ nav {
 
 .content-container {
     @apply page-width;
+}
+.content-container.flex {
+    @apply w-19/20;
 }
 @screen lg {
     .content-container {

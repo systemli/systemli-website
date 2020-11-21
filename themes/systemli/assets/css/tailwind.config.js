@@ -28,9 +28,12 @@ module.exports = {
     },
     extend: {
       width: {
+        '18/20': '90%',
         '19/20': '95%',
         '96': '24rem',
         '375': '375px',
+        // should be there by default, not sure why it was not working
+        '14': '3.5rem',
       },
       maxWidth: {
         'half': '50%',
@@ -41,8 +44,7 @@ module.exports = {
       },
       maxHeight: {
         '1/2': '50vh',
-        // should be there by default, not sure why it was not working
-        '96': '24rem',
+        '140': '35rem',
       },
       scale: {
         '101': '1.01',
@@ -50,7 +52,7 @@ module.exports = {
       gridTemplateColumns: {
         '19': 'repeat(19, minmax(0, 1fr))',
         '24': 'repeat(24, minmax(0, 1fr))',
-        'post-list': '5.313rem auto',
+        'post-list': '5rem auto',
       },
       gridColumn: {
         'span-19': 'span 19 / span 19',
