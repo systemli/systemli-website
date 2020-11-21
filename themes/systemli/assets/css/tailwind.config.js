@@ -46,6 +46,7 @@ module.exports = {
       gridTemplateColumns: {
         '19': 'repeat(19, minmax(0, 1fr))',
         '24': 'repeat(24, minmax(0, 1fr))',
+        'post-list': '5.313rem auto',
       },
       gridColumn: {
         'span-19': 'span 19 / span 19',
