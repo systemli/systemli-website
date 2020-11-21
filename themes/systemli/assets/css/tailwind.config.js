@@ -41,6 +41,8 @@ module.exports = {
       },
       maxHeight: {
         '1/2': '50vh',
+        // should be there by default, not sure why it was not working
+        '96': '24rem',
       },
       scale: {
         '101': '1.01',

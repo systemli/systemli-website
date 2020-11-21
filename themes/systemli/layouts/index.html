@@ -24,9 +24,9 @@
             {{ end }}
             <a class="col-span-2 button-link" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
         </div>
-        <div class="h-2 lg:hidden"></div>
-        <div class="col-span-7 h-95 flex flex-col justify-between my-4 py-4 lg:py-0 px-4 lg:border-l text-xxs bg-white shadow-m lg:shadow-none">
-            <div class="grid grid-cols-7 gap-4 mb-8">
+        <div class="h-6 lg:hidden"></div>
+        <div class="col-span-7 h-95 flex flex-col-reverse lg:flex-col justify-between lg:my-4 lg:py-0 lg:border-l text-xxs">
+            <div class="grid grid-cols-7 gap-4 mb-8 p-4 bg-white shadow-m lg:shadow-none">
                 <div class="flex flex-col col-span-3">
                     <img src="{{ .Params.image }}" class="mt-2 mb-8">
                     {{ range $link := .Param "links" }}
@@ -37,7 +37,8 @@
                     {{ .Content }}
                 </div>
             </div>
-            <div class="hidden lg:block max-h-1/2 overflow-scroll">
+            <div class="h-6 lg:hidden"></div>
+            <div class="block max-h-96 lg:max-h-1/2 overflow-scroll p-4 bg-white shadow-m lg:shadow-none">
                 {{ partial "ticker.html" }}
             </div>
         </div>
