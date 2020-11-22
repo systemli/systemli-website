@@ -98,12 +98,18 @@ nav {
     }
 }
 
-.hide-on-mobile {
+.hide-on-mobile,
+.hide-on-mobile--block {
     @apply hidden;
 }
 @screen lg {
     .hide-on-mobile {
         @apply flex;
+    }
+}
+@screen lg {
+    .hide-on-mobile--block {
+        @apply block;
     }
 }
 

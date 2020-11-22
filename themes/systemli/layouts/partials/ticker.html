@@ -17,12 +17,11 @@
   }).then(response => {
     let elem = document.getElementById('ticker-container')
 
-    response.data.messages.forEach(message => {
-
+    response.data.messages.forEach((message, index) => {
       const date = new Date(message.creation_date)
       let entry = document.createElement('div')
-      let text = '<p class="inline-block">' + replaceMagic(message.text) + '</p>'
-      let created = '<p class="text-xs">' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString() + '</p>'
+      const text = '<p class="inline-block">' + replaceMagic(message.text) + '</p>'
+      const created = '<p class="text-xs">' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString() + '</p>'
       let images = ''
 
       if (message.attachments != null && message.attachments.length > 0) {
@@ -31,7 +30,7 @@
         })
       }
 
-      entry.innerHTML = '<div class="mb-2 border-b">' + text + images + created + '</div>'
+      entry.innerHTML = '<div class="mb-2 border-b' + (index > 3 ? ' hide-on-mobile--block' : '') + '">' + text + images + created + '</div>'
       elem.appendChild(entry)
     })
   })
