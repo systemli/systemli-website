@@ -2,6 +2,16 @@
   const origin = 'updates.systemli.org'
   const apiUrl = 'https://ticker-api.systemli.org/v1/timeline'
 
+  // copied from https://github.com/systemli/ticker-frontend/blob/master/src/Helper.js
+  function replaceMagic(text) {
+      return (text
+          .replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>')
+          .replace(/#(\S+)/g, '<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/search?q=%23$1">#$1</a>')
+          .replace(/ @(\S+)/g, ' <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/$1">@$1</a>')
+          .replace(/(\w+@\w+.\w+)/g, '<a href="mailto:$1">$1</a>')
+          .replace(/(?:\r\n|\r|\n)/g, '<br/>'))
+  }
+
   fetch(apiUrl + '?origin=' + origin).then(response => {
     return response.json()
   }).then(response => {
@@ -11,7 +21,7 @@
 
       const date = new Date(message.creation_date)
       let entry = document.createElement('div')
-      let text = '<p>' + message.text + '</p>'
+      let text = '<p class="inline-block">' + replaceMagic(message.text) + '</p>'
       let created = '<p class="text-xs">' + date.toLocaleDateString() + ' ' + date.toLocaleTimeString() + '</p>'
       let images = ''
 
@@ -30,4 +40,4 @@
     <h2>Latest Updates <span class="text-xs">from <a href="https://updates.systemli.org" target="_blank">updates.systemli.org</a></span>
     </h2>
 </div>
-<div id="ticker-container"></div>
+<div id="ticker-container" class="ticker-container"></div>
