@@ -31,8 +31,9 @@ Additionally you can access your emails via browser with our [web client](https:
 * Data protection: no logging of IP addresses or non-relevant meta data
 * Sieve: filtering of emails directly on the server
 * [Infinite subaddresses like username+keyword@systemli.org](https://www.systemli.org/en/tips%20and%20tricks/2014/06/29/monitor-your-user-data.html)
-* Integration of other email accounts
+* Integration of external email accounts
 * [Roundcube Webmail](https://mail.systemli.org) for managing emails on the road
+* Publish your OpenPGP key in Web Key Directory (WKD)
 * GnuPG email encryption in the web client (not recommended except for rare cases, see the [wiki article](https://wiki.systemli.org/howto/webmail_enigma_en))
 * Onion Service
 * The folders Junk and Trash will be automatically emptied after 30 days
