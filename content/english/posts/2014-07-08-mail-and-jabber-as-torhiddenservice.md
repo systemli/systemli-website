@@ -4,7 +4,7 @@ title:  "Feature: Mail and Jabber as Tor Hiddenservice"
 aliases:
     - /en/2014/07/14/mail-and-jabber-as-torhiddenservice.html
 date:   2014-07-14 10:00:00
-translation_key: ec9465ea35e94eb4f63042c8ecfd3ce3
+translationKey: ec9465ea35e94eb4f63042c8ecfd3ce3
 ---
 From now on we offer **mail.systemli.org** and **jabber.systemli.org** as [Tor Hidden Service](https://www.torproject.org/docs/hidden-services.html.en).
 

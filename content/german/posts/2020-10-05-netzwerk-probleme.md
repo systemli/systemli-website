@@ -4,7 +4,7 @@ title: "Anhaltende Netzwerkprobleme"
 aliases:
     - /de/2020/10/05/netzwerk-probleme.html
 date: 2020-10-05 12:00:00
-translation_key: 9ffdae6e2fad8088fb02170de32fa1e2
+translationKey: 9ffdae6e2fad8088fb02170de32fa1e2
 ---
 
 Einige unserer Dienste sind leider aktuell aus dem Netz der Deutschen

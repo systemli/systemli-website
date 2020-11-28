@@ -5,7 +5,7 @@ aliases:
     - /service/ticker.html
 icon: ticker.svg
 service_bar_title: ticker
-translation_key: 3e91fcf85e9d4891cd5c76c77e178251
+translationKey: 3e91fcf85e9d4891cd5c76c77e178251
 description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 ---
 **Service zur Verbreitung von kurzen Nachrichten zur Unterstützung von Veranstaltungen, Demonstrationen oder anderen zeitkritischen Ereignissen.**

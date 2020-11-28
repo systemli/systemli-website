@@ -5,7 +5,7 @@ aliases:
     - /en/update/2013/09/14/Fresh-colours-on-systemli.org.html
 date:   2013-09-14 19:20:00
 excerpt: It took nearly 10 years, but we have finally done it. We have fundamentally revised our website. Besides contact options and the fingerprints of our SSL-certificates you can now also find an overview of our services.
-translation_key: 56e8d23a3fe2ea3fb1e2c4fdc4f0cac6
+translationKey: 56e8d23a3fe2ea3fb1e2c4fdc4f0cac6
 ---
 It took nearly 10 years, but we have finally done it. We have fundamentally revised our website. Besides contact options and the fingerprints of our SSL-certificates you can now also find an overview of our services. On the respective pages there is a description of the services and how to use them.
 

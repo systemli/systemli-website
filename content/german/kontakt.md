@@ -6,7 +6,7 @@ aliases:
 menu: main
 weight: 4
 en_title: Contact
-translation_key: 3bcc4028d59fbd74d03760256430d8c1
+translationKey: 3bcc4028d59fbd74d03760256430d8c1
 ---
 
 ### FAQ

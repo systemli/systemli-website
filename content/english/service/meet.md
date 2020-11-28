@@ -5,7 +5,7 @@ aliases:
     - /en/service/meet.html
 menu_group: service
 service_bar_title: meet
-translation_key: 69642b7a18a59b65642aca3dcd3e3738
+translationKey: 69642b7a18a59b65642aca3dcd3e3738
 icon: meet.svg
 description: Telephone and video conferencing for small groups
 links:

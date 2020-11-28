@@ -4,7 +4,7 @@ title: "Neuer Service: Jitsi Meet"
 aliases:
     - /de/2020/03/21/neuer-service-jitsi-meet.html
 date: 2020-03-21 12:00:00
-translation_key: 6321eadbab5f932d5e57b233d22dc153
+translationKey: 6321eadbab5f932d5e57b233d22dc153
 ---
 
 Vor knapp einer Woche haben wir versucht einen [Überblick für solidarische Infrastruktur](/de/2020/03/15/solidarische-infrastruktur.html) zu geben. Ein immer wieder angefragter und in der aktuellen Situation wichtiger Dienst ist [Jitsi Meet](/service/meet.html) gewesen. Wir haben uns dazu entschlossen, wie andere linke Technik-Kollektive auch, diesen Service anzubieten.

@@ -4,7 +4,7 @@ title: "Neues Feature: E-Mail-Postfachverschlüsselung"
 aliases:
     - /de/2019/06/12/postfach-verschluesselung.html
 date: 2019-06-12 00:00:00
-translation_key: d5006a92f5ab0a6b182ad706dfe77dc2
+translationKey: d5006a92f5ab0a6b182ad706dfe77dc2
 ---
 
 * systemli.org verwendet E-Mail-Postfachverschlüsselung

@@ -4,7 +4,7 @@ title:  "Welcome to the future: Infrastruktur-Verbesserungen bei systemli.org"
 aliases:
     - /de/2017/06/22/infrastruktur-verbesserungen-bei-systemli-de.html
 date:   2017-06-22 20:00:00
-translation_key: ede1b180a1b3ee2847b83f469ea4ee12
+translationKey: ede1b180a1b3ee2847b83f469ea4ee12
 ---
 
 Die letzten Monate haben wir bei systemli.org einiges an der technischen Infrastruktur verbessert. Ein paar dieser Änderungen wollen wir euch nicht vorenthalten.

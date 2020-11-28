@@ -4,7 +4,7 @@ title: "Unsere Grundsätze bleiben unteilbar"
 aliases:
     - /de/2019/08/23/unsere-grundsaetze-bleiben-unteilbar.html
 date: 2019-08-23 05:00:00
-translation_key: daffe6a92f5acab6b182ad706dfe77dc2
+translationKey: daffe6a92f5acab6b182ad706dfe77dc2
 ---
 Systemli ist ein [linkes Netzwerk und Technikkollektiv](/about-us.html).
 Wir unterstützen in unserer Freizeit emanzipatorische Gruppen und Menschen mit technischer Infrastruktur und Know-How.

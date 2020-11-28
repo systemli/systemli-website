@@ -4,7 +4,7 @@ title: Metadaten Cleaner
 aliases:
     - /service/metadata.html
 menu_group: service
-translation_key: 000a6d7ddead6291f30892e804886274
+translationKey: 000a6d7ddead6291f30892e804886274
 icon: metadata.svg
 description: Bereinige verschiedene Dateitypen von verräterischen Metadaten
 beta: true

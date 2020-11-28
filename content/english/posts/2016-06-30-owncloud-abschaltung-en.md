@@ -4,7 +4,7 @@ title:  "Shutdown of cloud.tem.li"
 aliases:
     - /en/2016/06/30/owncloud-abschaltung-en.html
 date:   2016-06-30 17:00:00
-translation_key: ede1b180a1b3ee2847b83f469ea4ee16
+translationKey: ede1b180a1b3ee2847b83f469ea4ee16
 ---
 
 We will shut down our old owncloud instance **cloud.tem.li** with immediate effect.

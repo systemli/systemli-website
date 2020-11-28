@@ -4,7 +4,7 @@ title: E-Mail
 aliases:
     - /en/service/mail.html
 menu_group: service
-translation_key: a20ccbe9557775d06f0e75bbedb0f07a
+translationKey: a20ccbe9557775d06f0e75bbedb0f07a
 icon: mail.svg
 service_bar_title: e-mail
 description: Mailboxes without ads or analysis of your emails

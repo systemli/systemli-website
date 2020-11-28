@@ -4,7 +4,7 @@ title: Schleuder
 aliases:
     - /en/service/schleuder.html
 menu_group: service
-translation_key: 85b2e44682de63869bf61ee45d5d3db9
+translationKey: 85b2e44682de63869bf61ee45d5d3db9
 icon: schleuder.svg
 description: Encrypted mailing lists for secure group communication
 service_bar_title: schleuder

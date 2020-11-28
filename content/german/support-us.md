@@ -5,7 +5,7 @@ aliases:
     - /support-us.html
 menu: main
 weight: 5
-translation_key: 71d9fe68997e60e86c5fdd835efa1760
+translationKey: 71d9fe68997e60e86c5fdd835efa1760
 ---
 [![](/assets/img/systemli_navy_sb_1_1.jpg#fl-2)](https://black-mosquito.org/de/catalogsearch/result/?q=systemli)
 Alle Menschen für systemli.org arbeiten freiwillig und unbezahlt. Doch neben Zeit kostet das Bereitstellen unserer Dienste und Infrastruktur auch regelmäßig eine Menge Geld. Gerade durch die Nachrichten über PRISM, Tempora und die neue Bespitzelungsinitiative des BND zeigt sich, wie notwendig eine unabhängige und solidarische Infrastruktur ist.

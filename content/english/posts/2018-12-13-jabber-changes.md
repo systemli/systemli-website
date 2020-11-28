@@ -4,7 +4,7 @@ title:  "Jabber changes"
 aliases:
     - /en/2018/12/13/jabber-changes.html
 date:   2018-12-13 18:30:00
-translation_key: 12220b50d7a232bab4c753c3dd2fcce2
+translationKey: 12220b50d7a232bab4c753c3dd2fcce2
 ---
 
 Today, we switch the TLS certificate of our jabber server to [LetsEncrypt](https://letsencrypt.org/).

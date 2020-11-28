@@ -4,7 +4,7 @@ title: "Improved ticker software"
 aliases:
     - /en/2020/03/13/improved-ticker-software.html
 date: 2020-03-13 16:00:00
-translation_key: 56d0189c0ee5f0cecd4ab37d83179d92
+translationKey: 56d0189c0ee5f0cecd4ab37d83179d92
 ---
 [![ticker](/assets/img/ticker.jpg)](/en/service/ticker.html)
 Our ticker helps you with live coverage of demonstrations and other events.

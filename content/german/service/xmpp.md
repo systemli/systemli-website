@@ -4,7 +4,7 @@ title: Jabber
 aliases:
     - /service/xmpp.html
 menu_group: service
-translation_key: 405fa099b89ec281d5df6c1eea477213
+translationKey: 405fa099b89ec281d5df6c1eea477213
 icon: xmpp.svg
 service_bar_title: jabber
 description: Offene Instant-Messaging Alternative zu Whatsapp und Co.

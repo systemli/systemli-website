@@ -5,7 +5,7 @@ aliases:
     - /en/2016/03/16/spendenaufruf-server-en.html
 date:   2016-03-16 12:00:00
 excerpt: To keep Systemli.org running, we urgently need your donations!
-translation_key: 83385cb8971c7634d78696ea354a7194
+translationKey: 83385cb8971c7634d78696ea354a7194
 ---
 
 Dear friends,

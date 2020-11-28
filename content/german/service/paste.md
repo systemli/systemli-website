@@ -3,7 +3,7 @@ layout: page
 title: Paste
 aliases:
     - /service/paste.html
-translation_key: 3d1c5c5c9dbd141ca4fe549b8ef0fb68
+translationKey: 3d1c5c5c9dbd141ca4fe549b8ef0fb68
 icon: paste.svg
 service_bar_title: paste
 description: Veröffentliche (verschlüsselt) Texte und gib ihnen ein Verfallsdatum

@@ -4,7 +4,7 @@ title:  "Zunahme von Spam und Anfragen für Einladungscodes"
 aliases:
     - /de/2019/12/10/zunahme-von-spam-und-anfragen-fur-einladungscodes.html
 date:   2019-12-10 14:00:00
-translation_key: d41d8cd98f00b204e9800798ecf8427e
+translationKey: d41d8cd98f00b204e9800798ecf8427e
 ---
 
 In den letzten Tagen wurden wiederholt E-Mails mit der Frage nach einem Einladungscode an unsere Nutzer\*innen gesendet.

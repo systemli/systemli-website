@@ -4,7 +4,7 @@ title: "Langsamer Abschied von SSL-Fingerprints"
 aliases:
     - /de/2017/10/18/Lets-Encrypt-de.html
 date: 2017-10-18 10:00:00
-translation_key: eaeafa80a1b4ee2847b83f469ea4ee18
+translationKey: eaeafa80a1b4ee2847b83f469ea4ee18
 ---
 
 Seit Jahren halten wir euch dazu an, die Fingerprints unserer SSL-Zertifikate zu überprüfen - das hat jetzt (fast) ein Ende.

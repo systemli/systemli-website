@@ -4,7 +4,7 @@ title: Talk/Mumble
 aliases:
     - /service/mumble.html
 menu_group: service
-translation_key: eebf342928757f00b11d8445af5971f5
+translationKey: eebf342928757f00b11d8445af5971f5
 icon: mumble.svg
 description: Telefoniere (verschlüsselt) über unseren Mumble Server
 links:

@@ -4,7 +4,7 @@ title:  "Closing of a security gap requires rebooting of services"
 aliases:
     - /en/update/2014/04/08/closing-security-vuln-reboot-required.html
 date:   2014-04-08 11:00:00
-translation_key: 086d9fbd42fc19d1583506c093414b0a
+translationKey: 086d9fbd42fc19d1583506c093414b0a
 ---
 
 Tonight a critical vulnerability in the open source library OpenSSL was published. This security gab enables assailants to steal the secret keys and decrypt alleged safe data traffic. This fault has been rectified, but it requires the reboot of all services that use OpenSSL.

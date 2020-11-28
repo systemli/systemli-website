@@ -4,7 +4,7 @@ title: Onion Services
 aliases:
     - /en/service/onion.html
 menu_group: service
-translation_key: 405fa099b89ec281d5df6c1eea477214
+translationKey: 405fa099b89ec281d5df6c1eea477214
 icon: onion.svg
 description: Connect unobserved with our services
 ---

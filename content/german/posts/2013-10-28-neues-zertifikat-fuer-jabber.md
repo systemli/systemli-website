@@ -4,7 +4,7 @@ title:  "Neues Zertifikat für jabber.systemli.org"
 aliases:
     - /de/update/2013/10/28/neues-zertifikat-fuer-jabber.html
 date:   2013-10-28 23:30:00
-translation_key: affa9bac4a63a3ed1a8d6d11d57c6c36
+translationKey: affa9bac4a63a3ed1a8d6d11d57c6c36
 ---
 Ab morgen, den 29.10.2013, hat der Jabber-Server ein neues SSL-Zertifikat. Dieses wird dann für 2 Jahre gültig sein.
 Der neue Fingerprint lautet: `01:99:A9:C1:4A:A3:23:B3:0C:C1:F4:F7:2E:21:B0:2A:94:64:E1:35`

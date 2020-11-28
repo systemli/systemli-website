@@ -4,7 +4,7 @@ title: Ethercalc/Calc
 aliases:
     - /en/service/ethercalc.html
 menu_group: service
-translation_key: f6b11622f11f4f76e9cfac82ce542164
+translationKey: f6b11622f11f4f76e9cfac82ce542164
 icon: ethercalc.svg
 description: Online editor for collaborative spreadsheets
 links:

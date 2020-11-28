@@ -4,7 +4,7 @@ title: "Continuing network issues"
 aliases:
     - /en/2020/10/05/network-trouble.html
 date: 2020-10-05 12:00:00
-translation_key: 9ffdae6e2fad8088fb02170de32fa1e2
+translationKey: 9ffdae6e2fad8088fb02170de32fa1e2
 ---
 
 Unfortunately, some of our services are currently unaccessible from

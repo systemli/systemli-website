@@ -4,7 +4,7 @@ title:  "Benefizparty für systemli.org"
 aliases:
     - /de/2014/08/08/benefizparty-fuer-systemli.html
 date:   2014-08-08 16:00:00
-translation_key: a84df4cd7a65661f5c326f09f659b75a
+translationKey: a84df4cd7a65661f5c326f09f659b75a
 ---
 <img src="/assets/img/party_off_the_record.jpg" alt="off-the-record" class="img-responsive" />
 

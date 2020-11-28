@@ -5,7 +5,7 @@ aliases:
     - /en/service/ticker.html
 icon: ticker.svg
 service_bar_title: ticker
-translation_key: 3e91fcf85e9d4891cd5c76c77e178251
+translationKey: 3e91fcf85e9d4891cd5c76c77e178251
 description: Distribute short messages during demonstrations and events
 ---
 **Service to distribute short messages in support of events, demonstrations, or other time-sensitive events.**

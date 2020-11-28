@@ -4,7 +4,7 @@ title:  "Jabber: Account registration temporarily disabled"
 aliases:
     - /en/2019/05/17/jabber-registration-disabled.html
 date:   2019-05-17 20:00:00
-translation_key: cb510da02c0d69fc2569e6b6fde3a8e5
+translationKey: cb510da02c0d69fc2569e6b6fde3a8e5
 ---
 
 

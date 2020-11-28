@@ -4,7 +4,7 @@ title:  "pad.systemli.org: Variable Ablaufzeiten"
 aliases:
     - /de/2019/02/19/pad-variable-ablaufzeiten.html
 date:   2019-02-19 13:00:00
-translation_key: 49921a2ffd68cf5ce0683802b07eb6dd
+translationKey: 49921a2ffd68cf5ce0683802b07eb6dd
 ---
 
 Wir haben ein wenig bei unseren Freund\*innen von <a href="https://riseup.net/">Riseup</a>
