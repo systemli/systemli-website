@@ -20,7 +20,7 @@ Wir bieten seit vielen Jahren einen E-Mail Service für Freund:innen: und Sympat
 
 Wir haben uns bewusst gegen eine offene Registrierung von E-Mail-Accounts entschieden. Damit möchten wir hauptsächlich vermeiden, dass der Dienst missbraucht wird.
 
-Um deine E-Mails vor dem Auslesen zu schützen, solltest du GPG verwenden. Am praktikabelsten ist hierbei eine Kombination aus Thunderbird [(Einrichtungsanleitung im Wiki)](https://wiki.systemli.org/howto/howto/thunderbird_systemli) und [Enigmail](https://www.thunderbird-mail.de/lexicon/entry/17-enigmail/).
+Um deine E-Mails vor dem Auslesen zu schützen, solltest du sie mit OpenPGP verschlüsseln. Praktikabel ist hierfür Thunderbird ([Einrichtungsanleitung im Wiki](https://wiki.systemli.org/howto/howto/thunderbird78_pgp)).
 
 Zusätzlich kannst du deine E-Mails auch per Browser mit unserem <a href="https://mail.systemli.org">Web-Client</a> abrufen.
 
