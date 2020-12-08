@@ -41,6 +41,7 @@ h4 {
 }
 a {
     @apply text-lightblue;
+    word-break: break-word;
 }
 a:hover {
     @apply underline;
@@ -62,6 +63,7 @@ ol li {
 }
 pre, code {
     @apply py-2 px-1 bg-lightgrey border border-grey rounded text-xs overflow-auto;
+    word-break: break-word;
 }
 code {
     @apply p-1 border-none;
@@ -195,10 +197,6 @@ nav {
 
 .service-tile-upper {
     transition: border-color 0.25s ease 0s;
-}
-
-.ticker-container a {
-    @apply break-all;
 }
 
 .pagination {
