@@ -38,6 +38,8 @@ rssLimit = 10
     showAll = "zeige alles"
     allServices = "alle dienste"
     allServicesTeaser = "Unsere Dienste im Überblick"
+    newerPosts = "Neuere Beiträge"
+    olderPosts = "Ältere Beiträge"
 
   [languages.en]
     weight = 2
@@ -48,3 +50,5 @@ rssLimit = 10
     showAll = "show everything"
     allServices = "all services"
     allServicesTeaser = "Our services at a glance"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"

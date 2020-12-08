@@ -1,0 +1,13 @@
+<div class="pagination" role="pagination" aria-label="pagination">
+    {{- if .Paginator.HasPrev }}
+    <a class="col-span-2 button-link mr-10" href="{{ .Paginator.Prev.URL}}">{{ .Param "newerPosts" }}</a>
+    {{- else }}
+    <div></div>
+    {{- end }}
+
+    {{- if .Paginator.HasNext }}
+    <a class="col-span-2 button-link" href="{{ .Paginator.Next.URL}}">{{ .Param "olderPosts" }}</a>
+    {{- else }}
+    <div></div>
+    {{- end }}
+</div>
