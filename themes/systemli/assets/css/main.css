@@ -23,6 +23,7 @@ h1 {
 }
 h2 {
     @apply py-2 font-bold text-ml;
+    word-break: break-word;
 }
 @screen md {
     h1 {
