@@ -4,9 +4,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
   // Specify the paths to all of the template files in your project
   content: [
-    themeDir + 'layouts/**/*.html',
-    'layouts/**/*.html',
-    'content/**/*.html',
+    'public/**/*.html',
   ],
 
   // This is the function used to extract class names from your templates
@@ -30,6 +28,6 @@ module.exports = {
     require('autoprefixer')({
       path: [themeDir]
     }),
-    ...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [])
+    ...(process.env.HUGO_ENVIRONMENT === 'production' ? [purgecss] : [purgecss])
   ]
 }
