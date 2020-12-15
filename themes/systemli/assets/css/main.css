@@ -80,13 +80,13 @@ sup {
 nav {
     @apply fixed z-50 top-0 right-0 overflow-y-scroll overflow-x-hidden
     pl-24 pt-4 pb-16 w-375 h-full
-    bg-menu bg-lightblue text-m font-bold;
+    bg-menu bg-contain bg-repeat-y bg-lightblue text-m font-bold;
     transition: transform 0.25s ease 0s;
     transform: translateX(375px);
 }
 @screen lg {
     nav {
-        @apply relative p-0 w-auto min-h-0;
+        @apply relative p-0 w-auto min-h-0 overflow-auto;
         transform: none !important;
     }
 }
@@ -139,7 +139,12 @@ nav {
     }
 }
 .content {
-    @apply bg-white shadow-m col-span-19 p-8;
+    @apply bg-white shadow-m col-span-19 p-6;
+}
+@screen md {
+    .content {
+        @apply p-8;
+    }
 }
 
 .menu-item {
@@ -211,8 +216,6 @@ nav {
 
 .bg-menu {
     background-image: url('/mobile_menu_background_minimize.gif');
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 img[src*="#fl-2"] {
