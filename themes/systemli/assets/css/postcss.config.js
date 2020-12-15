@@ -1,4 +1,4 @@
-const themeDir = __dirname + '/../../';
+const themeDir = 'themes/systemli/';
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
 
@@ -7,6 +7,7 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     themeDir + 'layouts/**/*.html',
     'layouts/**/*.html',
     'content/**/*.html',
+    'public/**/*.html',
   ],
 
   // This is the function used to extract class names from your templates
