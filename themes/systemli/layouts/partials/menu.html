@@ -44,13 +44,16 @@
         </div>
     </nav>
     <div id="mobile-menu-overlay" class="hidden z-40 w-full h-full top-0 left-0 fixed bg-black opacity-50"></div>
-    <div class="flex flex-row items-center justify-between page-width lg:page-width-lg py-4 mb-4 lg:mb-0">
+    <div class="flex flex-row items-center justify-between page-width lg:page-width-lg py-4">
         <a class="w-64 lg:w-1/4 max-w-sm lg:m-3" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
             <img src="/systemli_logo.svg" alt="logo">
         </a>
         <p class="hidden lg:block max-w-half text-right">/*
-            {{ if isset .Params "description" }}{{ .Param "description" }}
-            {{ else }}{{ .Param "subtitle" }}{{ end }}
+            {{ if isset .Params "description" }}
+                {{ .Param "description" }}
+            {{ else }}
+                {{ .Param "subtitle" }}
+            {{ end }}
             */</p>
         <div id="button-menu-open" class="absolute right-0 top-4 flex lg:hidden items-center justify-center h-20 w-20 bg-lightblue cursor-pointer">
             <span class="text-white font-bold">

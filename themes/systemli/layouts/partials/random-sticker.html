@@ -1,5 +1,5 @@
 {{ $files := readDir "/static/sticker" }}
 
 {{ range $files }}
-    <img data-src="/sticker/{{.Name}}" class="sticker hidden lg:mx-4 mb-4"  />
+    <img data-src="/sticker/{{.Name}}" class="sticker hidden lg:mx-4 mt-4 lg:mt-0 mb-4"  />
 {{ end }}
