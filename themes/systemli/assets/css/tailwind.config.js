@@ -44,6 +44,7 @@ module.exports = {
       },
       maxHeight: {
         '1/2': '50vh',
+        '3/4': '75vh',
         '140': '35rem',
       },
       scale: {

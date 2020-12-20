@@ -2,6 +2,7 @@
 title: Your friendly tech collective
 description: Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
 image: /assets/img/android_google.png
+hideStaticContent: true
 links:
     pdf:
         url: "https://www.systemli.org/assets/data/Android_Smartphone_google-frei_einrichten_-_systemli.org.pdf"

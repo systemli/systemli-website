@@ -5,8 +5,9 @@ Please improve by providing content, translations or code.
 
 ## Start development
 
+ 1. Make sure to have [hugo](https://gohugo.io/getting-started/installing/) installed.
  1. Run `hugo server` for preview
- 2. Visit http://localhost:1313/
+ 1. Visit http://localhost:1313/
 
 ## Structure
 
@@ -15,9 +16,13 @@ Please improve by providing content, translations or code.
 
 ## Add new pages or posts
 
-Make sure to have [hugo](https://gohugo.io/getting-started/installing/) installed. To create a new page, run the corresponding command. In each case: Replace `example.md` with a unique name.
+To create a new page, run the corresponding command. In each case: Replace `example.md` with a unique name.
 
 TODO: commands for different archetypes
+
+### Homepage
+
+The static content on the homepage comes from `content/[lang]/_index.md`. The image and links are maintained in the frontmatter. Additionally, there is a toggle in the frontmatter to hide this content from the start page (`hideStaticContent`).
 
 ### Services
 

@@ -1,5 +1,11 @@
 (function () {
 
+    // show random sticker on homepage
+    const sticker = document.querySelectorAll('.sticker');
+    const randomSticker = sticker.item(Math.floor(Math.random() * sticker.length));
+    randomSticker.src = randomSticker.dataset.src;
+    randomSticker.classList.remove('hidden');
+
     // show and hide mobile menu
     function openMobileMenu() {
         document.getElementById('navbar').style.transform = 'translateX(0px)';

@@ -4,7 +4,7 @@
     <div class="flex flex-col items-start lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full lg:shadow-m lg:bg-white">
         <div class="grid grid-cols-post-list col-span-12 p-4 bg-white shadow-m lg:shadow-none">
             <!-- loop through last three posts, hide 2nd + 3rd on mobile -->
-            {{ range $index, $element :=  first 3 (where $.Site.RegularPages "Type" "posts") }}
+            {{ range $index, $element := first 3 (where $.Site.RegularPages "Type" "posts") }}
             <div class="items-center py-2 border-b border-r text-ml md:text-l leading-6
                 {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
                 {{ .Date.Format "02/01 2006" }}
@@ -22,23 +22,18 @@
                 </p>
             </div>
             {{ end }}
-            <a class="col-span-2 button-link" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">{{ .Param "showAll" }}</a>
+            <a class="col-span-2 button-link" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">
+                {{ .Param "showAll" }}
+            </a>
         </div>
         <div class="h-6 lg:hidden"></div>
         <div class="col-span-7 h-95 flex flex-col-reverse lg:flex-col justify-between lg:my-4 lg:py-0 lg:border-l text-xxs">
-            <div class="grid grid-cols-7 gap-4 lg:mb-8 p-4 lg:py-0 bg-white shadow-m lg:shadow-none">
-                <div class="flex flex-col col-span-3">
-                    <img src="{{ .Params.image }}" class="mt-2 mb-8">
-                    {{ range $link := .Param "links" }}
-                    <a class="button-link text-xxs" href={{ $link.url }}>{{ $link.text }}</a>
-                    {{ end }}
-                </div>
-                <div class="col-span-4">
-                    {{ .Content }}
-                </div>
-            </div>
+            {{ partial "random-sticker.html" . }}
+            {{ if ne .Params.hideStaticContent true }}
+                {{ partial "static-content-homepage.html" . }}
+            {{ end }}
             <div class="h-6 lg:hidden"></div>
-            <div class="block lg:max-h-1/2 lg:overflow-scroll p-4 lg:py-0 bg-white shadow-m lg:shadow-none">
+            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 lg:py-0 bg-white shadow-m lg:shadow-none">
                 {{ partial "ticker.html" }}
             </div>
         </div>
