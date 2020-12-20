@@ -2,6 +2,7 @@
 title: Your friendly tech collective
 description: Non-commercial provider of privacy friendly communication. Without surveillance.
 image: /assets/img/ticker.jpg
+hideStaticContent: true
 links:
     ticker:
         url: "/en/service/ticker"
