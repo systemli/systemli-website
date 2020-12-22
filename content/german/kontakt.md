@@ -17,9 +17,9 @@ Falls ihr ein Problem habt, schaut zuerst in die [Frequently asked questions](ht
 
 Bei **allen** Anfragen bezüglich unserer Dienste, Anregungen oder Kritik jeglicher Art wendet euch an [support@systemli.org](mailto:support@systemli.org).
 
-Wenn ihr eure E-Mails mit GPG verschlüsselt, antworten wir schneller. Unseren öffentlichen Schlüssel bekommt ihr [hier](./assets/0x776E7B48BDE8E769CBBCD29210D46141EC77D27B.asc) oder von einem öffentlichen Keyserver über den Befehl:
+Wenn ihr eure E-Mails mit GPG verschlüsselt, antworten wir schneller. Unseren öffentlichen Schlüssel bekommt ihr [hier](https://keys.openpgp.org/vks/v1/by-fingerprint/F76A41F3928909A9740E780D5BBCA3A6D97806C1) oder von einem öffentlichen Keyserver über den Befehl:
 
-`gpg --recv-keys 0x776E7B48BDE8E769CBBCD29210D46141EC77D27B`
+`gpg --recv-keys F76A41F3928909A9740E780D5BBCA3A6D97806C1`
 
 Je genauer Ihr euer Anliegen schildert, desto schneller findet sich in der Regel eine Lösung. Gebt bitte möglichst genau an, welche (Zugangs-)Daten ihr verwendet. Aber schickt uns **niemals** eure Passwörter.
 

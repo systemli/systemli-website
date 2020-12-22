@@ -15,9 +15,9 @@ If you encounter any problems, take a look into our [Frequently asked questions]
 
 If you have requests, questions, suggestions or critique, write to [support@systemli.org](mailto:support@systemli.org).
 
-We will answer to your request quicker if you encrypt your E-Mails via GPG. You can get our public key [here](/assets/0x776E7B48BDE8E769CBBCD29210D46141EC77D27B.asc) or from a public key-server with the command:
+We will answer to your request quicker if you encrypt your E-Mails via GPG. You can get our public key [here](https://keys.openpgp.org/vks/v1/by-fingerprint/F76A41F3928909A9740E780D5BBCA3A6D97806C1) or from a public key-server with the command:
 
-`gpg --recv-keys 0x776E7B48BDE8E769CBBCD29210D46141EC77D27B`
+`gpg --recv-keys F76A41F3928909A9740E780D5BBCA3A6D97806C1`
 
 The clearer you describe your request, the faster we can find a solution. Please describe in detail which login details you are using. But **never** send us any passwords.
 
