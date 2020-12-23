@@ -8,20 +8,19 @@ translationKey: ede1b180a1b3ee2847b83f469ea4ee17
 ---
 ![off-the-record](/assets/img/off_the_record_banner.jpg)
 
+Sagt alles ab! Systemli.org formatiert deine Festplatte mit Bässen, $waaag und digitalem Charme. Mit Liebe öffnen wir 
+verschlüsselte Herzen. Eine Nacht off the record für systemli.org mit exklusiver LED Matrix und Retro-Videospielen. 
 
-
-Sagt alles ab! Systemli.org formatiert deine Festplatte mit Bässen, $waaag und digitalem Charme.
-Mit Liebe öffnen wir verschlüsselte Herzen. Eine Nacht off the record für systemli.org mit exklusiver LED Matrix und Retro-Videospielen. 
-
-Am 12.11.2016 steigt eine Benefizparty für uns im [MenschMeier](http://menschmeier.berlin/), was soviel heißt, wie der Gewinn dieser Party kommt unserem Projekt zu Gute.
+Am 12.11.2016 steigt eine Benefizparty für uns im [MenschMeier](http://menschmeier.berlin/), was soviel heißt, wie der 
+Gewinn dieser Party kommt unserem Projekt zu Gute.
 
 Kommt zur Party, feiert mit uns und für den Erhalt von unabhängiger Infrastruktur.
 
-<b>Live-Hörspiel (22:00 Uhr):</b>
+**Live-Hörspiel (22:00 Uhr):**
 
 - ["Was verrät die Unperson?"](https://www.facebook.com/Wasverraetdieunperson/?fref=ts) 
 
-<b>Party (23:59 Uhr):</b>
+**Party (23:59 Uhr):**
 
 - [Natascha Kann](https://soundcloud.com/nataschakann) (://about blank), Berlin  
 - [Qwaint](https://soundcloud.com/poly-motion) (PolyIMotion) Berlin 
@@ -37,6 +36,6 @@ Kommt zur Party, feiert mit uns und für den Erhalt von unabhängiger Infrastruk
 
 Außerdem gibt es einen Siebdruckstand mit unseren Motiven und Merchandise.
 
-<b>Party-Flyer:</b>
+**Party-Flyer:**
 
-<img src="/assets/img/off_the_record_part_two.jpg" alt="off-the-record" align="left" />
+![off-the-record](/assets/img/off_the_record_part_two.jpg)
