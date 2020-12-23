@@ -8,7 +8,7 @@ translationKey: 12220b50d7a232bab4c753c3dd2fcce2
 ---
 
 Today, we switch the TLS certificate of our jabber server to [LetsEncrypt](https://letsencrypt.org/).
-Thus, our last long-lasting fingerprint is gone. Read more about this in our [original announcement]({% post_url 2017-10-18-Lets-Encrypt-en %}).
+Thus, our last long-lasting fingerprint is gone. Read more about this in our [original announcement]({{< ref "2017-10-18-Lets-Encrypt-en" >}}).
 
 Furthermore, we're now saving on week of multi user chat (MUC) history on disk.
 Thus, we can restart the server without you loosing your chat history.

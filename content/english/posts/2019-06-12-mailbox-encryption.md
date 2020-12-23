@@ -8,7 +8,7 @@ translationKey: d5006a92f5ab0a6b182ad706dfe77dc2
 ---
 
 * systemli.org uses mailbox encryption
-* You should [generate a recovery token]({% post_url 2019-03-03-password-recovery-en %}) in order to activate it
+* You should [generate a recovery token]({{< ref "2019-03-03-password-recovery-en" >}}) in order to activate it
 * Nevertheless, you should encrypt your mail using GnuPG
 
 We're proud to announce an important new feature: encryption of your mails on our servers, also known as mailbox encryption. Thanks to this technology, your mails will be encrypted using your password on our servers. One has to know your personal password (or recovery token) for decrypting and reading your mail. In other words, even malicious attackers with access to our servers would not be able to read your mail.
@@ -23,4 +23,4 @@ But those technologies have limitations. Any server-side encryption can also be 
 
 Nevertheless you should use our mailbox encryption as it helps protecting your metadata (who, when, subject) better than GnuPG does.
 
-Moreover you absolutely should generate a recovery token for your account at [users.systemli.org](https://users.systemli.org/) so that you're able to recover your account in case of password loss. Details about that can be found [in an earlier article]({% post_url 2019-03-03-password-recovery-en %}).
+Moreover you absolutely should generate a recovery token for your account at [users.systemli.org](https://users.systemli.org/) so that you're able to recover your account in case of password loss. Details about that can be found [in an earlier article]({{< ref "2019-03-03-password-recovery-en" >}}).

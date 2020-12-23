@@ -8,7 +8,7 @@ translationKey: 21a8635a0fdc2a7c8b75c2dfee3bcd12
 ---
 
 
-In den letzten Monaten haben wir viel Arbeit in unser [Einladungs- und Verwaltungsportal für E-Mails](https://users.systemli.org) gesteckt. Im Jahr  2014 hatten wir dieses Portal ursprünglich entwickelt, um den Zugang zu unserem E-Mail Dienst zu vereinfachen. In der Zwischenzeit haben wir zu einem E-Mail-Account auch einen [Cloud-Speicher mit einigen Features (Kalender, Kontakte, uvm.) hinzugefügt]({% post_url 2016-03-26-owncloud-de %}).
+In den letzten Monaten haben wir viel Arbeit in unser [Einladungs- und Verwaltungsportal für E-Mails](https://users.systemli.org) gesteckt. Im Jahr  2014 hatten wir dieses Portal ursprünglich entwickelt, um den Zugang zu unserem E-Mail Dienst zu vereinfachen. In der Zwischenzeit haben wir zu einem E-Mail-Account auch einen [Cloud-Speicher mit einigen Features (Kalender, Kontakte, uvm.) hinzugefügt]({{< ref "2016-03-26-owncloud-de" >}}).
 ). Mit diesen beiden Funktionen konnten wir unseren Nutzer\*innen einen konkreten Mehrwert bieten. Wir freuen uns sehr, ab sofort eine weitere wichtige Funktion anbieten zu können: **Die Wiederherstellung von E-Mail-Account-Passwörtern**.
 
 <!--more-->
