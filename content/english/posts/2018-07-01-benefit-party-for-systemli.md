@@ -13,7 +13,7 @@ All profit that is made will be donated to systemli.org and to a project which s
 
 Come and dance with us, for the preservation of independent infrastructure.
 
-<b>Party (23:59 pm):</b>
+**Party (23:59 pm):**
 
 - [Emika](https://soundcloud.com/emika_official) (Emika Rec., Ostgut Ton, Ninja Tune)
 - [Adi Shabat](https://soundcloud.com/adi-shabat) (The Block, Tel Aviv)
@@ -23,9 +23,8 @@ Come and dance with us, for the preservation of independent infrastructure.
 - [Sissy's Reiterstaffel](https://soundcloud.com/sissys-reiterstaffel)
 - [myrkuz](https://soundcloud.com/myrkuz) (procrastinators united)
 
-And a small Pop-Cabinet ;)
+And a small Pop-Cabinet
 
+**Party-Flyer:**
 
-<b>Party-Flyer:</b>
-
-<img src="/assets/img/dance_like_nobody_is_watching_flyer.jpeg" alt="dance-like-nobody-is-watching" align="left" />
+![dance-like-nobody-is-watching](/assets/img/dance_like_nobody_is_watching_flyer.jpeg)

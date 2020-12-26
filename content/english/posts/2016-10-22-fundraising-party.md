@@ -8,22 +8,21 @@ translationKey: ede1b180a1b3ee2847b83f469ea4ee17
 ---
 ![off-the-record](/assets/img/off_the_record_banner.jpg)
 
-
-
-Call off everything! The friendly tech collective is going to  format your hard  drive with bass, $waaag and digital charm.
-We open encrypted hearts with love.
+Call off everything! The friendly tech collective is going to  format your hard  drive with bass, $waaag and digital 
+charm. We open encrypted hearts with love.
 
 A night off the record for systemli.org with exclusive LED matrix and retro Video Games.
 
-On 12.11.2016 there will be benifitparty for systemli.org in the [MenschMeier](http://menschmeier.berlin/) in Berlin. All profit that is made will be donated to systemli.org.  
+On 12.11.2016 there will be benifitparty for systemli.org in the [MenschMeier](http://menschmeier.berlin/) in Berlin. 
+All profit that is made will be donated to systemli.org.  
 
 Come and dance with us, for the preservation of independent infrastructure.
 
-<b>Live radio drama (10:00 pm):</b>
+**Live radio drama (10:00 pm):**
 
 - ["Was verrät die Unperson?"](https://www.facebook.com/Wasverraetdieunperson/?fref=ts) (german language only)
 
-<b>Party (23:59 pm):</b>
+**Party (23:59 pm):**
 
 - [Natascha Kann](https://soundcloud.com/nataschakann) (://about blank), Berlin  
 - [Qwaint](https://soundcloud.com/poly-motion) (PolyIMotion) Berlin 
@@ -39,6 +38,6 @@ Come and dance with us, for the preservation of independent infrastructure.
 
 There will also be Screen Printing and Merchandise. 
 
-<b>Party-Flyer:</b>
+**Party-Flyer:**
 
-<img src="/assets/img/off_the_record_part_two.jpg" alt="off-the-record" align="left" />
+![off-the-record](/assets/img/off_the_record_part_two.jpg)

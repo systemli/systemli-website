@@ -6,10 +6,9 @@ aliases:
 date:   2015-10-01 13:00:00
 translationKey: 6d87f69028b06b0668c47bb7b20edf2c
 ---
+[![campaign](/assets/img/RE_MediumRectangle.jpg)](http://support.refugeesemancipation.com)
 
-[![campaign]({{ site.url }}/assets/img/RE_MediumRectangle.jpg)](http://support.refugeesemancipation.com)
-We support the campaign for RefugeesEmancipation.com,
-who operate Internet cafés for refugees by refugees.
-Subscribe to the newsletter, donate some time, money or hardware!
+We support the campaign for RefugeesEmancipation.com, who operate Internet cafés for refugees by refugees. Subscribe to 
+the newsletter, donate some time, money or hardware!
 
 All further information at: [support.refugeesemancipation.com](http://support.refugeesemancipation.com)

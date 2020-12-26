@@ -4,7 +4,7 @@ title:  "New service: Ethercalc"
 aliases:
     - /en/2015/12/28/neuer-service-ethercalc-en.html
 date:   2015-12-28 12:00:00
-translation_key: b98bc850c7db63198a1809be86b68be5
+translationKey: b98bc850c7db63198a1809be86b68be5
 ---
 The last couple of years users expressed the wish for a software, where multiple users could work on a spreadsheet 
 together. After a long search and the attempt to teach our pad software to create charts, we found a suitable software: 

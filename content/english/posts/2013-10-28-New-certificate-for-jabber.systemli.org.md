@@ -3,7 +3,7 @@ layout: post
 title:  "New certificate for jabber.systemli.org"
 aliases:
     - /en/update/2013/10/28/New-certificate-for-jabber.systemli.org.html
-date:   2013-10-28 23:30
+date:   2013-10-28 23:30:00
 translationKey: affa9bac4a63a3ed1a8d6d11d57c6c36
 ---
 From tomorrow on (29.10.2013) the Jabber server has a new SSL certificate. This will be valid for two years.

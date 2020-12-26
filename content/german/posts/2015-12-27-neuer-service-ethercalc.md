@@ -4,7 +4,7 @@ title:  "Neuer Service: Ethercalc"
 aliases:
     - /de/2015/12/28/neuer-service-ethercalc.html
 date:   2015-12-28 12:00:00
-translation_key: b98bc850c7db63198a1809be86b68be5
+translationKey: b98bc850c7db63198a1809be86b68be5
 ---
 In den letzten Jahren haben vermehrt Nutzer*innen den Wunsch nach einer Software geäußert, mit der man gemeinschaftlich 
 Tabellen bearbeiten kann. Nach langer Suche und dem Versuch unserer Pad-Software Tabellen beizubringen, haben wir nun 
