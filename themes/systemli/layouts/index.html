@@ -1,11 +1,11 @@
 {{ define "main" }}
 
-<div class="flex flex-col content-container items-center lg:items-start lg:grid grid-cols-24 gap-0">
-    <div class="flex flex-col items-start lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full lg:shadow-m lg:bg-white">
-        <p class="lg:hidden px-4 py-0 text-xs">/* {{ .Param "subtitle" }} */</p>
+<div class="flex flex-col content-container items-center md:items-start md:grid grid-cols-24 gap-0">
+    <p class="lg:hidden mb-4 col-span-24 px-4 py-0 text-xs">/* {{ .Param "subtitle" }} */</p>
+    <div class="flex flex-col items-start md:grid grid-cols-19 col-span-24 lg:col-span-19 max-w-95 md:max-w-full md:shadow-m md:bg-white">
 
         <!-- loop through latest three posts, hide on mobile -->
-        <div class="hidden lg:grid grid-cols-post-list col-span-12 p-4 bg-white shadow-none">
+        <div class="hidden md:grid grid-cols-post-list col-span-12 p-4 bg-white shadow-none">
             {{ range $index, $element := first 3 (where $.Site.RegularPages "Type" "posts") }}
             <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
                 {{ .Date.Format "02/01 2006" }}
@@ -26,7 +26,7 @@
             </a>
         </div>
 
-        <div class="col-span-7 h-95 flex flex-col justify-between lg:my-4 lg:py-0 lg:border-l text-xxs">
+        <div class="col-span-7 h-95 flex flex-col justify-between md:my-4 md:py-0 md:border-l text-xxs">
 
             {{ if ne .Params.hideStaticContent true }}
                 {{ partial "static-content-homepage.html" . }}
@@ -35,7 +35,7 @@
             {{ end }}
 
             <!-- show only latest post on mobile -->
-            <div class="grid lg:hidden grid-cols-post-list col-span-12 p-4 mb-4 bg-white shadow-m text-s">
+            <div class="grid md:hidden grid-cols-post-list col-span-12 p-4 mb-4 bg-white shadow-m text-s">
                 {{ range $index, $element := first 1 (where $.Site.RegularPages "Type" "posts") }}
                 <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
                     {{ .Date.Format "02/01 2006" }}
@@ -56,7 +56,7 @@
                 </a>
             </div>
 
-            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 lg:py-0 bg-white shadow-m lg:shadow-none">
+            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 md:py-0 bg-white shadow-m md:shadow-none">
                 {{ partial "ticker.html" }}
             </div>
         </div>
