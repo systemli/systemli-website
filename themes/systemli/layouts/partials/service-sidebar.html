@@ -1,5 +1,5 @@
-<div class="flex flex-col justify-between w-11/12 lg:w-full col-span-5">
-    <div class="my-8 lg:my-0">
+<div class="flex flex-col justify-between w-11/12 mx-auto lg:w-full col-span-24 lg:col-span-5">
+    <div class="my-4 lg:my-0">
         {{ $currentPage := . }}
         {{ range where $.Site.RegularPages "Type" "service" }}
         {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
@@ -41,8 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col items-center text-center lg:hidden">
-        <p>/* {{ .Param "subtitle" }} */</p>
+    <a class="lg:hidden flex justify-center" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
         <img class="w-64 m-6" src="/systemli_logo.svg" alt="logo">
-    </div>
+    </a>
 </div>
