@@ -80,6 +80,15 @@ dl {
 sup {
     @apply text-darkgrey;
 }
+blockquote {
+    @apply bg-lightgrey p-3 my-2;
+    border-left: 0.4rem solid theme('colors.darkgrey');
+}
+@screen md {
+    blockquote {
+        @apply px-8 py-4 m-4;
+    }
+}
 nav {
     @apply fixed z-50 top-0 right-0 overflow-y-scroll overflow-x-hidden
     pl-24 pt-4 pb-16 w-375 h-full
