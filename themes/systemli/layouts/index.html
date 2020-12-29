@@ -1,21 +1,20 @@
 {{ define "main" }}
 
-<div class="flex flex-col content-container items-center lg:items-start lg:grid grid-cols-24 gap-0">
-    <div class="flex flex-col items-start lg:grid grid-cols-19 col-span-19 max-w-95 lg:max-w-full lg:shadow-m lg:bg-white">
-        <div class="grid grid-cols-post-list col-span-12 p-4 bg-white shadow-m lg:shadow-none">
-            <!-- loop through last three posts, hide 2nd + 3rd on mobile -->
+<div class="flex flex-col content-container items-center md:items-start md:grid grid-cols-24 gap-0">
+    <p class="lg:hidden mb-4 col-span-24 px-4 py-0 text-xs">/* {{ .Param "subtitle" }} */</p>
+    <div class="flex flex-col items-start md:grid grid-cols-19 col-span-24 lg:col-span-19 max-w-95 md:max-w-full md:shadow-m md:bg-white">
+
+        <!-- loop through latest three posts, hide on small screens -->
+        <div class="hidden md:grid grid-cols-post-list col-span-12 p-4 bg-white shadow-none">
             {{ range $index, $element := first 3 (where $.Site.RegularPages "Type" "posts") }}
-            <div class="items-center py-2 border-b border-r text-ml md:text-l leading-6
-                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
+            <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
                 {{ .Date.Format "02/01 2006" }}
             </div>
-            <div class="items-center pl-4 border-b pr-4 leading-6
-                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
+            <div class="flex items-center pl-4 border-b pr-4 leading-6">
                 <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title }}</a></h2>
             </div>
-            <div class="hidden lg:block"></div>
-            <div class="flex-col col-span-2 lg:col-span-1 py-4 lg:px-4 leading-5
-                {{if eq $index 0}} flex{{else}} hide-on-mobile{{end}}">
+            <div class="block"></div>
+            <div class="flex flex-col col-span-1 py-4 px-4 leading-5">
                 {{ .Summary }}
                 <p>
                     <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
@@ -26,15 +25,38 @@
                 {{ .Param "showAll" }}
             </a>
         </div>
-        <div class="h-6 lg:hidden"></div>
-        <div class="col-span-7 h-95 flex flex-col-reverse lg:flex-col justify-between lg:my-4 lg:py-0 lg:border-l text-xxs">
+
+        <div class="col-span-7 h-95 flex flex-col justify-between md:my-4 md:py-0 md:border-l text-xxs">
+
             {{ if ne .Params.hideStaticContent true }}
                 {{ partial "static-content-homepage.html" . }}
             {{ else }}
                 {{ partial "random-sticker.html" . }}
             {{ end }}
-            <div class="h-6 lg:hidden"></div>
-            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 lg:py-0 bg-white shadow-m lg:shadow-none">
+
+            <!-- show only latest post on small screens  -->
+            <div class="grid md:hidden grid-cols-post-list col-span-12 p-4 mb-4 bg-white shadow-m text-s">
+                {{ range $index, $element := first 1 (where $.Site.RegularPages "Type" "posts") }}
+                <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
+                    {{ .Date.Format "02/01 2006" }}
+                </div>
+                <div class="flex items-center pl-4 border-b pr-4 leading-6">
+                    <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title }}</a></h2>
+                </div>
+                <div class="hidden"></div>
+                <div class="flex flex-col col-span-2 py-4 leading-5">
+                    {{ .Summary }}
+                    <p>
+                        <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
+                    </p>
+                </div>
+                {{ end }}
+                <a class="col-span-2 button-link" href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/posts">
+                    {{ .Param "showAll" }}
+                </a>
+            </div>
+
+            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 md:py-0 bg-white shadow-m md:shadow-none">
                 {{ partial "ticker.html" }}
             </div>
         </div>

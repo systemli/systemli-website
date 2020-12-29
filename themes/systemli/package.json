@@ -6,7 +6,7 @@
     "postcss": "^7.0.27",
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.9.6"
   },
   "browserslist": [
     "last 1 version",
