@@ -5,9 +5,8 @@ aliases:
     - /en/2019/09/12/schleuder-lists.html
 date: 2019-09-12 00:00:00
 translationKey: bb5ca025ba136276df4438c2f8eccf172
+postImage: /assets/img/schleuder.png
 ---
-![schleuder](/assets/img/schleuder.png)
-
 After longer internal testing, as of today we publicly offer encrypted [Schleuder lists]({{< ref "schleuder" >}}) to 
 groups and organizations for secure internal communication. Schleuder lists are special because incoming and outgoing 
 mails are OpenPGP encrypted.

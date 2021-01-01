@@ -5,9 +5,8 @@ aliases:
     - /de/2018/11/14/mail-aliase.html
 date:   2018-11-14 16:00:00
 translationKey: 12220b49d7a232bab4c753c3dd2fcce2
+postImage: /assets/img/alias.png
 ---
-![alias screenshot](/assets/img/alias.png)
-
 Wir arbeiten gerade fleißig an unserem [User Portal](https://users.systemli.org/). Seit kurzem haben wir ein neues 
 Feature für euch freigeschaltet: Ihr könnt euch _Alias-Adressen_ erstellen. Das sind E-Mail-Adressen, welche Pseudonyme 
 für eure eigentliche Adresse darstellen. Ihr könnt euch 3 frei gewählte und bis zu 100 zufällige _Alias-Adressen_ 

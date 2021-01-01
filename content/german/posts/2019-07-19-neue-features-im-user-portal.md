@@ -5,9 +5,8 @@ aliases:
     - /de/2019/07/19/neue-features-im-user-portal.html
 date: 2019-07-19 12:00:00
 translationKey: d0006a92f5acab6b182ad706dfe77dc2
+postImage: /assets/img/haveibeenpwned.png
 ---
-![haveibeenpwned](/assets/img/haveibeenpwned.png)
-
 In der neusten Version unseres [User-Portals](https://users.systemli.org) haben wir die Passwortsicherheit erhöht. Wenn 
 ihr ein neues Passwort setzt, wird es automatisch gegen die 
 [Passwortdatenbank von "Have I been pwned"](https://haveibeenpwned.com/Passwords) getestet. Zuerst, wird dein 
@@ -21,7 +20,7 @@ dein tatsächliches Passwort, einen Teil davon oder deine IP-Adresse. Auch
 Integration mit einem Passwort-Manager wie z.B. [KeePass](https://github.com/andrew-schofield/keepass2-haveibeenpwned) 
 oder [Pass](https://gitlab.com/darnir/pass-audit).
 
-![language_switcher](/assets/img/language_switcher.png)
+<img src="/assets/img/language_switcher.png" alt="language switcher" class="float-right py-2 pl-4">
 
 Das [User-Portal](https://users.systemli.org) unterstützt nun die Sprachen Deutsch, Englisch, Spanisch, Portugiesisch 
 und Bokmål. Ihr werdet automatisch auf eine passende Sprache weitergeleitet oder könnt sie oben rechts bewusst 

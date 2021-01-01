@@ -5,9 +5,8 @@ aliases:
     - /en/2018/11/14/mail-aliases.html
 date:   2018-11-14 16:00:00
 translationKey: 12220b49d7a232bab4c753c3dd2fcce2
+postImage: /assets/img/alias.png
 ---
-![alias screenshot](/assets/img/alias.png)
-
 We've been busy with our [user portal](https://users.systemli.org/). Recently, we've added a new feature for you: You 
 can now manage your own _alias addresses_. Those are e-mail addresses, which act as a pseudonym for your own e-mail 
 addresses. You can have three chosen and up to 100 random _alias addresses_. The latter, are supposed to be used in web 

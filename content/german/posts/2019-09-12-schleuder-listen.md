@@ -5,9 +5,8 @@ aliases:
     - /de/2019/09/12/schleuder-listen.html
 date: 2019-09-12 00:00:00
 translationKey: bb5ca025ba136276df4438c2f8eccf172
+postImage: /assets/img/schleuder.png
 ---
-![schleuder](/assets/img/schleuder.png)
-
 Nach längerem internen Test bieten wir ab heute verschlüsselte [Schleuder-Listen]({{< ref "schleuder" >}}) 
 zur sicheren internen Kommunikation für Gruppen und Zusammenhänge an. Schleuder-Listen sind Mailinglisten, bei denen 
 eingehende, sowie ausgehende Mails OpenPGP-verschlüsselt sind.

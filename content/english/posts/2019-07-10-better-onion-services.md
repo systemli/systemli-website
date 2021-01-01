@@ -5,9 +5,8 @@ aliases:
     - /en/2019/07/10/Better-Onion-Services.html
 date: 2019-07-10 12:00:00
 translationKey: d5006a92f5acab6b182ad706dfe77dc2
+postImage: /assets/img/Onion_Color.png
 ---
-![onion logo](/assets/img/Onion_Color.png)
-
 To improve your security, we have updated all our Onion Services to 
 [Version 3](https://trac.torproject.org/projects/tor/wiki/doc/HiddenServiceNames#Whyarev3onionsbetter). Sadly, this 
 changes the service addresses. Please update your client programs and bookmarks. After a transition period, we will 

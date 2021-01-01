@@ -5,9 +5,8 @@ aliases:
     - /en/2015/10/26/opensource-en.html
 date:   2015-10-26 18:00:00
 translationKey: 2af9e3f043e30ea02f3873d75dd5333c
+postImage: /assets/img/opensource.jpg
 ---
-![opensource](/assets/img/opensource.jpg)
-
 Systemli.org would not be possible without free and open source software, which is provide by many different people 
 from all over the world. Ever since we felt as a part of this movement.
 
