@@ -2,3 +2,11 @@
     <p class="border-t lg:border-0 my-4 lg:p-2 text-xxs text-center">systemli.org steht unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank" rel="license">Creative Commons Namensnennung - Weitergabe unter gleichen
         Bedingungen 3.0 Unported</a>.</p>
 </footer>
+<script src="https://analytics.systemli.org/piwik.js" async="" defer=""></script>
+{{ $scripts := resources.Get "js/matomo.js" }}
+{{ if .Site.IsServer }}
+<script src="{{ $scripts.RelPermalink }}" defer></script>
+{{ else }}
+{{ $scripts := $scripts | minify | fingerprint }}
+<script src="{{ $scripts.Permalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
+{{ end }}
