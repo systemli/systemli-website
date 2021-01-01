@@ -8,7 +8,7 @@ For a while now, we have started to give our services their own design, or at le
 easier to recognize as a systemli.org service. We started with [Jitsi Meet]({{< ref "meet" >}}) and 
 [Nextcloud]({{< ref "cloud" >}}). Now our website follows with a brand new design.
 
-[For just under eight years]({{< ref "2013-09-14-Fresh-colours-on-systemli.org.md" >}}), little has happened to the 
+[In just under eight years]({{< ref "2013-09-14-Fresh-colours-on-systemli.org.md" >}}), very little has happened to the 
 design of our website. Since then, however, a few things have changed: We offer many more 
 [services]({{< ref "service" >}}), use the [ticker]({{< ref "ticker" >}}) to 
 [inform about maintenance work](https://updates.systemli.org/) and 
