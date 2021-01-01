@@ -9,7 +9,7 @@
             </div>
         </div>
         {{ with .Params.postImage }}
-        <img src="{{ . }}" class="float-left py-2 pr-4" />
+        <img src="{{ . }}" class="mx-auto block md:inline float-none md:float-left p-0 md:py-2 md:pr-4" />
         {{ end }}
         {{ .Content }}
     </div>
