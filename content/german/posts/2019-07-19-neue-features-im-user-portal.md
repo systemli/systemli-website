@@ -20,7 +20,7 @@ dein tatsächliches Passwort, einen Teil davon oder deine IP-Adresse. Auch
 Integration mit einem Passwort-Manager wie z.B. [KeePass](https://github.com/andrew-schofield/keepass2-haveibeenpwned) 
 oder [Pass](https://gitlab.com/darnir/pass-audit).
 
-<img src="/assets/img/language_switcher.png" alt="language switcher" class="float-right py-2 pl-4">
+<img src="/assets/img/language_switcher.png" alt="language switcher" class="mx-auto block md:inline float-none md:float-right p-0 md:py-2 md:pr-4">
 
 Das [User-Portal](https://users.systemli.org) unterstützt nun die Sprachen Deutsch, Englisch, Spanisch, Portugiesisch 
 und Bokmål. Ihr werdet automatisch auf eine passende Sprache weitergeleitet oder könnt sie oben rechts bewusst 

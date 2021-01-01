@@ -19,7 +19,7 @@ your IP address. [Other software](https://haveibeenpwned.com/API/Consumers) also
 integration with a password manager like [KeePass](https://github.com/andrew-schofield/keepass2-haveibeenpwned) or 
 [Pass](https://gitlab.com/darnir/pass-audit) is especially useful.
 
-![language_switcher](/assets/img/language_switcher.png)
+<img src="/assets/img/language_switcher.png" alt="language switcher" class="mx-auto block md:inline float-none md:float-right p-0 md:py-2 md:pr-4">
 
 Our [user portal](https://users.systemli.org) now supports the languages English, German, Spanish, Portuguese and 
 Bokmål. You should be automatically redirected to the applicable language or you can choose it in the upper right.
