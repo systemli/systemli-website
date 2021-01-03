@@ -4,22 +4,22 @@ title: "Systemli becomes more colorful"
 date:  2021-01-03 14:00:00
 translationKey: 8113bd62ff3a07ca15495055e3aa635d
 ---
-For a while now, we have started to give our services their own design, or at least customize them so that they are 
+For a while now, we're giving our services piece by piece their own design, or at least customize them so that they are 
 easier to recognize as a systemli.org service. We started with [Jitsi Meet]({{< ref "meet" >}}) and 
 [Nextcloud]({{< ref "cloud" >}}). Now our website follows with a brand new design.
 
-[In just under eight years]({{< ref "2013-09-14-Fresh-colours-on-systemli.org.md" >}}), very little has happened to the 
-design of our website. Since then, however, a few things have changed: We offer many more 
+[In just under eight years]({{< ref "2013-09-14-Fresh-colours-on-systemli.org.md" >}}), very little had happened to the 
+design of our website. However, a few things have changedi contentwise: We offer many more 
 [services]({{< ref "service" >}}), use the [ticker]({{< ref "ticker" >}}) to 
 [inform about maintenance work](https://updates.systemli.org/) and 
 [certificates no longer have to be checked manually]({{< ref "2017-10-18-Lets-Encrypt.md" >}}).
 
-With the new design we especially want to put our services and status updates in the foreground. We would like to thank 
+With the new design, we especially want to put our services and status updates in the spotlight. We would like to thank 
 [gegenfeuer](https://www.gegenfeuer.net/) and batabana for creating the design and implementing it according to our 
 many big and small wishes.
 
 With the new website, we also changed the underlying tooling. We no longer use Jekyll to generate the website, but 
-[Hugo](https://gohugo.io/), and instead of Bootstrap, we use [Tailwind](https://tailwindcss.com/) as the CSS framework.
+[Hugo](https://gohugo.io/), and instead of Bootstrap, we use [Tailwind](https://tailwindcss.com/) as CSS framework.
 
 ## Until 2013
 

@@ -4,13 +4,13 @@ title: "Systemli wird bunter"
 date:  2021-01-03 14:00:00
 translationKey: 8113bd62ff3a07ca15495055e3aa635d
 ---
-Seit einer Weile haben wir begonnen, unsere Dienste mit einem eigenen Design zu versehen oder zumindest so anzupassen, 
+Seit einer Weile versehen wir unsere Dienste stückweise mit einem eigenen Design oder passen sie zumindest so an, 
 dass sie einfacher als Service von systemli.org zu erkennen sind. Begonnen haben wir mit 
 [Jitsi Meet]({{< ref "meet" >}}) und [Nextcloud]({{< ref "cloud" >}}). Nun folgt unsere Website mit einem brandneuen 
 Design.
 
-[In knapp acht Jahren]({{< ref "2013-09-14-neuer-anstrich-bei-systemli.org.md" >}}) ist am Design unserer Website nur 
-wenig passiert. Seit dem haben sich jedoch einige Dinge verändert: Wir bieten viel mehr 
+[In knapp acht Jahren]({{< ref "2013-09-14-neuer-anstrich-bei-systemli.org.md" >}}) war am Design unserer Website nur 
+wenig passiert. Inhaltlich haben sich seitdem jedoch einige Dinge verändert: Wir bieten viel mehr 
 [Services]({{< ref "service" >}}) an, nutzen den [Ticker]({{< ref "ticker" >}}) um über 
 [Wartungsarbeiten zu informieren](https://updates.systemli.org/) und 
 [Zertifikate müssen auch nicht mehr manuell überprüft werden]({{< ref "2017-10-18-Lets-Encrypt.md" >}}).
