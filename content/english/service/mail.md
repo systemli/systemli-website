@@ -43,7 +43,7 @@ Additionally you can access your emails via browser with our [web client](https:
 
 ```
 Server (Incoming & Outgoing):    mail.systemli.org
-User:                            &lt;username&gt;@systemli.org
+User:                            <username>@systemli.org
 Protocol (Receive):              IMAP
 Port:                            993
 Protocol (Send):                 SMTP

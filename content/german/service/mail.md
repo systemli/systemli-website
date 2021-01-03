@@ -43,7 +43,7 @@ Zusätzlich kannst du deine E-Mails auch per Browser mit unserem <a href="https:
 
 ```
 Server (Posteingang/Ausgang):   mail.systemli.org
-Benutzer:                       &lt;username&gt;@systemli.org
+Benutzer:                       <username>@systemli.org
 Protokoll (Empfang):            IMAP
 Port:                           993
 Protokoll (Versand):            SMTP
