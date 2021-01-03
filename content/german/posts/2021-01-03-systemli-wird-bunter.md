@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Systemli wird bunter"
-date:  2021-01-01 14:00:00
+date:  2021-01-03 14:00:00
 translationKey: 8113bd62ff3a07ca15495055e3aa635d
 ---
 Seit einer Weile haben wir begonnen, unsere Dienste mit einem eigenen Design zu versehen oder zumindest so anzupassen, 
