@@ -1,4 +1,4 @@
-baseURL = "https://www.systemli.org"
+baseURL = "https://www.staging.systemli.org"
 theme = "systemli"
 Paginate = 8
 sectionPagesMenu = "main"
