@@ -7,7 +7,7 @@ translationKey: 8113bd62ff3a07ca15495055e3aa635d
 Seit einer Weile versehen wir unsere Dienste stückweise mit einem eigenen Design oder passen sie zumindest so an, 
 dass sie einfacher als Service von systemli.org zu erkennen sind. Begonnen haben wir mit 
 [Jitsi Meet]({{< ref "meet" >}}) und [Nextcloud]({{< ref "cloud" >}}). Nun folgt unsere Website mit einem brandneuen 
-Design.
+Design.<!--more-->
 
 [In knapp acht Jahren]({{< ref "2013-09-14-neuer-anstrich-bei-systemli.org.md" >}}) war am Design unserer Website nur 
 wenig passiert. Inhaltlich haben sich seitdem jedoch einige Dinge verändert: Wir bieten viel mehr 
