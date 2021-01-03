@@ -38,10 +38,6 @@ Before contacting us, please check if you are content with the services offered 
 
 Wikis are a good tool to structure knowledge. They help to manage knowledge, search it and extend it. We offer Dokuwiki as a wiki software.
 
-#### Forums
-
-Forums are practical for discussions and exchange of views within a group or organization. W offer phpBB as a forum software. 
-
 #### Ticker
 
 We offer a ticker software with which you can accompany your political actions. Further information is found [here](/en/service/ticker). 

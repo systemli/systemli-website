@@ -41,11 +41,7 @@ Bevor ihr euch an uns wendet, überprüft bitte, ob [noblogs.org](https://noblog
 
 #### Wikis
 
-Zur Strukturierung von Wissen sind Wikis ein gutes Werkzeug. Sie helfen, Wissen zu verwalten, durchsuchbar zu halten und zu erweitern. Wir bieten als Wiki-Software Dokuwiki an.  
-
-#### Foren
-
-Foren sind praktisch für Diskussionen und Meinungsaustausch in einer Gruppe oder Organisation. Wir bieten als Forensoftware phpBB an.
+Zur Strukturierung von Wissen sind Wikis ein gutes Werkzeug. Sie helfen, Wissen zu verwalten, durchsuchbar zu halten und zu erweitern. Wir bieten als Wiki-Software Dokuwiki an.
 
 #### Ticker
 
