@@ -5,7 +5,7 @@ aliases:
     - /en/service/hosting.html
 icon: hosting.svg
 service_bar_title: hosting
-description: Boards, wikis, blogs and individual website solutions
+description: Wikis, blogs and individual website solutions
 ---
 We host your web sites. We offer tools for knowledge management and hosting of wordpress blogs. Regarding that, we have some general information you should note.
 
