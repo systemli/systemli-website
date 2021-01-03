@@ -36,7 +36,7 @@
 
             <!-- show only latest post on small screens  -->
             <div class="grid md:hidden grid-cols-post-list col-span-12 p-4 mb-4 bg-white shadow-m text-s">
-                {{ range $index, $element := first 1 (where $.Site.RegularPages "Type" "posts") }}
+                {{ range $index, $element := first 3 (where $.Site.RegularPages "Type" "posts") }}
                 <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
                     {{ .Date.Format "02/01 2006" }}
                 </div>
@@ -56,7 +56,7 @@
                 </a>
             </div>
 
-            <div class="block lg:max-h-3/4 lg:overflow-scroll p-4 md:py-0 bg-white shadow-m md:shadow-none">
+            <div class="block lg:max-h-600 lg:overflow-scroll p-4 md:py-0 bg-white shadow-m md:shadow-none">
                 {{ partial "ticker.html" }}
             </div>
         </div>

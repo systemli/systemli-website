@@ -6,10 +6,10 @@ translationKey: 8113bd62ff3a07ca15495055e3aa635d
 ---
 For a while now, we're giving our services piece by piece their own design, or at least customize them so that they are 
 easier to recognize as a systemli.org service. We started with [Jitsi Meet]({{< ref "meet" >}}) and 
-[Nextcloud]({{< ref "cloud" >}}). Now our website follows with a brand new design.
+[Nextcloud]({{< ref "cloud" >}}). Now our website follows with a brand new design.<!--more-->
 
 [In just under eight years]({{< ref "2013-09-14-Fresh-colours-on-systemli.org.md" >}}), very little had happened to the 
-design of our website. However, a few things have changedi contentwise: We offer many more 
+design of our website. However, a few things have changed contentwise: We offer many more 
 [services]({{< ref "service" >}}), use the [ticker]({{< ref "ticker" >}}) to 
 [inform about maintenance work](https://updates.systemli.org/) and 
 [certificates no longer have to be checked manually]({{< ref "2017-10-18-Lets-Encrypt.md" >}}).
