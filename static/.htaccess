@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+	RewriteCond %{HTTP:Accept-Language} !^de [NC]
+	RewriteRule ^$ /en/ [L,R=307]
+</IfModule>
