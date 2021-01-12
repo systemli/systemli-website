@@ -14,16 +14,16 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
     {{ else }}
     {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     {{ end }}
     {{ $scripts := resources.Get "js/main.js" }}
     {{ if .Site.IsServer }}
     <script src="{{ $scripts.RelPermalink }}" defer></script>
     {{ else }}
     {{ $scripts := $scripts | minify | fingerprint }}
-    <script src="{{ $scripts.Permalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
+    <script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
     {{ end }}
     {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
     {{ end -}}
 </head>
