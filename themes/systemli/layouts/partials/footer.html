@@ -8,6 +8,6 @@
 <script src="{{ $scripts.RelPermalink }}" defer></script>
 {{ else }}
 {{ $scripts := $scripts | minify | fingerprint }}
-<script src="{{ $scripts.Permalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
+<script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
 {{ end }}
 <noscript><p><img src="https://analytics.systemli.org/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
