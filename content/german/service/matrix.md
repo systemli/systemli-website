@@ -12,14 +12,14 @@ links:
         url: https://element.systemli.org
         text: Webclient
 ---
-Matrix ist ein dezentraler und Ende-zu-Ende verschlüsselter Messaging Dienst mit guter Unterstützung für Gruppenchats. 
+Matrix ist ein dezentraler und Ende-zu-Ende verschlüsselter Messenger Dienst mit guter Unterstützung für Gruppenchats. 
 Es ist eine freie und offene Alternative zu Signal und Slack. Im Gegensatz zu Signal ist es nicht an eine Telefonnummer 
 gebunden.
 
 ## Features
 
 - Ende-zu-Ende-Verschlüsselung für Einzel- und Gruppenchats
-- Telefonnummer wird nicht nötig
+- Telefonnummer wird nicht benötigt
 - Multi-Device-Support (Smartphone, Browser, Desktop)
 - Vernetzung mit Personen und Gruppen auf [anderen Matrix-Servern](https://matrix.org/) (Föderation)
 - Nur bei Systemli:
