@@ -12,7 +12,7 @@
                 <img class="pr-2 mr-5 lg:mr-0 lg:mb-20 w-32 lg:w-48" src="/service-icons/{{ .Params.icon }}" alt="Icon">
                 <div class="flex flex-col">
                     {{ range $link := .Param "links" }}
-                    <a class="button-link" href={{ $link.url }}>{{ $link.text }}</a>
+                    <a class="button-link" href={{ $link.url }} target="_blank">{{ $link.text }}</a>
                     {{ end }}
                 </div>
             </div>
