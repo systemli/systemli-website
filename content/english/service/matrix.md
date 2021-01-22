@@ -12,7 +12,7 @@ links:
         url: https://element.systemli.org
         text: Webclient
 ---
-Matrix is a decentralized and end-to-end encrypted messaging service with good support for group chats. It is a free 
+Matrix is a decentralized and end-to-end encrypted messenger service with good support for group chats. It is a free 
 and open alternative to Signal and Slack. Unlike Signal, it is not tied to a phone number.
 
 ## Features
