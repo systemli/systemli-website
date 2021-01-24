@@ -24,7 +24,7 @@ und Veränderungen kommen. Wir freuen uns über euer Feedback.
 
 Du kannst dich mit deiner systemli.org E-Mail-Adresse auf unserem Matrix-Server anmelden. Wenn du eine andere Person 
 auf Matrix erreichen möchtet, musst du sie mit ihrer Matrix-Adresse anschreiben. Matrix-Adressen sehen etwas anders 
-aus, als die E-Mail-Adresse der Person. Ein Beispiel: Wenn deine E-Mail anna.und.arthur@systemli.org lautet, dann 
+aus, als die E-Mail-Adresse der Person. Ein Beispiel: Wenn deine E-Mail anna.und.arthur\@systemli.org lautet, dann 
 lautet deine Matrix-Adresse @anna.und.arthur:systemli.org.
 
 <a class="button-link" href="{{< ref "matrix" >}}">Service: Matrix</a>
