@@ -13,12 +13,12 @@ links:
         text: Webclient
 ---
 Matrix is a decentralized and end-to-end encrypted messenger service with good support for group chats. It is a free 
-and open alternative to Signal and Slack. Unlike Signal, it is not tied to a phone number.
+and open alternative to Signal and Slack.
 
 ## Features
 
 - End-to-end encryption for individual and group chats
-- Phone number is not necessary
+  - ⚠️ Clients exist that do not support end-to-end encryption
 - Multi-Device-Support (Smartphone, Browser, Desktop)
 - Networking with people and groups on [other Matrix servers](https://matrix.org/) (Federation)
 - Only for systemli:
@@ -27,8 +27,8 @@ and open alternative to Signal and Slack. Unlike Signal, it is not tied to a pho
 
 ## Conditions
 
-A Systemli email account is required for our server. As with e-mail, however, all other Matrix accounts can be 
-contacted.
+Our server requires an email account at systemli.org. As with email or Jabber, other Matrix accounts on other Matrix 
+servers can be contacted.
 
 ## Connection
 
@@ -39,5 +39,12 @@ Homeserver: matrix.systemli.org
 ## Usage
 
 To connect to Matrix, instead of [our web client](https://element.systemli.org), you can also install
-[an app](https://element.io/get-started) can be installed. A good documentation of the client
-[offered by the TU Dresden](https://doc.matrix.tu-dresden.de/en/).
+[an app](https://element.io/get-started) can be installed. Please note that you have to change the home server to login
+to `matrix.systemli.org` (by default it is set to matrix.org). A good documentation of the client
+[provided by TU Dresden](https://doc.matrix.tu-dresden.de/en/).
+
+ℹ️ Element uses end-to-end encryption by default.
+
+ℹ️ In addition to the client element we recommend, there are other clients for Matrix. Thereby it can happen that
+that they do not have all features (including security relevant ones) built in. You should have a look at the
+[Features carefully](https://matrix.org/clients-matrix/) and consider which client you use.
