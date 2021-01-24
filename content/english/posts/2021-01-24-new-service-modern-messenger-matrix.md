@@ -22,7 +22,7 @@ feedback.
 
 You can log in to our matrix server with your systemli.org email address. If you want to reach another person on 
 Matrix, you have to write to them with their Matrix address. Matrix addresses look slightly different than the person's 
-email address. Example: If your email is anna.und.arthur@systemli.org, then your Matrix address is 
+email address. Example: If your email is anna.und.arthur\@systemli.org, then your Matrix address is 
 @anna.and.arthur:systemli.org.
 
 <a class="button-link" href="{{< ref "matrix" >}}">Service: Matrix</a>
