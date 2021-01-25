@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Service: Modern Messenger Matrix"
-date:  2021-01-24 15:00:00
+date:  2021-01-25 10:00:00
 translationKey: c2774a237ec5bd5fb5f2ed534cfebca1
 ---
 We have been running our own Matrix server in a test phase for a few months now. Matrix is a decentralized messenger 
@@ -20,9 +20,11 @@ easy to shut down the network of Matrix servers or to participants in group chat
 We invite you to try Matrix with us. As with all new services, there may be interruptions and changes. We welcome your 
 feedback.
 
-You can log in to our matrix server with your systemli.org email address. If you want to reach another person on 
-Matrix, you have to write to them with their Matrix address. Matrix addresses look slightly different than the person's 
-email address. Example: If your email is anna.und.arthur\@systemli.org, then your Matrix address is 
+### First steps with Matrix
+
+You can log in to [our matrix server]({{< ref "matrix" >}}) with your systemli.org email address. If you want to reach 
+another person on Matrix, you have to write to them with their Matrix address. Matrix addresses look slightly different 
+than the person's email address. Example: If your email is anna.und.arthur\@systemli.org, then your Matrix address is 
 @anna.and.arthur:systemli.org.
 
 <a class="button-link" href="{{< ref "matrix" >}}">Service: Matrix</a>
