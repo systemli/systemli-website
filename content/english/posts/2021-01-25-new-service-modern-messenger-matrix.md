@@ -13,8 +13,8 @@ Unfortunately, the development in the Jabber ecosystem has been quite slow in re
 Jabber today often seems antiquated. It also does not offer a usable option for encrypting group communication (E2EE).
 
 We run systemli.org with the intention of supporting progressive political organizing. In doing so we try to to ensure 
-a high level of security and privacy. In our opinion, Matrix is the best way to achieve both of these best with Matrix. 
-Unlike Signal, it does not require a phone number and has a decentralized approach. approach. This means that it is not 
+a high level of security and privacy. In our opinion, Matrix is the best way to achieve both of these goals. 
+Unlike Signal, it does not require a phone number and has a decentralized approach. This means that it is not 
 easy to shut down the network of Matrix servers or to participants in group chats via their telephone numbers.
 
 We invite you to try Matrix with us. As with all new services, there may be interruptions and changes. We welcome your 
