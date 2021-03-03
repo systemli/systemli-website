@@ -31,7 +31,6 @@ Zusätzlich kannst du deine E-Mails auch per Browser mit unserem <a href="https:
 * Datenschutz: keine Speicherung von IP-Adressen oder nicht benötigter Metadaten
 * Sieve: Serverseitige Filterung von E-Mails
 * [Unendlich Subadressen der Form username+stichwort@systemli.org](https://www.systemli.org/de/tipps%20und%20tricks/2014/06/29/nutzerdatenweitergabe-verfolgen.html)
-* Integration von externen E-Mail-Accounts
 * [Roundcube Webmail für unterwegs](https://mail.systemli.org)
 * Veröffentlichung des OpenPGP-Schlüssel im Web Key Directory (WKD)
 * GnuPG E-Mail-Verschlüsselung im Web-Client (nur in Ausnahmefällen zu empfehlen, [siehe Wiki-Artikel](https://wiki.systemli.org/howto/webmail_enigma))
