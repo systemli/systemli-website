@@ -52,3 +52,15 @@ rssLimit = 10
     allServicesTeaser = "Our services at a glance"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
+
+[mediaTypes]
+  [mediaTypes."application/atom"]
+    suffixes = "xml"
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediatype = "application/atom"
+    baseName = "atom"
+
+[outputs]
+   home = [ "HTML", "RSS" , "Atom"]
