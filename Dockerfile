@@ -12,7 +12,7 @@ RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
     && rm -rf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
     && rm -rf /tmp/LICENSE.md \
     && rm -rf /tmp/README.md && \
-    npm install -g postcss-cli && \
+    npm install -g postcss postcss-cli && \
     adduser --home /data --disabled-password --uid ${UID} app
 
 USER app
