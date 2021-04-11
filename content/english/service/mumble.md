@@ -7,10 +7,6 @@ menu_group: service
 translationKey: eebf342928757f00b11d8445af5971f5
 icon: mumble.svg
 description: Do encrypted voice calls via our mumble server
-links:
-    web:
-        url: https://talk.systemli.org
-        text: Web Interface
 ---
 
 Mumble is a free conference call software. With Mumble, you can call your friends.

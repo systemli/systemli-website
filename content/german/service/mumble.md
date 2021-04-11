@@ -7,10 +7,6 @@ menu_group: service
 translationKey: eebf342928757f00b11d8445af5971f5
 icon: mumble.svg
 description: Telefoniere (verschlüsselt) über unseren Mumble Server
-links:
-    web:
-        url: https://talk.systemli.org
-        text: Web Interface
 ---
 
 Mumble ist eine freie Sprachkonferenzsoftware. Mit ihrer Hilfe kannst du mit deinen Freund*innen telefonieren.
