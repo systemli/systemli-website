@@ -45,6 +45,5 @@ to `matrix.systemli.org` (by default it is set to matrix.org). A good documentat
 
 ℹ️ Element uses end-to-end encryption by default.
 
-ℹ️ In addition to the client element we recommend, there are other clients for Matrix. Thereby it can happen that
-that they do not have all features (including security relevant ones) built in. You should have a look at the
+ℹ️ In addition to the client element we recommend, there are other clients for Matrix. Thereby it can happen that they do not have all features (including security relevant ones) built in. You should have a look at the
 [Features carefully](https://matrix.org/clients-matrix/) and consider which client you use.
