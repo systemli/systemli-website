@@ -3,6 +3,7 @@ layout: page
 title: Web Hosting
 aliases:
     - /en/service/hosting.html
+translationKey: d340d5414d90735b71051cb9489abeab
 icon: hosting.svg
 service_bar_title: hosting
 description: Wikis, blogs and individual website solutions
