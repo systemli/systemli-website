@@ -6,6 +6,8 @@ Please improve by providing content, translations or code.
 ## Start development
 
  1. Make sure to have [hugo](https://gohugo.io/getting-started/installing/) installed.
+ 1. Make sure npm is installed
+ 1. Make sure postcss dependencies are installed `npm install -g postcss postcss-cli`
  1. Run `hugo server` for preview
  1. Visit http://localhost:1313/
 
