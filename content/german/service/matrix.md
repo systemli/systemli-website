@@ -21,6 +21,7 @@ Es ist eine freie und offene Alternative zu Signal und Slack.
   - ⚠️ Es existieren Clients die die Ende-zu-Ende-Verschlüsselung nicht unterstützen
 - Multi-Device-Support (Smartphone, Browser, Desktop)
 - Vernetzung mit Personen und Gruppen auf [anderen Matrix-Servern](https://matrix.org/) (Föderation)
+- Brücken zu anderen Messenger-Diensten ([siehe Wiki-Artikel](https://wiki.systemli.org/howto/matrix-bridges))
 - Nur bei Systemli:
   - Nachrichten werden nach 30 Tagen automatisch gelöscht
   - IP-Adressen werden nicht gespeichert
