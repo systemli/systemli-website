@@ -37,6 +37,9 @@ systemli.org wants to simplify the access to this communication tool. We already
 
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
-We offer the following web addresses (but you can also use your own address): [www.demoticker.org](https://www.demoticker.org), [www.aktionsticker.org](https://www.aktionsticker.org), [www.prozessticker.org](https://www.prozessticker.org).
+We offer the following web addresses (but you can also use your own address):
+* <name>.aktionsticker.org (possibly also [www.aktionsticker.org](https://www.aktionsticker.org))
+* <name>.demoticker.org (possibly also [www.demoticker.org](https://www.demoticker.org))
+* <name>.prozessticker.org (possibly also [www.prozessticker.org](https://www.prozessticker.org))
 
 Just send [a e-mail](/en/kontakt) using gpg. In this mail, you should introduce the action and the purpose of you ticker usage. If you have any additional questions, just send us an e-mail.
