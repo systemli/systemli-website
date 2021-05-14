@@ -21,6 +21,7 @@ and open alternative to Signal and Slack.
   - ⚠️ Clients exist that do not support end-to-end encryption
 - Multi-Device-Support (Smartphone, Browser, Desktop)
 - Networking with people and groups on [other Matrix servers](https://matrix.org/) (Federation)
+- Bridges to other messaging services ([see the wiki article - german only](https://wiki.systemli.org/howto/matrix-bridges))
 - Only for systemli:
   - Messages are automatically deleted after 30 days
   - IP addresses are not stored
