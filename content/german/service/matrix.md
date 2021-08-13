@@ -23,7 +23,7 @@ Es ist eine freie und offene Alternative zu Signal und Slack.
 - Vernetzung mit Personen und Gruppen auf [anderen Matrix-Servern](https://matrix.org/) (Föderation)
 - Brücken zu anderen Messenger-Diensten ([siehe Wiki-Artikel](https://wiki.systemli.org/howto/matrix-bridges))
 - Nur bei Systemli:
-  - Nachrichten werden nach 30 Tagen automatisch gelöscht
+  - Nachrichten werden nach 30 Tagen automatisch auf dem Server gelöscht
   - IP-Adressen werden nicht gespeichert
 
 ## Voraussetzungen
