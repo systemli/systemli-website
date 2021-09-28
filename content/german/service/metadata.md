@@ -7,7 +7,6 @@ menu_group: service
 translationKey: 000a6d7ddead6291f30892e804886274
 icon: metadata.svg
 description: Bereinige verschiedene Dateitypen von verräterischen Metadaten
-beta: true
 links:
     web:
         url: https://metadata.systemli.org
