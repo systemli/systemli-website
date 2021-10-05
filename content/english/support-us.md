@@ -37,7 +37,7 @@ Provide infrastructure in the future, depends on your donations. Every single do
 
 Individuals, scholars and gentlepeople using our services would find it appropriate donating **1 € per account per month**.
 
-You could even keep people of low income away by digging deeper, so they can use our services for free.
+You could even support people of low income by digging deeper, so they can use our services for free.
 
 ### Via bank transfer
 
