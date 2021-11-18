@@ -27,7 +27,7 @@ Please note that Schleuder lists are _not_ end-to-end encrypted. Mails to schleu
 
 ## Request a Schleuder list
 
-To get a Schleuder list you have to [contact us via mail](/en/kontakt). This mail should contain the following information:
+To get a Schleuder list you have to [contact us via mail](/en/contact). This mail should contain the following information:
 
 * a short introduction of your project
 * desired listname, e.g. _yourschleuderlist@cryptolists.systemli.org_
