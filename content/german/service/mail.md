@@ -44,9 +44,9 @@ Zusätzlich kannst du deine E-Mails auch per Browser mit unserem <a href="https:
 Server (Posteingang/Ausgang):   mail.systemli.org
 Benutzer:                       <username>@systemli.org
 Protokoll (Empfang):            IMAP
-Port:                           993
+Port:                           993 (SSL/TLS)
 Protokoll (Versand):            SMTP
-Port:                           587 (StartTLS)
+Port:                           465 (SSL/TLS)
 ```
 
 ### Onion Service Adresse
