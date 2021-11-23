@@ -16,10 +16,6 @@ Service: [E-Mail](/en/service/mail/)
 : 🌍 mail.systemli.org
 : 🧅 [llqiiswupgezsco4ux47cco3bxsaihbss5c3piefv6bhvpgfofyk7kad.onion](http://llqiiswupgezsco4ux47cco3bxsaihbss5c3piefv6bhvpgfofyk7kad.onion)
 ---
-Service: [Ethercalc](/en/service/ethercalc/)
-: 🌍 calc.systemli.org
-: 🧅 [qdkpsef2i2vy337y2f3mvrhgzzvrosfac6af4c3lvw4er4hpzbrpf6yd.onion](http://qdkpsef2i2vy337y2f3mvrhgzzvrosfac6af4c3lvw4er4hpzbrpf6yd.onion)
----
 Service: [Etherpad](/en/service/etherpad/)
 : 🌍 pad.systemli.org
 : 🧅 [mjrkrqnlf26etelsi7zpkqc3dzlrzyurvmd3jksmndarzzbugz5xctid.onion](http://mjrkrqnlf26etelsi7zpkqc3dzlrzyurvmd3jksmndarzzbugz5xctid.onion)
