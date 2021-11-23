@@ -1,35 +1,57 @@
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 stages:
-  - build
-  - generate
-  - deploy
-
+- build
+- generate
+- deploy
+- test
+- review
+- dast
+- staging
+- canary
+- production
+- incremental rollout 10%
+- incremental rollout 25%
+- incremental rollout 50%
+- incremental rollout 100%
+- performance
+- cleanup
 before_script:
-  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-
+- echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
 build_image:
   stage: build
   script: docker build -t systemli-website:latest --build-arg UID=$(id -u) .
-
 generate_website:
   stage: generate
   artifacts:
     untracked: true
   script: docker run --rm -v $PWD:/data -u $(id -u):$(id -g) systemli-website:latest
-
 deploy_prod:
   stage: deploy
-  only: [master]
-  dependencies: [generate_website]
+  only:
+  - master
+  dependencies:
+  - generate_website
   script: rsync -vrltgoDz --delete -e ssh public/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
-
 deploy_staging:
   stage: deploy
-  only: [staging]
-  dependencies: [generate_website]
+  only:
+  - staging
+  dependencies:
+  - generate_website
   script: rsync -vrltgoDz --delete -e ssh public/ systemli-staging@www3.systemli.org:/var/www/www.staging.systemli.org/www
-
 deploy_preview:
   stage: deploy
-  only: [preview]
-  dependencies: [generate_website]
+  only:
+  - preview
+  dependencies:
+  - generate_website
   script: rsync -vrltgoDz --delete -e ssh public/ systemli-preview@www3.systemli.org:/var/www/www.preview.systemli.org/www
+sast:
+  stage: test
+include:
+- template: Auto-DevOps.gitlab-ci.yml
