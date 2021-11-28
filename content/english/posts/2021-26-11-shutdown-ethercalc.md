@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shutdown of calc.systemli.org on 28.02.2022"
+title: "Shutdown of EtherCalc on 28.02.2022"
 date:  2021-11-26 14:00:00
 translationKey: 5LZC3xb6qsXwdKXlgmcSQDt4pvnsp8w
 ---
