@@ -6,30 +6,37 @@ aliases:
 menu_group: service
 translationKey: 90a6baafd2dbfba2f151c18559101b3c
 icon: cloud.svg
+service_bar_title: cloud
 description: Sync your files, contacts, calendars, and more
 links:
     cloud:
         url: https://cloud.systemli.org
         text: Systemli Cloud
 ---
-For all users with a systemli.org mail address, we offer an own [Nextcloud](https://nextcloud.com/) service. Nextcloud is a free alternative to Dropbox.
+In our [cloud](https://cloud.systemli.org/), you can organize your documents, notes and much more and work together on projects. We provide you with a privacy-friendly alternative to platforms like Dropbox, Google Docs or Trello.
 
-At [https://cloud.systemli.org](https://cloud.systemli.org), you can file data and folders and use them on different devices.
+Our cloud runs the open source software [Nextcloud](https://nextcloud.com/).
 
-With the provision of an own Nextcloud instance, we want to offer you the usage of a cloud with all its advantages without losing your privacy.
+For political groups and networks, our cloud offers many functions to work collaboratively - from shared file storage over project organization and shared calendars to Collectives. In Collectives you can work together on texts and organize your shared knowledge.
 
-To log in, just use your mail username and password you are using to check your mails.
+Every systemli.org mail account has access to our cloud and with the same login credentials.
 
-Another (and more convenient) way is using a client, which you can install on your computer or mobile phone. You can find all Nextcloud clients at the [official website](https://nextcloud.com/install/#install-clients). If you can't find a client for your system, you can also use the [OwnCloud clients](https://owncloud.org/install/#install-clients).
+By using an app, you can have your data synchronized automatically to your computer or smartphone. You can find an overview of Nextcloud apps at the [Nextcloud website](https://nextcloud.com/install/).
 
 ## Features
 
-* Nextcloud is a platform to easily save and share data
-* all systemli mail users get a cloud account
-* diverse features in Nextcloud (calendar, feed reader, task function, easy sharing of data and folders)
-* different possibilities to synchronize between to cloud and different terminal devices
-* usage via web browser or an Nextcloud client
-* 250 MB data storage
+* Files can be easily stored and exchanged in our cloud.
+* All systemli.org mail accounts have access automatically.
+* Supports groups in organising:
+  * Shared file storage and document sharing via link
+  * Shared calendars to coordinate appointments
+  * Collaborative writing and knowledge organisation in Collectives
+  * Easily create forms for internal or public surveys
+  * Project organisation in Kanban boards
+  * Chat and video group calls
+* Various other functions: feed reader, notes, contacts management.
+* Easy data synchronisation between different end devices.
+* 250 MB personal storage space, more for political groups on request.
 
 ### Onion Service Address
 
