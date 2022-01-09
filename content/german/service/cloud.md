@@ -29,7 +29,7 @@ Mit Hilfe eines Clients könnt ihr eure Daten automatisch auf Computer oder Smar
 ## Features
 
 * In der systemli Cloud können einfach Dateien gespeichert und ausgetauscht werden.
-* Alle systemli E-Mail-Accounts haben automatisch Zutriff.
+* Alle systemli E-Mail-Accounts haben automatisch Zugriff.
 * Unterstützt Gruppen bei der Organisierung:
   * Gemeinsame Dateiablage und externes Teilen von Dokumenten
   * Gemeinsame Kalender um Termine zu koordinieren
