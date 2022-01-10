@@ -26,5 +26,4 @@ links:
 
 ## Hinweise
 
-- Moderner Browser erforderlich (Chromium oder Chrome), Firefox und Safari machen noch Probleme
 - Mobile Apps verfügbar, Android ([F-Droid](https://f-droid.org/de/packages/org.jitsi.meet/), [Play Store](https://play.google.com/store/apps/details?id=org.jitsi.meet&hl=en)) und [iOS](https://itunes.apple.com/us/app/jitsi-meet/id1165103905)
