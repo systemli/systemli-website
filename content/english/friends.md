@@ -16,7 +16,6 @@ This (surely incomplete) list shall give you an overview. Only collectives with 
 * [so36.net](https://so36.net)
 * [nadir.org](https://nadir.org)
 * [systemausfall.org](https://systemausfall.org/)
-* [free.de](https://free.de/)
 * [immerda.ch](https://immerda.ch/)
 
 ## Europe
