@@ -18,7 +18,7 @@ generate_website:
 
 deploy_prod:
   stage: deploy
-  only: [master]
+  only: [main]
   dependencies: [generate_website]
   script: rsync -vrltgoDz --delete -e ssh public/ systemli@www3.systemli.org:/var/www/www.systemli.org/www
 
