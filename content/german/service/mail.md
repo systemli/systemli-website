@@ -35,7 +35,7 @@ Zusätzlich kannst du deine E-Mails auch per Browser mit unserem <a href="https:
 * Veröffentlichung des OpenPGP-Schlüssel im Web Key Directory (WKD)
 * GnuPG E-Mail-Verschlüsselung im Web-Client (nur in Ausnahmefällen zu empfehlen, [siehe Wiki-Artikel](https://wiki.systemli.org/howto/webmail_enigma))
 * Onion Service
-* Die Ordner Spam/Junk und Müll/Trash werden automatich nach 30 Tagen geleert
+* Die Ordner Spam/Junk und Müll/Trash werden automatisch nach 30 Tagen geleert
 * Inaktive Accounts werden nach zwei Jahren automatisch deaktiviert
 
 ## Verbindungsdaten
