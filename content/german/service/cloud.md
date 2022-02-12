@@ -16,20 +16,20 @@ links:
         url: https://wiki.systemli.org/howto/nextcloud/gruppen
         text: Dokumentation für Gruppen
 ---
-In unserer [Cloud](https://cloud.systemli.org/) könnt ihr Dokumente, Notizen und vieles mehr verwalten und gemeinsam an Projekten arbeiten. Damit bieten wir euch eine datenschutzfreundliche Alternative zu Platformen wie Dropbox, Google Docs oder Trello, bei der eure Privatsphäre geschützt wird.
+In der [systemli Cloud](https://cloud.systemli.org/) könnt ihr Dokumente, Notizen und vieles mehr verwalten und gemeinsam an Projekten arbeiten. Damit bieten wir euch eine datenschutzfreundliche Alternative zu Platformen wie Dropbox, Google Docs oder Trello, bei der eure Privatsphäre geschützt wird.
 
-Unsere Cloud läuft auf der Basis der Open Source Software [Nextcloud](https://nextcloud.com/de/).
+Die systemli Cloud läuft auf der Basis der Open Source Software [Nextcloud](https://nextcloud.com/de/).
 
-Für politische Gruppen und Netzwerke bietet unsere Cloud viele Funktionen zur kollaborativen Zusammenarbeit - von gemeinsamer Datei-Ablage über Projekt-Organisierung und geteilte Kalender bis hin zu Kollektiven. In Kollektiven könnt ihr ihr gemeinsam an Texten arbeiten und euer kollektives Wissen organisieren.
+Für politische Gruppen und Netzwerke bietet die systemli Cloud viele Funktionen zur kollaborativen Zusammenarbeit - von gemeinsamer Datei-Ablage über Projekt-Organisierung und geteilte Kalender bis hin zu Kollektiven. In Kollektiven könnt ihr ihr gemeinsam an Texten arbeiten und euer kollektives Wissen organisieren.
 
-Jeder systemli.org E-Mail-Account hat mit den selben Zugangsdaten Zugriff auf unsere Cloud.
+Jeder systemli E-Mail-Account hat mit den selben Zugangsdaten Zugriff auf die Cloud.
 
 Mit Hilfe der Nextcloud App könnt ihr eure Daten automatisch auf Computer oder Smartphone synchronisieren lassen. Eine Übersicht über Nextcloud-Apps findet ihr auf der [Nextcloud-Website](https://nextcloud.com/de/install/).
 
 ## Features
 
-* In unserer Cloud können einfach Dateien gespeichert und ausgetauscht werden.
-* Alle systemli.org E-Mail-Accounts haben automatisch Zugriff.
+* In der systemli Cloud können einfach Dateien gespeichert und ausgetauscht werden.
+* Alle systemli E-Mail-Accounts haben automatisch Zugriff.
 * Unterstützt Gruppen bei der Organisierung:
   * Gemeinsame Dateiablage und Teilen von Dokumenten per Link
   * Gemeinsame Kalender um Termine zu koordinieren
