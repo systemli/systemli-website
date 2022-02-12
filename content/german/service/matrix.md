@@ -28,7 +28,7 @@ Es ist eine freie und offene Alternative zu Signal und Slack.
 
 ## Voraussetzungen
 
-Für unseren Server ist ein Email-Account bei systemli.org notwendig. Wie bei E-Mail oder Jabber, können anderen 
+Für unseren Server ist ein Email-Account bei systemli notwendig. Wie bei E-Mail oder Jabber, können anderen 
 Matrix-Konten auf anderen Matrix-Servern kontaktiert werden.
 
 ## Verbindungsdaten

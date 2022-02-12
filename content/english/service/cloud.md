@@ -19,14 +19,14 @@ The systemli cloud runs the open source software [Nextcloud](https://nextcloud.c
 
 For political groups and networks, the systemli cloud offers many functions to work collaboratively - from shared file storage over project organization and shared calendars to Collectives. In Collectives you can work together on texts and organize your shared knowledge.
 
-Every systemli mail account has access to our cloud and with the same login credentials.
+Every systemli.org mail account has access to our cloud and with the same login credentials.
 
 By using an app, you can have your data synchronized automatically to your computer or smartphone. You can find an overview of Nextcloud apps at the [Nextcloud website](https://nextcloud.com/install/).
 
 ## Features
 
 * Files can be easily stored and exchanged in the systemli loud.
-* All systemli mail accounts have access automatically.
+* All systemli.org mail accounts have access automatically.
 * Supports groups in organising:
   * Shared file storage and document sharing via link
   * Shared calendars to coordinate appointments

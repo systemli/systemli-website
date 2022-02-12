@@ -8,7 +8,7 @@ menu: main
 weight: 5
 ---
  [![](/assets/img/systemli_navy_sb_1_1.jpg#fl-2)](https://black-mosquito.org/en/catalogsearch/result/?q=systemli) 
-Everyone working at systemli.org does so as unpaid volunteers. Besides time, providing services and infrastructure continuously costs a lot. The news about PRISM, Tempora and the new spying initiative of the BND (German intelligence service) proves the importancy of independent infrastructure based on solidarity.
+Everyone working at systemli does so as unpaid volunteer. Besides time, providing services and infrastructure continuously costs a lot. The news about PRISM, Tempora and the new spying initiative of the BND (German intelligence service) proves the importancy of independent infrastructure based on solidarity.
 
 There are several opportunities of supporting us:
 

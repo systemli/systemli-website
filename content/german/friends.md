@@ -7,7 +7,7 @@ menu: main
 weight: 3
 translationKey: e2e248a20b477ee2d2b70e48b1643045
 ---
-Neben systemli.org gibt es noch viele weitere Technikkollektive, die selbstverwaltete Infrastruktur und Dienste zur Verfügung stellen.
+Neben systemli gibt es noch viele weitere Technikkollektive, die selbstverwaltete Infrastruktur und Dienste zur Verfügung stellen.
 
 Diese (bestimmt unvollständige) Liste soll dir einen Überblick verschaffen. Es werden nur Kollektive aufgeführt, die unsere [Ansprüche und Anliegen](/ueber-uns/) teilen.
 

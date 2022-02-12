@@ -33,7 +33,7 @@ Mit Tickern habt ihr alles auf einen Blick, da es nicht nötig ist zwischen vers
 
 ## Unser Angebot
 
-systemli.org möchte deshalb den Zugang zu diesem Kommunikationsmittel vereinfachen. Bei verschiedenen Gelegenheiten (wie etwa am 13. Februar in Dresden, bei Prozessbeobachtungen in Wien oder beim 1. Mai) haben wir das Ticker-System bereits gehostet und betreut. Die Bedienung des Tickers während der Veranstaltung obliegt dabei euch. Über ein einfach zu nutzendes, intuitives Interface könnt ihr neue Inhalte online stellen. Außerdem habt ihr den Vorteil, dass der Ticker und Twitter gleichzeitig bedient werden können. Damit fällt ein separates Befüllen der Inhalte weg.
+systemli möchte deshalb den Zugang zu diesem Kommunikationsmittel vereinfachen. Bei verschiedenen Gelegenheiten (wie etwa am 13. Februar in Dresden, bei Prozessbeobachtungen in Wien oder beim 1. Mai) haben wir das Ticker-System bereits gehostet und betreut. Die Bedienung des Tickers während der Veranstaltung obliegt dabei euch. Über ein einfach zu nutzendes, intuitives Interface könnt ihr neue Inhalte online stellen. Außerdem habt ihr den Vorteil, dass der Ticker und Twitter gleichzeitig bedient werden können. Damit fällt ein separates Befüllen der Inhalte weg.
 
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 

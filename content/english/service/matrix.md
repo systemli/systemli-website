@@ -28,7 +28,7 @@ and open alternative to Signal and Slack.
 
 ## Conditions
 
-Our server requires an email account at systemli.org. As with email or Jabber, other Matrix accounts on other Matrix 
+Our server requires an email account at systemli. As with email or Jabber, other Matrix accounts on other Matrix 
 servers can be contacted.
 
 ## Connection

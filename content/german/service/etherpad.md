@@ -15,7 +15,7 @@ links:
 ---
 !["Etherpad Lite in Action" class="img-thumbnail"](/assets/img/etherpad-lite-in-action.gif)
 
-Das systemli.org Pad ist eine Anwendung, die es ermöglicht, mit mehreren Personen gleichzeitig an einem Dokument (Pad) zu arbeiten. So kannst du gemeinsam mit deinen Freund*innen einen Text schreiben. Dabei ist ersichtlich, welche Person was geschrieben hat. Während des gemeinsamen Schreibens kann man den integrierten Chat benutzen und so über den Text sprechen. Weiterhin ist es möglich, Revisionen (aktueller Zustand) des Textes zu speichern. Dieser kann später wiederhergestellt werden.
+Das systemli Pad ist eine Anwendung, die es ermöglicht, mit mehreren Personen gleichzeitig an einem Dokument (Pad) zu arbeiten. So kannst du gemeinsam mit deinen Freund*innen einen Text schreiben. Dabei ist ersichtlich, welche Person was geschrieben hat. Während des gemeinsamen Schreibens kann man den integrierten Chat benutzen und so über den Text sprechen. Weiterhin ist es möglich, Revisionen (aktueller Zustand) des Textes zu speichern. Dieser kann später wiederhergestellt werden.
 
 Natürlich achten wir darauf, dass alle Eingaben, die ihr tätigt, nicht abgefangen werden können. Deshalb nutzen wir konsequent eine verschlüsselte Verbindung zu allen Pads.
 

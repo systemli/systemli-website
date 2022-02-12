@@ -7,7 +7,7 @@ translationKey: e2e248a20b477ee2d2b70e48b1643045
 menu: main
 weight: 3
 ---
-systemli.org is only one of many tech collectives, who provide autonomous server infrastructure and services.
+systemli is only one of many tech collectives, who provide autonomous server infrastructure and services.
 
 This (surely incomplete) list shall give you an overview. Only collectives with a [similar wish and claim as ours](/en/about-us/), are mentioned.
 

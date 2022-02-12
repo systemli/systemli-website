@@ -14,7 +14,7 @@ links:
 ---
 !["Etherpad Lite in Action" class="img-thumbnail"](/assets/img/etherpad-lite-in-action.gif)
 
-The systemli.org pad is an application that allows several people to work on a document (pad) at the same time. Like this you can jointly work with your friends on a text you’re writing. You will be able to distinguish who wrote what. During the joint writing you can use the integrated Chat to talk about the text. Furthermore it is possible to save and later restore the current state of the text.
+The systemli pad is an application that allows several people to work on a document (pad) at the same time. Like this you can jointly work with your friends on a text you’re writing. You will be able to distinguish who wrote what. During the joint writing you can use the integrated Chat to talk about the text. Furthermore it is possible to save and later restore the current state of the text.
 
 Of course we take care that all of your inputs cannot be read by third parties. This is why we consistently use an encrypted connection to all pads.
 

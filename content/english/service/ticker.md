@@ -33,7 +33,7 @@ With a ticker, you gain all the information at once, and it is not necessary to 
 
 ## Our Offer
 
-systemli.org wants to simplify the access to this communication tool. We already hosted and attended to a ticker system at different occasions (for example the 13th february in Dresden, trial observations in Vienna or for the 1st of May). The usage of the ticker during an action is in your hands. Through an easy usable, intuitive interface can you put new content online. Furthermore, you have the advantage of using Twitter and the ticker simultaneously. Therefore, a separate upload of content is unnecessary.
+systemli wants to simplify the access to this communication tool. We already hosted and attended to a ticker system at different occasions (for example the 13th february in Dresden, trial observations in Vienna or for the 1st of May). The usage of the ticker during an action is in your hands. Through an easy usable, intuitive interface can you put new content online. Furthermore, you have the advantage of using Twitter and the ticker simultaneously. Therefore, a separate upload of content is unnecessary.
 
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
