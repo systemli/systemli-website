@@ -10,6 +10,7 @@ Please export or transfer your data to another calc-software provider until this
 The service does not meet our security standards anymore, because the used software
 wasn't updated for a longer period of time.
 
-You can migrate to:
+A possible better alternative is cryptpad with client side encryption:
 
-* [cryptpad.fr](https://cryptpad.fr/) - spread sheet tool with client-side encryption
+* [cryptpad.ffmuc.net](https://cryptpad.ffmuc.net/)
+* [cryptpad.fr](https://cryptpad.fr/)

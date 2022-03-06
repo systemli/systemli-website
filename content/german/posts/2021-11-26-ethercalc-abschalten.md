@@ -10,6 +10,7 @@ Bitte exportiert und/oder transferiert eure Daten zu einem anderen Calc-Software
 Der Dienst hat nicht mehr die notwendigen Sicherheitsvorraussetzungen,
 da die eingesetzte Software seit längerem nicht mehr gepflegt wird.
 
-Mögliche bessere Alternative:
+Mögliche bessere Alternative ist cryptpad mit clientseitiger Verschlüsselung:
 
-* [cryptpad.fr](https://cryptpad.fr/) - Tabellentool inkluvise clientseitiger Verschlüsselung
+* [cryptpad.ffmuc.net](https://cryptpad.ffmuc.net/)
+* [cryptpad.fr](https://cryptpad.fr/)
