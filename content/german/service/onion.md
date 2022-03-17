@@ -9,7 +9,7 @@ icon: onion.svg
 description: Verbinde dich unbeobachtet mit unseren Diensten
 ---
 
-Mit Tor Onion Services kannst du dich komplett über das Tor-Netzwerk mit einem Dienst verbinden. Dies bietet gegenüber der normalen Nutzung von Tor [noch mehr Sicherheit](https://www.torproject.org/docs/onion-services). Wir versuchen alle unsere Dienste auch als Onion Service erreichbar zu machen. Du benötigst [Tor Browser](https://wiki.systemli.org/howto/torbrowser) um Onion Services zu benutzen.
+Mit Tor Onion Services kannst du dich komplett über das Tor-Netzwerk mit einem Dienst verbinden. Dies bietet gegenüber der normalen Nutzung von Tor [noch mehr Sicherheit](https://support.torproject.org/de/onionservices/). Wir versuchen alle unsere Dienste auch als Onion Service erreichbar zu machen. Du benötigst [Tor Browser](https://www.torproject.org/de/download/) um Onion Services zu benutzen.
 
 ---
 Service: [E-Mail](/service/mail/)
