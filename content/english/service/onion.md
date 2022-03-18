@@ -9,7 +9,7 @@ icon: onion.svg
 description: Connect unobserved with our services
 ---
 
-With Tor Onion Service, you can connect completely inside the Tor network to our services. This is [even more secure](https://www.torproject.org/docs/onion-services) than browsing with Tor normally. We try to make all our services accessible as Onion Service. You need [Tor Browser](https://www.torproject.org/download/download-easy.html) to use Onion Services.
+With Tor Onion Service, you can connect completely inside the Tor network to our services. This is [even more secure](https://support.torproject.org/onionservices/) than browsing with Tor normally. We try to make all our services accessible as Onion Service. You need [Tor Browser](https://www.torproject.org/download/) to use Onion Services.
 
 ---
 Service: [E-Mail](/en/service/mail/)

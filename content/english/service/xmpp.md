@@ -12,6 +12,9 @@ links:
     web:
         url: "https://www.systemli.org/jabber"
         text: "Web-Jabber"
+    messengers:
+        url: "https://wiki.systemli.org/howto/jabber-ubersicht"
+        text: "Overview of Jabber messengers"
     pidgin:
         url: "https://wiki.systemli.org/howto/jabber"
         text: "How-To: Jabber and Pidgin"
