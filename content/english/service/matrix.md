@@ -11,6 +11,9 @@ links:
     element:
         url: https://element.systemli.org
         text: Webclient
+    privacy:
+        url: https://wiki.systemli.org/howto/matrix-privacy
+        text: "Notes on secure use of Matrix (german)"
 ---
 Matrix is a decentralized and end-to-end encrypted messenger service with good support for group chats. It is a free 
 and open alternative to Signal and Slack.
@@ -45,6 +48,8 @@ to `matrix.systemli.org` (by default it is set to matrix.org). A good documentat
 [provided by TU Dresden](https://doc.matrix.tu-dresden.de/en/).
 
 ℹ️ Element uses end-to-end encryption by default.
+
+ℹ️ Despite encryption, Matrix accumulates some metadata. See the [notes on secure use](https://wiki.systemli.org/howto/matrix-privacy (german)) in our wiki.
 
 ℹ️ In addition to the client element we recommend, there are other clients for Matrix. Thereby it can happen that they do not have all features (including security relevant ones) built in. You should have a look at the
 [Features carefully](https://matrix.org/clients-matrix/) and consider which client you use.

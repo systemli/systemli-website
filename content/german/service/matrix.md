@@ -11,6 +11,9 @@ links:
     element:
         url: https://element.systemli.org
         text: Webclient
+    privacy:
+        url: https://wiki.systemli.org/howto/matrix-privacy
+        text: "Hinweise zur sicheren Nutzung von Matrix"
 ---
 Matrix ist ein dezentraler und Ende-zu-Ende verschlüsselter Messenger Dienst mit guter Unterstützung für Gruppenchats. 
 Es ist eine freie und offene Alternative zu Signal und Slack.
@@ -45,6 +48,8 @@ Login auf `matrix.systemli.org` geändert werden muss (Standardmäßig steht die
 Dokumentation des Clients [bietet die TU Dresden an](https://doc.matrix.tu-dresden.de).
 
 ℹ️ Element benutzt standardmäßig die Ende-zu-Ende-Verschlüsselung.
+
+ℹ️ Trotz Verschlüsselung fallen bei Matrix Metadaten an. Beachte die [Hinweise zur sicheren Nutzung](https://wiki.systemli.org/howto/matrix-privacy) in unserem Wiki.
 
 ℹ️ Neben den von uns empfohlenen Client Element gibt es weitere Clients für Matrix. Dabei kann es vor kommen, dass 
 diese nicht alle Features (auch sicherheitsrelevante) eingebaut haben. Du solltest dir die 
