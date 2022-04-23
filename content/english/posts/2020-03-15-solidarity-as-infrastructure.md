@@ -68,9 +68,9 @@ Messengers for fast communication and coordination are always important anyway, 
 
 ## External communication
 
-* **Tickers** are suitable for spreading news. With our ticker you can show your surroundings (for example the 
-  neighbourhood) keep you informed about current developments. A ticker instance must you with us by 
-  [e-mail request]({{< ref "contact" >}}). But we are happy to make it available to you under different domains. 
+* **Tickers** are suitable for spreading news. With our ticker you can inform your surroundings (for example the
+  neighbourhood) about current developments. A ticker instance must be requested via
+  [e-mail]({{< ref "contact" >}}). We can also make it available under different domains.
   [All information about our ticker service]({{< ref "ticker" >}}).
 * **Mastodon** is a free Twitter alternative. We can recommend the following instances:
   * The instance of the Dutch comrades of Wehost: [https://social.weho.st/](https://social.weho.st/)
