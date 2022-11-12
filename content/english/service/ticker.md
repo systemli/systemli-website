@@ -12,12 +12,14 @@ description: Distribute short messages during demonstrations and events
 
 ## Features
 
-- 💌 Messages up to 280 characters</li>
-- 🐦 Optional forwarding to Twitter</li>
-- 💡 Use of an own domain (e.g. ticker.example.org)</li>
-- 📸 Upload up to four images or one GIF per message</li>
-- 🗺️ Maps with points, routes or areas per message</li>
-- 🤖 Open source software developed by us</li>
+- 💌 Messages up to 280 characters
+- 🐘 Optional forwarding to Mastodon
+- 🐦 Optional forwarding to Twitter
+- 💬 Optional forwarding to Telegram
+- 💡 Use of an own domain (e.g. ticker.example.org)
+- 📸 Upload up to four images or one GIF per message
+- 🗺️ Maps with points, routes or areas per message
+- 🤖 Open source software developed by us
 
 ![Ticker frontend in browser (left) and smartphone (right)](/assets/img/ticker-frontend-demo.jpg "Ticker frontend in browser (left) and smartphone (right)")
 
@@ -38,8 +40,8 @@ systemli wants to simplify the access to this communication tool. We already hos
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
 We offer the following web addresses (but you can also use your own address):
-* <name>.aktionsticker.org (possibly also [www.aktionsticker.org](https://www.aktionsticker.org))
-* <name>.demoticker.org (possibly also [www.demoticker.org](https://www.demoticker.org))
-* <name>.prozessticker.org (possibly also [www.prozessticker.org](https://www.prozessticker.org))
+* `<name>.aktionsticker.org` (possibly also [www.aktionsticker.org](https://www.aktionsticker.org))
+* `<name>.demoticker.org` (possibly also [www.demoticker.org](https://www.demoticker.org))
+* `<name>.prozessticker.org` (possibly also [www.prozessticker.org](https://www.prozessticker.org))
 
 Just send [a e-mail](/en/kontakt) using gpg. In this mail, you should introduce the action and the purpose of you ticker usage. If you have any additional questions, just send us an e-mail.
