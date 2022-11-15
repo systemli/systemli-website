@@ -26,7 +26,7 @@
             <Protocol>
                 <Type>SMTP</Type>
                 <Server>mail.systemli.org</Server>
-                <Port>587</Port>
+                <Port>465</Port>
                 <DomainRequired>off</DomainRequired>
                 <LoginName>%EMAILADDRESS%</LoginName>
                 <SPA>off</SPA>
