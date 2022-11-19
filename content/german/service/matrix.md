@@ -5,7 +5,6 @@ menu_group: service
 service_bar_title: matrix
 translationKey: 632316f5ecdb9bba3b7c55b570911aaf
 icon: matrix.svg
-beta: true
 description: Ende-zu-Ende-verschlüsselter Messenger
 links:
     element:
