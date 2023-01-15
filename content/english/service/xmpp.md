@@ -53,9 +53,9 @@ When using jabber.systemli.org, please consider the following:
 * **Disable logging in your Jabber client.**
 * Support your friends in disabling logging and using additional encryption.
 * Please follow our [instructions (for Pidgin)](https://wiki.systemli.org/howto/jabber_eng).
-* **Inactive accounts will be automatically deactivated after two years.**
+* **Inactive accounts will be automatically deactivated after one year.**
 * The content of group chats is ephemeral and will get lost in case of server reboots.
-* Transmission of big files (>20MB) to acccounts on other servers might be unencrypted.
+* Transmission of big files to acccounts on other servers might be unencrypted.
 
 
 [![](/assets/img/messaging.one-badge.svg)](https://check.messaging.one/result.php?domain=jabber.systemli.org&amp;type=client)
