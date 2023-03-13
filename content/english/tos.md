@@ -10,6 +10,7 @@ weight: 6
 
  * We have an understanding of ourselves working as a political collective. The usage of our services depends on the compatibility with our [self-conception](https://www.systemli.org/about-us.html).
  * We will prevent usage that contradicts our understanding. We reserve the right to delete the relevant accounts and related content in such cases.
+ * Invite codes for systemli accounts must not be offered to people you don't know, sold or traded.
 
 ## Data Economy
 

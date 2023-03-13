@@ -11,6 +11,7 @@ translationKey: 3bcc4028d59fbd74d03760256430d8c2
 
  * Wir verstehen uns als politisches Kollektiv. Die Nutzung unserer Services unterliegt der Vereinbarkeit mit unserem [Selbstverständnis](/about-us.html).
  * Nutzungen, die unserem Selbstverständnis widersprechen, werden wir unterbinden. In solchen Fällen behalten wir uns vor, die betreffenden Accounts und zugehörigen Inhalte zu löschen.
+ * Einladungscodes für systemli Accounts dürfen nicht Unbekannten angeboten werden und nicht gehandelt oder verkauft werden.
 
 ### Datensparsamkeit
 
