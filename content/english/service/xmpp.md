@@ -27,8 +27,6 @@ Contrary to the services mentioned above, we neither retain your contents nor yo
 
 To set up a connection to our server, you need a chat program. For using Jabber, there are different ones. For example [Gajim](https://gajim.org/) (Windows/Linux), [Monal](https://itunes.apple.com/us/app/monal-free-xmpp-chat/id1060957067?mt=12) (OS X), [ChatSecure](https://chatsecure.org) (iOS) oder [Conversations](https://conversations.im) (Android).
 
-To avoid spam accounts, the registration is only possible via [browser](https://jabber.systemli.org/register_web).
-
 We recommend using a program on your computer. If this is not possible (for example at university or at work), use our Web-Jabber.
 
 ## Connection data
