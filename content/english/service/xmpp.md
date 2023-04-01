@@ -21,13 +21,13 @@ links:
 
 **Our Jabber server will be [shutdown](https://www.systemli.org/en/2023/02/06/shutdown-of-jabber.systemli.org-on-08/31/2023/) on 08/31/2023. Registration of new accounts is not possible anymore.**
 
-Jabber (also called XMPP) is an instant messaging-, respectively chat-service and therefore an alternative to Facebook-chat, ICQ, MSN or similar services. Since many years we offer a Jabber-server (jabber.systemli.org) with open registering.
+Jabber (also called XMPP) is an instant messaging-, respectively chat-service and therefore an alternative to Facebook-chat, ICQ, MSN or similar services. Since many years we offer a Jabber-server (jabber.systemli.org).
 
 Contrary to the services mentioned above, we neither retain your contents nor your connection data.
 
 To set up a connection to our server, you need a chat program. For using Jabber, there are different ones. For example [Gajim](https://gajim.org/) (Windows/Linux), [Monal](https://itunes.apple.com/us/app/monal-free-xmpp-chat/id1060957067?mt=12) (OS X), [ChatSecure](https://chatsecure.org) (iOS) oder [Conversations](https://conversations.im) (Android).
 
-We recommend using a program on your computer. If this is not possible (for example at university or at work), use our Web-Jabber.
+We recommend using a program on your computer. If this is not possible (for example at university or at work), use our [Web-Jabber](https://www.systemli.org/jabber).
 
 ## Connection data
 
