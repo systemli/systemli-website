@@ -17,10 +17,10 @@ links:
     pidgin:
         url: "https://wiki.systemli.org/howto/jabber"
         text: "Anleitung: Jabber-Nutzung mit Pidgin"
-    registrieren:
-        url: "https://jabber.systemli.org/register_web"
-        text: "Registrieren"
 ---
+
+**Unser Jabber Server wird am 31.08.2023 [abgeschaltet](https://www.systemli.org/2023/02/06/abschaltung-von-jabber.systemli.org-am-31.08.2023/). Neue accounts können nicht mehr erstellt werden.**
+
 Jabber (oder auch XMPP) ist ein Instant Messaging bzw. Chat-Dienst und damit Alternative zu Facebook-Chat, ICQ, MSN oder ähnlichem. Wir betreiben seit vielen Jahren kontinuierlich einen Jabber-Server (jabber.systemli.org) mit offener Registrierung.
 
 Im Gegensatz zu den oben genannten Diensten speichern wir weder deine Inhalte, noch deine Verbindungsdaten. Unser Server lässt nur verschlüsselte Verbindungen zu.
