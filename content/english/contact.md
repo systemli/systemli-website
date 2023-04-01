@@ -19,7 +19,7 @@ We will answer to your request quicker if you encrypt your E-Mails via GPG. You 
 
 `gpg --recv-keys 776E7B48BDE8E769CBBCD29210D46141EC77D27B`
 
-Please attach your public GPG key to the email request to make thing easier for us.
+Please attach your public GPG key to the email request to make things easier for us.
 
 The clearer you describe your request, the faster we can find a solution. Please describe in detail which login details you are using. But **never** send us any passwords.
 
