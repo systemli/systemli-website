@@ -21,6 +21,8 @@ Wenn ihr eure E-Mails mit GPG verschlüsselt, antworten wir schneller. Unseren �
 
 `gpg --recv-keys 776E7B48BDE8E769CBBCD29210D46141EC77D27B`
 
+Bitte sendet uns euren öffentlichen GPG Schlüssel mit eurer Anfrage, das macht es für uns einfacher.
+
 Je genauer Ihr euer Anliegen schildert, desto schneller findet sich in der Regel eine Lösung. Gebt bitte möglichst genau an, welche (Zugangs-)Daten ihr verwendet. Aber schickt uns **niemals** eure Passwörter.
 
 Ein Beispiel: Wenn ihr euch bei einem Service nicht einloggen könnt, sind folgende Informationen hilfreich:
@@ -30,6 +32,10 @@ Ein Beispiel: Wenn ihr euch bei einem Service nicht einloggen könnt, sind folge
 *   Einstellungen zum Service (z. B. Verbindungseinstellungen vom Mail- oder Jabberserver)
 
 Oft ist es auch nützlich zu wissen, welche Programme und welches Betriebssystem ihr benutzt. Falls euer Programm Fehlermeldungen anzeigt, schickt diese gerne als Text oder Screenshot mit.
+
+### Mastodon
+
+Auf mastodon findet ihr uns unter [@systemli@systemli.social](https://systemli.social/@systemli)
 
 ### Twitter
 
