@@ -14,7 +14,7 @@ description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 
 - 💌 Nachrichten bis zu 280 Zeichen
 - 🐘 Optionale Weiterleitung zu Mastodon
-- 🐦 Optionale Weiterleitung zu Twitter
+- ~~🐦 Optionale Weiterleitung zu Twitter~~
 - 💬 Optionale Weiterleitung zu Telegram
 - 💡 Verwendung einer eigenen Domain (z. B. ticker.example.org)
 - 📸 Upload von bis zu vier Bildern oder einem GIF pro Nachricht

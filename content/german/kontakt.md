@@ -36,7 +36,3 @@ Oft ist es auch nützlich zu wissen, welche Programme und welches Betriebssystem
 ### Mastodon
 
 Auf mastodon findet ihr uns unter [@systemli@systemli.social](https://systemli.social/@systemli)
-
-### Twitter
-
-Auf Twitter findet ihr uns unter [@systemli](https://twitter.com/systemli)
