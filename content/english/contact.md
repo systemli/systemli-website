@@ -34,7 +34,3 @@ Often it is also useful to know which programs or operating system you are using
 ### Mastodon
 
 We're tooting with the nick [@systemli@systemli.social](https://systemli.social/@systemli)
-
-### Twitter
-
-We're tweeting with the nick [@systemli](https://twitter.com/systemli)

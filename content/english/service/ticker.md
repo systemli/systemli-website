@@ -14,7 +14,7 @@ description: Distribute short messages during demonstrations and events
 
 - 💌 Messages up to 280 characters
 - 🐘 Optional forwarding to Mastodon
-- 🐦 Optional forwarding to Twitter
+- ~~🐦 Optional forwarding to Twitter~~
 - 💬 Optional forwarding to Telegram
 - 💡 Use of an own domain (e.g. ticker.example.org)
 - 📸 Upload up to four images or one GIF per message
