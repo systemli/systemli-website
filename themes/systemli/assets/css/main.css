@@ -19,12 +19,20 @@
     font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    word-break: break-word;
+}
+
 h1 {
-    @apply border-b pb-2 mb-6 font-bold text-l;
+    @apply border-b pb-2 mb-6 font-bold text-ml;
 }
 h2 {
     @apply py-2 font-bold text-ml;
-    word-break: break-word;
 }
 @screen md {
     h1 {
@@ -153,7 +161,7 @@ nav {
     }
 }
 .content {
-    @apply bg-white shadow-m col-span-19 p-6;
+    @apply bg-white shadow-m col-span-19 p-4;
 }
 @screen md {
     .content {
