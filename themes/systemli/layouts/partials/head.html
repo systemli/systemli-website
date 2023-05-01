@@ -4,7 +4,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, noarchive" />
     <meta name="format-detection" content="telephone=no">
-    <title>{{ .Site.Params.title }} - {{ .Title }}</title>
+    <title>{{ .Site.Params.title }} - {{ .Title | safeHTML }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary }}{{ end }}" />
     {{ template "_internal/opengraph.html" . }}

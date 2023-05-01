@@ -23,7 +23,7 @@
   <generator>Hugo -- gohugo.io</generator>
   {{ range where $pages ".Params.layout" "==" "post" }}
   <entry>
-    {{ `<title type="html"><![CDATA[` | safeHTML }}{{ .Title }}]]></title>
+    {{ `<title type="html"><![CDATA[` | safeHTML }}{{ .Title | safeHTML }}]]></title>
     <link href="{{ .Permalink }}"/>
     <id>{{ .Permalink }}</id>{{ with .Site.Params.Author }}
     <author>
