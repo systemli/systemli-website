@@ -1,19 +1,20 @@
 @font-face {
-    font-family: 'TSTAR TW PRO';
-    src: url('/webfont/TSTARTWPRO-Bold.eot');
-    src: url('/webfont/TSTARTWPRO-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/webfont/TSTARTWPRO-Bold.woff2') format('woff2'),
-    url('/webfont/TSTARTWPRO-Bold.woff') format('woff');
+    font-family: "TSTAR TW PRO";
+    src: url("/webfont/TSTARTWPRO-Bold.eot");
+    src: url("/webfont/TSTARTWPRO-Bold.eot?#iefix") format("embedded-opentype"),
+        url("/webfont/TSTARTWPRO-Bold.woff2") format("woff2"),
+        url("/webfont/TSTARTWPRO-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'TSTAR TW PRO';
-    src: url('/webfont/TSTARTWPRO-Regular.eot');
-    src: url('/webfont/TSTARTWPRO-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/webfont/TSTARTWPRO-Regular.woff2') format('woff2'),
-    url('/webfont/TSTARTWPRO-Regular.woff') format('woff');
+    font-family: "TSTAR TW PRO";
+    src: url("/webfont/TSTARTWPRO-Regular.eot");
+    src: url("/webfont/TSTARTWPRO-Regular.eot?#iefix")
+            format("embedded-opentype"),
+        url("/webfont/TSTARTWPRO-Regular.woff2") format("woff2"),
+        url("/webfont/TSTARTWPRO-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +28,7 @@ h2 {
 }
 @screen md {
     h1 {
-        @apply text-xl
+        @apply text-xl;
     }
     h2 {
         @apply text-l;
@@ -61,12 +62,13 @@ ol {
 ol li {
     @apply pl-1 ml-8;
 }
-pre, code {
+pre,
+code {
     @apply py-2 px-1 border border-grey rounded text-xs overflow-auto;
     word-break: break-word;
     /* protect against devilish users trying to use syntax highlighting in their code blocks */
-    background: theme('colors.lightgrey') !important;
-    color: theme('colors.black') !important;
+    background: theme("colors.lightgrey") !important;
+    color: theme("colors.black") !important;
 }
 code {
     @apply p-1 border-none;
@@ -82,7 +84,7 @@ sup {
 }
 blockquote {
     @apply bg-lightgrey p-3 my-2;
-    border-left: 0.4rem solid theme('colors.darkgrey');
+    border-left: 0.4rem solid theme("colors.darkgrey");
 }
 @screen md {
     blockquote {
@@ -133,7 +135,7 @@ nav {
 }
 .button-link::before {
     @apply bg-lightblue inline-block h-3 w-3 mr-2;
-    content: '';
+    content: "";
 }
 .button-link:hover {
     @apply underline;
@@ -189,7 +191,7 @@ nav {
     @apply fill-current text-black;
 }
 .menu-icon-svg:hover {
-   @apply text-white;
+    @apply text-white;
 }
 
 .service-bar-link {
@@ -218,9 +220,9 @@ nav {
     }
 }
 .service-bar-link:hover + .service-bar-link,
-.service-bar-link.active + .service-bar-link{
-    border-top-color: theme('colors.transparent');
-    border-bottom-color: theme('colors.black');
+.service-bar-link.active + .service-bar-link {
+    border-top-color: theme("colors.transparent");
+    border-bottom-color: theme("colors.black");
 }
 
 .service-tile-upper {
@@ -232,13 +234,13 @@ nav {
 }
 
 .bg-body {
-    background-image: url('/background.png');
+    background-image: url("/background.png");
     background-color: #f5f5f5;
     background-blend-mode: multiply;
 }
 
 .bg-menu {
-    background-image: url('/mobile_menu_background_minimize.gif');
+    background-image: url("/mobile_menu_background_minimize.gif");
 }
 
 img[src*="#fl-2"] {
