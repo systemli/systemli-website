@@ -99,7 +99,7 @@ blockquote {
         @apply px-8 py-4 m-4;
     }
 }
-nav {
+nav#navbar {
     @apply fixed z-50 top-0 right-0 overflow-y-scroll overflow-x-hidden
     pl-24 pt-4 pb-16 w-375 h-full
     bg-menu bg-contain bg-repeat-y bg-lightblue text-m font-bold;
@@ -107,7 +107,7 @@ nav {
     transform: translateX(375px);
 }
 @screen lg {
-    nav {
+    nav#navbar {
         @apply relative p-0 w-auto min-h-0 overflow-auto;
         transform: none !important;
     }
@@ -258,4 +258,26 @@ img[src*="#fl-2"] {
 img[src*="#f2-2"] {
     float: right;
     @apply ml-2 mb-2;
+}
+
+div.toc {
+    @apply bg-white border-black border px-2 mb-2 mt-2 text-xs;
+}
+
+@screen md {
+    div.toc {
+        @apply w-1/3 ml-2 float-right;
+    }
+}
+
+div.toc ul li {
+    @apply ml-4 pl-2;
+}
+
+.tldr {
+    @apply bg-lightgrey p-3 my-2 border-l;
+}
+
+.tldr-title {
+    @apply py-2 font-bold text-ml;
 }

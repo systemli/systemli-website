@@ -2,7 +2,7 @@
     <p class="lg:hidden px-4 py-0 mb-4 text-xs">/* {{ .Param "description" }} */</p>
     <div class="content">
         <h1 class="border-b pb-2">
-            {{ .Title }}
+            {{ .Title | safeHTML }}
             {{ if .Params.beta }}
             <sup>beta</sup>
             {{ end }}
