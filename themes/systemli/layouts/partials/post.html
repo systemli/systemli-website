@@ -5,7 +5,7 @@
                 {{ .Date.Format "02/01 2006" }}
             </div>
             <div class="flex items-center pl-4 border-b leading-6">
-                <h1 class="mb-0 border-none">{{ .Title }}</h1>
+                <h1 class="mb-0 border-none">{{ .Title | safeHTML }}</h1>
             </div>
         </div>
         {{ with .Params.postImage }}

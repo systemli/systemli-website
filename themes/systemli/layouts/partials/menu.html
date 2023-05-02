@@ -8,7 +8,7 @@
                 {{ if ne .Name "Posts" }}
                 <a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white
                     {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}"
-                href="{{ .URL }}" title="{{ .Title }}">
+                href="{{ .URL }}" title="{{ .Title | safeHTML }}">
                 {{ .Name }}
                 </a>
                 {{ end }}
