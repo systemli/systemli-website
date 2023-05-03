@@ -10,7 +10,7 @@ Please improve by providing content, translations or code.
  1. Make sure postcss dependencies are installed `npm install -g postcss postcss-cli`
  1. Make sure theme dependencies are installed `cd themes/systemli && npm i`
  1. Run `hugo server` for preview
- 1. Visit http://localhost:1313/
+ 1. Visit <http://localhost:1313/>
 
 ## Structure
 
