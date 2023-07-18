@@ -13,4 +13,6 @@ links:
 ---
 Mastodon is a free, decentralized and open source social network developed as an alternative to centralized commercial platforms such as Twitter and Facebook. Mastodon is part of the [Fediverse](https://en.wikipedia.org/wiki/Fediverse).
 
-We run our own Mastodon instance, accessible under the name "[systemli.social](https://systemli.social)". Due to our [self-image](https://www.systemli.org/en/about-us/) and the [primary purpose of our instance](https://systemli.social/about), registration is currently closed. However, we would like to encourage friends of the collective, as well as political groups, to [contact us](https://www.systemli.org/en/contact/) for access.
+We run our own Mastodon instance, accessible under the name "[systemli.social](https://systemli.social)". Registration on this instance is only open for political groups and friends of our collective. Please feel free to [reach out to us](https://www.systemli.org/en/contact/) if you belong to either group and would like to have an account. Otherwise, we are sorry, but we currently try to keep this instance small and maintainable.
+
+A systemli.org account does not work for systemli.social.
