@@ -14,7 +14,7 @@ links:
         url: https://wiki.systemli.org/howto/matrix/privacy
         text: "Notes on secure use of Matrix (german)"
 ---
-Matrix is a decentralized and end-to-end encrypted messenger service with good support for group chats. It is a free 
+Matrix is a decentralized and end-to-end encrypted messenger service with good support for group chats. It is a free
 and open alternative to Signal and Slack.
 
 ## Features
@@ -30,7 +30,7 @@ and open alternative to Signal and Slack.
 
 ## Conditions
 
-Our server requires an email account at systemli. As with email or Jabber, other Matrix accounts on other Matrix 
+Our server requires an email account at systemli. As with email, other Matrix accounts on other Matrix
 servers can be contacted.
 
 ## Connection

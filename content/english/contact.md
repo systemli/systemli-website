@@ -25,9 +25,9 @@ The clearer you describe your request, the faster we can find a solution. Please
 
 For example, if you cannot log into a service, the following information is helpful for us:
 
-*   service address
-*   user name
-*   service settings, e.g. connection settings from your e-mail or jabber server
+* service address
+* user name
+* service settings, e.g. connection settings from your e-mail
 
 Often it is also useful to know which programs or operating system you are using. If your program shows any error messages, please send these as text or screenshot.
 

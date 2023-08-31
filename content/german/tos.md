@@ -25,7 +25,7 @@ translationKey: 3bcc4028d59fbd74d03760256430d8c2
 
  * Alle Festplatten unserer Server [sind verschlüsselt](https://hln.com/encrypting-data-at-rest-on-servers-what-does-it-get-you/).
  * Wir verwenden Transport-Verschlüsselung wann immer es möglich ist. Einzige Ausnahme ist die Kommunikation mit alten Mailservern zu Kompatibilitätzwecken.
- * Wir raten euch dringend, zusätzlich clientseitige Verschlüsselung einzusetzen. Bei E-Mails verwendet GnuPG, bei Jabber OTR oder OMEMO, bei unserem Cloud-Dienst [Cryptomator](https://cryptomator.org/de/).
+ * Wir raten euch dringend, zusätzlich clientseitige Verschlüsselung einzusetzen. Bei E-Mails verwendet GnuPG, bei unserem Cloud-Dienst [Cryptomator](https://cryptomator.org/de/).
 
 ### Juristische Anordnungen
 
