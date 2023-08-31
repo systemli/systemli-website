@@ -27,9 +27,9 @@ Je genauer Ihr euer Anliegen schildert, desto schneller findet sich in der Regel
 
 Ein Beispiel: Wenn ihr euch bei einem Service nicht einloggen könnt, sind folgende Informationen hilfreich:
 
-*   Adresse des Services
-*   Username
-*   Einstellungen zum Service (z. B. Verbindungseinstellungen vom Mail- oder Jabberserver)
+* Adresse des Services
+* Username
+* Einstellungen zum Service (z. B. Verbindungseinstellungen vom Mailserver)
 
 Oft ist es auch nützlich zu wissen, welche Programme und welches Betriebssystem ihr benutzt. Falls euer Programm Fehlermeldungen anzeigt, schickt diese gerne als Text oder Screenshot mit.
 

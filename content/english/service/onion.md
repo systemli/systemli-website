@@ -20,10 +20,6 @@ Service: [Etherpad](/en/service/etherpad/)
 : 🌍 pad.systemli.org
 : 🧅 [mjrkrqnlf26etelsi7zpkqc3dzlrzyurvmd3jksmndarzzbugz5xctid.onion](http://mjrkrqnlf26etelsi7zpkqc3dzlrzyurvmd3jksmndarzzbugz5xctid.onion)
 ---
-Service: [Jabber](/en/service/xmpp/)
-: 🌍 jabber.systemli.org
-: 🧅 [razpihro3mgydaiykvxwa44l57opvktqeqfrsg3vvwtmvr2srbkcihyd.onion](http://razpihro3mgydaiykvxwa44l57opvktqeqfrsg3vvwtmvr2srbkcihyd.onion)
----
 Service: [Metadaten](/en/service/metadata/)
 : 🌍 metadata.systemli.org
 : 🧅 [liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion](http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion)
