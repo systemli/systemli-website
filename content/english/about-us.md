@@ -19,6 +19,7 @@ We see ourselves as:
 *   anti-nationalist
 *   anti-capitalist
 *   feminist
+*   and are against any antisemitism
 
 **Supported by**
 
