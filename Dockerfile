@@ -1,4 +1,4 @@
-FROM node:16.13.0-alpine3.12
+FROM node:lts-alpine3.17
 
 ENV HUGO_VERSION="0.120.1"
 

@@ -1,4 +1,5 @@
 .idea
+.npm
 .vscode
 .hugo_build.lock
 public
