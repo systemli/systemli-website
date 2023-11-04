@@ -7,58 +7,65 @@ summaryLength = 20
 rssLimit = 10
 
 [permalinks]
-  posts = "/:year/:month/:day/:title"
+posts = "/:year/:month/:day/:title"
 
 [params]
-    favicon = "favicon.ico"
-    title = "systemli.org"
-    description = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
-    images = ["default-og-image.png"]
+favicon = "favicon.ico"
+title = "systemli.org"
+description = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+images = ["default-og-image.png"]
 
 [markup.goldmark.renderer]
-    unsafe = true
+unsafe = true
 
 [menu]
-  [[menu.main]]
-    identifier = "wiki"
-    name = "Wiki"
-    url = "https://wiki.systemli.org/"
-    weight = 10
+[[menu.main]]
+identifier = "wiki"
+name = "Wiki"
+url = "https://wiki.systemli.org/"
+weight = 10
+
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepQuotes = true
+
 
 [languages]
-  [languages.de]
-    weight = 1
-    languageName = "DE"
-    contentDir = "content/german"
-    subtitle = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
-    readOn = "Weiterlesen"
-    showAll = "zeige alles"
-    allServices = "alle dienste"
-    allServicesTeaser = "Unsere Dienste im Überblick"
-    newerPosts = "Neuere Beiträge"
-    olderPosts = "Ältere Beiträge"
+[languages.de]
+weight = 1
+languageName = "DE"
+contentDir = "content/german"
+subtitle = "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+readOn = "Weiterlesen"
+showAll = "zeige alles"
+allServices = "alle dienste"
+allServicesTeaser = "Unsere Dienste im Überblick"
+newerPosts = "Neuere Beiträge"
+olderPosts = "Ältere Beiträge"
 
-  [languages.en]
-    weight = 2
-    languageName = "EN"
-    contentDir = "content/english"
-    subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
-    readOn = "Read more"
-    showAll = "show everything"
-    allServices = "all services"
-    allServicesTeaser = "Our services at a glance"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
+[languages.en]
+weight = 2
+languageName = "EN"
+contentDir = "content/english"
+subtitle = "Non-commercial provider of privacy friendly communication. Without surveillance."
+readOn = "Read more"
+showAll = "show everything"
+allServices = "all services"
+allServicesTeaser = "Our services at a glance"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
 
 [mediaTypes]
-  [mediaTypes."application/atom"]
-    suffixes = "xml"
+[mediaTypes."application/atom"]
+suffixes = "xml"
 
 [outputFormats]
-  [outputFormats.ATOM]
-    name = "ATOM"
-    baseName = "atom"
-    mediatype = "application/atom"
+[outputFormats.ATOM]
+name = "ATOM"
+baseName = "atom"
+mediatype = "application/atom"
 
 [outputs]
-   home = [ "HTML", "RSS", "ATOM"]
+home = ["HTML", "RSS", "ATOM"]
