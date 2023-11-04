@@ -20,7 +20,7 @@ Wir begreifen uns als:
 *   antinationalistisch
 *   antikapitalistisch
 *   feministisch
-*   und sind gegen jeden antisemitisms
+*   und sind gegen jeden Antisemitismus
 
 **Unterstützt durch**
 
