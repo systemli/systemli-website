@@ -170,7 +170,7 @@ nav#navbar {
 }
 
 .menu-item {
-    @apply border-black px-1 py-3;
+    @apply border-black px-2 py-3;
 }
 .menu-item:hover {
     @apply no-underline;
