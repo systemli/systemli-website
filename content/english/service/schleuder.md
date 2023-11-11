@@ -39,7 +39,6 @@ Since Schleuder lists are a bit more complex to use and administrate, you find a
 
 * [Official Schleuder documentation for subscribers](https://schleuder.org/schleuder/docs/subscribers.html) (English)
 * [Official Schleuder documentation for list admins](https://schleuder.org/schleuder/docs/list-admins.html) (English)
-* [Translated and enhanced Schleuder docs by Nadir](https://www.nadir.org/news/schleuderdoku.html) (German)
 
 
 ### Onion Service for web-interface
