@@ -37,7 +37,6 @@ Um eine Schleuder-Liste zu erhalten, müsst ihr uns [eine E-Mail schreiben](/kon
 
 Da Schleuder-Mailinglisten etwas komplexer in der Bedienung und Verwaltung sind, findet ihr hier Verweise zu Dokumentation:
 
-* [Übersetzte und ergänzte Schleuder-Doku von Nadir](https://www.nadir.org/news/schleuderdoku.html) (Deutsch)
 * [Offizielle Schleuder-Doku für Listen-Mitglieder](https://schleuder.org/schleuder/docs/subscribers.html) (Englisch)
 * [Offizielle Schleuder-Doku für Listen-Admins](https://schleuder.org/schleuder/docs/list-admins.html) (Englisch)
 
