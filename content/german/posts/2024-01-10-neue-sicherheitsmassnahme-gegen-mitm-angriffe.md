@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Neue Sicherheitsmaßnahme gegen MITM-Angriffe eingeführt"
-date:  2024-01-11 09:00:00
+date:  2024-01-11 08:00:00
 translationKey: z6CGOlziqdS9RV4i3bTSiN7fxH6tzYY5FTnz6IkO
 ---
 
