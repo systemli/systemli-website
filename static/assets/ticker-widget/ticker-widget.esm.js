@@ -1,0 +1,2 @@
+import{p as e,b as r}from"./p-3c1714dd.js";export{s as setNonce}from"./p-3c1714dd.js";const t=()=>{const r=import.meta.url;const t={};if(r!==""){t.resourcesUrl=new URL(".",r).href}return e(t)};t().then((e=>r([["p-0ea00b7a",[[0,"ticker-timeline",{header:[1],domain:[1],apiUrl:[1,"api-url"],limit:[2],items:[32],error:[32]}]]]],e)));
+//# sourceMappingURL=ticker-widget.esm.js.map
