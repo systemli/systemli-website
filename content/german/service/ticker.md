@@ -40,8 +40,9 @@ systemli möchte deshalb den Zugang zu diesem Kommunikationsmittel vereinfachen.
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
 Wir bieten folgende Adressen an (es kann aber natürlich auch eine eigene Adresse genutzt werden):
-* `<name>.aktionsticker.org` (ggf. auch [www.aktionsticker.org](https://www.aktionsticker.org))
-* `<name>.demoticker.org` (ggf. auch [www.demoticker.org](https://www.demoticker.org))
-* `<name>.prozessticker.org` (ggf. auch [www.prozessticker.org](https://www.prozessticker.org))
+- `<name>.aktionsticker.org` (ggf. auch [www.aktionsticker.org](https://www.aktionsticker.org))
+- `<name>.demoticker.org` (ggf. auch [www.demoticker.org](https://www.demoticker.org))
+- `<name>.prozessticker.org` (ggf. auch [www.prozessticker.org](https://www.prozessticker.org))
+- `<name>.infoticker.org` (ggf. auch [www.infoticker.org](https://www.infoticker.org))
 
 Schickt uns einfach eine E-Mail [support@systemli.org](/kontakt) (am besten verschlüsselt) für ein Anfrage. In dieser E-Mail solltet ihr uns das Ereignis und den Zweck vorstellen, für welches ihr den Ticker verwenden möchtet. Und falls ihr weitere Fragen habt, dann meldet euch auch einfach über unsere E-Mail-Adresse.
