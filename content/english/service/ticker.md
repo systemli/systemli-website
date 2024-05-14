@@ -12,7 +12,7 @@ description: Distribute short messages during demonstrations and events
 
 ## Features
 
-- 💌 Messages up to 280 characters
+- 💌 Messages up to 4096 characters (reduced when using Mastodon or Bluesky)
 - 🐘 Optional forwarding to Mastodon
 - 💬 Optional forwarding to Telegram
 - 🦋 Optional forwarding to Bluesky

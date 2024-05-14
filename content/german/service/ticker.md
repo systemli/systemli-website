@@ -12,7 +12,7 @@ description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 
 ## Features
 
-- 💌 Nachrichten bis zu 280 Zeichen
+- 💌 Nachrichten bis zu 4096 Zeichen (reduziert sich bei Nutzung von Mastodon oder Bluesky)
 - 🐘 Optionale Weiterleitung zu Mastodon
 - 💬 Optionale Weiterleitung zu Telegram
 - 🦋 Optionale Weiterleitung zu Bluesky
