@@ -14,8 +14,8 @@ description: Distribute short messages during demonstrations and events
 
 - 💌 Messages up to 280 characters
 - 🐘 Optional forwarding to Mastodon
-- ~~🐦 Optional forwarding to Twitter~~
 - 💬 Optional forwarding to Telegram
+- 🦋 Optional forwarding to Bluesky
 - 💡 Use of an own domain (e.g. ticker.example.org)
 - 📸 Upload up to four images or one GIF per message
 - 🗺️ Maps with points, routes or areas per message
@@ -40,6 +40,7 @@ systemli wants to simplify the access to this communication tool. We already hos
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
 We offer the following web addresses (but you can also use your own address):
+
 - `<name>.aktionsticker.org` (possibly also [www.aktionsticker.org](https://www.aktionsticker.org))
 - `<name>.demoticker.org` (possibly also [www.demoticker.org](https://www.demoticker.org))
 - `<name>.prozessticker.org` (possibly also [www.prozessticker.org](https://www.prozessticker.org))

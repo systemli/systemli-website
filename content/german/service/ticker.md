@@ -14,8 +14,8 @@ description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 
 - 💌 Nachrichten bis zu 280 Zeichen
 - 🐘 Optionale Weiterleitung zu Mastodon
-- ~~🐦 Optionale Weiterleitung zu Twitter~~
 - 💬 Optionale Weiterleitung zu Telegram
+- 🦋 Optionale Weiterleitung zu Bluesky
 - 💡 Verwendung einer eigenen Domain (z. B. ticker.example.org)
 - 📸 Upload von bis zu vier Bildern oder einem GIF pro Nachricht
 - 🗺️ Karten mit Punkten, Routen oder Flächen pro Nachricht
@@ -40,6 +40,7 @@ systemli möchte deshalb den Zugang zu diesem Kommunikationsmittel vereinfachen.
 ![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
 
 Wir bieten folgende Adressen an (es kann aber natürlich auch eine eigene Adresse genutzt werden):
+
 - `<name>.aktionsticker.org` (ggf. auch [www.aktionsticker.org](https://www.aktionsticker.org))
 - `<name>.demoticker.org` (ggf. auch [www.demoticker.org](https://www.demoticker.org))
 - `<name>.prozessticker.org` (ggf. auch [www.prozessticker.org](https://www.prozessticker.org))
