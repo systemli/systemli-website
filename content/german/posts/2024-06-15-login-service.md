@@ -20,8 +20,9 @@ Unsere [Cloud](https://cloud.systemli.org) ist der erste Dienst, der auf den neu
 1. Beim Login in die Cloud werdet ihr in Zukunft auf `id.systemli.org`
 weitergeleitet. Dies ist der neue Login-Dienst.
 2. Alle Clients werden bei der Umstellung aus der Cloud ausgeloggt. Sämtliche Clients (Desktop Sync Client, Mobiler Client, Notes, DAVx5, Webbrowser) müssen sich im Anschluss einmal neu einloggen.
-3. Wer Zwei-Faktor-Authentifizierung in unser [Userverwaltung](https://users.systemli.org) konfiguriert hat, wird in Zukunft auch beim Cloud-Login danach gefragt.
-4. Wer Zwei-Faktor-Authentifizierung in der Cloud konfiguriert hat, muss sie (am besten vor der Umstellung) in der [Userverwaltung](https://users.systemli.org) neu konfigurieren.
+3. Für alle Clients außer dem Webbrowser muss in Zukunft ein App-Passwort verwendet werden. Die normale User + Passwort Kombination wird dort nicht mehr funktionieren. App-Passwörter können in der Cloud unter Einstellungen -> Sicherheit verwaltet werden.
+4. Wer Zwei-Faktor-Authentifizierung in unser [Userverwaltung](https://users.systemli.org) konfiguriert hat, wird in Zukunft auch beim Cloud-Login danach gefragt.
+5. Wer Zwei-Faktor-Authentifizierung in der Cloud, aber noch nicht in der Userverwaltung konfiguriert hat, muss sie (am besten vor der Umstellung) in der [Userverwaltung](https://users.systemli.org) konfigurieren.
 
 Die Umstellung der Cloud auf den neuen Login wird am 27.06.2024 passieren. Wir kündigen sie vorher kurzfristig auf unseren üblichen Kanälen ([systemli Updates Ticker](https://updates.systemli.org) und [Mastodon](https://systemli.social/@systemli)) an.
 

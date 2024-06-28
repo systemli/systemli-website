@@ -19,8 +19,9 @@ Our [cloud](https://cloud.systemli.org) is the first service to migrate to the n
 
 1. When logging into the cloud, you'll get redirected to `id.systemli.org` in the future. This is the new login service.
 2. All clients will get logged out of the cloud during the migration. All of them (desktop sync client, mobile client, notes, DAVx5, webbrowser) will have to login again afterwards.
-3. Those who have their [user management login](https://users.systemli.org) protected with twofactor authentication will get asked for it as well when logging into the cloud in the future.
-4. Those who have twofactor authentication enabled in their cloud account will have to enable it again in our [user management](https://users.systemli.org), ideally before the migration.
+3. All clients except web browsers need to use app passwords in future. The normal user + password combination will no longer work for them. App passwords can be managed in the cloud at settings -> security.
+4. Those who have their [user management login](https://users.systemli.org) protected with twofactor authentication will get asked for it as well when logging into the cloud in the future.
+5. Those who have twofactor authentication enabled in their cloud account and not yet in the user management, will have to enable it in our [user management](https://users.systemli.org), ideally before the migration.
 
 The migration of our cloud to the new login service will hapen on 27.06.2024. We'll announce it shortly upfront on the usual channels ([systemli Updates Ticker](https://updates.systemli.org) and [Mastodon](https://systemli.social/@systemli)).
 
