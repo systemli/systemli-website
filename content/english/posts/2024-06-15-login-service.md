@@ -36,4 +36,5 @@ Since the migration to the new systemli login, client apps for the cloud need to
 - App passwords can be managed in the cloud under "settings" -> "security". When generating one, you have to enter a name. You can pick any name, it doesn't matter technically.
 - The easiest is to temporarily remove the cloud account or the configured synchronization from the app and configure it anew.
 - After the app tried to login with incorrect credentials (e.g. the old ones) several times it gets blocked temporarily. In this case it helps to stop the synchronization for at least one hour and configure it anew afterwards.
+- The mail address doesn't work anymore as username for app passwords. The user only `user` now, not `user@systemli.org`. If this cannot be changed manually in the client, the synchronization must be set up again.
 - Some apps support the Nextcloud login flow, which sets up an app password automatically in the background. These apps ask you during the setup to login to the cloud and confirm access for the app. For those apps you don't have to generate an app password manually. That applies e.g. to the official Nextcloud apps and DAVx5.
