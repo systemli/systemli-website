@@ -29,3 +29,12 @@ Die Umstellung der Cloud auf den neuen Login wird am 27.06.2024 passieren. Wir k
 ## Screenshot des neuen Login Dienstes
 
 <img src="/assets/img/id.systemli.org_login_de.png" class="border">
+
+## Ergänzung: Konfiguration von Cloud Clients
+
+Seit der Umstellung auf den neuen systemli Login müssen Client-Programme für die Cloud ein App-Passwort zur Authentifizierung verwenden. Die normale User + Passwort Kombination funktioniert hier nicht mehr. Das betrifft z.B. Kalender-Apps oder solche zur Kontakte-Synchronisation. Bei der Umstellung können einige Problem auftreten, daher hier ein paar Hinweise:
+
+- App-Passwörter können in der Cloud unter "Einstellungen" -> "Sicherheit" verwaltet werden. Der bei Erstellung erforderliche Name für das App-Passwort ist nur für euch zur Zuordnung, er spielt sonst keine Rolle.
+- Am einfachsten ist es, den Cloud Account bzw. die eingerichtete Synchronisation vorübergehend aus der App zu löschen und neu einzurichten.
+- Nach einigen fehlerhaften Anmeldeversuchen (etwa mit den alten gespeicherten Zugangsdaten) wird der Login für die App vorübergehend gesperrt. In dem Fall hilft es, die Synchronisation für mindestens eine Stunde zu stoppen und sie danach neu einzurichten.
+- Einige Apps unterstützen den Nextcloud Login Flow, der automatisch im Hintergrund ein App Passwort erstellt. Bei diesen Apps werdet ihr bei der Einrichtung gebeten, euch in der Cloud anzumelden und den Zugriff für die App zu bestätigen. Für diese Apps müsst ihr nicht manuell ein App-Passwort generieren. Das gilt z.B. für die offiziellen Nextcloud Apps und DAVx5.
