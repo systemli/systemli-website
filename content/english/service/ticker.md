@@ -14,8 +14,9 @@ description: Distribute short messages during demonstrations and events
 
 - 💌 Messages up to 4096 characters (reduced when using Mastodon or Bluesky)
 - 🐘 Optional forwarding to Mastodon
-- 💬 Optional forwarding to Telegram
 - 🦋 Optional forwarding to Bluesky
+- 💬 Optional forwarding to a Telegram channel
+- 💬 Optional forwarding to a Signal group
 - 💡 Use of an own domain (e.g. ticker.example.org)
 - 📸 Upload up to four images or one GIF per message
 - 🗺️ Maps with points, routes or areas per message

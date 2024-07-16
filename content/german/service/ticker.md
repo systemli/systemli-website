@@ -14,8 +14,9 @@ description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
 
 - 💌 Nachrichten bis zu 4096 Zeichen (reduziert sich bei Nutzung von Mastodon oder Bluesky)
 - 🐘 Optionale Weiterleitung zu Mastodon
-- 💬 Optionale Weiterleitung zu Telegram
 - 🦋 Optionale Weiterleitung zu Bluesky
+- 💬 Optionale Weiterleitung zu einem Telegram Kanal
+- 💬 Optionale Weiterleitung zu einer Signal Gruppe
 - 💡 Verwendung einer eigenen Domain (z. B. ticker.example.org)
 - 📸 Upload von bis zu vier Bildern oder einem GIF pro Nachricht
 - 🗺️ Karten mit Punkten, Routen oder Flächen pro Nachricht
