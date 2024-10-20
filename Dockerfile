@@ -1,6 +1,6 @@
 FROM node:lts-alpine3.17
 
-ENV HUGO_VERSION="0.120.1"
+ENV HUGO_VERSION="0.126.3"
 
 ARG UID
 

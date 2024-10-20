@@ -10,14 +10,14 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
     {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-    {{ if .Site.IsServer }}
+    {{ if hugo.IsServer }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
     {{ else }}
     {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
     {{ end }}
     {{ $scripts := resources.Get "js/main.js" }}
-    {{ if .Site.IsServer }}
+    {{ if hugo.IsServer }}
     <script src="{{ $scripts.RelPermalink }}" defer></script>
     {{ else }}
     {{ $scripts := $scripts | minify | fingerprint }}

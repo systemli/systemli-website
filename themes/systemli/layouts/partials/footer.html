@@ -4,7 +4,7 @@
 </footer>
 <script src="https://analytics.systemli.org/matomo.js" async defer></script>
 {{ $scripts := resources.Get "js/matomo.js" }}
-{{ if .Site.IsServer }}
+{{ if hugo.IsServer }}
 <script src="{{ $scripts.RelPermalink }}" defer></script>
 {{ else }}
 {{ $scripts := $scripts | minify | fingerprint }}
