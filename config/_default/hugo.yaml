@@ -1,0 +1,74 @@
+baseURL: "https://www.systemli.org"
+theme: "systemli"
+Paginate: 8
+sectionPagesMenu: "main"
+DefaultContentLanguage: "de"
+summaryLength: 20
+rssLimit: 10
+
+permalinks:
+    posts: "/:year/:month/:day/:title"
+
+params:
+    favicon: "favicon.ico"
+    title: "systemli.org"
+    description: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+    images: ["default-og-image.png"]
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+menu:
+    main:
+        - identifier: "wiki"
+          name: "Wiki"
+          url: "https://wiki.systemli.org/"
+          weight: 10
+
+minify:
+    minifyOutput: true
+    tdewolff:
+        html:
+            keepQuotes: true
+
+languages:
+    de:
+        weight: 1
+        languageName: "DE"
+        contentDir: "content/german"
+        params:
+            subtitle: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+            readOn: "Weiterlesen"
+            showAll: "zeige alles"
+            allServices: "alle dienste"
+            allServicesTeaser: "Unsere Dienste im Überblick"
+            newerPosts: "Neuere Beiträge"
+            olderPosts: "Ältere Beiträge"
+
+    en:
+        weight: 2
+        languageName: "EN"
+        contentDir: "content/english"
+        params:
+            subtitle: "Non-commercial provider of privacy friendly communication. Without surveillance."
+            readOn: "Read more"
+            showAll: "show everything"
+            allServices: "all services"
+            allServicesTeaser: "Our services at a glance"
+            newerPosts: "Newer posts"
+            olderPosts: "Older posts"
+
+mediaTypes:
+    "application/atom":
+        suffixes: "xml"
+
+outputFormats:
+    ATOM:
+        name: "ATOM"
+        baseName: "atom"
+        mediatype: "application/atom"
+
+outputs:
+    home: ["HTML", "RSS", "ATOM"]
