@@ -1,10 +1,12 @@
 baseURL: "https://www.systemli.org"
 theme: "systemli"
-Paginate: 8
 sectionPagesMenu: "main"
 DefaultContentLanguage: "de"
 summaryLength: 20
 rssLimit: 10
+
+pagination:
+    pagerSize: 8
 
 permalinks:
     posts: "/:year/:month/:day/:title"
