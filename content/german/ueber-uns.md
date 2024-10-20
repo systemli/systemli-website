@@ -3,7 +3,6 @@ layout: page
 title: Über uns
 aliases:
     - /about-us.html
-en_title: About us
 menu: main
 weight: 2
 translationKey: 792564b85041cedefd76c6950f5badd0

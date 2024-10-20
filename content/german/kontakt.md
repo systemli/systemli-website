@@ -5,7 +5,6 @@ aliases:
     - /kontakt.html
 menu: main
 weight: 4
-en_title: Contact
 translationKey: 3bcc4028d59fbd74d03760256430d8c1
 ---
 
