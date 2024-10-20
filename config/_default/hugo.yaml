@@ -1,9 +1,10 @@
 baseURL: "https://www.systemli.org"
 theme: "systemli"
 sectionPagesMenu: "main"
-DefaultContentLanguage: "de"
+defaultContentLanguage: "de"
 summaryLength: 20
 rssLimit: 10
+buildFuture: true
 
 pagination:
     pagerSize: 8
