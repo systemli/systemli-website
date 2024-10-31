@@ -23,6 +23,7 @@
     {{ $scripts := $scripts | minify | fingerprint }}
     <script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
     <link rel="me" href="https://systemli.social/@systemli">
+    <meta name="fediverse:creator" content="@systemli@systemli.social" />
     {{ end }}
     {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
