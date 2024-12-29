@@ -35,7 +35,7 @@ servers can be contacted.
 
 ## Connection
 
-```
+```text
 Homeserver: matrix.systemli.org
 ```
 
@@ -52,3 +52,5 @@ to `matrix.systemli.org` (by default it is set to matrix.org). A good documentat
 
 ℹ️ In addition to the client element we recommend, there are other clients for Matrix. Thereby it can happen that they do not have all features (including security relevant ones) built in. You should have a look at the
 [Features carefully](https://matrix.org/ecosystem/clients/) and consider which client you use.
+
+⚠️ Our home server does not support the client **Element X**.

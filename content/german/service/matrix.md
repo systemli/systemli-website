@@ -14,7 +14,7 @@ links:
         url: https://wiki.systemli.org/howto/matrix/privacy
         text: "Hinweise zur sicheren Nutzung von Matrix"
 ---
-Matrix ist ein dezentraler und Ende-zu-Ende verschlüsselter Messenger Dienst mit guter Unterstützung für Gruppenchats. 
+Matrix ist ein dezentraler und Ende-zu-Ende verschlüsselter Messenger Dienst mit guter Unterstützung für Gruppenchats.
 Es ist eine freie und offene Alternative zu Signal und Slack.
 
 ## Features
@@ -30,26 +30,28 @@ Es ist eine freie und offene Alternative zu Signal und Slack.
 
 ## Voraussetzungen
 
-Für unseren Server ist ein Email-Account bei systemli notwendig. Wie bei E-Mail, können anderen 
+Für unseren Server ist ein Email-Account bei systemli notwendig. Wie bei E-Mail, können anderen
 Matrix-Konten auf anderen Matrix-Servern kontaktiert werden.
 
 ## Verbindungsdaten
 
-```
+```text
 Homeserver: matrix.systemli.org
 ```
 
 ## Benutzung
 
-Um sich mit Matrix zu verbinden, kann statt [unserem Webclient](https://element.systemli.org) auch 
-[eine App](https://element.io/get-started) installiert werden. Dabei gilt es zu beachten, dass der Homeserver beim 
-Login auf `matrix.systemli.org` geändert werden muss (Standardmäßig steht dieser auf matrix.org). Eine gute 
+Um sich mit Matrix zu verbinden, kann statt [unserem Webclient](https://element.systemli.org) auch
+[eine App](https://element.io/get-started) installiert werden. Dabei gilt es zu beachten, dass der Homeserver beim
+Login auf `matrix.systemli.org` geändert werden muss (Standardmäßig steht dieser auf matrix.org). Eine gute
 Dokumentation des Clients [bietet die TU Dresden an](https://doc.matrix.tu-dresden.de).
 
 ℹ️ Element benutzt standardmäßig die Ende-zu-Ende-Verschlüsselung.
 
 ℹ️ Trotz Verschlüsselung fallen bei Matrix Metadaten an. Beachte die [Hinweise zur sicheren Nutzung](https://wiki.systemli.org/howto/matrix/privacy) in unserem Wiki.
 
-ℹ️ Neben den von uns empfohlenen Client Element gibt es weitere Clients für Matrix. Dabei kann es vor kommen, dass 
-diese nicht alle Features (auch sicherheitsrelevante) eingebaut haben. Du solltest dir die 
+ℹ️ Neben den von uns empfohlenen Client Element gibt es weitere Clients für Matrix. Dabei kann es vor kommen, dass
+diese nicht alle Features (auch sicherheitsrelevante) eingebaut haben. Du solltest dir die
 [Features genau ansehen](https://matrix.org/ecosystem/clients/) und abwägen welchen Client du benutzt.
+
+⚠️ Unser Homeserver unterstützt den Client **Element X** nicht.
