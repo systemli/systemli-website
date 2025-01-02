@@ -39,7 +39,7 @@ Mit Hilfe der Nextcloud App könnt ihr eure Daten automatisch auf Computer oder 
   * Chat und Video-Konferenzen
 * Diverse weitere Funktionen: Feed-Reader, Notizen, Kontakte-Verwaltung.
 * Einfache Daten-Synchronisation zwischen verschiedenen Endgeräten.
-* 250 MB persönlicher Speicherplatz, für politische Gruppen auf Anfrage mehr.
+* 1 GB persönlicher Speicherplatz, für politische Gruppen auf Anfrage mehr.
 
 ### Onion Service Adresse
 

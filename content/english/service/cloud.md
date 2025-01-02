@@ -36,7 +36,7 @@ By using an app, you can have your data synchronized automatically to your compu
   * Chat and video group calls
 * Various other functions: feed reader, notes, contacts management.
 * Easy data synchronisation between different end devices.
-* 250 MB personal storage space, more for political groups on request.
+* 1 GB personal storage space, more for political groups on request.
 
 ### Onion Service Address
 
