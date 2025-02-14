@@ -1,2 +1,2 @@
-import{p as e,b as r}from"./p-3c1714dd.js";export{s as setNonce}from"./p-3c1714dd.js";const t=()=>{const r=import.meta.url;const t={};if(r!==""){t.resourcesUrl=new URL(".",r).href}return e(t)};t().then((e=>r([["p-0ea00b7a",[[0,"ticker-timeline",{header:[1],domain:[1],apiUrl:[1,"api-url"],limit:[2],items:[32],error:[32]}]]]],e)));
+import{p as r,b as e}from"./p-32c05969.js";export{s as setNonce}from"./p-32c05969.js";import{g as i}from"./p-e1255160.js";var t=()=>{const e=import.meta.url;const i={};if(e!==""){i.resourcesUrl=new URL(".",e).href}return r(i)};t().then((async r=>{await i();return e([["p-ba29a458",[[0,"ticker-timeline",{header:[1],origin:[1],apiUrl:[1,"api-url"],limit:[2],items:[32],error:[32]}]]]],r)}));
 //# sourceMappingURL=ticker-widget.esm.js.map
