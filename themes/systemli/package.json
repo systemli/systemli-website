@@ -8,7 +8,7 @@
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
     "postcss-import": "^14.0.2",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.2.16"
   },
   "browserslist": [
     "last 1 version",
