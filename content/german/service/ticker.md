@@ -8,22 +8,7 @@ service_bar_title: ticker
 translationKey: 3e91fcf85e9d4891cd5c76c77e178251
 description: Zentrales Kommunikationswerkzeug mit Social-Media-Anbindung
 links:
-    0:
-        url: https://github.com/systemli/ticker
-        text: Ticker auf GitHub
-    1:
-        url: https://systemli.github.io/ticker/
-        text: Ticker Dokumentation
-    2:
-        url: https://github.com/systemli/ticker-admin
-        text: Ticker Admin auf GitHub
-    3:
-        url: https://github.com/systemli/ticker-frontend
-        text: Ticker Frontend auf GitHub
-    4:
-        url: https://github.com/systemli/ticker-widget
-        text: Ticker Widget auf GitHub
-    5:
+    ticker:
         url: https://ticker.systemli.org
         text: Ticker Login
 ---
