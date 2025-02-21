@@ -6,45 +6,88 @@ aliases:
 icon: ticker.svg
 service_bar_title: ticker
 translationKey: 3e91fcf85e9d4891cd5c76c77e178251
-description: Veröffentliche Kurznachrichten bei Demonstrationen oder Events
+description: Kommunikationswerkzeug mit Social-Media- und Messenger-Anbindung
+links:
+    ticker:
+        url: https://ticker.systemli.org
+        text: Ticker Login
 ---
-**Service zur Verbreitung von kurzen Nachrichten zur Unterstützung von Veranstaltungen, Demonstrationen oder anderen zeitkritischen Ereignissen.**
+Der Ticker ist ein Kommunikationswerkzeug mit Social-Media- und Messenger-Anbindung zur Veröffentlichung von Nachrichten und Bildern.
+Die Inhalte können zusätzlich in eine bestehende Website oder auf einer eigens dafür eingerichteten Domain veröffentlicht werden.
 
-## Features
+{{< figure
+  src="/assets/img/ticker-admin-overview.png"
+  alt="Ticker Admin Übersicht"
+  link="/assets/img/ticker-admin-overview.png"
+  caption="Übersicht des Ticker Admin Interface"
+>}}
 
-- 💌 Nachrichten bis zu 4096 Zeichen (reduziert sich bei Nutzung von Mastodon oder Bluesky)
-- 🐘 Optionale Weiterleitung zu Mastodon
-- 🦋 Optionale Weiterleitung zu Bluesky
-- 💬 Optionale Weiterleitung zu einem Telegram Kanal
-- 💬 Optionale Weiterleitung zu einer Signal Gruppe
-- 💡 Verwendung einer eigenen Domain (z. B. ticker.example.org)
-- 📸 Upload von bis zu vier Bildern oder einem GIF pro Nachricht
-- 🗺️ Karten mit Punkten, Routen oder Flächen pro Nachricht
-- 🤖 Quelloffene, von uns entwickelte Software
+Bei Interesse an einem eigenen Ticker, schreibt uns einfach eine E-Mail [support@systemli.org]({{< relref "/kontakt" >}}) (am besten verschlüsselt) mit einer kurzen Beschreibung, wofür ihr den Ticker verwenden möchtet.
 
-![Ticker Frontend im Browser (links) und Smartphone (rechts)](/assets/img/ticker-frontend-demo.jpg "Ticker Frontend im Browser (links) und Smartphone (rechts)")
+## Anwendungsbeispiele
 
-<sup>Ticker Frontend im Browser (links) und Smartphone (rechts)</sup>
+### 1. Systemli Updates ([updates.systemli.org](https://updates.systemli.org))
 
-## Warum ein Ticker?
+Wir nutzen den Ticker für die Veröffentlichung von Updates und Ankündigungen.
+So können wir schnell und einfach Informationen zu Wartungsarbeiten, Störungen oder neuen Features bereitstellen.
+Der Ticker sendet die Nachrichten automatisch an unseren [Mastodon Account](https://systemli.social/@systemli) und [Bluesky Account](https://bsky.app/profile/systemli.bsky.social).
+Wir haben zusätzlich auf unserer Website ein Widget eingebunden, das die neuesten Nachrichten anzeigt.
 
-Großveranstaltungen, wie etwa Demonstrationen oder Blockaden, benötigen einen erhöhten organisatorischen und technischen Aufwand. Während der Ereignisse ist eine schnelle Kommunikation ein wichtiger Faktor um koordiniert agieren zu können.
+{{< figure
+  src="/assets/img/ticker-widget-systemli.png"
+  alt="Ticker Widget auf systemli.org"
+  link="/assets/img/ticker-widget-systemli.png"
+  caption="Ticker Widget auf systemli.org (Hervorhebung)"
+>}}
 
-Dazu ist es wichtig so viele Menschen wie möglich gezielt zu erreichen. Auch für die schnelle Informationsweitergabe aus einem beschränkten Kreis von Menschen, wie etwa bei Prozessbeobachtungen, kann es wichtig sein, schnell Neuigkeiten nach außen zu übermitteln. Es hat sich in den letzten Jahren bewährt, Informationen über das Internet in Echtzeit zugänglich zu machen. Als praktisch haben sich Ticker erwiesen. Sie geben gebündelt und kanalisiert Informationen weiter und ermöglichen so eine horizontale Entscheidungsstruktur.
+### 2. Der klassische Demoticker
 
-Mit Tickern habt ihr alles auf einen Blick, da es nicht nötig ist zwischen verschiedenen Seiten, Formaten oder Portalen hin und her zu wechseln. Ticker können zudem von einer Vielzahl von Gerätetypen, wie etwa Smartphones, WAP-fähigen Endgeräten oder verschiedenen Browsertypen (Firefox, Chrome, Opera, usw.) erreicht werden. Den End-Nutzer*innen entstehen dabei keine Mehrkosten, als die üblichen Preise für den Datentransfer über das Internet.
+Der Ticker wird oft bei Demonstrationen und Protesten eingesetzt, um die Teilnehmenden und Interessierten über verschiedene Kommunikationskanäle über aktuelle Geschehnisse zu informieren.
+Wir bieten für diesen Einsatzbereich spezielle Domains an:
 
-## Unser Angebot
+- `(<name>.)aktionsticker.org`
+- `(<name>.)demoticker.org`
+- `(<name>.)prozessticker.org`
+- `(<name>.)infoticker.org`
 
-systemli möchte deshalb den Zugang zu diesem Kommunikationsmittel vereinfachen. Bei verschiedenen Gelegenheiten (wie etwa am 13. Februar in Dresden, bei Prozessbeobachtungen in Wien oder beim 1. Mai) haben wir das Ticker-System bereits gehostet und betreut. Die Bedienung des Tickers während der Veranstaltung obliegt dabei euch. Über ein einfach zu nutzendes, intuitives Interface könnt ihr neue Inhalte online stellen. Außerdem habt ihr den Vorteil, dass der Ticker und Twitter gleichzeitig bedient werden können. Damit fällt ein separates Befüllen der Inhalte weg.
+{{< figure
+  src="/assets/img/ticker-frontend-aktionsticker.png"
+  alt="Ticker Frontend"
+  link="/assets/img/ticker-frontend-aktionsticker.png"
+  caption="Beispiel für ein Ticker-Frontend unter aktionsticker.org"
+>}}
 
-![Ticker Admin](/assets/img/ticker-admin-demo.jpg "Ticker Admin")
+Es können aber auch eigene Domains genutzt werden.
 
-Wir bieten folgende Adressen an (es kann aber natürlich auch eine eigene Adresse genutzt werden):
+### 3. Interne Kommunikation
 
-- `<name>.aktionsticker.org` (ggf. auch [www.aktionsticker.org](https://www.aktionsticker.org))
-- `<name>.demoticker.org` (ggf. auch [www.demoticker.org](https://www.demoticker.org))
-- `<name>.prozessticker.org` (ggf. auch [www.prozessticker.org](https://www.prozessticker.org))
-- `<name>.infoticker.org` (ggf. auch [www.infoticker.org](https://www.infoticker.org))
+Indem ausschließlich die Integration einer Signal-Gruppe aktiviert wird, kann der Ticker als interner Kommunikationskanal genutzt werden.
+Über einen Einladungslink können Personen der Gruppe beitreten und die Nachrichten in der Gruppe empfangen.
 
-Schickt uns einfach eine E-Mail [support@systemli.org](/kontakt) (am besten verschlüsselt) für ein Anfrage. In dieser E-Mail solltet ihr uns das Ereignis und den Zweck vorstellen, für welches ihr den Ticker verwenden möchtet. Und falls ihr weitere Fragen habt, dann meldet euch auch einfach über unsere E-Mail-Adresse.
+## Integrationen
+
+Der Ticker kann mit verschiedenen Diensten verbunden werden, um die Nachrichten automatisch zu veröffentlichen.
+Zur Zeit sind folgende Integrationen möglich:
+
+- Websites
+- Mastodon
+- Bluesky
+- Telegram (öffentlicher Kanal)
+- Signal (automatisch erstellte Gruppe)
+
+{{< figure
+  src="/assets/img/ticker-admin-integrations.png"
+  alt="Ticker Integrationen"
+  link="/assets/img/ticker-admin-integrations.png"
+  caption="Übersicht der Ticker Integrationen"
+>}}
+
+## Technische Details
+
+Die Software des Tickers ist Open Source und in mehrere Projekte aufgeteilt.
+Der Quelltext ist auf GitHub verfügar:
+
+- [Ticker](https://github.com/systemli/ticker) ([Dokumentation](https://systemli.github.io/ticker/))
+- [Ticker Admin](https://github.com/systemli/ticker-admin)
+- [Ticker Frontend](https://github.com/systemli/ticker-frontend)
+- [Ticker Widget](https://github.com/systemli/ticker-widget)
