@@ -1,19 +1,19 @@
 {
-  "name": "systemli-theme",
-  "description": "Hugo Theme for www.systemli.org",
-  "license": "GPLv3",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.3.11",
-    "postcss-cli": "^9.0.2",
-    "postcss-import": "^14.0.2",
-    "tailwindcss": "^2.2.16"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+    "name": "systemli-theme",
+    "description": "Hugo Theme for www.systemli.org",
+    "license": "GPLv3",
+    "dependencies": {
+        "@fullhuman/postcss-purgecss": "^4.0.3",
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.5.3",
+        "postcss-cli": "^11.0.0",
+        "postcss-import": "^16.1.0",
+        "tailwindcss": "^2.2.16"
+    },
+    "browserslist": [
+        "last 1 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ]
 }
