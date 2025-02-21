@@ -15,5 +15,6 @@
         "> 1%",
         "maintained node versions",
         "not dead"
-    ]
+    ],
+    "packageManager": "npm@11.1.0"
 }
