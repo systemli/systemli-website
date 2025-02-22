@@ -12,8 +12,8 @@ links:
         url: https://ticker.systemli.org
         text: Ticker Login
 ---
-Der Ticker ist ein zentrales Kommunikationswerkzeug mit Social-Media-Anbindung zur Veröffentlichung von Nachrichten und Bildern.
-Die Inhalte können auf der eigenen Website oder auf einer eigens dafür eingerichteten Domain veröffentlicht werden.
+Der Ticker ist ein Kommunikationswerkzeug mit Social-Media- und Messenger-Anbindung zur Veröffentlichung von Nachrichten und Bildern.
+Die Inhalte können zusätzlich in eine bestehende Website oder auf einer eigens dafür eingerichteten Domain veröffentlicht werden.
 
 {{< figure
   src="/assets/img/ticker-admin-overview.png"
@@ -42,8 +42,7 @@ Wir haben zusätzlich auf unserer Website ein Widget eingebunden, das die neuest
 
 ### 2. Der klassische Demoticker
 
-Der Ticker wird oft bei Demonstrationen und Protesten eingesetzt, um die Teilnehmenden und Interessierten über aktuelle Geschehnisse zu informieren.
-Die Nachrichten können dabei auch an Social-Media-Kanäle weitergeleitet werden.
+Der Ticker wird oft bei Demonstrationen und Protesten eingesetzt, um die Teilnehmenden und Interessierten über verschiedene Kommunikationskanäle über aktuelle Geschehnisse zu informieren.
 Wir bieten für diesen Einsatzbereich spezielle Domains an:
 
 - `(<name>.)aktionsticker.org`
@@ -55,15 +54,15 @@ Wir bieten für diesen Einsatzbereich spezielle Domains an:
   src="/assets/img/ticker-frontend-aktionsticker.png"
   alt="Ticker Frontend"
   link="/assets/img/ticker-frontend-aktionsticker.png"
-  caption="Beispiel für ein Ticker Frontend aktionsticker.org"
+  caption="Beispiel für ein Ticker-Frontend unter aktionsticker.org"
 >}}
 
 Es können aber auch eigene Domains genutzt werden.
 
 ### 3. Interne Kommunikation
 
-Mit der Möglichkeit eine Signal Gruppe zum Ticker hinzuzufügen, kann dieser auch für die interne Kommunikation genutzt werden.
-Über einen Einladungslink können Personen hinzugefügt werden, die dann die Nachrichten in der Gruppe empfangen.
+Indem ausschließlich die Integration einer Signal-Gruppe aktiviert wird, kann der Ticker als interner Kommunikationskanal genutzt werden.
+Über einen Einladungslink können Personen der Gruppe beitreten und die Nachrichten in der Gruppe empfangen.
 
 ## Integrationen
 
