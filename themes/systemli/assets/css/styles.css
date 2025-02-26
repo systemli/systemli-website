@@ -1,8 +1,209 @@
-@import "node_modules/tailwindcss/base.css";
-@import "node_modules/tailwindcss/components.css";
+@layer base {
+    @font-face {
+        font-family: "TSTAR TW PRO";
+        src: url("/webfont/TSTARTWPRO-Bold.eot");
+        src: url("/webfont/TSTARTWPRO-Bold.eot?#iefix")
+                format("embedded-opentype"),
+            url("/webfont/TSTARTWPRO-Bold.woff2") format("woff2"),
+            url("/webfont/TSTARTWPRO-Bold.woff") format("woff");
+        font-weight: bold;
+        font-style: normal;
+    }
 
-/* purgecss start ignore */
-@import "assets/css/main.css";
-/* purgecss end ignore */
+    @font-face {
+        font-family: "TSTAR TW PRO";
+        src: url("/webfont/TSTARTWPRO-Regular.eot");
+        src: url("/webfont/TSTARTWPRO-Regular.eot?#iefix")
+                format("embedded-opentype"),
+            url("/webfont/TSTARTWPRO-Regular.woff2") format("woff2"),
+            url("/webfont/TSTARTWPRO-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
 
-@import "node_modules/tailwindcss/utilities.css";
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        word-break: break-word;
+    }
+
+    h1 {
+        @apply border-b pb-2 mb-6 font-bold text-ml md:text-xl;
+    }
+    h2 {
+        @apply py-2 font-bold text-ml md:text-l;
+    }
+    h3 {
+        @apply py-2 font-bold text-m;
+    }
+    h4 {
+        @apply m-0 underline;
+    }
+    a {
+        @apply text-lightblue;
+        word-break: break-word;
+    }
+    a:hover {
+        @apply underline;
+    }
+    p {
+        @apply py-2 break-normal;
+    }
+    ul {
+        @apply list-disc;
+    }
+    ul li {
+        @apply pl-3 ml-6;
+    }
+    ol {
+        @apply list-decimal;
+    }
+    ol li {
+        @apply pl-1 ml-8;
+    }
+    pre,
+    code {
+        @apply py-2 px-1 border border-grey rounded text-xs overflow-auto;
+        word-break: break-word;
+        /* protect against devilish users trying to use syntax highlighting in their code blocks */
+        background: theme("colors.lightgrey") !important;
+        color: theme("colors.black") !important;
+    }
+    code {
+        @apply p-1 border-none;
+    }
+    pre > code {
+        @apply p-0;
+    }
+    dl {
+        @apply py-2 break-normal;
+    }
+    sup {
+        @apply text-darkgrey;
+    }
+    blockquote {
+        @apply bg-lightgrey p-3 my-2 md:px-8 md:py-4 md:m-4;
+        border-left: 0.4rem solid theme("colors.darkgrey");
+    }
+}
+nav#navbar {
+    @apply fixed z-50 top-0 right-0 overflow-y-scroll overflow-x-hidden pl-24 pt-4 pb-16 w-[375px] h-full bg-menu bg-contain bg-repeat-y bg-lightblue text-m font-bold lg:relative lg:p-0 lg:w-auto lg:min-h-0 lg:overflow-auto lg:transform-none transform-[translateX(375px)] transition-transform duration-200 ease-linear;
+}
+
+/* define page width to use on header, logo row & content */
+@utility page-width {
+    @apply w-[90%] mx-auto;
+}
+@utility page-width-lg {
+    @apply w-[95%] max-w-screen-xl;
+}
+
+.hide-on-mobile,
+.hide-on-mobile--block {
+    @apply hidden;
+}
+
+.hide-on-mobile {
+    @apply lg:flex;
+}
+
+.hide-on-mobile--block {
+    @apply lg:block;
+}
+
+@utility button-link {
+    @apply text-xs my-3 before:bg-lightblue before:inline-block before:h-3 before:w-3 before:mr-2 before:content-none hover:underline;
+}
+@utility content-container {
+    @apply page-width lg:page-width-lg lg:grid lg:grid-cols-24 lg:gap-0 lg:items-start;
+}
+.content-container.flex {
+    @apply w-[95%];
+}
+
+@utility content {
+    @apply bg-white shadow-m col-span-19 p-4 md:p-8;
+}
+.menu-item {
+    @apply border-black px-2 py-3 lg:relative lg:tracking-tight hover:no-underline before:lg:absolute before:lg:top-0 before:lg:block before:lg:h-1 before:lg:w-0 before:lg:bg-white before:lg:transition-all before:lg:duration-300 before:lg:ease-in-out hover:before:lg:w-full hover:before:lg:opacity-100 focus:before:lg:w-full focus:before:lg:opacity-100;
+}
+
+.menu-item.active {
+    @apply before:lg:w-full before:lg:opacity-100;
+}
+
+.menu-icon {
+    @apply inline-block mx-2 w-5;
+}
+.menu-icon-svg {
+    @apply fill-current text-black;
+}
+.menu-icon-svg:hover {
+    @apply text-white;
+}
+
+.service-bar-link {
+    @apply flex items-center py-2 border-t text-l text-black font-bold lg:ml-4;
+}
+.service-bar-link:first-of-type {
+    @apply border-none;
+}
+.service-bar-link:last-of-type {
+    @apply border-b;
+}
+.service-bar-link:hover,
+.service-bar-link.active {
+    @apply bg-white border-transparent no-underline lg:pl-4 lg:ml-0;
+    transition: background-color 0.5s ease 0s;
+}
+.service-bar-link:hover + .service-bar-link,
+.service-bar-link.active + .service-bar-link {
+    border-top-color: theme("colors.transparent");
+    border-bottom-color: theme("colors.black");
+}
+
+.service-tile-upper {
+    transition: border-color 0.25s ease 0s;
+}
+
+.pagination {
+    @apply flex flex-wrap justify-between;
+}
+
+.bg-body {
+    background-image: url("/background.png");
+    background-color: #f5f5f5;
+    background-blend-mode: multiply;
+}
+
+@utility bg-menu {
+    background-image: url("/mobile_menu_background_minimize.gif");
+}
+
+img[src*="#fl-2"] {
+    float: left;
+    @apply mr-2 mb-2;
+}
+img[src*="#f2-2"] {
+    float: right;
+    @apply ml-2 mb-2;
+}
+
+div.toc {
+    @apply bg-white border-black border px-2 mb-2 mt-2 text-xs md:w-1/3 md:ml-2 md:float-right;
+}
+
+div.toc ul li {
+    @apply ml-4 pl-2;
+}
+
+.tldr {
+    @apply bg-lightgrey p-3 my-2 border-l;
+}
+
+.tldr-title {
+    @apply py-2 font-bold text-ml;
+}
