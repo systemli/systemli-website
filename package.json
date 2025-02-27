@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "@tailwindcss/cli": "^4.0.8",
+    "prettier": "^3.5.2",
+    "prettier-plugin-go-template": "^0.0.15",
     "tailwindcss": "^4.0.8"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
