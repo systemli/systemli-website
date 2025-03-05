@@ -1,4 +1,4 @@
-baseURL: "https://www.systemli.org"
+baseURL: "/"
 theme: "systemli"
 sectionPagesMenu: "main"
 defaultContentLanguage: "de"
@@ -7,60 +7,60 @@ rssLimit: 10
 buildFuture: true
 
 pagination:
-    pagerSize: 8
+  pagerSize: 8
 
 permalinks:
-    posts: "/:year/:month/:day/:title"
+  posts: "/:year/:month/:day/:title"
 
 params:
-    favicon: "favicon.ico"
-    title: "systemli.org"
-    description: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
-    images: ["default-og-image.png"]
-    social:
-        twitter: "systemli"
+  favicon: "favicon.ico"
+  title: "systemli.org"
+  description: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+  images: ["default-og-image.png"]
+  social:
+    twitter: "systemli"
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
-    main:
-        - identifier: "wiki"
-          name: "Wiki"
-          url: "https://wiki.systemli.org/"
-          weight: 10
+  main:
+    - identifier: "wiki"
+      name: "Wiki"
+      url: "https://wiki.systemli.org/"
+      weight: 10
 
 minify:
-    minifyOutput: true
-    tdewolff:
-        html:
-            keepQuotes: true
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepQuotes: true
 
 languages:
-    de:
-        weight: 1
-        languageName: "DE"
-        contentDir: "content/german"
-        params:
-            subtitle: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
-            readOn: "Weiterlesen"
-            showAll: "zeige alles"
-            allServices: "alle dienste"
-            allServicesTeaser: "Unsere Dienste im Überblick"
-            newerPosts: "Neuere Beiträge"
-            olderPosts: "Ältere Beiträge"
+  de:
+    weight: 1
+    languageName: "DE"
+    contentDir: "content/german"
+    params:
+      subtitle: "Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung."
+      readOn: "Weiterlesen"
+      showAll: "zeige alles"
+      allServices: "alle dienste"
+      allServicesTeaser: "Unsere Dienste im Überblick"
+      newerPosts: "Neuere Beiträge"
+      olderPosts: "Ältere Beiträge"
 
-    en:
-        weight: 2
-        languageName: "EN"
-        contentDir: "content/english"
-        params:
-            subtitle: "Non-commercial provider of privacy friendly communication. Without surveillance."
-            readOn: "Read more"
-            showAll: "show everything"
-            allServices: "all services"
-            allServicesTeaser: "Our services at a glance"
-            newerPosts: "Newer posts"
-            olderPosts: "Older posts"
+  en:
+    weight: 2
+    languageName: "EN"
+    contentDir: "content/english"
+    params:
+      subtitle: "Non-commercial provider of privacy friendly communication. Without surveillance."
+      readOn: "Read more"
+      showAll: "show everything"
+      allServices: "all services"
+      allServicesTeaser: "Our services at a glance"
+      newerPosts: "Newer posts"
+      olderPosts: "Older posts"
