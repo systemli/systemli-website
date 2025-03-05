@@ -1,15 +1,12 @@
 {{ define "main" }}
-
-<div class="content-container">
+  <div class="content-container">
     <!-- For type services: Render special list template -->
     {{ if eq .Params.type "services" }}
-    {{ partial "service-list.html" . }}
+      {{ partial "service-list.html" . }}
     {{ else }}
-
-    <!-- All other lists: Render post list -->
-    {{ partial "post-list.html" . }}
+      <!-- All other lists: Render post list -->
+      {{ partial "post-list.html" . }}
 
     {{ end }}
-</div>
-
+  </div>
 {{ end }}

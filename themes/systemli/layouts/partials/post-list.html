@@ -1,21 +1,21 @@
 <div class="content">
-    <div class="grid grid-cols-[5rem_auto]">
-        {{ range .Paginator.Pages }}
-        <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
-            {{ .Date.Format "02/01 2006" }}
-        </div>
-        <div class="flex items-center pl-4 border-b leading-6">
-            <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title | safeHTML }}</a></h2>
-        </div>
-        <div class="hidden lg:block"></div>
-        <div class="col-span-2 lg:col-span-1 py-4 lg:px-4 leading-5">
-            {{ .Summary }}
-            <p>
-                <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
-            </p>
-        </div>
-        {{ end }}
-    </div>
-    {{ partial "pagination-list.html" . }}
+  <div class="grid grid-cols-[5rem_auto]">
+    {{ range .Paginator.Pages }}
+      <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
+        {{ .Date.Format "02/01 2006" }}
+      </div>
+      <div class="flex items-center pl-4 border-b leading-6">
+        <h2><a href="{{ .RelPermalink }}" class="text-black">{{ .Title | safeHTML }}</a></h2>
+      </div>
+      <div class="hidden lg:block"></div>
+      <div class="col-span-2 lg:col-span-1 py-4 lg:px-4 leading-5">
+        {{ .Summary }}
+        <p>
+          <a href="{{ .RelPermalink }}">{{ .Param "readOn" }}</a>
+        </p>
+      </div>
+    {{ end }}
+  </div>
+  {{ partial "pagination-list.html" . }}
 </div>
 {{ partial "service-sidebar.html" . }}

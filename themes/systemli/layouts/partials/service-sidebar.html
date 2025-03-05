@@ -1,45 +1,48 @@
 <div class="flex flex-col justify-between w-11/12 mx-auto lg:w-full col-span-24 lg:col-span-5">
-    <div class="my-4 lg:my-0">
-        {{ $currentPage := . }}
-        {{ range where $.Site.RegularPages "Type" "service" }}
-        {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
+  <div class="my-4 lg:my-0">
+    {{ $currentPage := . }}
+    {{ range where $.Site.RegularPages "Type" "service" }}
+      {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
         <!-- could add: transition-all ease-linear duration-300 -->
-        <a href="/service/{{ .File.TranslationBaseName }}" class="service-bar-link
-           {{if eq $currentPage.Params.service_bar_title .Params.service_bar_title }} active {{end}}">
-            <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
-            <span class="service-title-container">
-                <span class="service-title">{{ .Params.service_bar_title }}</span>
-                {{ if .Params.beta }}
-                <sup>beta</sup>
-                {{ end }}
-            </span>
+        <a
+          href="/service/{{ .File.TranslationBaseName }}"
+          class="service-bar-link
+           {{ if eq $currentPage.Params.service_bar_title .Params.service_bar_title }}active{{ end }}"
+        >
+          <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon" />
+          <span class="service-title-container">
+            <span class="service-title">{{ .Params.service_bar_title }}</span>
+            {{ if .Params.beta }}
+              <sup>beta</sup>
+            {{ end }}
+          </span>
         </a>
-        {{ end }}
-        {{ end }}
-        <a href="/service/" class="service-bar-link">
-            <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/antifa.svg" alt="Icon">
-            <span class="service-title-container"><span class="service-title">{{ .Param "allServices" }}</span></span>
-        </a>
-    </div>
-    <div class="hidden lg:block">
-        {{ range where $.Site.RegularPages "Type" "service" }}
-        {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
-        <div class="hidden flex-col" id={{ .Params.service_bar_title }}>
-            <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8">
-            <div class="py-2 ml-4 border-t">
-                {{ .Params.description }}
-            </div>
-        </div>
-        {{ end }}
-        {{ end }}
-        <div class="hidden flex-col" id={{ .Param "allServices" }}>
-            <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8">
-            <div class="py-2 ml-4 border-t">
-                {{ .Param "allServicesTeaser" }}
-            </div>
-        </div>
-    </div>
-    <a class="lg:hidden flex justify-center" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
-        <img class="w-64 m-6" src="/systemli_logo.svg" alt="logo">
+      {{ end }}
+    {{ end }}
+    <a href="/service/" class="service-bar-link">
+      <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/antifa.svg" alt="Icon" />
+      <span class="service-title-container"><span class="service-title">{{ .Param "allServices" }}</span></span>
     </a>
+  </div>
+  <div class="hidden lg:block">
+    {{ range where $.Site.RegularPages "Type" "service" }}
+      {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
+        <div class="hidden flex-col" id="{{ .Params.service_bar_title }}">
+          <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8" />
+          <div class="py-2 ml-4 border-t">
+            {{ .Params.description }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+    <div class="hidden flex-col" id="{{ .Param "allServices" }}">
+      <img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8" />
+      <div class="py-2 ml-4 border-t">
+        {{ .Param "allServicesTeaser" }}
+      </div>
+    </div>
+  </div>
+  <a class="lg:hidden flex justify-center" href="{{ .Site.BaseURL }}/{{ .Site.LanguagePrefix }}">
+    <img class="w-64 m-6" src="/systemli_logo.svg" alt="logo" />
+  </a>
 </div>

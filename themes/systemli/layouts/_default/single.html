@@ -1,11 +1,10 @@
 {{ define "main" }}
-
-{{ if eq .Section "service"}}
-{{ partial "service.html" . }}
-{{ else if or (eq .Type "page") (eq .Layout "page") }}
-{{ partial "page.html" . }}
-{{ else }}
-{{ partial "post.html" . }}
-{{ end }}
+  {{ if eq .Section "service" }}
+    {{ partial "service.html" . }}
+  {{ else if or (eq .Type "page") (eq .Layout "page") }}
+    {{ partial "page.html" . }}
+  {{ else }}
+    {{ partial "post.html" . }}
+  {{ end }}
 
 {{ end }}

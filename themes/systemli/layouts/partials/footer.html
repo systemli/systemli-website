@@ -1,13 +1,19 @@
 <footer class="page-width lg:page-width-lg">
-    <p class="border-t lg:border-0 my-4 lg:p-2 text-xxs text-center">systemli.org steht unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank" rel="license">Creative Commons Namensnennung - Weitergabe unter gleichen
-        Bedingungen 3.0 Unported</a>.</p>
+  <p class="border-t lg:border-0 my-4 lg:p-2 text-xxs text-center">
+    systemli.org steht unter der Lizenz
+    <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank" rel="license"
+      >Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Unported</a
+    >.
+  </p>
 </footer>
 <script src="https://analytics.systemli.org/matomo.js" async defer></script>
 {{ $scripts := resources.Get "js/matomo.js" }}
 {{ if hugo.IsServer }}
-<script src="{{ $scripts.RelPermalink }}" defer></script>
+  <script src="{{ $scripts.RelPermalink }}" defer></script>
 {{ else }}
-{{ $scripts := $scripts | minify | fingerprint }}
-<script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
+  {{ $scripts := $scripts | minify | fingerprint }}
+  <script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
 {{ end }}
-<noscript><p><img src="https://analytics.systemli.org/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<noscript
+  ><p><img src="https://analytics.systemli.org/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p
+></noscript>

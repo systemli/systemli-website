@@ -1,27 +1,27 @@
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow, noarchive" />
-    <meta name="format-detection" content="telephone=no">
-    <title>{{ .Site.Params.title }} - {{ .Title }}</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="description"
-        content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary }}{{ end }}" />
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-    {{ partialCached "css.html" . }}
-    {{ $scripts := resources.Get "js/main.js" }}
-    {{ if hugo.IsServer }}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, noarchive" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>{{ .Site.Params.title }} - {{ .Title }}</title>
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary }}{{ end }}" />
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ partialCached "css.html" . }}
+  {{ $scripts := resources.Get "js/main.js" }}
+  {{ if hugo.IsServer }}
     <script src="{{ $scripts.RelPermalink }}" defer></script>
-    {{ else }}
+  {{ else }}
     {{ $scripts := $scripts | minify | fingerprint }}
     <script src="{{ $scripts.RelPermalink }}" defer integrity="{{ $scripts.Data.Integrity }}"></script>
-    <link rel="me" href="https://systemli.social/@systemli">
+    <link rel="me" href="https://systemli.social/@systemli" />
     <meta name="fediverse:creator" content="@systemli@systemli.social" />
-    {{ end }}
-    {{ range .AlternativeOutputFormats -}}
+  {{ end }}
+  {{ range .AlternativeOutputFormats -}}
     {{ printf `
-    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-    {{ end -}}
+      <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML
+    }}
+  {{ end -}}
 </head>

@@ -1,9 +1,9 @@
 <div class="content-container">
-    <div class="content">
-        <h1>{{ .Title | safeHTML }}</h1>
-        <div class="mt-6">
-            {{ .Content }}
-        </div>
+  <div class="content">
+    <h1>{{ .Title | safeHTML }}</h1>
+    <div class="mt-6">
+      {{ .Content }}
     </div>
-    {{ partial "service-sidebar.html" . }}
+  </div>
+  {{ partial "service-sidebar.html" . }}
 </div>

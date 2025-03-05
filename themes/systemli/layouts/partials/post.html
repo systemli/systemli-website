@@ -1,17 +1,17 @@
 <div class="content-container">
-    <div class="content">
-        <div class="grid grid-cols-[5rem_auto] mb-6">
-            <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
-                {{ .Date.Format "02/01 2006" }}
-            </div>
-            <div class="flex items-center pl-4 border-b leading-6">
-                <h1 class="mb-0 border-none">{{ .Title | safeHTML }}</h1>
-            </div>
-        </div>
-        {{ with .Params.postImage }}
-        <img src="{{ . }}" class="mx-auto block md:inline float-none md:float-left p-0 md:py-2 md:pr-4" />
-        {{ end }}
-        {{ .Content }}
+  <div class="content">
+    <div class="grid grid-cols-[5rem_auto] mb-6">
+      <div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">
+        {{ .Date.Format "02/01 2006" }}
+      </div>
+      <div class="flex items-center pl-4 border-b leading-6">
+        <h1 class="mb-0 border-none">{{ .Title | safeHTML }}</h1>
+      </div>
     </div>
-    {{ partial "service-sidebar.html" . }}
+    {{ with .Params.postImage }}
+      <img src="{{ . }}" class="mx-auto block md:inline float-none md:float-left p-0 md:py-2 md:pr-4" />
+    {{ end }}
+    {{ .Content }}
+  </div>
+  {{ partial "service-sidebar.html" . }}
 </div>
