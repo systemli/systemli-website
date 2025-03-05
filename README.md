@@ -1,4 +1,4 @@
-# Source code for www.systemli.org
+# Source code for <www.systemli.org>
 
 This static website is built with [Hugo](https://github.com/gohugoio/hugo) as site generator, using [Tailwind CSS](https://tailwindcss.com/) as CSS Framework.
 Please improve by providing content, translations or code.
@@ -22,10 +22,6 @@ Please improve by providing content, translations or code.
 To create a new page, run the corresponding command. In each case: Replace `example.md` with a unique name.
 
 TODO: commands for different archetypes
-
-### Homepage
-
-The static content on the homepage comes from `content/[lang]/_index.md`. The image and links are maintained in the frontmatter. Additionally, there is a toggle in the frontmatter to hide this content from the start page (`hideStaticContent`).
 
 ### Services
 
