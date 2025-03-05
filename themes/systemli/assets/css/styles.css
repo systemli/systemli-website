@@ -192,10 +192,10 @@ img[src*="#f2-2"] {
   @apply ml-2 mb-2;
 }
 
-.tldr {
-  @apply bg-lightgrey p-3 my-2 border-l;
+figure {
+  @apply my-4;
 }
 
-.tldr-title {
-  @apply py-2 font-bold text-ml;
+figcaption {
+  @apply text-xs;
 }
