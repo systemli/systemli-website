@@ -6,16 +6,11 @@
     <meta name="format-detection" content="telephone=no">
     <title>{{ .Site.Params.title }} - {{ .Title }}</title>
     <link rel="shortcut icon" href="/favicon.ico">
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary }}{{ end }}" />
+    <meta name="description"
+        content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary }}{{ end }}" />
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
-    {{ $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") }}
-    {{ if hugo.IsServer }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-    {{ else }}
-    {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
-    {{ end }}
+    {{ partialCached "css.html" . }}
     {{ $scripts := resources.Get "js/main.js" }}
     {{ if hugo.IsServer }}
     <script src="{{ $scripts.RelPermalink }}" defer></script>
@@ -26,6 +21,7 @@
     <meta name="fediverse:creator" content="@systemli@systemli.social" />
     {{ end }}
     {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
     {{ end -}}
 </head>

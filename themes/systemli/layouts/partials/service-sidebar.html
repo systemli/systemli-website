@@ -4,22 +4,20 @@
         {{ range where $.Site.RegularPages "Type" "service" }}
         {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
         <!-- could add: transition-all ease-linear duration-300 -->
-        <a href="/service/{{ .File.TranslationBaseName }}"
-           class="service-bar-link
+        <a href="/service/{{ .File.TranslationBaseName }}" class="service-bar-link
            {{if eq $currentPage.Params.service_bar_title .Params.service_bar_title }} active {{end}}">
-            <img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
+            <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/{{ .Params.icon }}" alt="Icon">
             <span class="service-title-container">
                 <span class="service-title">{{ .Params.service_bar_title }}</span>
                 {{ if .Params.beta }}
-                    <sup>beta</sup>
+                <sup>beta</sup>
                 {{ end }}
             </span>
         </a>
         {{ end }}
         {{ end }}
-        <a href="/service/"
-           class="service-bar-link">
-            <img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/antifa.svg" alt="Icon">
+        <a href="/service/" class="service-bar-link">
+            <img class="pr-6 lg:pr-2 w-[3.5rem] lg:w-10" src="/service-icons/antifa.svg" alt="Icon">
             <span class="service-title-container"><span class="service-title">{{ .Param "allServices" }}</span></span>
         </a>
     </div>

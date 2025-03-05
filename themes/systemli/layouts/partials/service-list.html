@@ -1,7 +1,7 @@
 <div class="content p-4 md:p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around lg:col-span-24">
     {{ range .Pages }}
     <a class="service-tile bg-lightgrey text-black m-2 p-6 md:p-10 transform hover:no-underline"
-       href="/service/{{ .File.TranslationBaseName }}">
+        href="/service/{{ .File.TranslationBaseName }}">
         <div class="service-tile-upper flex justify-between items-center border-b">
             <h2 class="border-pink">
                 {{ .Params.Title }}
@@ -17,6 +17,6 @@
     </a>
     {{ end }}
     <!-- flex hack: https://stackoverflow.com/questions/16377972/how-to-align-left-last-row-line-in-multiple-line-flexbox -->
-    <div class="w-96 h-0 m-2"></div>
-    <div class="w-96 h-0 m-2"></div>
+    <div class="w-[24rem] h-0 m-2"></div>
+    <div class="w-[24rem] h-0 m-2"></div>
 </div>
