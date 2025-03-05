@@ -1,6 +1,6 @@
 FROM node:lts-alpine3.21
 
-ENV HUGO_VERSION="0.136.2"
+ENV HUGO_VERSION="0.145.0"
 
 ARG UID
 
@@ -12,7 +12,6 @@ RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
     && rm -rf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
     && rm -rf /tmp/LICENSE.md \
     && rm -rf /tmp/README.md && \
-    npm install -g postcss postcss-cli && \
     adduser --home /data --disabled-password --uid ${UID} app
 
 USER app

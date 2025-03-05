@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 
-cd themes/systemli && npm ci
-cd ../../
+npm ci
 hugo --minify
