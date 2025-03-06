@@ -20,6 +20,7 @@ Die Inhalte können zusätzlich in eine bestehende Website oder auf einer eigens
   alt="Ticker Admin Übersicht"
   link="/assets/img/ticker-admin-overview.png"
   caption="Übersicht des Ticker Admin Interface"
+  class="my-4"
 >}}
 
 Bei Interesse an einem eigenen Ticker, schreibt uns einfach eine E-Mail [support@systemli.org]({{< relref "/kontakt" >}}) (am besten verschlüsselt) mit einer kurzen Beschreibung, wofür ihr den Ticker verwenden möchtet.
@@ -55,6 +56,7 @@ Wir bieten für diesen Einsatzbereich spezielle Domains an:
   alt="Ticker Frontend"
   link="/assets/img/ticker-frontend-aktionsticker.png"
   caption="Beispiel für ein Ticker-Frontend unter aktionsticker.org"
+  class="my-4"
 >}}
 
 Es können aber auch eigene Domains genutzt werden.
@@ -80,6 +82,7 @@ Zur Zeit sind folgende Integrationen möglich:
   alt="Ticker Integrationen"
   link="/assets/img/ticker-admin-integrations.png"
   caption="Übersicht der Ticker Integrationen"
+  class="my-4"
 >}}
 
 ## Technische Details

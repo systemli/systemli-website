@@ -14,7 +14,11 @@ There, you can log in with your Systemli account.
 
 The transition is already complete, and you will only notice it the next time you log in to a Matrix client.
 
-<img src="/assets/img/matrix-element-sso.png" class="border">
+{{< figure
+  src="/assets/img/matrix-element-sso.png"
+  alt="New login screen for Element"
+  caption="New login screen for Element"
+>}}
 
 ## Bots and Webhooks
 

@@ -14,7 +14,11 @@ Dort könnt ihr euch mit eurem Systemli-Account anmelden.
 
 Die Umstellung ist bereits abgeschlossen und ihr werdet es erst merken, wenn ihr euch das nächste Mal in einem Matrix-Client anmeldet.
 
-<img src="/assets/img/matrix-element-sso.png" class="border">
+{{< figure
+  src="/assets/img/matrix-element-sso.png"
+  alt="Neuer Login-Screen für Element"
+  caption="Neuer Login-Screen für Element"
+>}}
 
 ## Bots und Webhooks
 

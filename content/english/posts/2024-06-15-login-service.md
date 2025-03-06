@@ -27,7 +27,11 @@ The migration of our cloud to the new login service will hapen on 27.06.2024. We
 
 ## Screenshot of the new login service
 
-<img src="/assets/img/id.systemli.org_login_en.png" class="border">
+{{< figure
+  src="/assets/img/id.systemli.org_login_en.png"
+  alt="New login screen for the login service"
+  caption="New login screen for the login service"
+>}}
 
 ## Amendment: configuring cloud clients
 

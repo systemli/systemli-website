@@ -28,7 +28,11 @@ Die Umstellung der Cloud auf den neuen Login wird am 27.06.2024 passieren. Wir k
 
 ## Screenshot des neuen Login Dienstes
 
-<img src="/assets/img/id.systemli.org_login_de.png" class="border">
+{{< figure
+  src="/assets/img/id.systemli.org_login_de.png"
+  alt="Neuer Login-Screen für den Login-Dienst"
+  caption="Neuer Login-Screen für den Login-Dienst"
+>}}
 
 ## Ergänzung: Konfiguration von Cloud Clients
 

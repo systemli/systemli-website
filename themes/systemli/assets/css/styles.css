@@ -192,10 +192,6 @@ img[src*="#f2-2"] {
   @apply ml-2 mb-2;
 }
 
-figure {
-  @apply my-4;
-}
-
 figcaption {
   @apply text-xs;
 }
