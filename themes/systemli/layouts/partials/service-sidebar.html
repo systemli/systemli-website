@@ -5,7 +5,7 @@
       {{ if and (isset .Params "service_bar_title") (isset .Params "icon") }}
         <!-- could add: transition-all ease-linear duration-300 -->
         <a
-          href="/service/{{ .File.TranslationBaseName }}"
+          href="{{ .RelPermalink | relLangURL }}"
           class="service-bar-link
            {{ if eq $currentPage.Params.service_bar_title .Params.service_bar_title }}active{{ end }}"
         >
